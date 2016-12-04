@@ -1,5 +1,5 @@
-# BERBase
-A map interface to display the recorded energy use of buildings released through recent Building Energy Reporting (BER) laws.
+# BEnMap
+A map interface to display the Building Energy (BEn) use that has been publicized through recent building energy reporting laws.
 
 The goal of the interface is to enable one to answer the following questions:
 
