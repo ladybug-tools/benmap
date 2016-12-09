@@ -1,9 +1,23 @@
-.fixed-nav {
-    padding-top: 50px;
+/*UTIL CLASSES*/
+a {
+    text-decoration: none !important;
 }
 
 .bg-black {
-    background-color: #000;
+    background-color: #212121;
+}
+
+.bg-translucent {
+    background: rgba(255,255,255,0.65);
+}
+
+.brand {
+    font-color: #EEEEEE;
+}
+
+/*LAYOUTS*/
+.fixed-nav {
+    padding-top: 50px;
 }
 
 .fullscreen {
@@ -14,6 +28,7 @@
     width: 100%;
 }
 
+/*MAPS*/
 #map {
     min-height: 500px;
     height: 100%;
@@ -25,4 +40,28 @@
     bottom: 50px;
     left: unset;
     right: 5px;
+}
+
+/*CUSTOM STYLING*/
+.tile-rect {
+    float: left;
+    min-width: 100px;
+    min-height: 40px;
+    margin: 10px 20px 10px 0;
+    /*padding: 20px;*/
+    position: relative;
+    /*border: 1px solid gray;*/
+    /*box-shadow: 1px 2px 1px 1px gray;*/
+}
+.tile-rect h4 {
+    margin-top: 5px;
+}
+
+.tile-rect .card-content {
+    padding: 10px;
+}
+
+.tile-rect .card-footer {
+    position: absolute;
+    bottom: 0;
 }
