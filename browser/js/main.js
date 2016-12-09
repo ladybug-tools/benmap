@@ -23,4 +23,10 @@ $(document).ready(function() {
     });
 
 
+    $.getJSON("5_building_sample.geojson", function(json) {
+    console.log(json);
+
+});
+
+
 })
