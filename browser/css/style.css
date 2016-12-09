@@ -8,11 +8,11 @@ a {
 }
 
 .bg-translucent {
-    background: rgba(255,255,255,0.65);
+    background: rgba(255,255,255,0.85);
 }
 
 .brand {
-    font-color: #EEEEEE;
+    color: #EEEEEE;
 }
 
 /*LAYOUTS*/
@@ -26,6 +26,19 @@ a {
     left: 0;
     height: 100%;
     width: 100%;
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 60px;
+}
+
+#footer {
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    min-height: 40px;
 }
 
 /*MAPS*/

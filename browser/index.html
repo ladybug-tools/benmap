@@ -20,7 +20,7 @@
 
     <!-- Bootstrap -->
     <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
-    <script src="vendor/bootstrap-3.3.7-dist/js/bootstrap.min.js" ></script>
+    <script src="vendor/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 
     <!-- <script src="https://openlayers.org/en/v3.19.1/build/ol.js" type="text/javascript"></script> -->
 
@@ -29,16 +29,28 @@
     <script src="js/main.js"></script>
 </head>
 
-<body class="fixed-nav">
-    <div class="fixed-nav fullscreen" id="map"></div>
+<!-- <body class="fixed-nav"> -->
+    <!-- <div class="fixed-nav fullscreen" id="map"></div> -->
 
-    <nav class="navbar navbar-light navbar-fixed-top bg-black ">
+    <!-- <nav class="navbar navbar-light navbar-fixed-top bg-black ">
         <a class="navbar-brand brand" href="#">BenMap</a>
-    </nav>
-    <div class="container-fluid">
+    </nav> -->
+<body>
+    <div class="fullscreen" id="map"></div>
+
+    <div id="main" class="container-fluid">
         <div class="row">
             <div class="col-xs-2 tile-rect bg-translucent">
                 <h4>BEnMap</h4>
+            </div>
+        </div>
+    </div>
+    <div id="footer" class="bg-black">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h6 class="brand">The Energy Cartographers, brought to you by the AEC Tech Hackathon 2016</h6>
+                </div>
             </div>
         </div>
     </div>
