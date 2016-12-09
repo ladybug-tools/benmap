@@ -1,9 +1,11 @@
-$(document).ready(function(){
+$(document).ready(function() {
 
     var olMap = new ol.Map({
         layers: [
             new ol.layer.Tile({
-                source: new ol.source.OSM()
+                source: new ol.source.Stamen({
+                    layer: "toner-lite"
+                })
             })
         ],
         // overlays: [overlay],
