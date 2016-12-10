@@ -46,7 +46,7 @@ a.footer {
 }
 
 .clearfix {
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 
@@ -130,6 +130,12 @@ a.footer {
     background: rgba(255, 138, 101, 1);
 }
 
+/*3D Map*/
+.vizicities-attribution {
+    position: absolute;
+    display: none;
+    bottom: 0;
+}
 
 /*CUSTOM STYLING*/
 
