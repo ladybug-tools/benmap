@@ -1,45 +1,110 @@
-var style = {};
 
-function trackMetric(metric) {
-    console.log("Metric: ", metric.value);
-    if (metric.value === "energy") {
-        // redirect to function to recalculate data using EUI column in csv data
-        // trigger setStyles
-    }
-    if (metric.value === "carbon"){
-        // use Carbon Intensity column
-    }
+//
+// page state
+
+var state = {
+  filter: "school",
+  metric: "Source EUI (kBTU/sf)"
 };
 
-function getFilter(filter) {
-    console.log("Filter: ", filter.value);
-    switch (filter.value) {
-        case ("School") :
-        // do something
-        break;
-        case ("Residential") :
-        // do something else
-        break;
-    }
+
+//
+// objects/variables that need to be accessed within functions
+
+var style        = {};
+var table        = {};
+var olMap        = {};
+var vectorLayer  = {};
+var vectorSource = {};
+var key          = 'PARCEL_ID';
+
+
+//
+// we put the FUN in functions
+
+var updateLayers = function(){
+  vectorLayer.setStyle( setStyles );
 };
 
-function setStyles(feature) {
-    // console.log(feature);
+var handleData = function(values){
+  
+  var localData = table;
+  
+  // values is an array:
+  // [0] csv  file string
+  // [1] json file string
+  var csvRaw  = values.shift();
+  var jsonRaw = values.shift();
+  
+  var rows = Papa.parse(csvRaw, {header: true} ).data;
+  var json = JSON.parse(jsonRaw);
+  
+  for(var r in rows){
+    var row = rows[r];
+    // console.log(Object.keys(row));
+    if(row[ key ]){
+      // console.log('adding row');
+      localData[row[ key ]] = row;
+    }
+  }
+      
+  json.features.map(function(feature){
+    setStyles(feature);
+  })
+  // console.log(style);
+  // debugger;
+
+  vectorSource = new ol.source.Vector({
+    features: (new ol.format.GeoJSON()).readFeatures(json)
+  });
+
+  vectorLayer = new ol.layer.Vector({
+    source: vectorSource,
+    style: styleFunction,
+    projection: 'EPSG:4326'
+  });
+  // debugger;
+
+  olMap.addLayer(vectorLayer);
+};
+
+var setStyles = function(feature) {
+    
+    // get feature ID
+    var id;
+    if(feature.properties){
+      id = feature.properties.PARCEL_ID;
+    }else if(feature.T){
+      id = feature.T.PARCEL_ID;
+    }
+    
+    // get row from table table by ID
+    var row = {};
+    if(table[id]){
+      row = table[id];
+    }else{
+      // console.log('row does not exist');
+      row[ state.metric ] = 0;
+    }
+    
+    // logic here for filter (set alpha to 0 if not pass filter?)
+
+    // get value from row
+    var value = row[ state.metric ];
+
+    // build color
     var scale = chroma.scale(['white', 'rgba(183,28,28 ,1)']).domain([0, 35]);
-
-    var value = feature.properties["PART_HEIGH"];
-
     var color = scale(value).rgb();
-    console.log(value, color);
+    // console.log(value, color);
     // var alpha = scale(value).alpha();
 
     var rgba = "rgba(" + color[0].toFixed(0) + "," + color[1].toFixed(0) + "," + color[2].toFixed(0);
     var rgbaStroke = rgba + ",1)";
     var rgbaFill = rgba + ",0.8)";
 
-    console.log(rgbaStroke);
+    // console.log(rgbaStroke);
 
-    return style[feature.properties["PARCEL_ID"]] = new ol.style.Style({
+    return style[ id ] = new ol.style.Style({
         stroke: new ol.style.Stroke({
             color: rgbaStroke,
             width: 2
@@ -49,9 +114,19 @@ function setStyles(feature) {
         })
     })
 
+};
+
+var styleFunction = function(feature) {
+    //console.log("in function prop", feature.getProperties());
+    // console.log("in function getkey", feature.getProperties()["PART_USE"]);
+    // var res1 = style[feature.getProperties()["PARCEL_ID"]]
+    // var res = setStyles(feature);
+    // debugger;
+    // console.log(style[feature.getProperties()["PARCEL_ID"]]);
+
+    return style[feature.getProperties()["PARCEL_ID"]];
+    // return style["R2"];
 }
-
-
 
 // var styles = {
 //     'R1': new ol.style.Style({
@@ -83,70 +158,49 @@ function setStyles(feature) {
 //     })
 // }
 
-var styleFunction = function(feature) {
-    //console.log("in function prop", feature.getProperties());
-    // console.log("in function getkey", feature.getProperties()["PART_USE"]);
-    // var res1 = style[feature.getProperties()["PARCEL_ID"]]
-    // var res = setStyles(feature);
-    // debugger;
-    console.log(style[feature.getProperties()["PARCEL_ID"]]);
 
-    return style[feature.getProperties()["PARCEL_ID"]];
-    // return style["R2"];
-}
+//
+// jQuery page listeners
 
+$(document).on('change','#metric',function(e){
+  state.metric = $(e.target).val();
+  updateLayers();
+});
+$(document).on('change','#filter',function(e){
+  state.filter = $(e.target).val();
+  updateLayers();
+});
+
+
+//
+// init on page ready
 
 $(document).ready(function() {
 
-    var olMap = new ol.Map({
-        layers: [
-            new ol.layer.Tile({
-                source: new ol.source.Stamen({
-                    layer: "toner-lite"
-                })
-            })
-        ],
-        // overlays: [overlay],
-        target: 'map',
-        controls: ol.control.defaults({
-            attributionOptions: {
-                collapsible: false
-            }
-        }),
-        view: new ol.View({
-            //center: ol.proj.fromLonLat([-71.087955, 42.343583]),
-            center: [-71.087955, 42.343583],
-            zoom: 13,
-            projection: 'EPSG:4326'
-        })
-    });
-
-
-
-    $.getJSON("EnergyJson3.geojson", function(json) {
-        console.log(json);
-
-        json.features.map(function(feature){
-            // console.log(feature);
-            setStyles(feature);
-        })
-        console.log(style);
-        // debugger;
-
-
-        var vectorSource = new ol.source.Vector({
-            features: (new ol.format.GeoJSON()).readFeatures(json)
-        });
-
-        var vectorLayer = new ol.layer.Vector({
-            source: vectorSource,
-            style: styleFunction,
-            projection: 'EPSG:4326'
-        });
-        // debugger;
-
-        olMap.addLayer(vectorLayer);
-    });
-
+  olMap = new ol.Map({
+    layers: [
+      new ol.layer.Tile({
+          source: new ol.source.Stamen({
+              layer: "toner-lite"
+          })
+      })
+    ],
+    // overlays: [overlay],
+    target: 'map',
+    controls: ol.control.defaults({
+      attributionOptions: {
+          collapsible: false
+      }
+    }),
+    view: new ol.View({
+      //center: ol.proj.fromLonLat([-71.087955, 42.343583]),
+      center: [-71.087955, 42.343583],
+      zoom: 13,
+      projection: 'EPSG:4326'
+    })
+  });
+  
+  // handle data retrieved via ajax
+  Promise.all( ['./data.csv',"./geometry.geojson"].map($.get) ).then( handleData );
 
 })
