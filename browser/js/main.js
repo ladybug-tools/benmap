@@ -43,7 +43,6 @@ var styleFunction = function(feature) {
     return styles[feature.getProperties()["PART_USE"]];
 }
 
->>>>>>> origin/master
 
 $(document).ready(function() {
 
