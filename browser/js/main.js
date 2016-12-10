@@ -2,7 +2,7 @@
 // page state
 
 var state = {
-    filter: "school",
+    filter: "All",
     metric: "Site EUI (kBTU/sf)"
 };
 
@@ -10,15 +10,16 @@ var state = {
 //
 // objects/variables that need to be accessed within functions
 
-var style = {};
-var table = {};
-var olMap = {};
+var style     = {};
+var table     = {};
+var statTable = {};
+var olMap     = {};
 var vectorLayer = {};
 var vectorSource = {};
 var key = 'PARCEL_ID';
 var types = [];
 var typeKey = 'Property Type';
-var domain = [0, 200];
+var domain = [];
 
 //
 // color scale for reuse
@@ -26,6 +27,20 @@ var scale = chroma.scale(['rgba(253,216,53 ,1)', 'rgba(183,28,28 ,1)']).domain(d
 
 //
 // we put the FUN in functions
+
+var validIdsFromString = function( unverified ){
+  var splitBy = new RegExp('[^0-9]{1,}','i');
+  //         123456780
+  var pad = "000000000";
+  return unverified
+    .split(splitBy)
+    .filter(function(i){
+      return ((i)?true:false);
+    })
+    .map(function(p){
+      return pad.substring(0, pad.length - p.length) + p
+    });
+};
 
 var updateSelectors = function() {
     types.map(function(type) {
@@ -35,18 +50,21 @@ var updateSelectors = function() {
 
 var updateLayers = function() {
     vectorLayer.setStyle(setStyles);
+    updateLegend();
 };
 
 var updateLegend = function() {
+    console.log("In update legend", domain);
     var width = 250;
     var height = 20;
 
     var svg = d3.select("svg")
-        .style("max-height", "50px");
+        .style("max-height", "40px")
+        .append("g")
+        .attr("transform", "translate(10, 0)");
     var defs = svg.append("defs");
     var linearGradient = defs.append("linearGradient")
-        .attr("id", "linear-gradient");
-    linearGradient
+        .attr("id", "linear-gradient")
         .attr("x1", "0%")
         .attr("y1", "0%")
         .attr("x2", "100%")
@@ -60,11 +78,43 @@ var updateLegend = function() {
     linearGradient.append("stop")
         .attr("offset", "100%")
         .attr("stop-color", "rgba(183,28,28 ,1)"); //dark blue
+
+    //Create the bar
     svg.append("rect")
         .attr("width", width)
         .attr("height", height)
+        .attr("y", 5)
         .style("fill", "url(#linear-gradient)");
-        // linearGradient.selectAll("stop")
+
+
+    //Create the legend title
+    // svg.append("text")
+    //     .attr("class", "legendTitle")
+    //     .attr("transform", "translate(" + (width / 2) + ", 40)")
+    //     .style("text-anchor", "middle")
+    //     .text(state.metric);
+
+    //Set scale for x-axis
+    var xScale = d3.scale.linear()
+        .range([0, width])
+        .domain([0, d3.max(domain, function(d) {
+            return d;
+        })]);
+
+    //Define x-axis
+    var xAxis = d3.svg.axis()
+        .orient("bottom")
+        .ticks(5)
+        //   .tickFormat(formatPercent)
+        .scale(xScale);
+
+    //Set up X axis
+    svg.append("g")
+        .attr("class", "axis")
+        .attr("transform", "translate(0," + (20) + ")")
+        .call(xAxis);
+
+
 }
 
 
@@ -88,13 +138,29 @@ var handleData = function(values) {
 
     for (var r in rows) {
         var row = rows[r];
-        // console.log(Object.keys(row));
         if (row[key]) {
-            // console.log('adding row');
-            if (row[typeKey]) {
-                typeMap[row[typeKey]] = true;
-            }
-            localData[row[key]] = row;
+          var ids = validIdsFromString(row[key]);
+          ids.map(function(id){
+            localData[id] = row;
+            Object.keys(row).map(function(col){
+              var val = parseFloat(row[col]);
+              if(!statTable[col]){
+                return statTable[col] = {
+                  max: val,
+                  min: val
+                };
+              }
+              if(val>statTable[col].max){
+                statTable[col].max = val;
+              }
+              if(val<statTable[col].min){
+                statTable[col].min = val;
+              }
+            });
+          });
+          if (row[typeKey]) {
+              typeMap[row[typeKey]] = true;
+          }
 
         }
     }
@@ -102,6 +168,11 @@ var handleData = function(values) {
     types = Object.keys(typeMap);
 
     updateSelectors();
+
+    console.log(statTable, state.metric, statTable[state.metric]);
+    domain = [statTable[state.metric].min, statTable[state.metric].max];
+
+    updateLegend();
 
     json.features.map(function(feature) {
             setStyles(feature);
@@ -142,16 +213,23 @@ var setStyles = function(feature) {
         row[state.metric] = 0;
     }
 
-    // logic here for filter (set alpha to 0 if not pass filter?)
-    var featureFilter = row[typeKey];
-    // console.log(featureFilter);
-    var alphaStroke = 0;
-    var alphaFill = 0;
-    if (featureFilter == state.filter) {
-        console.log('we got a ' + state.filter);
+    if (state.filter === "All") {
         alphaStroke = 1;
         alphaFill = 0.8;
+    } else {
+        // logic here for filter (set alpha to 0 if not pass filter?)
+        var featureFilter = row[typeKey];
+        // console.log(featureFilter);
+        var alphaStroke = 0;
+        var alphaFill = 0;
+        if (featureFilter == state.filter) {
+            console.log('we got a ' + state.filter);
+            alphaStroke = 1;
+            alphaFill = 0.8;
+        }
+
     }
+
 
     // get value from row
     var value = row[state.metric];
@@ -187,24 +265,24 @@ var styleFunction = function(feature) {
     return style[feature.getProperties()["PARCEL_ID"]];
 }
 
-function legendDemo() {
-
-    sampleNumerical = [1, 2.5, 5, 10, 20];
-    sampleThreshold = d3.scale.threshold()
-        .domain(sampleNumerical)
-        .range(colorbrewer.Reds[5]);
-    horizontalLegend = d3.svg.legend()
-        .units("EUI")
-        .cellWidth(80)
-        .cellHeight(25)
-        .inputScale(sampleThreshold)
-        .cellStepping(100);
-
-    d3.select("svg")
-        .append("g")
-        .attr("transform", "translate(50,30)").attr("class", "legend").call(horizontalLegend);
-
-}
+// function legendDemo() {
+//
+//     sampleNumerical = [1, 2.5, 5, 10, 20];
+//     sampleThreshold = d3.scale.threshold()
+//         .domain(sampleNumerical)
+//         .range(colorbrewer.Reds[5]);
+//     horizontalLegend = d3.svg.legend()
+//         .units("EUI")
+//         .cellWidth(80)
+//         .cellHeight(25)
+//         .inputScale(sampleThreshold)
+//         .cellStepping(100);
+//
+//     d3.select("svg")
+//         .append("g")
+//         .attr("transform", "translate(50,30)").attr("class", "legend").call(horizontalLegend);
+//
+// }
 
 //
 // jQuery page listeners
@@ -246,14 +324,42 @@ $(document).ready(function() {
         })
     });
     // legendDemo();
-    updateLegend();
 
     // handle data retrieved via ajax
     Promise.all(['./data.csv', "./geometry.geojson"].map($.get)).then(handleData);
 
+    var geocoder = new Geocoder('nominatim', {
+        provider: 'osm',
+        key: '__some_key__',
+        lang: 'en-US', //en-US, fr-FR
+        placeholder: 'Search for ...',
+        limit: 5,
+        keepOpen: true
+    });
+
+    geocoder.on('addresschosen', function(evt) {
+        var feature = evt.feature,
+            coord = evt.coordinate,
+            address = evt.address;
+
+        //content.innerHTML = '<p>' + address.formatted + '</p>';
+        // console.log("newCoord" , coord);
+        //overlay.setPosition(coord);
+        olMap.setView ( new ol.View({
+            center: [coord[0], coord[1]],
+            zoom: 16,
+            projection: 'EPSG:4326'
+        }));
+    });
+
+    olMap.addControl(geocoder);
+
     olMap.on('click', function(evt) {
         console.log("map Click event fired");
+        document.getElementById("details").style.display = "block";
+        // console.log(evt.pixel);
         olMap.forEachFeatureAtPixel(evt.pixel, function(feature, layer) {
+            // console.log("feature: ", feature);
             // get feature ID
             var id;
             if (feature.properties) {
@@ -261,13 +367,13 @@ $(document).ready(function() {
             } else if (feature.T) {
                 id = feature.T[key];
             }
-            console.log("id", id);
+            // console.log("id", id);
             // get row from table table by ID
             var row = {};
             if (table[id]) {
                 row = table[id];
                 //find the way to bind the front end?
-                console.log("rows", row);
+                // console.log("rows", row);
 
                 document.getElementById("name").innerHTML = row["Property Name"];
                 document.getElementById("address").innerHTML = row["Address"];
@@ -276,11 +382,10 @@ $(document).ready(function() {
                 document.getElementById("GHGIntensity").innerHTML = row["GHG Intensity (kgCO2/sf)"];
                 document.getElementById("EnergyStar").innerHTML = row["Energy Star Score"];
                 document.getElementById("waterIntensity").innerHTML = row["Water Intensity (gal/sf)"];
-                document.getElementById("distanceTo2030").innerHTML = "TODO";
+                document.getElementById("distanceTo2030").innerHTML = row["Distance to 2030 Target %"];
                 document.getElementById("totalSite").innerHTML = row[" Total Site Energy (kBTU) "];
                 document.getElementById("totalSource").innerHTML = row["Total Source Energy (kBTU)"];
                 document.getElementById("GHGEmissions").innerHTML = row["GHG Emissions (MTCO2e)"];
-
 
             }
 

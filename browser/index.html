@@ -2,42 +2,32 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <!-- <base href="/" /> -->
     <title>BEnMap</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
-    <!-- Bootstrap -->
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
     <link rel="stylesheet" type="text/css" href="./vendor/openlayers-v3.19.1-dist/ol.css" />
     <link rel="stylesheet" type="text/css" href="./vendor/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="./vendor/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" type="text/css" href="./vendor/ol3-geocoder/ol3-geocoder.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
 
 
     <script src="./vendor/jquery/jquery-3.1.1.min.js"></script>
-
-    <!-- Bootstrap -->
-    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
     <script src="./vendor/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
     <script src="./vendor/openlayers-v3.19.1-dist/ol.js"></script>
     <script src="./vendor/chroma/chroma.min.js"></script>
+    <script src="./vendor/three/three.min.js"></script>
+    <script src="./vendor/TweenMax/TweenMax.min.js"></script>
+    <script src="./vendor/vizcities-dist/vizicities.min.js"></script>
     <script src="./vendor/PapaParse/papaparse.min.js"></script>
     <script src="./vendor/d3/d3.v3.min.js"></script>
-    <script src="./vendor/d3/colorbrewer.v1.min.js"></script>
+    <script src="./vendor/ol3-geocoder/ol3-geocoder.js"></script>
+    <!-- <script src="./vendor/d3/colorbrewer.v1.min.js"></script> -->
     <!-- <script src="./js/legend.js"></script> -->
 
-
     <script src="js/main.js"></script>
-    <!-- /*<style>
-        svg {
-            width: 100%;
-            height: 100%;
-        }
-    </style>*/ -->
-
 </head>
 
 <!-- <body class="fixed-nav"> -->
@@ -49,6 +39,7 @@
 
 <body>
     <div class="fullscreen" id="map"></div>
+    <div id="world"></div>
 
     <div id="main" class="container-fluid">
         <div class="row">
@@ -57,7 +48,7 @@
                     <h4><a class="brand" href="/">BEnMap</a></h4>
                 </div>
                 <div class="col-xs-3 tile-rect">
-                  <select id="metric" class="form-control input-sm">
+                    <select id="metric" class="form-control input-sm">
                   <option value="Site EUI (kBTU/sf)">Energy Use Intensity [Site] (kBTU/sf)</option>
                   <option value="Source EUI (kBTU/sf)">Energy Use Intensity [Source] (kBTU/sf)</option>
                   <option value="GHG Intensity (kgCO2/sf)">GHG Intensity (kgCO2/sf)</option>
@@ -70,12 +61,13 @@
                 </div>
                 <div class="col-xs-3 tile-rect">
                     <select id="filter" class="form-control input-sm">
-                    <option selected disabled>Choose Building Type</option>
+                    <option selected disabled>Filter By Building Type</option>
+                    <option>All</option>
                   </select>
                 </div>
                 <div class="col-xs-3 tile-rect">
                     <div>
-                        <svg></svg>
+                        <svg id="legend"></svg>
                     </div>
                 </div>
             </div>
@@ -86,31 +78,31 @@
     <div id="details">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-xs-3 bg-translucent">
-                    <h6>DETAILS</h6>
+                <div class="col-xs-4 overlay bg-translucent">
+                    <h5>DETAILS</h5>
                     <dl class="dl-horizontal">
                         <dt><small>Property Name</small></dt>
-                        <dd id = "name"><small>Information 1</small></dd>
+                        <dd id="name"><small> - </small></dd>
                         <dt><small>Address</small></dt>
-                        <dd id = "address"><small>Information 2</small></dd>
+                        <dd id="address"><small> - </small></dd>
                         <dt><small>Site EUI (kBTU)</small></dt>
-                        <dd id = "siteEUI"><small>Information 3</small></dd>
+                        <dd id="siteEUI"><small> - </small></dd>
                         <dt><small>Source EUI (kBTU/sf)</small></dt>
-                        <dd id = "sourceEUI"><small>Information 4</small></dd>
+                        <dd id="sourceEUI"><small> - </small></dd>
                         <dt><small>GHG Intensity (kgCO2/sf)</small></dt>
-                        <dd id = "GHGIntensity"><small>Information 5</small></dd>
+                        <dd id="GHGIntensity"><small> - </small></dd>
                         <dt><small>Energy Star Score</small></dt>
-                        <dd id = "EnergyStar"><small>Information 6</small></dd>
+                        <dd id="EnergyStar"><small> - </small></dd>
                         <dt><small>Water Intensity (gal/sf)</small></dt>
-                        <dd id = "waterIntensity"><small>Information 7</small></dd>
+                        <dd id="waterIntensity"><small> - </small></dd>
                         <dt><small>Distance to 2030 (%)</small></dt>
-                        <dd id = "distanceTo2030"><small>Information 8</small></dd>
+                        <dd id="distanceTo2030"><small> - </small></dd>
                         <dt><small>Total Site Energy (kBTU)</small></dt>
-                        <dd id = "totalSite"><small>Information 9</small></dd>
+                        <dd id="totalSite"><small> - </small></dd>
                         <dt><small>Total Source Energy (kBTU)</small></dt>
-                        <dd id = "totalSource"><small>Information 10</small></dd>
+                        <dd id="totalSource"><small> - </small></dd>
                         <dt><small>GHG Emissions</small></dt>
-                        <dd id = "GHGEmissions"><small>Information 11</small></dd>
+                        <dd id="GHGEmissions"><small> - </small></dd>
                     </dl>
                 </div>
             </div>
@@ -121,15 +113,14 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xs-12">
-                    <h6 class="brand">The <a class="footer" href="https://github.com/chriswmackey/BEnMap">Energy Cartographers</a>, brought to you by the <a class="footer" href="http://core.thorntontomasetti.com/event/aec-technology-symposium-and-hackathon-2016/">AEC Tech Hackathon 2016</a></h6>
+                    <h6 class="brand">The <a class="footer" href="https://github.com/chriswmackey/BEnMap/graphs/contributors">Energy Cartographers</a>,
+                        brought to you by the <a class="footer" href="http://core.thorntontomasetti.com/event/aec-technology-symposium-and-hackathon-2016/">AEC Tech Hackathon 2016</a>
+                        <a class="inline pull-right" role="button" href="https://github.com/chriswmackey/BEnMap/"><img class="logo" src="./assets/GitHub-Mark-Light-64px.png" /></a>
+                    </h6>
+
                 </div>
             </div>
         </div>
     </div>
-
-    <footer>
-        <script>
-        </script>
-    </footer>
 
 </body>
