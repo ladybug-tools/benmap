@@ -378,7 +378,7 @@ $(document).ready(function() {
                 document.getElementById("GHGIntensity").innerHTML = row["GHG Intensity (kgCO2/sf)"];
                 document.getElementById("EnergyStar").innerHTML = row["Energy Star Score"];
                 document.getElementById("waterIntensity").innerHTML = row["Water Intensity (gal/sf)"];
-                document.getElementById("distanceTo2030").innerHTML = "TODO";
+                document.getElementById("distanceTo2030").innerHTML = row["Distance to 2030 Target %"];
                 document.getElementById("totalSite").innerHTML = row[" Total Site Energy (kBTU) "];
                 document.getElementById("totalSource").innerHTML = row["Total Source Energy (kBTU)"];
                 document.getElementById("GHGEmissions").innerHTML = row["GHG Emissions (MTCO2e)"];
