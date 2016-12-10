@@ -3,17 +3,49 @@ var fs  = require('fs');
 
 module.exports = function( config ){
   this.config = config;
-  this.data   = {}; // master object here
+  this.table   = {}; // master object here
+  this.geom   = {};
+  this.files  = {};
+  this.writeOut = function(){
+    fs.writeFile();
+  };
+  this.loadGeojson = function( file ){
+    var thisLoad = this;
+    var stream = fs.readFile( thisLoad.config.dir+'/'+file, function(err,data){
+      if(err)return err;
+      try{
+        var ob = JSON.parse(data);
+        console.log(Object.keys(ob));
+        thisLoad.files[file] = 'yes';
+      }catch(e){
+        console.log('bad JSON:',e);
+        delete thisLoad.files[file];
+      }
+    });
+  };
+  this.loadCSV = function( file ){
+    console.log('found CSV',file);
+    var thisLoad = this;
+    var stream = fs.createReadStream( thisLoad.config.dir+'/'+file );
+    csv
+      .fromStream( stream, {headers : true} )
+      .on('data', function(data){
+        thisLoad.handleCSVRow(data);
+      })
+      .on('end',function(){
+        thisLoad.files[file] = 'yes';
+      });
+  };
   this.addData = function( id, data ){
-    if(!this.data[id]){
-      this.data[id] = data;
+    if(!this.table[id]){
+      this.table[id] = data;
       return;
     }
     for(var d in data){
       // do not overwrite existing field
-      if(!this.data[id][d]){
+      if(!this.table[id][d]){
         console.log('writing row',d);
-        this.data[id][d] = data[d];
+        this.table[id][d] = data[d];
       }
     }
   };
@@ -42,23 +74,15 @@ module.exports = function( config ){
       var ext = parts.pop();
       switch(ext){
         case 'geojson':
-          console.log('found geojson');
+          thisHandle.files[file] = 'no';
+          thisHandle.loadGeojson( file );
           break;
         case 'csv':
-          console.log('found CSV',file);
-          var stream = fs.createReadStream( thisHandle.config.dir+'/'+file );
-          csv
-            .fromStream( stream, {headers : true} )
-            .on('data', function(data){
-              thisHandle.handleCSVRow(data);
-            })
-            .on('end',function(){
-              console.log('CSV loaded');
-            });
+          thisHandle.files[file] = 'no';
+          thisHandle.loadCSV( file );
           break;
       }
     }
-    callback();
   };
   this.loadData = function( callback ){
     var thisLoad = this;
