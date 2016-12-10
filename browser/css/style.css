@@ -29,6 +29,7 @@ a.footer {
     width: 160px;
     clear: left;
     text-align: right;
+    color: #545454;
     /*overflow: hidden;*/
     /*text-overflow: ellipsis;*/
     /*white-space: nowrap;*/
@@ -38,18 +39,18 @@ a.footer {
     margin-left: 180px;
 }
 
+.logo {
+    width: 20px;
+    height: 20px;
+    color: #545454;
+}
+
 
 /*LEGEND*/
 
-svg#legend {
-    /*width: 100%;*/
-    /*width: 500px;
-    float: right;*/
-}
-
 .axis text {
     font-size: 1.2rem;
-    fill: rgba(120,144,156 ,1); /*#AAAAAA*/
+    fill: #747474;
     font-weight: 400;
 }
 
@@ -57,8 +58,6 @@ svg#legend {
     fill: none;
     stroke: none;
 }
-
-
 
 
 /*LAYOUTS*/
@@ -74,10 +73,14 @@ svg#legend {
     height: 100%;
     width: 100%;
 }
+.overlay {
+    padding-left: 30px;
+    bottom: 20px;
+}
 
 #main {
     overflow: auto;
-    padding-bottom: 60px;
+    padding-bottom: 20px;
 }
 
 #details {

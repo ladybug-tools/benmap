@@ -35,6 +35,7 @@ var updateSelectors = function() {
 
 var updateLayers = function() {
     vectorLayer.setStyle(setStyles);
+    updateLegend();
 };
 
 var updateLegend = function() {
@@ -286,10 +287,11 @@ $(document).ready(function() {
         })
     });
     // legendDemo();
-    updateLegend();
 
     // handle data retrieved via ajax
     Promise.all(['./data.csv', "./geometry.geojson"].map($.get)).then(handleData);
+
+    updateLegend();
 
     olMap.on('click', function(evt) {
         console.log("map Click event fired");
