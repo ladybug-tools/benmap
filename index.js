@@ -1,16 +1,14 @@
 var MergeUtility = require('./utilities/merge_data');
 
-mergeData = new MergeUtility({
+merger = new MergeUtility({
   // key: 'Tax Parcel',
   key: 'PARCEL_ID',
   // key: 'Reported',
   ignore: [
     'Not Available'
   ],
-  dir: './resources',
+  dir: './utilities/input',
   out: './utilities/output'
 })
 
-mergeData.loadData( function(){
-  console.log('load data done');
-});
+merger.mergeData( 'PARCEL_ID' );
