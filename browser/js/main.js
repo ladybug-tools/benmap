@@ -136,53 +136,52 @@ var handleData = function(values) {
 
     var typeMap = {};
 
-    for (var r in rows) {
-        var row = rows[r];
-        if (row[key]) {
-          var type = 'unknown';
-          if (row[typeKey]) {
-            type = row[typeKey];
-            typeMap[type] = true;
+    rows.map(function(row){
+      if(!row[key]){
+        return;
+      }
+      var type = 'unknown';
+      if (row[typeKey]) {
+        type = row[typeKey];
+        typeMap[type] = true;
+      }
+      var ids = validIdsFromString(row[key]);
+      
+      ids.map(function(id){
+        localData[id] = row;
+        Object.keys(row).map(function(col){
+          var val = parseFloat(row[col]);
+          if(!statTable[col]){
+            return statTable[col] = {
+              all:{
+                max: val,
+                min: val
+              },
+              byType:{}
+            };
           }
-          var ids = validIdsFromString(row[key]);
-          
-          ids.map(function(id){
-            localData[id] = row;
-            Object.keys(row).map(function(col){
-              var val = parseFloat(row[col]);
-              if(!statTable[col]){
-                return statTable[col] = {
-                  all:{
-                    max: val,
-                    min: val
-                  },
-                  byType:{}
-                };
-              }
-              if(val>statTable[col].all.max){
-                statTable[col].all.max = val;
-              }
-              if(val<statTable[col].all.min){
-                statTable[col].all.min = val;
-              }
-              if(!statTable[col].byType[type]){
-                statTable[col].byType[type] = {
-                  max:val,
-                  min:val
-                };
-              }
-              if(val>statTable[col].byType[type].max){
-                statTable[col].byType[type].max = val;
-              }
-              if(val<statTable[col].byType[type].min){
-                statTable[col].byType[type].min = val;
-              }
-            });
-          });
-
-
-        }
-    }
+          var stat = statTable[col];
+          if(val>stat.all.max){
+            stat.all.max = val;
+          }
+          if(val<stat.all.min){
+            stat.all.min = val;
+          }
+          if(!stat.byType[type]){
+            stat.byType[type] = {
+              max:val,
+              min:val
+            };
+          }
+          if(val>stat.byType[type].max){
+            stat.byType[type].max = val;
+          }
+          if(val<stat.byType[type].min){
+            stat.byType[type].min = val;
+          }
+        });
+      });
+    });
 
     types = Object.keys(typeMap);
 
