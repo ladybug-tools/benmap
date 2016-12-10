@@ -75,23 +75,40 @@ for i,bld in enumerate(lstofbld):
         else:
             mediansiteeui = 127.
         
-        print '--'
-        print lstofinfo
-        print 'median', mediansiteeui
-        print 'energy', eui
-        print 'year', year_built
+        #print '--'
+        #print lstofinfo
+        #print 'median', mediansiteeui
+        #print 'energy', eui
+        #print 'year', year_built
+        
+        energy_target = None
+        energy_percent_reduction = None
         
         try:
             mediansiteeui = float(mediansiteeui)
-            if year_built < 2010:
-                print year_built
-                energy_target = float(mediansiteeui) * 0.3
-            else:
+            #http://architecture2030.org/about/timeline/ 
+            #architecture 2030 launched in 2002
+            year_built = int(year_built)
+            eui = float(eui)
+            if year_built < 2002:
                 energy_target = float(mediansiteeui) * 0.8
+                energy_percent_reduction = energy_target/eui
+                print year_built
+                print 'energy current', eui
+                print 'energy target', energy_target
+                print energy_percent_reduction
+            else:
+                energy_target = float(mediansiteeui) * 0.2
+                energy_percent_reduction = energy_target/eui
+                print 'after year 2002'
+                print year_built
+                print 'energy current', eui
+                print 'energy target', energy_target
+                print energy_percent_reduction
         except Exception as e:
             energy_target = 'missing eui data target'
             print str(e)
+        print '---'
         
         
-        print 'etarg', energy_target
-            
+        
