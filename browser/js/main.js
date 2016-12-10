@@ -18,10 +18,11 @@ var vectorSource = {};
 var key = 'PARCEL_ID';
 var types = [];
 var typeKey = 'Property Type';
+var domain = [0, 200];
 
 //
 // color scale for reuse
-var scale = chroma.scale(['rgba(253,216,53 ,1)', 'rgba(183,28,28 ,1)']).domain([0, 100]);
+var scale = chroma.scale(['rgba(253,216,53 ,1)', 'rgba(183,28,28 ,1)']).domain(domain);
 
 //
 // we put the FUN in functions
@@ -37,6 +38,9 @@ var updateLayers = function() {
 };
 
 var updateLegend = function() {
+    var width = 250;
+    var height = 20;
+
     var svg = d3.select("svg")
         .style("max-height", "50px");
     var defs = svg.append("defs");
@@ -57,10 +61,9 @@ var updateLegend = function() {
         .attr("offset", "100%")
         .attr("stop-color", "rgba(183,28,28 ,1)"); //dark blue
     svg.append("rect")
-        .attr("width", 300)
-        .attr("height", 20)
+        .attr("width", width)
+        .attr("height", height)
         .style("fill", "url(#linear-gradient)");
-    console.log("anything?")
         // linearGradient.selectAll("stop")
 }
 
@@ -156,7 +159,7 @@ var setStyles = function(feature) {
     // build color
     // console.log(value, scale(value).rgb());
     // debugger;
-    scale = chroma.scale(['rgba(253,216,53 ,1)', 'rgba(183,28,28 ,1)']).domain([0, 200]);
+    scale = chroma.scale(['rgba(253,216,53 ,1)', 'rgba(183,28,28 ,1)']).domain(domain);
 
     var color = scale(value).rgb();
     // console.log(value, color);
