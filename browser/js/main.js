@@ -241,7 +241,7 @@ var setStyles = function(feature) {
         var alphaStroke = 0;
         var alphaFill = 0;
         if (featureFilter == state.filter) {
-            console.log('we got a ' + state.filter);
+            // console.log('we got a ' + state.filter);
             alphaStroke = 1;
             alphaFill = 0.8;
         }
