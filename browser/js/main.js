@@ -77,7 +77,7 @@ var styleFunction = function(feature) {
     console.log(style[feature.getProperties()["PARCEL_ID"]]);
 
     return style[feature.getProperties()["PARCEL_ID"]];
-    // return style;
+    // return style["R2"];
 }
 
 
@@ -106,7 +106,7 @@ $(document).ready(function() {
     });
 
 
-    $.getJSON("5_building_sample_epsg3857.geojson", function(json) {
+    $.getJSON("EnergyJson_Test3.geojson", function(json) {
         console.log(json);
 
         json.features.map(function(feature){
