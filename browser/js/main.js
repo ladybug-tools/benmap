@@ -10,9 +10,10 @@ var state = {
 //
 // objects/variables that need to be accessed within functions
 
-var style = {};
-var table = {};
-var olMap = {};
+var style     = {};
+var table     = {};
+var statTable = {};
+var olMap     = {};
 var vectorLayer = {};
 var vectorSource = {};
 var key = 'PARCEL_ID';
@@ -26,6 +27,20 @@ var scale = chroma.scale(['rgba(253,216,53 ,1)', 'rgba(183,28,28 ,1)']).domain(d
 
 //
 // we put the FUN in functions
+
+var validIdsFromString = function( unverified ){
+  var splitBy = new RegExp('[^0-9]{1,}','i');
+  //         123456780
+  var pad = "000000000";
+  return unverified
+    .split(splitBy)
+    .filter(function(i){
+      return ((i)?true:false);
+    })
+    .map(function(p){
+      return pad.substring(0, pad.length - p.length) + p
+    });
+};
 
 var updateSelectors = function() {
     types.map(function(type) {
@@ -121,13 +136,14 @@ var handleData = function(values) {
 
     for (var r in rows) {
         var row = rows[r];
-        // console.log(Object.keys(row));
         if (row[key]) {
-            // console.log('adding row');
-            if (row[typeKey]) {
-                typeMap[row[typeKey]] = true;
-            }
-            localData[row[key]] = row;
+          var ids = validIdsFromString(row[key]);
+          ids.map(function(id){
+            localData[id] = row;
+          });
+          if (row[typeKey]) {
+              typeMap[row[typeKey]] = true;
+          }
 
         }
     }
