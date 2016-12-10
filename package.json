@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/chriswmackey/BEnMap#readme",
   "dependencies": {
-    "csvtojson": "^1.0.3",
     "fast-csv": "^2.3.0"
   }
 }
