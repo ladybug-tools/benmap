@@ -45,6 +45,10 @@ a.footer {
     color: #545454;
 }
 
+.inline {
+    display: inline-block;
+}
+
 .clearfix {
     padding-left: 20px;
 }
