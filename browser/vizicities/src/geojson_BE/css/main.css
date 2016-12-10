@@ -1,0 +1,46 @@
+* { margin: 0; padding: 0; }
+html, body { height: 100%; overflow: hidden;}
+
+#world {
+  height: 90%;
+}
+
+#main {
+    overflow: auto;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+#footer {
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    min-height: 40px;
+}
+
+/*CUSTOM STYLING*/
+
+.tile-rect {
+    float: left;
+    min-width: 100px;
+    min-height: 30px;
+    margin: 10px 20px 10px 0;
+    /*padding: 20px;*/
+    position: relative;
+    /*border: 1px solid gray;*/
+    /*box-shadow: 1px 2px 1px 1px gray;*/
+}
+
+.tile-rect h4 {
+    margin-top: 5px;
+}
+
+.tile-rect .card-content {
+    padding: 10px;
+}
+
+.tile-rect .card-footer {
+    position: absolute;
+    bottom: 0;
+}

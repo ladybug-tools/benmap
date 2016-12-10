@@ -43,7 +43,7 @@ setupScene = function(object) {
   var colourScale = chroma.scale(['blue', 'yellow', 'red']).domain([0,12,60]);
 
   // Grab our Mapzen GeoJSON tile including points, linestrings and polygons
-  VIZI.geoJSONLayer('./geometry.json', {
+  VIZI.geoJSONLayer('./data/geometry.json', {
     interactive: false,
     output: true,
     style: function(feature) {
