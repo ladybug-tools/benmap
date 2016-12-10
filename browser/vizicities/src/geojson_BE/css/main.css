@@ -19,6 +19,11 @@ html, body { height: 100%; overflow: hidden;}
     min-height: 40px;
 }
 
+#legend {
+    float: right;
+    width: 200px;
+}
+
 /*CUSTOM STYLING*/
 
 .tile-rect {

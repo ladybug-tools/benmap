@@ -73,4 +73,8 @@ setupScene = function(object) {
   }).addTo(world);
 }
 
+drawLegend = function(object) {
+
+}
+
 setupScene();
