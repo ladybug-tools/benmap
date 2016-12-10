@@ -21,7 +21,8 @@ html, body { height: 100%; overflow: hidden;}
 
 #legend {
     float: right;
-    width: 200px;
+    width: 500px;
+    
 }
 
 /*CUSTOM STYLING*/
