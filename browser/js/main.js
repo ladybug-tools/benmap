@@ -68,9 +68,9 @@ var styles = {
 
 var styleFunction = function(feature) {
     //console.log("in function prop", feature.getProperties());
-    console.log("in function getkey", feature.getProperties()["PART_USE"]);
+    //console.log("in function getkey", feature.getProperties()["PART_USE"]);
     //var res = setStyles(feature);
-    console.log(res);
+    //console.log(res);
     return styles["R2"];
     //return res;
 }
@@ -94,14 +94,15 @@ $(document).ready(function() {
             }
         }),
         view: new ol.View({
-            //center: ol.proj.fromLonLat([-74,40]),
-            center: ol.proj.fromLonLat([-71.087955, 42.343583]),
-            zoom: 13
+            //center: ol.proj.fromLonLat([-71.087955, 42.343583]),
+            center: [-71.087955, 42.343583],
+            zoom: 13,
+            projection: 'EPSG:4326'
         })
     });
 
 
-    $.getJSON("EnergyJson_Test3.geojson", function(json) {
+    $.getJSON("EnergyJson3.geojson", function(json) {
         console.log(json);
 
 
@@ -112,7 +113,8 @@ $(document).ready(function() {
 
         var vectorLayer = new ol.layer.Vector({
             source: vectorSource,
-            style: styleFunction
+            style: styleFunction,
+            projection: 'EPSG:4326'
         });
 
         olMap.addLayer(vectorLayer);
