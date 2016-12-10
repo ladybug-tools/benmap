@@ -19,7 +19,7 @@ var vectorSource = {};
 var key = 'PARCEL_ID';
 var types = [];
 var typeKey = 'Property Type';
-var domain = [0, 200];
+var domain = [];
 
 //
 // color scale for reuse
@@ -54,6 +54,7 @@ var updateLayers = function() {
 };
 
 var updateLegend = function() {
+    console.log("In update legend", domain);
     var width = 250;
     var height = 20;
 
@@ -168,6 +169,11 @@ var handleData = function(values) {
 
     updateSelectors();
 
+    console.log(statTable, state.metric, statTable[state.metric]);
+    domain = [statTable[state.metric].min, statTable[state.metric].max];
+
+    updateLegend();
+
     json.features.map(function(feature) {
             setStyles(feature);
         })
@@ -259,24 +265,24 @@ var styleFunction = function(feature) {
     return style[feature.getProperties()["PARCEL_ID"]];
 }
 
-function legendDemo() {
-
-    sampleNumerical = [1, 2.5, 5, 10, 20];
-    sampleThreshold = d3.scale.threshold()
-        .domain(sampleNumerical)
-        .range(colorbrewer.Reds[5]);
-    horizontalLegend = d3.svg.legend()
-        .units("EUI")
-        .cellWidth(80)
-        .cellHeight(25)
-        .inputScale(sampleThreshold)
-        .cellStepping(100);
-
-    d3.select("svg")
-        .append("g")
-        .attr("transform", "translate(50,30)").attr("class", "legend").call(horizontalLegend);
-
-}
+// function legendDemo() {
+//
+//     sampleNumerical = [1, 2.5, 5, 10, 20];
+//     sampleThreshold = d3.scale.threshold()
+//         .domain(sampleNumerical)
+//         .range(colorbrewer.Reds[5]);
+//     horizontalLegend = d3.svg.legend()
+//         .units("EUI")
+//         .cellWidth(80)
+//         .cellHeight(25)
+//         .inputScale(sampleThreshold)
+//         .cellStepping(100);
+//
+//     d3.select("svg")
+//         .append("g")
+//         .attr("transform", "translate(50,30)").attr("class", "legend").call(horizontalLegend);
+//
+// }
 
 //
 // jQuery page listeners
@@ -322,8 +328,6 @@ $(document).ready(function() {
     // handle data retrieved via ajax
     Promise.all(['./data.csv', "./geometry.geojson"].map($.get)).then(handleData);
 
-    updateLegend();
-
     var geocoder = new Geocoder('nominatim', {
         provider: 'osm',
         key: '__some_key__',
@@ -339,7 +343,7 @@ $(document).ready(function() {
             address = evt.address;
 
         //content.innerHTML = '<p>' + address.formatted + '</p>';
-        console.log("newCoord" , coord);
+        // console.log("newCoord" , coord);
         //overlay.setPosition(coord);
         olMap.setView ( new ol.View({
             center: [coord[0], coord[1]],
@@ -353,9 +357,9 @@ $(document).ready(function() {
     olMap.on('click', function(evt) {
         console.log("map Click event fired");
         document.getElementById("details").style.display = "block";
-        console.log(evt.pixel);
+        // console.log(evt.pixel);
         olMap.forEachFeatureAtPixel(evt.pixel, function(feature, layer) {
-            console.log("feature: ", feature);
+            // console.log("feature: ", feature);
             // get feature ID
             var id;
             if (feature.properties) {
@@ -363,13 +367,13 @@ $(document).ready(function() {
             } else if (feature.T) {
                 id = feature.T[key];
             }
-            console.log("id", id);
+            // console.log("id", id);
             // get row from table table by ID
             var row = {};
             if (table[id]) {
                 row = table[id];
                 //find the way to bind the front end?
-                console.log("rows", row);
+                // console.log("rows", row);
 
                 document.getElementById("name").innerHTML = row["Property Name"];
                 document.getElementById("address").innerHTML = row["Address"];
