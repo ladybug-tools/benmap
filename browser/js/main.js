@@ -35,9 +35,9 @@ var updateLayers = function(){
 };
 
 var handleData = function(values){
-  
+
   var localData = table;
-  
+
   // values is an array:
   // [0] csv  file string
   // [1] json file string
@@ -47,9 +47,9 @@ var handleData = function(values){
   if(typeof json == "string"){
     json = JSON.parse(json);
   }
-  
+
   var typeMap = {};
-  
+
   for(var r in rows){
     var row = rows[r];
     // console.log(Object.keys(row));
@@ -59,14 +59,14 @@ var handleData = function(values){
         typeMap[row[typeKey]] = true;
       }
       localData[row[ key ]] = row;
-      
+
     }
   }
-  
+
   types = Object.keys(typeMap);
-  
+
   updateSelectors();
-      
+
   json.features.map(function(feature){
     setStyles(feature);
   })
@@ -88,7 +88,7 @@ var handleData = function(values){
 };
 
 var setStyles = function(feature) {
-    
+
     // get feature ID
     var id;
     if(feature.properties){
@@ -96,7 +96,7 @@ var setStyles = function(feature) {
     }else if(feature.T){
       id = feature.T[ key ];
     }
-    
+
     // get row from table table by ID
     var row = {};
     if(table[id]){
@@ -105,7 +105,7 @@ var setStyles = function(feature) {
       // console.log('row does not exist');
       row[ state.metric ] = 0;
     }
-    
+
     // logic here for filter (set alpha to 0 if not pass filter?)
     var featureFilter = row[ typeKey ];
     // console.log(featureFilter);
@@ -227,8 +227,32 @@ $(document).ready(function() {
       projection: 'EPSG:4326'
     })
   });
-  
+
   // handle data retrieved via ajax
   Promise.all( ['./data.csv',"./geometry.geojson"].map($.get) ).then( handleData );
+
+  olMap.on('click', function(evt){
+      console.log("map Click event fired");
+      olMap.forEachFeatureAtPixel(evt.pixel, function(feature, layer){
+          // get feature ID
+          var id;
+          if(feature.properties){
+            id = feature.properties[ key ];
+          }else if(feature.T){
+            id = feature.T[ key ];
+          }
+           console.log("id", id);
+          // get row from table table by ID
+          var row = {};
+          if(table[id]){
+            row = table[id];
+            //find the way to bind the front end?
+            console.log("rows", row);
+          }
+
+      })
+
+  })
+
 
 })
