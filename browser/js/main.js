@@ -69,10 +69,10 @@ var styles = {
 var styleFunction = function(feature) {
     //console.log("in function prop", feature.getProperties());
     console.log("in function getkey", feature.getProperties()["PART_USE"]);
-    var res = setStyles(feature);
+    //var res = setStyles(feature);
     console.log(res);
-    // return styles[feature.getProperties()["PART_USE"]];
-    return res;
+    return styles["R2"];
+    //return res;
 }
 
 
@@ -101,7 +101,7 @@ $(document).ready(function() {
     });
 
 
-    $.getJSON("5_building_sample_epsg3857.geojson", function(json) {
+    $.getJSON("EnergyJson_Test3.geojson", function(json) {
         console.log(json);
 
 
