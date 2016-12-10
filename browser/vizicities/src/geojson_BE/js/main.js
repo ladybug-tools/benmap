@@ -1,26 +1,5 @@
 
 
-function trackMetric(metric) {
-    if (metric.value === "energy") {
-        // redirect to function to recalculate data using EUI column in csv data
-        // trigger setStyles
-    }
-    if (metric.value === "carbon"){
-        // use Carbon Intensity column
-    }
-};
-
-function getFilter(filter) {
-    switch (filter.value) {
-        case ("School") :
-        // do something
-        break;
-        case ("Residential") :
-        // do something else
-        break;
-    }
-};
-
 
 setupScene = function(object) {
   // Boston
