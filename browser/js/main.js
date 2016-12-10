@@ -366,58 +366,7 @@ var create3DView = function(){
     }).addTo(world);
 };
 
-// function legendDemo() {
-//
-//     sampleNumerical = [1, 2.5, 5, 10, 20];
-//     sampleThreshold = d3.scale.threshold()
-//         .domain(sampleNumerical)
-//         .range(colorbrewer.Reds[5]);
-//     horizontalLegend = d3.svg.legend()
-//         .units("EUI")
-//         .cellWidth(80)
-//         .cellHeight(25)
-//         .inputScale(sampleThreshold)
-//         .cellStepping(100);
-//
-//     d3.select("svg")
-//         .append("g")
-//         .attr("transform", "translate(50,30)").attr("class", "legend").call(horizontalLegend);
-//
-// }
-
-//
-// jQuery page listeners
-
-$(document).on('change', '#metric', function(e) {
-    state.metric = $(e.target).val();
-    updateLayers();
-});
-$(document).on('change', '#filter', function(e) {
-    state.filter = $(e.target).val();
-    domain = [statTable[state.metric].byType[state.filter].min, statTable[state.metric].byType[state.filter].max];
-    updateLayers();
-});
-
-$(document).on('change', "#view", function(e) {
-    state.view = $(e.target).val();
-
-    if (state.view=== "2D"){
-        document.getElementById("world").style.display = "none";
-        document.getElementById("map").style.display = "";
-
-    }
-    if (state.view=== "3D"){
-        document.getElementById("map").style.display = "none";
-        document.getElementById("world").style.display = "";
-        create3DView();
-    }
-
-})
-
-//
-// init on page ready
-
-$(document).ready(function() {
+function create2DMap () {
     olMap = new ol.Map({
         layers: [
             new ol.layer.Tile({
@@ -440,11 +389,9 @@ $(document).ready(function() {
             projection: 'EPSG:4326'
         })
     });
-    // legendDemo();
+}
 
-    // handle data retrieved via ajax
-    Promise.all(['./data.csv', "./geometry.geojson"].map($.get)).then(handleData);
-
+function add2DInteraction (){
     var geocoder = new Geocoder('nominatim', {
         provider: 'osm',
         key: '__some_key__',
@@ -459,9 +406,6 @@ $(document).ready(function() {
             coord = evt.coordinate,
             address = evt.address;
 
-        //content.innerHTML = '<p>' + address.formatted + '</p>';
-        // console.log("newCoord" , coord);
-        //overlay.setPosition(coord);
         olMap.setView(new ol.View({
             center: [coord[0], coord[1]],
             zoom: 16,
@@ -531,9 +475,59 @@ $(document).ready(function() {
      * onchange callback on the select element.
      */
     changeInteraction();
+}
 
-    /**
-     * 3D VIZ WORLD
-     */
+//
+// jQuery page listeners
+
+$(document).on('change', '#metric', function(e) {
+    state.metric = $(e.target).val();
+    updateLayers();
+});
+$(document).on('change', '#filter', function(e) {
+    state.filter = $(e.target).val();
+    domain = [statTable[state.metric].byType[state.filter].min, statTable[state.metric].byType[state.filter].max];
+    updateLayers();
+});
+
+// $(document).on('change', "#view", function(e) {
+//     state.view = $(e.target).val();
+//
+//     if (state.view=== "2D"){
+//         document.getElementById("world").remove();
+//         var newDiv = document.createElement("div");
+//         newDiv.id = "map";
+//         // newDiv.className = "fullscreen";
+//         document.getElementById('view-container').appendChild(newDiv);
+//
+//         create2DMap();
+//         add2DInteraction();
+//         handleData();
+//
+//     }
+//     if (state.view=== "3D"){
+//         document.getElementById("map").remove();
+//         var newDiv = document.createElement("div");
+//         newDiv.id = "world";
+//         newDiv.className = "fullscreen";
+//         document.getElementById('view-container').appendChild(newDiv);
+//         // document.getElementById("map").style.display = "none";
+//         // document.getElementById("world").style.display = "";
+//         create3DView();
+//     }
+//
+// })
+
+//
+// init on page ready
+
+$(document).ready(function() {
+    create2DMap();
+
+    // handle data retrieved via ajax
+    Promise.all(['./data.csv', "./geometry.geojson"].map($.get)).then(handleData);
+
+    add2DInteraction();
+
 
 })

@@ -25,9 +25,9 @@ var colourScale = chroma.scale(['rgba(253,216,53 ,1)', 'rgba(183,28,28 ,1)']).do
 
 // pull in csv file
 var handleData = function(values) {
-    
+
     var localData = table;
-    
+
     // values is an array:
     // [0] csv  file string
     // [1] json file string
@@ -35,12 +35,12 @@ var handleData = function(values) {
     var rows = Papa.parse(csvRaw, {
         header: true
     }).data;
-    
+
     //var json = values.shift();
     //if (typeof json == "string") {
     //    json = JSON.parse(json);
     //}
-    
+
     var typeMap = {};
 
     for (var r in rows) {
@@ -76,7 +76,7 @@ var styleFunction = function (feature) {
 
     // get row from table table by ID
     if (feature.properties.PARCEL_ID) {
-        
+
         var id = feature.properties.PARCEL_ID;
         var row = {};
         if (table[id]) {
@@ -86,7 +86,7 @@ var styleFunction = function (feature) {
             row[state.metric] = 0;
         }
 
-        // get value from row        
+        // get value from row
         var value = row[state.metric];
 
         // build color
@@ -129,7 +129,7 @@ $(document).ready(function () {
     VIZI.geoJSONLayer('./boston_buildings_subset3.json', {
         interactive: false,
         output: true,
-        style: styleFunction,        
+        style: styleFunction,
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors</a>.'
 
     }).addTo(world);

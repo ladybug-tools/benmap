@@ -18,40 +18,37 @@
     <script src="./vendor/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
     <script src="./vendor/openlayers-v3.19.1-dist/ol.js"></script>
     <script src="./vendor/chroma/chroma.min.js"></script>
-    <script src="./vendor/three/three.min.js"></script>
+    <!-- <script src="./vendor/three/three.min.js"></script>
     <script src="./vendor/TweenMax/TweenMax.min.js"></script>
-    <script src="./vendor/vizcities-dist/vizicities.min.js"></script>
+    <script src="./vendor/vizcities-dist/vizicities.min.js"></script> -->
     <script src="./vendor/PapaParse/papaparse.min.js"></script>
     <script src="./vendor/d3/d3.v3.min.js"></script>
     <script src="./vendor/ol3-geocoder/ol3-geocoder.js"></script>
-    <!-- <script src="./vendor/d3/colorbrewer.v1.min.js"></script> -->
-    <!-- <script src="./js/legend.js"></script> -->
+
 
     <script src="js/main.js"></script>
 </head>
 
-<!-- <body class="fixed-nav"> -->
-<!-- <div class="fixed-nav fullscreen" id="map"></div> -->
-
-<!-- <nav class="navbar navbar-light navbar-fixed-top bg-black ">
-        <a class="navbar-brand brand" href="#">BenMap</a>
-    </nav> -->
-
 <body>
-    <div class="fullscreen" id="map"></div>
-    <div class="fullscreen" id="world"></div>
+    <div id = "view-container" class="fullscreen">
+        <div id="map"></div>
+    </div>
+    <!-- <div class="fullscreen" id="world"></div> -->
 
     <div id="main" class="container-fluid">
         <div class="row">
             <div class="col-xs-12 bg-translucent">
                 <div class="col-xs-2 tile-rect">
                     <ul class="nav navbar-nav">
-                        <li class="navbar-item"><h4><a class="nav-link brand" href="/">BEnMap</a> </h4></li>
-                        <li class="navbar-item clearfix">
-                            <select id="view" class="form-control input-sm">
+                        <li class="navbar-item">
+                            <h4><a class="nav-link brand" href="/">BEnMap</a> </h4>
+                        </li>
+                        <li class="clearfix">
+                            <!-- <select id="view" class="form-control input-sm">
                                 <option value="2D" selected>2D</option>
                                 <option value="3D">3D</option>
-                            </select>
+                            </select> -->
+                            <a role="button" onclick="goTo3D()"class="brand clearfix" href="./3D.html" target="_blank">3D</a>
                         </li>
                     </ul>
                 </div>
