@@ -34,10 +34,11 @@ var handleData = function(values){
   // [0] csv  file string
   // [1] json file string
   var csvRaw  = values.shift();
-  var jsonRaw = values.shift();
-  
   var rows = Papa.parse(csvRaw, {header: true} ).data;
-  var json = JSON.parse(jsonRaw);
+  var json = values.shift();
+  if(typeof json == "string"){
+    json = JSON.parse(json);
+  }
   
   for(var r in rows){
     var row = rows[r];
@@ -73,9 +74,9 @@ var setStyles = function(feature) {
     // get feature ID
     var id;
     if(feature.properties){
-      id = feature.properties.PARCEL_ID;
+      id = feature.properties[ key ];
     }else if(feature.T){
-      id = feature.T.PARCEL_ID;
+      id = feature.T[ key ];
     }
     
     // get row from table table by ID
@@ -88,6 +89,11 @@ var setStyles = function(feature) {
     }
     
     // logic here for filter (set alpha to 0 if not pass filter?)
+    var featureFilter = row[ "Property Type" ];
+    var alpha = 0;
+    if( featureFilter = state.filter ){
+      alpha = 1;
+    }
 
     // get value from row
     var value = row[ state.metric ];
@@ -110,7 +116,8 @@ var setStyles = function(feature) {
             width: 2
         }),
         fill: new ol.style.Fill({
-            color: rgbaFill
+            color: rgbaFill,
+            opacity: alpha
         })
     })
 
