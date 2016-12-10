@@ -138,28 +138,47 @@ var handleData = function(values) {
     for (var r in rows) {
         var row = rows[r];
         if (row[key]) {
+          var type = 'unknown';
+          if (row[typeKey]) {
+            type = row[typeKey];
+            typeMap[type] = true;
+          }
           var ids = validIdsFromString(row[key]);
+          
           ids.map(function(id){
             localData[id] = row;
             Object.keys(row).map(function(col){
               var val = parseFloat(row[col]);
               if(!statTable[col]){
                 return statTable[col] = {
-                  max: val,
-                  min: val
+                  all:{
+                    max: val,
+                    min: val
+                  },
+                  byType:{}
                 };
               }
-              if(val>statTable[col].max){
-                statTable[col].max = val;
+              if(val>statTable[col].all.max){
+                statTable[col].all.max = val;
               }
-              if(val<statTable[col].min){
-                statTable[col].min = val;
+              if(val<statTable[col].all.min){
+                statTable[col].all.min = val;
+              }
+              if(!statTable[col].byType[type]){
+                statTable[col].byType[type] = {
+                  max:val,
+                  min:val
+                };
+              }
+              if(val>statTable[col].byType[type].max){
+                statTable[col].byType[type].max = val;
+              }
+              if(val<statTable[col].byType[type].min){
+                statTable[col].byType[type].min = val;
               }
             });
           });
-          if (row[typeKey]) {
-              typeMap[row[typeKey]] = true;
-          }
+
 
         }
     }
