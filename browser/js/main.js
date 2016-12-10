@@ -10,10 +10,10 @@ var state = {
 //
 // objects/variables that need to be accessed within functions
 
-var style     = {};
-var table     = {};
+var style = {};
+var table = {};
 var statTable = {};
-var olMap     = {};
+var olMap = {};
 var vectorLayer = {};
 var vectorSource = {};
 var key = 'PARCEL_ID';
@@ -28,21 +28,22 @@ var scale = chroma.scale(['rgba(253,216,53 ,1)', 'rgba(183,28,28 ,1)']).domain(d
 //
 // we put the FUN in functions
 
-var validIdsFromString = function( unverified ){
-  var splitBy = new RegExp('[^0-9]{1,}','i');
-  //         123456780
-  var pad = "000000000";
-  return unverified
-    .split(splitBy)
-    .filter(function(i){
-      return ((i)?true:false);
-    })
-    .map(function(p){
-      return pad.substring(0, pad.length - p.length) + p
-    });
+var validIdsFromString = function(unverified) {
+    var splitBy = new RegExp('[^0-9]{1,}', 'i');
+    //         123456780
+    var pad = "000000000";
+    return unverified
+        .split(splitBy)
+        .filter(function(i) {
+            return ((i) ? true : false);
+        })
+        .map(function(p) {
+            return pad.substring(0, pad.length - p.length) + p
+        });
 };
 
 var updateSelectors = function() {
+    types.sort();
     types.map(function(type) {
         $('#filter').append('<option value="' + type + '">' + type + '</option>');
     });
@@ -62,7 +63,11 @@ var updateLegend = function() {
         .style("max-height", "40px")
         .append("g")
         .attr("transform", "translate(10, 0)");
+    // svg.data(domain);
     var defs = svg.append("defs");
+
+    // svg.selectAll(".axis").data([]).exit().remove();
+
     var linearGradient = defs.append("linearGradient")
         .attr("id", "linear-gradient")
         .attr("x1", "0%")
@@ -114,7 +119,6 @@ var updateLegend = function() {
         .attr("transform", "translate(0," + (20) + ")")
         .call(xAxis);
 
-
 }
 
 
@@ -139,46 +143,46 @@ var handleData = function(values) {
     for (var r in rows) {
         var row = rows[r];
         if (row[key]) {
-          var type = 'unknown';
-          if (row[typeKey]) {
-            type = row[typeKey];
-            typeMap[type] = true;
-          }
-          var ids = validIdsFromString(row[key]);
-          
-          ids.map(function(id){
-            localData[id] = row;
-            Object.keys(row).map(function(col){
-              var val = parseFloat(row[col]);
-              if(!statTable[col]){
-                return statTable[col] = {
-                  all:{
-                    max: val,
-                    min: val
-                  },
-                  byType:{}
-                };
-              }
-              if(val>statTable[col].all.max){
-                statTable[col].all.max = val;
-              }
-              if(val<statTable[col].all.min){
-                statTable[col].all.min = val;
-              }
-              if(!statTable[col].byType[type]){
-                statTable[col].byType[type] = {
-                  max:val,
-                  min:val
-                };
-              }
-              if(val>statTable[col].byType[type].max){
-                statTable[col].byType[type].max = val;
-              }
-              if(val<statTable[col].byType[type].min){
-                statTable[col].byType[type].min = val;
-              }
+            var type = 'unknown';
+            if (row[typeKey]) {
+                type = row[typeKey];
+                typeMap[type] = true;
+            }
+            var ids = validIdsFromString(row[key]);
+
+            ids.map(function(id) {
+                localData[id] = row;
+                Object.keys(row).map(function(col) {
+                    var val = parseFloat(row[col]);
+                    if (!statTable[col]) {
+                        return statTable[col] = {
+                            all: {
+                                max: val,
+                                min: val
+                            },
+                            byType: {}
+                        };
+                    }
+                    if (val > statTable[col].all.max) {
+                        statTable[col].all.max = val;
+                    }
+                    if (val < statTable[col].all.min) {
+                        statTable[col].all.min = val;
+                    }
+                    if (!statTable[col].byType[type]) {
+                        statTable[col].byType[type] = {
+                            max: val,
+                            min: val
+                        };
+                    }
+                    if (val > statTable[col].byType[type].max) {
+                        statTable[col].byType[type].max = val;
+                    }
+                    if (val < statTable[col].byType[type].min) {
+                        statTable[col].byType[type].min = val;
+                    }
+                });
             });
-          });
 
 
         }
@@ -189,7 +193,7 @@ var handleData = function(values) {
     updateSelectors();
 
     console.log(statTable, state.metric, statTable[state.metric]);
-    domain = [statTable[state.metric].min, statTable[state.metric].max];
+    domain = [statTable[state.metric].all.min, statTable[state.metric].all.max];
 
     updateLegend();
 
@@ -312,6 +316,7 @@ $(document).on('change', '#metric', function(e) {
 });
 $(document).on('change', '#filter', function(e) {
     state.filter = $(e.target).val();
+    domain = [statTable[state.metric].byType[state.filter].min, statTable[state.metric].byType[state.filter].max];
     updateLayers();
 });
 
@@ -364,7 +369,7 @@ $(document).ready(function() {
         //content.innerHTML = '<p>' + address.formatted + '</p>';
         // console.log("newCoord" , coord);
         //overlay.setPosition(coord);
-        olMap.setView ( new ol.View({
+        olMap.setView(new ol.View({
             center: [coord[0], coord[1]],
             zoom: 16,
             projection: 'EPSG:4326'
