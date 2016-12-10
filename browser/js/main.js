@@ -139,7 +139,7 @@ var handleData = function(values) {
     }
 
     var typeMap = {};
-    
+
     rows.map(function(row){
       if(!row[key]){
         return;
@@ -377,44 +377,104 @@ $(document).ready(function() {
 
     olMap.addControl(geocoder);
 
-    olMap.on('click', function(evt) {
-        console.log("map Click event fired");
-        document.getElementById("details").style.display = "block";
-        // console.log(evt.pixel);
-        olMap.forEachFeatureAtPixel(evt.pixel, function(feature, layer) {
-            // console.log("feature: ", feature);
-            // get feature ID
-            var id;
-            if (feature.properties) {
-                id = feature.properties[key];
-            } else if (feature.T) {
-                id = feature.T[key];
-            }
-            // console.log("id", id);
-            // get row from table table by ID
-            var row = {};
-            if (table[id]) {
-                row = table[id];
-                //find the way to bind the front end?
-                // console.log("rows", row);
+    var select = null; // ref to currently selected interaction
 
-                document.getElementById("name").innerHTML = row["Property Name"];
-                document.getElementById("address").innerHTML = row["Address"];
-                document.getElementById("siteEUI").innerHTML = row["Site EUI (kBTU/sf)"];
-                document.getElementById("sourceEUI").innerHTML = row["Source EUI (kBTU/sf)"];
-                document.getElementById("GHGIntensity").innerHTML = row["GHG Intensity (kgCO2/sf)"];
-                document.getElementById("EnergyStar").innerHTML = row["Energy Star Score"];
-                document.getElementById("waterIntensity").innerHTML = row["Water Intensity (gal/sf)"];
-                document.getElementById("distanceTo2030").innerHTML = row["Distance to 2030 Target %"];
-                document.getElementById("totalSite").innerHTML = row[" Total Site Energy (kBTU) "];
-                document.getElementById("totalSource").innerHTML = row["Total Source Energy (kBTU)"];
-                document.getElementById("GHGEmissions").innerHTML = row["GHG Emissions (MTCO2e)"];
+       // select interaction working on "click"
+       var selectClick = new ol.interaction.Select({
+           condition: ol.events.condition.click
+       });
 
-            }
 
-        })
+       var changeInteraction = function() {
+           if (select !== null) {
+               olMap.removeInteraction(select);
+           }
+           select = selectClick;
+           if (select !== null) {
 
-    })
+               olMap.addInteraction(select);
+               select.on('select', function(e) {
+                   if(!e.selected[0]) document.getElementById("details").style.display = "none";
+                   else {
+                       document.getElementById("details").style.display = "block";
+                      var properties = e.selected[0].getProperties();
+                      //console.log("selectedfeature", feature);
+                      //get feature ID
+                      var id;
+                      if (properties) {
+                          id = properties[key];
+                      } else if (e.selected[0].T) {
+                          id = e.selected[0].T[key];
+                      }
+                      console.log("id", id);
+                      // get row from table table by ID
+                      var row = {};
+                      if (table[id]) {
+                          row = table[id];
+                          //find the way to bind the front end?
+                          console.log("rows", row);
+
+                          document.getElementById("name").innerHTML = row["Property Name"];
+                          document.getElementById("address").innerHTML = row["Address"];
+                          document.getElementById("siteEUI").innerHTML = row["Site EUI (kBTU/sf)"];
+                          document.getElementById("sourceEUI").innerHTML = row["Source EUI (kBTU/sf)"];
+                          document.getElementById("GHGIntensity").innerHTML = row["GHG Intensity (kgCO2/sf)"];
+                          document.getElementById("EnergyStar").innerHTML = row["Energy Star Score"];
+                          document.getElementById("waterIntensity").innerHTML = row["Water Intensity (gal/sf)"];
+                          document.getElementById("distanceTo2030").innerHTML = row["Distance to 2030 Target %"];
+                          document.getElementById("totalSite").innerHTML = row[" Total Site Energy (kBTU) "];
+                          document.getElementById("totalSource").innerHTML = row["Total Source Energy (kBTU)"];
+                          document.getElementById("GHGEmissions").innerHTML = row["GHG Emissions (MTCO2e)"];
+                      }
+
+                   }
+
+               });
+           }
+       };
+
+       /**
+        * onchange callback on the select element.
+        */
+       changeInteraction();
+    // olMap.on('click', function(evt) {
+    //     console.log("map Click event fired");
+    //     document.getElementById("details").style.display = "block";
+    //     // console.log(evt.pixel);
+    //     olMap.forEachFeatureAtPixel(evt.pixel, function(feature, layer) {
+    //         // console.log("feature: ", feature);
+    //         // get feature ID
+    //         var id;
+    //         if (feature.properties) {
+    //             id = feature.properties[key];
+    //         } else if (feature.T) {
+    //             id = feature.T[key];
+    //         }
+    //         // console.log("id", id);
+    //         // get row from table table by ID
+    //         var row = {};
+    //         if (table[id]) {
+    //             row = table[id];
+    //             //find the way to bind the front end?
+    //             // console.log("rows", row);
+    //
+    //             document.getElementById("name").innerHTML = row["Property Name"];
+    //             document.getElementById("address").innerHTML = row["Address"];
+    //             document.getElementById("siteEUI").innerHTML = row["Site EUI (kBTU/sf)"];
+    //             document.getElementById("sourceEUI").innerHTML = row["Source EUI (kBTU/sf)"];
+    //             document.getElementById("GHGIntensity").innerHTML = row["GHG Intensity (kgCO2/sf)"];
+    //             document.getElementById("EnergyStar").innerHTML = row["Energy Star Score"];
+    //             document.getElementById("waterIntensity").innerHTML = row["Water Intensity (gal/sf)"];
+    //             document.getElementById("distanceTo2030").innerHTML = row["Distance to 2030 Target %"];
+    //             document.getElementById("totalSite").innerHTML = row[" Total Site Energy (kBTU) "];
+    //             document.getElementById("totalSource").innerHTML = row["Total Source Energy (kBTU)"];
+    //             document.getElementById("GHGEmissions").innerHTML = row["GHG Emissions (MTCO2e)"];
+    //
+    //         }
+    //
+    //     })
+    //
+    // })
 
 
 })
