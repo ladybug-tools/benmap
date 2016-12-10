@@ -1,3 +1,5 @@
+var style = {};
+
 function trackMetric(metric) {
     console.log("Metric: ", metric.value);
 };
@@ -6,7 +8,32 @@ function getFilter(filter) {
     console.log("Filter: ", filter.value);
 };
 
-var scale = chroma.scale(['rgba(250,250,250 ,1)', 'rgba(183,28,28 ,1)']).domain([0, 30]);
+function setStyles(feature) {
+    console.log(feature.getProperties());
+    var scale = chroma.scale(['rgba(250,250,250 ,1)', 'rgba(183,28,28 ,1)']).domain([0, 30]);
+
+    var value = feature.getProperties().PART_HEIGH;
+
+    var color = scale(value).rgb();
+    var alpha = scale(value).alpha();
+
+    var rgba = "rgba(" + color[0] + "," + color[1] + "," + color[2];
+    var rgbaStroke = rgba + ", 1)"
+    var rgbaFill = rgba + ", 0.8)"
+    console.log(rgba, rgbaStroke, rgbaFill)
+    return style[feature.getProperties().PARCEL_ID] = new ol.style.Style({
+        stroke: new ol.style.Stroke({
+            color: rgbaStroke,
+            width: 2
+        }),
+        fill: new ol.style.Fill({
+            color: rgbaFill
+        })
+    })
+
+}
+
+
 
 var styles = {
     'R1': new ol.style.Style({
@@ -42,18 +69,10 @@ var styles = {
 var styleFunction = function(feature) {
     //console.log("in function prop", feature.getProperties());
     console.log("in function getkey", feature.getProperties()["PART_USE"]);
-    var value = 10.3;
-
-    var color = scale(value).rgb();
-    var alpha = scale(value).alpha();
-
-    console.log("color", scale[0],color, alpha);
-
-
-    styles["R1"].fill = new ol.style.Fill({
-        color: scale(value).rgb()
-    })
-    return styles[feature.getProperties()["PART_USE"]];
+    var res = setStyles(feature);
+    console.log(res);
+    // return styles[feature.getProperties()["PART_USE"]];
+    return res;
 }
 
 
