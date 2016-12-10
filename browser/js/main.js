@@ -11,16 +11,24 @@ var state = {
 //
 // objects/variables that need to be accessed within functions
 
-var style        = {};
-var table        = {};
-var olMap        = {};
-var vectorLayer  = {};
-var vectorSource = {};
-var key          = 'PARCEL_ID';
+var style         = {};
+var table         = {};
+var olMap         = {};
+var vectorLayer   = {};
+var vectorSource  = {};
+var key           = 'PARCEL_ID';
+var types         = [];
+var typeKey       = 'Property Type';
 
 
 //
 // we put the FUN in functions
+
+var updateSelectors = function(){
+  types.map(function(type){
+    $('#filter').append('<option value="'+type+'">'+type+'</option>');
+  });
+};
 
 var updateLayers = function(){
   vectorLayer.setStyle( setStyles );
@@ -40,14 +48,24 @@ var handleData = function(values){
     json = JSON.parse(json);
   }
   
+  var typeMap = {};
+  
   for(var r in rows){
     var row = rows[r];
     // console.log(Object.keys(row));
     if(row[ key ]){
       // console.log('adding row');
+      if(row[ typeKey ]){
+        typeMap[row[typeKey]] = true;
+      }
       localData[row[ key ]] = row;
+      
     }
   }
+  
+  types = Object.keys(typeMap);
+  
+  updateSelectors();
       
   json.features.map(function(feature){
     setStyles(feature);
@@ -89,24 +107,28 @@ var setStyles = function(feature) {
     }
     
     // logic here for filter (set alpha to 0 if not pass filter?)
-    var featureFilter = row[ "Property Type" ];
-    var alpha = 0;
-    if( featureFilter = state.filter ){
-      alpha = 1;
+    var featureFilter = row[ typeKey ];
+    // console.log(featureFilter);
+    var alphaStroke = 0;
+    var alphaFill   = 0;
+    if( featureFilter == state.filter ){
+      console.log('we got a '+state.filter);
+      alphaStroke = 1;
+      alphaFill   = 0.8;
     }
 
     // get value from row
     var value = row[ state.metric ];
 
     // build color
-    var scale = chroma.scale(['white', 'rgba(183,28,28 ,1)']).domain([0, 35]);
+    var scale = chroma.scale(['blue', 'rgba(183,28,28 ,1)']).domain([0, 200]);
     var color = scale(value).rgb();
     // console.log(value, color);
     // var alpha = scale(value).alpha();
 
     var rgba = "rgba(" + color[0].toFixed(0) + "," + color[1].toFixed(0) + "," + color[2].toFixed(0);
-    var rgbaStroke = rgba + ",1)";
-    var rgbaFill = rgba + ",0.8)";
+    var rgbaStroke = rgba + ","+alphaStroke+")";
+    var rgbaFill = rgba + ","+alphaFill+")";
 
     // console.log(rgbaStroke);
 
@@ -116,8 +138,7 @@ var setStyles = function(feature) {
             width: 2
         }),
         fill: new ol.style.Fill({
-            color: rgbaFill,
-            opacity: alpha
+            color: rgbaFill
         })
     })
 
