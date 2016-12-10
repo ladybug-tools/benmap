@@ -10,7 +10,7 @@ function getFilter(filter) {
 
 function setStyles(feature) {
     // console.log(feature);
-    var scale = chroma.scale(['white', 'red']).domain([0, 35]);
+    var scale = chroma.scale(['white', 'rgba(183,28,28 ,1)']).domain([0, 35]);
 
     var value = feature.properties["PART_HEIGH"];
 
