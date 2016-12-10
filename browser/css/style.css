@@ -73,6 +73,11 @@ a.footer {
     height: 100%;
     width: 100%;
 }
+
+.fullwidth {
+    width: 100%;
+}
+
 .overlay {
     position:absolute;
     min-width: 200px;

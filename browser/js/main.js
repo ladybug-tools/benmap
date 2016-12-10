@@ -56,17 +56,19 @@ var updateLayers = function() {
 
 var updateLegend = function() {
     console.log("In update legend", domain);
-    var width = 250;
+    var maxWidth = 250;
     var height = 20;
 
-    var svg = d3.select("svg")
+    var svgContainer = d3.select("svg")
         .style("max-height", "40px")
-        .append("g")
-        .attr("transform", "translate(10, 0)");
-    // svg.data(domain);
-    var defs = svg.append("defs");
 
-    // svg.selectAll(".axis").data([]).exit().remove();
+    svgContainer.selectAll("svg > *").remove();
+
+    var svg = svgContainer.append("g")
+        .attr("transform", "translate(10, 0)")
+        .attr("width", "100%");
+    svg.data(domain);
+    var defs = svg.append("defs");
 
     var linearGradient = defs.append("linearGradient")
         .attr("id", "linear-gradient")
@@ -86,7 +88,8 @@ var updateLegend = function() {
 
     //Create the bar
     svg.append("rect")
-        .attr("width", width)
+        .attr("width", maxWidth)
+        // .attr("max-width", maxWidth)
         .attr("height", height)
         .attr("y", 5)
         .style("fill", "url(#linear-gradient)");
@@ -101,10 +104,9 @@ var updateLegend = function() {
 
     //Set scale for x-axis
     var xScale = d3.scale.linear()
-        .range([0, width])
-        .domain([0, d3.max(domain, function(d) {
-            return d;
-        })]);
+        .range([0, maxWidth])
+        .domain([0, d3.max(domain)])
+        .nice();
 
     //Define x-axis
     var xAxis = d3.svg.axis()
