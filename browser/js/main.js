@@ -220,28 +220,41 @@ $(document).ready(function() {
     // handle data retrieved via ajax
     Promise.all(['./data.csv', "./geometry.geojson"].map($.get)).then(handleData);
 
-  olMap.on('click', function(evt){
-      console.log("map Click event fired");
-      olMap.forEachFeatureAtPixel(evt.pixel, function(feature, layer){
-          // get feature ID
-          var id;
-          if(feature.properties){
-            id = feature.properties[ key ];
-          }else if(feature.T){
-            id = feature.T[ key ];
-          }
-           console.log("id", id);
-          // get row from table table by ID
-          var row = {};
-          if(table[id]){
-            row = table[id];
-            //find the way to bind the front end?
-            console.log("rows", row);
-          }
+    olMap.on('click', function(evt) {
+        console.log("map Click event fired");
+        olMap.forEachFeatureAtPixel(evt.pixel, function(feature, layer) {
+            // get feature ID
+            var id;
+            if (feature.properties) {
+                id = feature.properties[key];
+            } else if (feature.T) {
+                id = feature.T[key];
+            }
+            console.log("id", id);
+            // get row from table table by ID
+            var row = {};
+            if (table[id]) {
+                row = table[id];
+                //find the way to bind the front end?
+                console.log("rows", row);
 
-      })
+                document.getElementById("name").innerHTML = row["Property Name"];
+                document.getElementById("address").innerHTML = row["Address"];
+                document.getElementById("siteEUI").innerHTML = row["Site EUI (kBTU/sf)"];
+                document.getElementById("sourceEUI").innerHTML = row["Source EUI (kBTU/sf)"];
+                document.getElementById("GHGIntensity").innerHTML = row["GHG Intensity (kgCO2/sf)"];
+                document.getElementById("EnergyStar").innerHTML = row["Energy Star Score"];
+                document.getElementById("waterIntensity").innerHTML = row["Water Intensity (gal/sf)"];
+                document.getElementById("distanceTo2030").innerHTML = "TODO";
+                document.getElementById("totalSite").innerHTML = row[" Total Site Energy (kBTU) "];
+                document.getElementById("totalSource").innerHTML = row["Total Source Energy (kBTU)"];
+                document.getElementById("GHGEmissions").innerHTML = row["GHG Emissions (MTCO2e)"];
 
-  })
+            }
+
+        })
+
+    })
 
 
 })
