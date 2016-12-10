@@ -52,6 +52,11 @@ a.footer {
     min-height: 40px;
 }
 
+#legend {
+    float: right;
+    width: 500px;
+
+}
 
 /*MAPS*/
 
