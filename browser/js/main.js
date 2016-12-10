@@ -1,3 +1,11 @@
+function trackMetric(metric){
+    console.log("Metric: ", metric.value);
+};
+
+function getFilter(filter){
+    console.log("Filter: ", filter.value);
+};
+
 $(document).ready(function() {
 
     var olMap = new ol.Map({

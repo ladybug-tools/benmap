@@ -30,18 +30,34 @@
 </head>
 
 <!-- <body class="fixed-nav"> -->
-    <!-- <div class="fixed-nav fullscreen" id="map"></div> -->
+<!-- <div class="fixed-nav fullscreen" id="map"></div> -->
 
-    <!-- <nav class="navbar navbar-light navbar-fixed-top bg-black ">
+<!-- <nav class="navbar navbar-light navbar-fixed-top bg-black ">
         <a class="navbar-brand brand" href="#">BenMap</a>
     </nav> -->
+
 <body>
     <div class="fullscreen" id="map"></div>
 
     <div id="main" class="container-fluid">
         <div class="row">
-            <div class="col-xs-2 tile-rect bg-translucent">
-                <h4>BEnMap</h4>
+            <div class="col-xs-12  bg-translucent">
+                <div class="col-xs-2 tile-rect">
+                    <h4>BEnMap</h4>
+                </div>
+                <div class="col-xs-3 tile-rect">
+                    <select id="metric" class="form-control input-sm" onchange="trackMetric(this)">
+                    <option selected disabled>Choose Metric</option>
+                    <option value="energy">Energy Use Intensity</option>
+                    <option value="carbon">Carbon Footprint</option>
+                </select>
+                </div>
+                <div class="col-xs-3 tile-rect">
+                    <select id="filter" class="form-control input-sm" onchange="getFilter(this)">
+                    <option selected disabled>Choose Building Type</option>
+                    <option value="school">School</option>
+                </select>
+                </div>
             </div>
         </div>
     </div>

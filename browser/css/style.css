@@ -59,7 +59,7 @@ a {
 .tile-rect {
     float: left;
     min-width: 100px;
-    min-height: 40px;
+    min-height: 30px;
     margin: 10px 20px 10px 0;
     /*padding: 20px;*/
     position: relative;
