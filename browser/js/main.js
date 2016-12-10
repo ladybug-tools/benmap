@@ -309,7 +309,7 @@ var create3DView = function(){
         //    floors = feature.properties.PART_FLOOR;
         //}
 
-        var color = colourScale(height).hex(); // default color by height
+        var color = scale(height).hex(); // default color by height
 
         // get row from table table by ID
         if (feature.properties.PARCEL_ID) {
@@ -340,6 +340,9 @@ var create3DView = function(){
             height: height
         };
     }
+
+    console.log()
+
     var world = VIZI.world('world', {
         skybox: false,
         postProcessing: false
@@ -452,6 +455,7 @@ $(document).ready(function() {
         lang: 'en-US', //en-US, fr-FR
         placeholder: 'Search for ...',
         limit: 5,
+        autocomplete: true,
         keepOpen: true
     });
 
