@@ -1,39 +1,39 @@
-
 //
 // page state
 
 var state = {
-  filter: "school",
-  metric: "Source EUI (kBTU/sf)"
+    filter: "school",
+    metric: "Source EUI (kBTU/sf)"
 };
 
 
 //
 // objects/variables that need to be accessed within functions
 
-var style         = {};
-var table         = {};
-var olMap         = {};
-var vectorLayer   = {};
-var vectorSource  = {};
-var key           = 'PARCEL_ID';
-var types         = [];
-var typeKey       = 'Property Type';
+var style = {};
+var table = {};
+var olMap = {};
+var vectorLayer = {};
+var vectorSource = {};
+var key = 'PARCEL_ID';
+var types = [];
+var typeKey = 'Property Type';
 
 
 //
 // we put the FUN in functions
 
-var updateSelectors = function(){
-  types.map(function(type){
-    $('#filter').append('<option value="'+type+'">'+type+'</option>');
-  });
+var updateSelectors = function() {
+    types.map(function(type) {
+        $('#filter').append('<option value="' + type + '">' + type + '</option>');
+    });
 };
 
-var updateLayers = function(){
-  vectorLayer.setStyle( setStyles );
+var updateLayers = function() {
+    vectorLayer.setStyle(setStyles);
 };
 
+<<<<<<< HEAD
 var handleData = function(values){
 
   var localData = table;
@@ -85,54 +85,109 @@ var handleData = function(values){
   // debugger;
 
   olMap.addLayer(vectorLayer);
+=======
+var handleData = function(values) {
+
+    var localData = table;
+
+    // values is an array:
+    // [0] csv  file string
+    // [1] json file string
+    var csvRaw = values.shift();
+    var rows = Papa.parse(csvRaw, {
+        header: true
+    }).data;
+    var json = values.shift();
+    if (typeof json == "string") {
+        json = JSON.parse(json);
+    }
+
+    var typeMap = {};
+
+    for (var r in rows) {
+        var row = rows[r];
+        // console.log(Object.keys(row));
+        if (row[key]) {
+            // console.log('adding row');
+            if (row[typeKey]) {
+                typeMap[row[typeKey]] = true;
+            }
+            localData[row[key]] = row;
+
+        }
+    }
+
+    types = Object.keys(typeMap);
+
+    updateSelectors();
+
+    json.features.map(function(feature) {
+            setStyles(feature);
+        })
+        // console.log(style);
+        // debugger;
+
+    vectorSource = new ol.source.Vector({
+        features: (new ol.format.GeoJSON()).readFeatures(json)
+    });
+
+    vectorLayer = new ol.layer.Vector({
+        source: vectorSource,
+        style: styleFunction,
+        projection: 'EPSG:4326'
+    });
+    // debugger;
+
+    olMap.addLayer(vectorLayer);
+>>>>>>> origin/master
 };
 
 var setStyles = function(feature) {
 
     // get feature ID
     var id;
-    if(feature.properties){
-      id = feature.properties[ key ];
-    }else if(feature.T){
-      id = feature.T[ key ];
+    if (feature.properties) {
+        id = feature.properties[key];
+    } else if (feature.T) {
+        id = feature.T[key];
     }
 
     // get row from table table by ID
     var row = {};
-    if(table[id]){
-      row = table[id];
-    }else{
-      // console.log('row does not exist');
-      row[ state.metric ] = 0;
+    if (table[id]) {
+        row = table[id];
+    } else {
+        // console.log('row does not exist');
+        row[state.metric] = 0;
     }
 
     // logic here for filter (set alpha to 0 if not pass filter?)
-    var featureFilter = row[ typeKey ];
+    var featureFilter = row[typeKey];
     // console.log(featureFilter);
     var alphaStroke = 0;
-    var alphaFill   = 0;
-    if( featureFilter == state.filter ){
-      console.log('we got a '+state.filter);
-      alphaStroke = 1;
-      alphaFill   = 0.8;
+    var alphaFill = 0;
+    if (featureFilter == state.filter) {
+        console.log('we got a ' + state.filter);
+        alphaStroke = 1;
+        alphaFill = 0.8;
     }
 
     // get value from row
-    var value = row[ state.metric ];
+    var value = row[state.metric];
 
     // build color
-    var scale = chroma.scale(['blue', 'rgba(183,28,28 ,1)']).domain([0, 200]);
+    var scale = chroma.scale(['rgba(253,216,53 ,1)', 'rgba(183,28,28 ,1)']).domain([0, 200]);
     var color = scale(value).rgb();
     // console.log(value, color);
     // var alpha = scale(value).alpha();
 
     var rgba = "rgba(" + color[0].toFixed(0) + "," + color[1].toFixed(0) + "," + color[2].toFixed(0);
-    var rgbaStroke = rgba + ","+alphaStroke+")";
-    var rgbaFill = rgba + ","+alphaFill+")";
+    var rgbaStroke = rgba + "," + alphaStroke + ")";
+    var rgbaFill = rgba + "," + alphaFill + ")";
 
     // console.log(rgbaStroke);
 
-    return style[ id ] = new ol.style.Style({
+    return style[id] = new ol.style.Style({
         stroke: new ol.style.Stroke({
             color: rgbaStroke,
             width: 2
@@ -156,47 +211,35 @@ var styleFunction = function(feature) {
     // return style["R2"];
 }
 
-// var styles = {
-//     'R1': new ol.style.Style({
-//         stroke: new ol.style.Stroke({
-//             color: 'rgba(142,36,170 ,1)',
-//             width: 2
-//         }),
-//         fill: new ol.style.Fill({
-//             color: 'rgba(142,36,170 ,0.6)'
-//         })
-//     }),
-//     'R2': new ol.style.Style({
-//         stroke: new ol.style.Stroke({
-//             color: 'rgba(0,172,193 ,1)',
-//             width: 2
-//         }),
-//         fill: new ol.style.Fill({
-//             color: 'rgba(0,172,193 ,0.6)'
-//         })
-//     }),
-//     'R3': new ol.style.Style({
-//         stroke: new ol.style.Stroke({
-//             color: 'rgba(255,179,0 ,1)',
-//             width: 2
-//         }),
-//         fill: new ol.style.Fill({
-//             color: 'rgba(255,179,0 ,0.6)'
-//         })
-//     })
-// }
+function legendDemo() {
 
+    sampleNumerical = [1, 2.5, 5, 10, 20];
+    sampleThreshold = d3.scale.threshold()
+        .domain(sampleNumerical)
+        .range(colorbrewer.Reds[5]);
+    horizontalLegend = d3.svg.legend()
+        .units("EUI")
+        .cellWidth(80)
+        .cellHeight(25)
+        .inputScale(sampleThreshold)
+        .cellStepping(100);
+
+    d3.select("svg")
+        .append("g")
+        .attr("transform", "translate(50,30)").attr("class", "legend").call(horizontalLegend);
+
+}
 
 //
 // jQuery page listeners
 
-$(document).on('change','#metric',function(e){
-  state.metric = $(e.target).val();
-  updateLayers();
+$(document).on('change', '#metric', function(e) {
+    state.metric = $(e.target).val();
+    updateLayers();
 });
-$(document).on('change','#filter',function(e){
-  state.filter = $(e.target).val();
-  updateLayers();
+$(document).on('change', '#filter', function(e) {
+    state.filter = $(e.target).val();
+    updateLayers();
 });
 
 
@@ -205,6 +248,7 @@ $(document).on('change','#filter',function(e){
 
 $(document).ready(function() {
 
+<<<<<<< HEAD
   olMap = new ol.Map({
     layers: [
       new ol.layer.Tile({
@@ -230,6 +274,34 @@ $(document).ready(function() {
 
   // handle data retrieved via ajax
   Promise.all( ['./data.csv',"./geometry.geojson"].map($.get) ).then( handleData );
+=======
+    olMap = new ol.Map({
+        layers: [
+            new ol.layer.Tile({
+                source: new ol.source.Stamen({
+                    layer: "toner-lite"
+                })
+            })
+        ],
+        // overlays: [overlay],
+        target: 'map',
+        controls: ol.control.defaults({
+            attributionOptions: {
+                collapsible: false
+            }
+        }),
+        view: new ol.View({
+            //center: ol.proj.fromLonLat([-71.087955, 42.343583]),
+            center: [-71.087955, 42.343583],
+            zoom: 13,
+            projection: 'EPSG:4326'
+        })
+    });
+    legendDemo();
+
+    // handle data retrieved via ajax
+    Promise.all(['./data.csv', "./geometry.geojson"].map($.get)).then(handleData);
+>>>>>>> origin/master
 
   olMap.on('click', function(evt){
       console.log("map Click event fired");
