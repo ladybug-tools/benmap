@@ -6,16 +6,35 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="../../dist/vizicities.css">
     <link rel="stylesheet" href="../vendor/bootstrap337/css/bootstrap.css">
+    <style>
+      svg {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+    <script src="../vendor/three.min.js"></script>
+    <script src="../vendor/TweenMax.min.js"></script>
+    <script src="../vendor/chroma.min.js"></script>
+    <script src="../../dist/vizicities.min.js"></script>
+    <script src="../vendor/papaparse.min.js"></script>
+    <script src="../vendor/jquery-2.1.4.min.js"></script>
+    <script src="../vendor/bootstrap337/js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./vendor/PapaParse/papaparse.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://d3js.org/colorbrewer.v1.min.js"></script>
+    <script src="./js/legend.js"></script>
 </head>
 <body onload="legendDemo()">
   <div>
       <div id="world"></div>
   </div>
 
-  <!--<div id="legend">
+
+  <div id="legend">
     <svg></svg>
   </div>
-  -->
+
 
   <div id="main" class="container-fluid">
       <div class="row">
@@ -40,6 +59,7 @@
       </div>
   </div>
 
+
   <div id="footer" class="bg-black">
       <div class="container-fluid">
           <div class="row">
@@ -53,26 +73,15 @@
     <script>
       function legendDemo() {
 
-      sampleNumerical = [1,2.5,5,10,20];
-      sampleThreshold=d3.scale.threshold().domain(sampleNumerical).range(colorbrewer.Reds[5]);
-      verticalLegend = d3.svg.legend().units("EUI").orientation("vertical").cellWidth(30).cellHeight(30).inputScale(sampleThreshold).cellStepping(100);
+        sampleNumerical = [1,2.5,5,10,20];
+        sampleThreshold=d3.scale.threshold().domain(sampleNumerical).range(colorbrewer.Reds[5]);
+        horizontalLegend = d3.svg.legend().units("EUI").cellWidth(80).cellHeight(25).inputScale(sampleThreshold).cellStepping(100);
 
-      d3.select("svg").append("g").attr("transform", "translate(50,50)").attr("class", "legend").call(verticalLegend);
+        d3.select("svg").append("g").attr("transform", "translate(50,30)").attr("class", "legend").call(horizontalLegend);
 
       }
     </script>
     </footer>
 
-    <script src="../vendor/three.min.js"></script>
-    <script src="../vendor/TweenMax.min.js"></script>
-    <script src="../vendor/chroma.min.js"></script>
-    <script src="../../dist/vizicities.min.js"></script>
-    <script src="../vendor/papaparse.min.js"></script>
-    <script src="../vendor/jquery-2.1.4.min.js"></script>
-    <script src="../vendor/bootstrap337/js/bootstrap.min.js"></script>
-    <script src="./js/main.js"></script>
-    <script src="http://d3js.org/d3.v3.min.js"></script>
-    <script src="http://d3js.org/colorbrewer.v1.min.js"></script>
-    <script src="./js/legend.js"></script>
 </body>
 </html>
