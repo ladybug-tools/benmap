@@ -2,10 +2,25 @@ var style = {};
 
 function trackMetric(metric) {
     console.log("Metric: ", metric.value);
+    if (metric.value === "energy") {
+        // redirect to function to recalculate data using EUI column in csv data
+        // trigger setStyles
+    }
+    if (metric.value === "carbon"){
+        // use Carbon Intensity column
+    }
 };
 
 function getFilter(filter) {
     console.log("Filter: ", filter.value);
+    switch (filter.value) {
+        case ("School") :
+        // do something
+        break;
+        case ("Residential") :
+        // do something else
+        break;
+    }
 };
 
 function setStyles(feature) {
@@ -18,7 +33,7 @@ function setStyles(feature) {
     console.log(value, color);
     // var alpha = scale(value).alpha();
 
-    var rgba = "rgba(" + color[0] + "," + color[1] + "," + color[2];
+    var rgba = "rgba(" + color[0].toFixed(0) + "," + color[1].toFixed(0) + "," + color[2].toFixed(0);
     var rgbaStroke = rgba + ",1)";
     var rgbaFill = rgba + ",0.8)";
 
@@ -109,7 +124,6 @@ $(document).ready(function() {
 
 
     $.getJSON("EnergyJson3.geojson", function(json) {
-
         console.log(json);
 
         json.features.map(function(feature){
