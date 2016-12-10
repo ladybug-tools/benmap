@@ -140,6 +140,21 @@ var handleData = function(values) {
           var ids = validIdsFromString(row[key]);
           ids.map(function(id){
             localData[id] = row;
+            Object.keys(row).map(function(col){
+              var val = parseFloat(row[col]);
+              if(!statTable[col]){
+                return statTable[col] = {
+                  max: val,
+                  min: val
+                };
+              }
+              if(val>statTable[col].max){
+                statTable[col].max = val;
+              }
+              if(val<statTable[col].min){
+                statTable[col].min = val;
+              }
+            });
           });
           if (row[typeKey]) {
               typeMap[row[typeKey]] = true;
