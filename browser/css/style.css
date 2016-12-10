@@ -45,6 +45,21 @@ a.footer {
     color: #545454;
 }
 
+.inline {
+    display: inline-block;
+}
+
+.clearfix {
+    padding-left: 20px;
+}
+
+.navbar-link.brand a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 20px;
+    height: 20px;
+}
+
 
 /*LEGEND*/
 
@@ -73,6 +88,11 @@ a.footer {
     height: 100%;
     width: 100%;
 }
+
+.fullwidth {
+    width: 100%;
+}
+
 .overlay {
     position:absolute;
     min-width: 200px;
@@ -121,6 +141,12 @@ a.footer {
     background: rgba(255, 138, 101, 1);
 }
 
+/*3D Map*/
+.vizicities-attribution {
+    position: absolute;
+    display: none;
+    bottom: 0;
+}
 
 /*CUSTOM STYLING*/
 
