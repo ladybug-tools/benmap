@@ -1,6 +1,15 @@
 /*UTIL CLASSES*/
+
 a {
     text-decoration: none !important;
+}
+
+a.brand {
+    color: rgba(216, 67, 21, 1);
+}
+
+a.footer {
+    color: rgba(191, 54, 12, 1);
 }
 
 .bg-black {
@@ -8,14 +17,16 @@ a {
 }
 
 .bg-translucent {
-    background: rgba(255,255,255,0.85);
+    background: rgba(255, 255, 255, 0.85);
 }
 
 .brand {
     color: #EEEEEE;
 }
 
+
 /*LAYOUTS*/
+
 .fixed-nav {
     padding-top: 50px;
 }
@@ -41,7 +52,9 @@ a {
     min-height: 40px;
 }
 
+
 /*MAPS*/
+
 #map {
     min-height: 500px;
     height: 100%;
@@ -55,7 +68,21 @@ a {
     right: 5px;
 }
 
+.ol-control button,
+.ol-control button:visited,
+.ol-control button:focus
+ {
+    background: rgba(191, 54, 12, 1);
+}
+
+
+.ol-control button:active,
+.ol-control button:hover {
+    background: rgba(255,138,101 ,1);
+}
+
 /*CUSTOM STYLING*/
+
 .tile-rect {
     float: left;
     min-width: 100px;
@@ -66,6 +93,7 @@ a {
     /*border: 1px solid gray;*/
     /*box-shadow: 1px 2px 1px 1px gray;*/
 }
+
 .tile-rect h4 {
     margin-top: 5px;
 }

@@ -7,7 +7,21 @@ module.exports = function( config ){
   this.geom   = {};
   this.files  = {};
   this.writeOut = function(){
-    fs.writeFile();
+    var thisWrite = this;
+    
+    var csvStream = csv.createWriteStream({headers: true});
+    var writableStream = fs.createWriteStream( thisWrite.config.out );
+
+    writableStream.on("finish", function(){
+      console.log("DONE!");
+    });
+
+    csvStream.pipe(writableStream);
+    for(var r in thisWrite.table){
+      var row = thisWrite.table[r];
+      csvStream.write( row );
+    }
+    csvStream.end();
   };
   this.loadGeojson = function( file ){
     var thisLoad = this;
@@ -15,7 +29,18 @@ module.exports = function( config ){
       if(err)return err;
       try{
         var ob = JSON.parse(data);
-        console.log(Object.keys(ob));
+        // console.log(Object.keys(ob.features[0]));
+        if(ob.features){
+          console.log(ob.features.length,'features')
+          for(var f in ob.features){
+            var feature = ob.features[f];
+            if(feature.properties){
+              if(feature.properties[thisLoad.config.key]){
+                console.log(feature.properties[thisLoad.config.key]);
+              }
+            }
+          }
+        }
         thisLoad.files[file] = 'yes';
       }catch(e){
         console.log('bad JSON:',e);
@@ -36,7 +61,7 @@ module.exports = function( config ){
         thisLoad.files[file] = 'yes';
       });
   };
-  this.addData = function( id, data ){
+  this.addTableData = function( id, data ){
     if(!this.table[id]){
       this.table[id] = data;
       return;
@@ -59,8 +84,8 @@ module.exports = function( config ){
       }
       // console.log('good row:',keyValue);
     }
-    if(thisData.config && thisData.config.key && thisData.data[thisData.config.key]){
-      // console.log('has key!');
+    if(thisData.config && thisData.config.key && data[thisData.config.key]){
+      thisData.addTableData( data[thisData.config.key], data );
     }else{
       // console.log('does not have '+thisData.config.key);
     }
