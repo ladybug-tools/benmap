@@ -414,7 +414,11 @@ function add2DInteraction (){
 
 $(document).on('change', '#metric', function(e) {
     state.metric = $(e.target).val();
-    domain = [statTable[state.metric].byType[state.filter].min, statTable[state.metric].byType[state.filter].max];
+    if(state.filter=='All'){
+      domain = [statTable[state.metric].all.min, statTable[state.metric].all.max];
+    }else{
+      domain = [statTable[state.metric].byType[state.filter].min, statTable[state.metric].byType[state.filter].max];
+    }
     updateLayers();
 });
 $(document).on('change', '#filter', function(e) {
