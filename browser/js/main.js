@@ -451,6 +451,7 @@ $(document).ready(function() {
         lang: 'en-US', //en-US, fr-FR
         placeholder: 'Search for ...',
         limit: 5,
+        autocomplete: true,
         keepOpen: true
     });
 
