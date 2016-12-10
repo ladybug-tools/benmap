@@ -42,11 +42,12 @@ var updateLegend = function() {
     var height = 20;
 
     var svg = d3.select("svg")
-        .style("max-height", "50px");
+        .style("max-height", "40px")
+        .append("g")
+        .attr("transform", "translate(10, 0)");
     var defs = svg.append("defs");
     var linearGradient = defs.append("linearGradient")
-        .attr("id", "linear-gradient");
-    linearGradient
+        .attr("id", "linear-gradient")
         .attr("x1", "0%")
         .attr("y1", "0%")
         .attr("x2", "100%")
@@ -60,11 +61,42 @@ var updateLegend = function() {
     linearGradient.append("stop")
         .attr("offset", "100%")
         .attr("stop-color", "rgba(183,28,28 ,1)"); //dark blue
+
+    //Create the bar
     svg.append("rect")
         .attr("width", width)
         .attr("height", height)
+        .attr("y", 5)
         .style("fill", "url(#linear-gradient)");
-    // linearGradient.selectAll("stop")
+
+
+    //Create the legend title
+    // svg.append("text")
+    //     .attr("class", "legendTitle")
+    //     .attr("transform", "translate(" + (width / 2) + ", 40)")
+    //     .style("text-anchor", "middle")
+    //     .text(state.metric);
+
+    //Set scale for x-axis
+    var xScale = d3.scale.linear()
+        .range([0, width])
+        .domain([0, d3.max(domain, function(d) {
+            return d;
+        })]);
+
+    //Define x-axis
+    var xAxis = d3.svg.axis()
+        .orient("bottom")
+        .ticks(5)
+        //   .tickFormat(formatPercent)s
+        .scale(xScale);
+
+    //Set up X axis
+    svg.append("g")
+        .attr("class", "axis")
+        .attr("transform", "translate(0," + (20) + ")")
+        .call(xAxis);
+
 }
 
 
@@ -260,7 +292,10 @@ $(document).ready(function() {
 
     olMap.on('click', function(evt) {
         console.log("map Click event fired");
+        document.getElementById("details").style.display = "block";
+        console.log(evt.pixel);
         olMap.forEachFeatureAtPixel(evt.pixel, function(feature, layer) {
+            console.log("feature: ", feature);
             // get feature ID
             var id;
             if (feature.properties) {
@@ -287,7 +322,6 @@ $(document).ready(function() {
                 document.getElementById("totalSite").innerHTML = row[" Total Site Energy (kBTU) "];
                 document.getElementById("totalSource").innerHTML = row["Total Source Energy (kBTU)"];
                 document.getElementById("GHGEmissions").innerHTML = row["GHG Emissions (MTCO2e)"];
-
 
             }
 

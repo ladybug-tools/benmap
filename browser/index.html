@@ -31,13 +31,6 @@
 
 
     <script src="js/main.js"></script>
-    <!-- /*<style>
-        svg {
-            width: 100%;
-            height: 100%;
-        }
-    </style>*/ -->
-
 </head>
 
 <!-- <body class="fixed-nav"> -->
@@ -70,13 +63,17 @@
                 </div>
                 <div class="col-xs-3 tile-rect">
                     <select id="filter" class="form-control input-sm">
+<<<<<<< Updated upstream
                     <option selected disabled>Choose Building Type</option>
                     <option>All</option>
+=======
+                    <option selected disabled>Filter By Building Type</option>
+>>>>>>> Stashed changes
                   </select>
                 </div>
                 <div class="col-xs-3 tile-rect">
                     <div>
-                        <svg></svg>
+                        <svg id="legend"></svg>
                     </div>
                 </div>
             </div>
@@ -87,31 +84,31 @@
     <div id="details">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-xs-3 bg-translucent">
-                    <h6>DETAILS</h6>
+                <div class="col-xs-4 bg-translucent">
+                    <h5>DETAILS</h5>
                     <dl class="dl-horizontal">
                         <dt><small>Property Name</small></dt>
-                        <dd id = "name"><small>Information 1</small></dd>
+                        <dd id = "name"><small> - </small></dd>
                         <dt><small>Address</small></dt>
-                        <dd id = "address"><small>Information 2</small></dd>
+                        <dd id = "address"><small> - </small></dd>
                         <dt><small>Site EUI (kBTU)</small></dt>
-                        <dd id = "siteEUI"><small>Information 3</small></dd>
+                        <dd id = "siteEUI"><small> - </small></dd>
                         <dt><small>Source EUI (kBTU/sf)</small></dt>
-                        <dd id = "sourceEUI"><small>Information 4</small></dd>
+                        <dd id = "sourceEUI"><small> - </small></dd>
                         <dt><small>GHG Intensity (kgCO2/sf)</small></dt>
-                        <dd id = "GHGIntensity"><small>Information 5</small></dd>
+                        <dd id = "GHGIntensity"><small> - </small></dd>
                         <dt><small>Energy Star Score</small></dt>
-                        <dd id = "EnergyStar"><small>Information 6</small></dd>
+                        <dd id = "EnergyStar"><small> - </small></dd>
                         <dt><small>Water Intensity (gal/sf)</small></dt>
-                        <dd id = "waterIntensity"><small>Information 7</small></dd>
+                        <dd id = "waterIntensity"><small> - </small></dd>
                         <dt><small>Distance to 2030 (%)</small></dt>
-                        <dd id = "distanceTo2030"><small>Information 8</small></dd>
+                        <dd id = "distanceTo2030"><small> - </small></dd>
                         <dt><small>Total Site Energy (kBTU)</small></dt>
-                        <dd id = "totalSite"><small>Information 9</small></dd>
+                        <dd id = "totalSite"><small> - </small></dd>
                         <dt><small>Total Source Energy (kBTU)</small></dt>
-                        <dd id = "totalSource"><small>Information 10</small></dd>
+                        <dd id = "totalSource"><small> - </small></dd>
                         <dt><small>GHG Emissions</small></dt>
-                        <dd id = "GHGEmissions"><small>Information 11</small></dd>
+                        <dd id = "GHGEmissions"><small> - </small></dd>
                     </dl>
                 </div>
             </div>
@@ -127,10 +124,5 @@
             </div>
         </div>
     </div>
-
-    <footer>
-        <script>
-        </script>
-    </footer>
 
 </body>

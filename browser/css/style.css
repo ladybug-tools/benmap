@@ -25,16 +25,16 @@ a.footer {
 }
 .dl-horizontal dt {
     float: left;
-    width: 80px;
+    width: 160px;
     clear: left;
     text-align: right;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    /*overflow: hidden;*/
+    /*text-overflow: ellipsis;*/
+    /*white-space: nowrap;*/
 }
 
 .dl-horizontal dd {
-    margin-left: 100px;
+    margin-left: 180px;
 }
 
 /*LAYOUTS*/
@@ -56,18 +56,16 @@ a.footer {
     padding-bottom: 60px;
 }
 
+#details {
+    display: none;
+}
+
 #footer {
     display: block;
     width: 100%;
     position: absolute;
     bottom: 0px;
     min-height: 40px;
-}
-
-#legend {
-    float: right;
-    width: 500px;
-
 }
 
 /*MAPS*/
@@ -100,9 +98,14 @@ a.footer {
 
 
 /*LEGEND*/
-#legend svg {
-    width: 100%;
-    /*height: 100%;*/
+svg#legend {
+    /*width: 100%;*/
+    /*width: 500px;
+    float: right;*/
+}
+
+#tick text {
+    color: rgba(55,71,79 ,1);
 }
 
 /*CUSTOM STYLING*/
