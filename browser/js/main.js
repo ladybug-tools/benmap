@@ -136,34 +136,52 @@ var handleData = function(values) {
 
     var typeMap = {};
 
-    for (var r in rows) {
-        var row = rows[r];
-        if (row[key]) {
-          var ids = validIdsFromString(row[key]);
-          ids.map(function(id){
-            localData[id] = row;
-            Object.keys(row).map(function(col){
-              var val = parseFloat(row[col]);
-              if(!statTable[col]){
-                return statTable[col] = {
-                  max: val,
-                  min: val
-                };
-              }
-              if(val>statTable[col].max){
-                statTable[col].max = val;
-              }
-              if(val<statTable[col].min){
-                statTable[col].min = val;
-              }
-            });
-          });
-          if (row[typeKey]) {
-              typeMap[row[typeKey]] = true;
+    rows.map(function(row){
+      if(!row[key]){
+        return;
+      }
+      var type = 'unknown';
+      if (row[typeKey]) {
+        type = row[typeKey];
+        typeMap[type] = true;
+      }
+      var ids = validIdsFromString(row[key]);
+      
+      ids.map(function(id){
+        localData[id] = row;
+        Object.keys(row).map(function(col){
+          var val = parseFloat(row[col]);
+          if(!statTable[col]){
+            return statTable[col] = {
+              all:{
+                max: val,
+                min: val
+              },
+              byType:{}
+            };
           }
-
-        }
-    }
+          var stat = statTable[col];
+          if(val>stat.all.max){
+            stat.all.max = val;
+          }
+          if(val<stat.all.min){
+            stat.all.min = val;
+          }
+          if(!stat.byType[type]){
+            stat.byType[type] = {
+              max:val,
+              min:val
+            };
+          }
+          if(val>stat.byType[type].max){
+            stat.byType[type].max = val;
+          }
+          if(val<stat.byType[type].min){
+            stat.byType[type].min = val;
+          }
+        });
+      });
+    });
 
     types = Object.keys(typeMap);
 
