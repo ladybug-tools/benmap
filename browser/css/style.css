@@ -23,6 +23,7 @@ a.footer {
 .brand {
     color: #EEEEEE;
 }
+
 .dl-horizontal dt {
     float: left;
     width: 160px;
@@ -36,6 +37,29 @@ a.footer {
 .dl-horizontal dd {
     margin-left: 180px;
 }
+
+
+/*LEGEND*/
+
+svg#legend {
+    /*width: 100%;*/
+    /*width: 500px;
+    float: right;*/
+}
+
+.axis text {
+    font-size: 1.2rem;
+    fill: rgba(120,144,156 ,1); /*#AAAAAA*/
+    font-weight: 400;
+}
+
+.axis path, .axis tick, .axis line {
+    fill: none;
+    stroke: none;
+}
+
+
+
 
 /*LAYOUTS*/
 
@@ -68,6 +92,7 @@ a.footer {
     min-height: 40px;
 }
 
+
 /*MAPS*/
 
 #map {
@@ -83,30 +108,14 @@ a.footer {
     right: 5px;
 }
 
-.ol-control button,
-.ol-control button:visited,
-.ol-control button:focus
- {
+.ol-control button, .ol-control button:visited, .ol-control button:focus {
     background: rgba(191, 54, 12, 1);
 }
 
-
-.ol-control button:active,
-.ol-control button:hover {
-    background: rgba(255,138,101 ,1);
+.ol-control button:active, .ol-control button:hover {
+    background: rgba(255, 138, 101, 1);
 }
 
-
-/*LEGEND*/
-svg#legend {
-    /*width: 100%;*/
-    /*width: 500px;
-    float: right;*/
-}
-
-#tick text {
-    color: rgba(55,71,79 ,1);
-}
 
 /*CUSTOM STYLING*/
 

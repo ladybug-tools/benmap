@@ -88,7 +88,7 @@ var updateLegend = function() {
     var xAxis = d3.svg.axis()
         .orient("bottom")
         .ticks(5)
-        //   .tickFormat(formatPercent)s
+        //   .tickFormat(formatPercent)
         .scale(xScale);
 
     //Set up X axis
@@ -96,6 +96,7 @@ var updateLegend = function() {
         .attr("class", "axis")
         .attr("transform", "translate(0," + (20) + ")")
         .call(xAxis);
+
 
 }
 
