@@ -155,6 +155,9 @@ var handleData = function(values) {
         localData[id] = row;
         Object.keys(row).map(function(col){
           var val = parseFloat(row[col]);
+          if(isNaN(val)){
+            return;
+          }
           if(!statTable[col]){
             return statTable[col] = {
               all:{
