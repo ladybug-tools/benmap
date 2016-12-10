@@ -45,6 +45,10 @@ a.footer {
     color: #545454;
 }
 
+.clearfix {
+    padding-left: 10px;
+}
+
 
 /*LEGEND*/
 

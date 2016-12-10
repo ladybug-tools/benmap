@@ -3,9 +3,9 @@
 
 var state = {
     filter: "All",
-    metric: "Site EUI (kBTU/sf)"
+    metric: "Site EUI (kBTU/sf)",
+    view: "2D"
 };
-
 
 //
 // objects/variables that need to be accessed within functions
@@ -20,6 +20,10 @@ var key = 'PARCEL_ID';
 var types = [];
 var typeKey = 'Property Type';
 var domain = [];
+
+//
+// other variables
+var coordsBoston = [42.3568138, -71.0524385];
 
 //
 // color scale for reuse
@@ -142,54 +146,54 @@ var handleData = function(values) {
 
     var typeMap = {};
 
-    rows.map(function(row){
-      if(!row[key]){
-        return;
-      }
-      var type = 'unknown';
-      if (row[typeKey]) {
-        type = row[typeKey];
-        typeMap[type] = true;
-      }
-      var ids = validIdsFromString(row[key]);
-
-      ids.map(function(id){
-        localData[id] = row;
-        Object.keys(row).map(function(col){
-          var val = parseFloat(row[col]);
-          if(isNaN(val)){
+    rows.map(function(row) {
+        if (!row[key]) {
             return;
-          }
-          if(!statTable[col]){
-            return statTable[col] = {
-              all:{
-                max: val,
-                min: val
-              },
-              byType:{}
-            };
-          }
-          var stat = statTable[col];
-          if(val>stat.all.max){
-            stat.all.max = val;
-          }
-          if(val<stat.all.min){
-            stat.all.min = val;
-          }
-          if(!stat.byType[type]){
-            stat.byType[type] = {
-              max:val,
-              min:val
-            };
-          }
-          if(val>stat.byType[type].max){
-            stat.byType[type].max = val;
-          }
-          if(val<stat.byType[type].min){
-            stat.byType[type].min = val;
-          }
+        }
+        var type = 'unknown';
+        if (row[typeKey]) {
+            type = row[typeKey];
+            typeMap[type] = true;
+        }
+        var ids = validIdsFromString(row[key]);
+
+        ids.map(function(id) {
+            localData[id] = row;
+            Object.keys(row).map(function(col) {
+                var val = parseFloat(row[col]);
+                if (isNaN(val)) {
+                    return;
+                }
+                if (!statTable[col]) {
+                    return statTable[col] = {
+                        all: {
+                            max: val,
+                            min: val
+                        },
+                        byType: {}
+                    };
+                }
+                var stat = statTable[col];
+                if (val > stat.all.max) {
+                    stat.all.max = val;
+                }
+                if (val < stat.all.min) {
+                    stat.all.min = val;
+                }
+                if (!stat.byType[type]) {
+                    stat.byType[type] = {
+                        max: val,
+                        min: val
+                    };
+                }
+                if (val > stat.byType[type].max) {
+                    stat.byType[type].max = val;
+                }
+                if (val < stat.byType[type].min) {
+                    stat.byType[type].min = val;
+                }
+            });
         });
-      });
     });
 
     types = Object.keys(typeMap);
@@ -292,6 +296,73 @@ var styleFunction = function(feature) {
     return style[feature.getProperties()["PARCEL_ID"]];
 }
 
+var create3DView = function(){
+    var threeDStyleFunction = function(feature) {
+        var height = 10;
+        var floors = 1;
+
+        if (feature.properties.PART_HEIGH) {
+            height = feature.properties.PART_HEIGH * 0.3048;
+        }
+
+        //if (feature.properties.PART_FLOOR) {
+        //    floors = feature.properties.PART_FLOOR;
+        //}
+
+        var color = colourScale(height).hex(); // default color by height
+
+        // get row from table table by ID
+        if (feature.properties.PARCEL_ID) {
+
+            var id = feature.properties.PARCEL_ID;
+            var row = {};
+            if (table[id]) {
+                row = table[id];
+            } else {
+                //console.log('row does not exist');
+                row[state.metric] = 0;
+            }
+
+            // get value from row
+            var value = row[state.metric];
+
+            // build color
+            // console.log(value, scale(value).rgb());
+            // debugger;
+            scale = chroma.scale(['rgba(253,216,53 ,1)', 'rgba(183,28,28 ,1)']).domain(domain);
+            color = scale(value).rgb()
+
+        }
+
+
+        return {
+            color: color,
+            height: height
+        };
+    }
+    var world = VIZI.world('world', {
+        skybox: false,
+        postProcessing: false
+    }).setView(coordsBoston);
+
+    // Add controls
+    VIZI.Controls.orbit().addTo(world);
+
+    // CartoDB basemap
+    VIZI.imageTileLayer('http://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
+    }).addTo(world);
+
+    // Grab our Mapzen GeoJSON tile including points, linestrings and polygons
+    VIZI.geoJSONLayer('./boston_buildings_subset3.json', {
+        interactive: false,
+        output: true,
+        style: threeDStyleFunction,
+        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors</a>.'
+
+    }).addTo(world);
+};
+
 // function legendDemo() {
 //
 //     sampleNumerical = [1, 2.5, 5, 10, 20];
@@ -324,6 +395,21 @@ $(document).on('change', '#filter', function(e) {
     updateLayers();
 });
 
+$(document).on('change', "#view", function(e) {
+    state.view = $(e.target).val();
+
+    if (state.view=== "2D"){
+        document.getElementById("world").style.display = "none";
+        document.getElementById("map").style.display = "";
+
+    }
+    if (state.view=== "3D"){
+        document.getElementById("map").style.display = "none";
+        document.getElementById("world").style.display = "";
+        create3DView();
+    }
+
+})
 
 //
 // init on page ready
@@ -346,7 +432,7 @@ $(document).ready(function() {
         }),
         view: new ol.View({
             //center: ol.proj.fromLonLat([-71.087955, 42.343583]),
-            center: [-71.087955, 42.343583],
+            center: [coordsBoston[1], coordsBoston[0]],
             zoom: 13,
             projection: 'EPSG:4326'
         })
@@ -384,102 +470,67 @@ $(document).ready(function() {
 
     var select = null; // ref to currently selected interaction
 
-       // select interaction working on "click"
-       var selectClick = new ol.interaction.Select({
-           condition: ol.events.condition.click
-       });
+    // select interaction working on "click"
+    var selectClick = new ol.interaction.Select({
+        condition: ol.events.condition.click
+    });
 
 
-       var changeInteraction = function() {
-           if (select !== null) {
-               olMap.removeInteraction(select);
-           }
-           select = selectClick;
-           if (select !== null) {
+    var changeInteraction = function() {
+        if (select !== null) {
+            olMap.removeInteraction(select);
+        }
+        select = selectClick;
+        if (select !== null) {
 
-               olMap.addInteraction(select);
-               select.on('select', function(e) {
-                   if(!e.selected[0]) document.getElementById("details").style.display = "none";
-                   else {
-                       document.getElementById("details").style.display = "block";
-                      var properties = e.selected[0].getProperties();
-                      //console.log("selectedfeature", feature);
-                      //get feature ID
-                      var id;
-                      if (properties) {
-                          id = properties[key];
-                      } else if (e.selected[0].T) {
-                          id = e.selected[0].T[key];
-                      }
-                      console.log("id", id);
-                      // get row from table table by ID
-                      var row = {};
-                      if (table[id]) {
-                          row = table[id];
-                          //find the way to bind the front end?
-                          console.log("rows", row);
+            olMap.addInteraction(select);
+            select.on('select', function(e) {
+                if (!e.selected[0]) document.getElementById("details").style.display = "none";
+                else {
+                    document.getElementById("details").style.display = "block";
+                    var properties = e.selected[0].getProperties();
+                    //console.log("selectedfeature", feature);
+                    //get feature ID
+                    var id;
+                    if (properties) {
+                        id = properties[key];
+                    } else if (e.selected[0].T) {
+                        id = e.selected[0].T[key];
+                    }
+                    console.log("id", id);
+                    // get row from table table by ID
+                    var row = {};
+                    if (table[id]) {
+                        row = table[id];
+                        //find the way to bind the front end?
+                        console.log("rows", row);
 
-                          document.getElementById("name").innerHTML = row["Property Name"];
-                          document.getElementById("address").innerHTML = row["Address"];
-                          document.getElementById("siteEUI").innerHTML = row["Site EUI (kBTU/sf)"];
-                          document.getElementById("sourceEUI").innerHTML = row["Source EUI (kBTU/sf)"];
-                          document.getElementById("GHGIntensity").innerHTML = row["GHG Intensity (kgCO2/sf)"];
-                          document.getElementById("EnergyStar").innerHTML = row["Energy Star Score"];
-                          document.getElementById("waterIntensity").innerHTML = row["Water Intensity (gal/sf)"];
-                          document.getElementById("distanceTo2030").innerHTML = row["Distance to 2030 Target %"];
-                          document.getElementById("totalSite").innerHTML = row[" Total Site Energy (kBTU) "];
-                          document.getElementById("totalSource").innerHTML = row["Total Source Energy (kBTU)"];
-                          document.getElementById("GHGEmissions").innerHTML = row["GHG Emissions (MTCO2e)"];
-                      }
+                        document.getElementById("name").innerHTML = row["Property Name"];
+                        document.getElementById("address").innerHTML = row["Address"];
+                        document.getElementById("siteEUI").innerHTML = row["Site EUI (kBTU/sf)"];
+                        document.getElementById("sourceEUI").innerHTML = row["Source EUI (kBTU/sf)"];
+                        document.getElementById("GHGIntensity").innerHTML = row["GHG Intensity (kgCO2/sf)"];
+                        document.getElementById("EnergyStar").innerHTML = row["Energy Star Score"];
+                        document.getElementById("waterIntensity").innerHTML = row["Water Intensity (gal/sf)"];
+                        document.getElementById("distanceTo2030").innerHTML = row["Distance to 2030 Target %"];
+                        document.getElementById("totalSite").innerHTML = row[" Total Site Energy (kBTU) "];
+                        document.getElementById("totalSource").innerHTML = row["Total Source Energy (kBTU)"];
+                        document.getElementById("GHGEmissions").innerHTML = row["GHG Emissions (MTCO2e)"];
+                    }
 
-                   }
+                }
 
-               });
-           }
-       };
+            });
+        }
+    };
 
-       /**
-        * onchange callback on the select element.
-        */
-       changeInteraction();
-    // olMap.on('click', function(evt) {
-    //     console.log("map Click event fired");
-    //     document.getElementById("details").style.display = "block";
-    //     // console.log(evt.pixel);
-    //     olMap.forEachFeatureAtPixel(evt.pixel, function(feature, layer) {
-    //         // console.log("feature: ", feature);
-    //         // get feature ID
-    //         var id;
-    //         if (feature.properties) {
-    //             id = feature.properties[key];
-    //         } else if (feature.T) {
-    //             id = feature.T[key];
-    //         }
-    //         // console.log("id", id);
-    //         // get row from table table by ID
-    //         var row = {};
-    //         if (table[id]) {
-    //             row = table[id];
-    //             //find the way to bind the front end?
-    //             // console.log("rows", row);
-    //
-    //             document.getElementById("name").innerHTML = row["Property Name"];
-    //             document.getElementById("address").innerHTML = row["Address"];
-    //             document.getElementById("siteEUI").innerHTML = row["Site EUI (kBTU/sf)"];
-    //             document.getElementById("sourceEUI").innerHTML = row["Source EUI (kBTU/sf)"];
-    //             document.getElementById("GHGIntensity").innerHTML = row["GHG Intensity (kgCO2/sf)"];
-    //             document.getElementById("EnergyStar").innerHTML = row["Energy Star Score"];
-    //             document.getElementById("waterIntensity").innerHTML = row["Water Intensity (gal/sf)"];
-    //             document.getElementById("distanceTo2030").innerHTML = row["Distance to 2030 Target %"];
-    //             document.getElementById("totalSite").innerHTML = row[" Total Site Energy (kBTU) "];
-    //             document.getElementById("totalSource").innerHTML = row["Total Source Energy (kBTU)"];
-    //             document.getElementById("GHGEmissions").innerHTML = row["GHG Emissions (MTCO2e)"];
-    //
-    //         }
-    //
-    //     })
-    //
-    // })
+    /**
+     * onchange callback on the select element.
+     */
+    changeInteraction();
 
+    /**
+     * 3D VIZ WORLD
+     */
 
 })
