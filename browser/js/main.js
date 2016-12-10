@@ -307,6 +307,33 @@ $(document).ready(function() {
     // handle data retrieved via ajax
     Promise.all(['./data.csv', "./geometry.geojson"].map($.get)).then(handleData);
 
+
+    var geocoder = new Geocoder('nominatim', {
+        provider: 'osm',
+        key: '__some_key__',
+        lang: 'en-US', //en-US, fr-FR
+        placeholder: 'Search for ...',
+        limit: 5,
+        keepOpen: true
+    });
+
+    geocoder.on('addresschosen', function(evt) {
+        var feature = evt.feature,
+            coord = evt.coordinate,
+            address = evt.address;
+
+        //content.innerHTML = '<p>' + address.formatted + '</p>';
+        console.log("newCoord" , coord);
+        //overlay.setPosition(coord);
+        olMap.setView ( new ol.View({
+            center: [coord[0], coord[1]],
+            zoom: 16,
+            projection: 'EPSG:4326'
+        }));
+    });
+
+    olMap.addControl(geocoder);
+
     olMap.on('click', function(evt) {
         console.log("map Click event fired");
         document.getElementById("details").style.display = "block";
