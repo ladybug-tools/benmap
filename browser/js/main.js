@@ -19,6 +19,9 @@ var key = 'PARCEL_ID';
 var types = [];
 var typeKey = 'Property Type';
 
+//
+// color scale for reuse
+var scale = chroma.scale(['rgba(253,216,53 ,1)', 'rgba(183,28,28 ,1)']).domain([0, 100]);
 
 //
 // we put the FUN in functions
@@ -32,6 +35,35 @@ var updateSelectors = function() {
 var updateLayers = function() {
     vectorLayer.setStyle(setStyles);
 };
+
+var updateLegend = function() {
+    var svg = d3.select("svg")
+        .style("max-height", "50px");
+    var defs = svg.append("defs");
+    var linearGradient = defs.append("linearGradient")
+        .attr("id", "linear-gradient");
+    linearGradient
+        .attr("x1", "0%")
+        .attr("y1", "0%")
+        .attr("x2", "100%")
+        .attr("y2", "0%");
+    //Set the color for the start (0%)
+    linearGradient.append("stop")
+        .attr("offset", "0%")
+        .attr("stop-color", "rgba(253,216,53 ,1)");
+
+    //Set the color for the end (100%)
+    linearGradient.append("stop")
+        .attr("offset", "100%")
+        .attr("stop-color", "rgba(183,28,28 ,1)"); //dark blue
+    svg.append("rect")
+        .attr("width", 300)
+        .attr("height", 20)
+        .style("fill", "url(#linear-gradient)");
+    console.log("anything?")
+        // linearGradient.selectAll("stop")
+}
+
 
 var handleData = function(values) {
 
@@ -122,7 +154,10 @@ var setStyles = function(feature) {
     var value = row[state.metric];
 
     // build color
-    var scale = chroma.scale(['rgba(253,216,53 ,1)', 'rgba(183,28,28 ,1)']).domain([0, 200]);
+    // console.log(value, scale(value).rgb());
+    // debugger;
+    scale = chroma.scale(['rgba(253,216,53 ,1)', 'rgba(183,28,28 ,1)']).domain([0, 200]);
+
     var color = scale(value).rgb();
     // console.log(value, color);
     // var alpha = scale(value).alpha();
@@ -130,8 +165,6 @@ var setStyles = function(feature) {
     var rgba = "rgba(" + color[0].toFixed(0) + "," + color[1].toFixed(0) + "," + color[2].toFixed(0);
     var rgbaStroke = rgba + "," + alphaStroke + ")";
     var rgbaFill = rgba + "," + alphaFill + ")";
-
-    // console.log(rgbaStroke);
 
     return style[id] = new ol.style.Style({
         stroke: new ol.style.Stroke({
@@ -147,14 +180,8 @@ var setStyles = function(feature) {
 
 var styleFunction = function(feature) {
     //console.log("in function prop", feature.getProperties());
-    // console.log("in function getkey", feature.getProperties()["PART_USE"]);
-    // var res1 = style[feature.getProperties()["PARCEL_ID"]]
-    // var res = setStyles(feature);
     // debugger;
-    // console.log(style[feature.getProperties()["PARCEL_ID"]]);
-
     return style[feature.getProperties()["PARCEL_ID"]];
-    // return style["R2"];
 }
 
 function legendDemo() {
@@ -215,33 +242,34 @@ $(document).ready(function() {
             projection: 'EPSG:4326'
         })
     });
-    legendDemo();
+    // legendDemo();
+    updateLegend();
 
     // handle data retrieved via ajax
     Promise.all(['./data.csv', "./geometry.geojson"].map($.get)).then(handleData);
 
-  olMap.on('click', function(evt){
-      console.log("map Click event fired");
-      olMap.forEachFeatureAtPixel(evt.pixel, function(feature, layer){
-          // get feature ID
-          var id;
-          if(feature.properties){
-            id = feature.properties[ key ];
-          }else if(feature.T){
-            id = feature.T[ key ];
-          }
-           console.log("id", id);
-          // get row from table table by ID
-          var row = {};
-          if(table[id]){
-            row = table[id];
-            //find the way to bind the front end?
-            console.log("rows", row);
-          }
+    olMap.on('click', function(evt) {
+        console.log("map Click event fired");
+        olMap.forEachFeatureAtPixel(evt.pixel, function(feature, layer) {
+            // get feature ID
+            var id;
+            if (feature.properties) {
+                id = feature.properties[key];
+            } else if (feature.T) {
+                id = feature.T[key];
+            }
+            console.log("id", id);
+            // get row from table table by ID
+            var row = {};
+            if (table[id]) {
+                row = table[id];
+                //find the way to bind the front end?
+                console.log("rows", row);
+            }
 
-      })
+        })
 
-  })
+    })
 
 
 })
