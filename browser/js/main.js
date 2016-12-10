@@ -107,7 +107,9 @@ $(document).ready(function() {
     });
 
 
+
     $.getJSON("EnergyJson3.geojson", function(json) {
+
         console.log(json);
 
         json.features.map(function(feature){
