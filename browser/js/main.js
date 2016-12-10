@@ -3,7 +3,7 @@
 
 var state = {
     filter: "school",
-    metric: "Source EUI (kBTU/sf)"
+    metric: "Site EUI (kBTU/sf)"
 };
 
 
