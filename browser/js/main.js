@@ -131,7 +131,7 @@ $(document).ready(function() {
             setStyles(feature);
         })
         console.log(style);
-        debugger;
+        // debugger;
 
 
         var vectorSource = new ol.source.Vector({
@@ -143,7 +143,7 @@ $(document).ready(function() {
             style: styleFunction,
             projection: 'EPSG:4326'
         });
-        debugger;
+        // debugger;
 
         olMap.addLayer(vectorLayer);
     });
