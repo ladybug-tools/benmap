@@ -74,8 +74,10 @@ a.footer {
     width: 100%;
 }
 .overlay {
+    position:absolute;
+    min-width: 200px;
     padding-left: 30px;
-    bottom: 20px;
+    bottom: 60px;
 }
 
 #main {
