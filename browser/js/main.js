@@ -2,7 +2,7 @@
 // page state
 
 var state = {
-    filter: "school",
+    filter: "All",
     metric: "Site EUI (kBTU/sf)"
 };
 
@@ -64,7 +64,7 @@ var updateLegend = function() {
         .attr("width", width)
         .attr("height", height)
         .style("fill", "url(#linear-gradient)");
-        // linearGradient.selectAll("stop")
+    // linearGradient.selectAll("stop")
 }
 
 
@@ -142,16 +142,23 @@ var setStyles = function(feature) {
         row[state.metric] = 0;
     }
 
-    // logic here for filter (set alpha to 0 if not pass filter?)
-    var featureFilter = row[typeKey];
-    // console.log(featureFilter);
-    var alphaStroke = 0;
-    var alphaFill = 0;
-    if (featureFilter == state.filter) {
-        console.log('we got a ' + state.filter);
+    if (state.filter === "All") {
         alphaStroke = 1;
         alphaFill = 0.8;
+    } else {
+        // logic here for filter (set alpha to 0 if not pass filter?)
+        var featureFilter = row[typeKey];
+        // console.log(featureFilter);
+        var alphaStroke = 0;
+        var alphaFill = 0;
+        if (featureFilter == state.filter) {
+            console.log('we got a ' + state.filter);
+            alphaStroke = 1;
+            alphaFill = 0.8;
+        }
+
     }
+
 
     // get value from row
     var value = row[state.metric];
