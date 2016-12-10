@@ -367,6 +367,7 @@ var create3DView = function(){
 };
 
 function create2DMap () {
+
     olMap = new ol.Map({
         layers: [
             new ol.layer.Tile({
@@ -398,6 +399,7 @@ function add2DInteraction (){
         lang: 'en-US', //en-US, fr-FR
         placeholder: 'Search for ...',
         limit: 5,
+        autocomplete: true,
         keepOpen: true
     });
 
