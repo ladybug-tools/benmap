@@ -1,4 +1,4 @@
-Property Name,Reported,Property Type,Address,ZIP,Gross Area (sq ft),Site EUI (kBTU/sf),Energy Star Score,Energy Star Certified,Property Uses,Year Built,GHG Emissions (MTCO2e),GHG Intensity (kgCO2/sf), Total Site Energy (kBTU) ,% Electricity,% Gas,% Steam,Water Intensity (gal/sf),Onsite Solar (kWh),Tax Parcel,Years Reported, Total Source Energy (kBTU) ,Source EUI (kBTU/sf)
+Property Name,Reported,Property Type,Address,ZIP,Gross Area (sq ft),Site EUI (kBTU/sf),Energy Star Score,Energy Star Certified,Property Uses,Year Built,GHG Emissions (MTCO2e),GHG Intensity (kgCO2/sf), Total Site Energy (kBTU) ,% Electricity,% Gas,% Steam,Water Intensity (gal/sf),Onsite Solar (kWh),PARCEL_ID,Years Reported,Total Source Energy (kBTU),Source EUI (kBTU/sf)
 #2679 South Bay/Boston,Yes,Retail Store,5 Alllstate Road,2125,132000,70.7,74,,Parking Retail Store,1998,724.4,5.5,9331692,0.56,0.44,,7.6,,703501080,2014 2015 2016,20720088.92,156.9703706
 0004 Roslindale,Yes,Supermarket/Grocery Store,950 American Legion Hgwy,2131,38694,245.9,49,,Supermarket/Grocery,2001,760.2,19.6,9515343,0.61,0.39,,62.1,,1807323000,2015 2016,22122220.94,571.7222551
 0018 Dorchester,Yes,Supermarket/Grocery Store,545 Freeport Street,2122,61548,194.8,88,,Supermarket/Grocery,2005,952.2,15.5,11987839,0.6,0.4,,103.3,,Not Available,2014 2015 2016,27619981.06,448.7551351
@@ -69,7 +69,7 @@ Property Name,Reported,Property Type,Address,ZIP,Gross Area (sq ft),Site EUI (kB
 11-19 Deerfield Street,Yes,Office,11-19 Deerfield Street,2215,69435,85.7,88,,Office,1925,377.4,5.4,5948174,0.24,0.76,,10.5,,503757001,2014 2015 2016,9229186.468,132.918362
 114 Western Ave,Yes,Office,114 Western Ave,2138,70849,59.6,74,,Office Other Urgent Care/Clinic/Outpatient,1925,396.3,5.6,4225603,0.93,0.07,,7,,2200268000,2014 2015 2016,12650187.7,178.5513938
 1140 Boylston Street,Yes,College/University,1140 Boylston Street,2215,66920,103.4,Not Available,,College/University,1920,552.4,8.3,6917306,0.61,0.39,,8.5,,Not Available,2014 2015 2016,16082044.72,240.3174644
-115 – West Roxbury,Yes,Supermarket/Grocery Store,1800 Centre St,2481,55929,275.9,71,,Parking Supermarket/Grocery,2002,1293,23.1,15431170,0.7,0.3,,3758.9,,2005752010,2016,38778530.21,693.3528261
+115 ï¿½ West Roxbury,Yes,Supermarket/Grocery Store,1800 Centre St,2481,55929,275.9,71,,Parking Supermarket/Grocery,2002,1293,23.1,15431170,0.7,0.3,,3758.9,,2005752010,2016,38778530.21,693.3528261
 115 Broad Street,Yes,Office,115 Broad Street,2110,56025,48.9,79,,Office,1900,264.7,4.7,2738580,1,0,,7,,Not Available,2016,8599141.2,153.4875716
 116 Huntington,Yes,Office,116 Huntington Ave,2116,287141,59.8,83,,Office Parking Restaurant,1990,1662.4,5.8,17183562,1,,,11.7,,401013010,2015 2016,53956384.68,187.9090227
 119,Yes,Office,119 Braintree Street,2134,140974,36.4,99,,Office Parking,1908,402.2,2.9,5137152,0.58,0.42,,5.2,,2201867000,2016,11621265.25,82.43552183
@@ -1269,7 +1269,7 @@ SFH-48 Boylston St. LLC,Yes,Other,48 Boylston St. ,2116,85000,18.1,Not Available
 SFR Holdings LLC,Yes,Office,1550 Soldiers Field Road,2135,44800,28.8,Not Available,,Office,1955,124.8,2.8,1290378,1,,,5.2,,Not Available,2016,4051785.35,90.44163728
 Shad Hall,Yes,Mixed Use Property,70 North Harvard Street,2163,132424,129.8,Not Available,,Data Center Office Other - Recreation,1990,1327.4,10,17194649,0.5,0.33,0.17,15.3,24449,2200530000,2014 2015 2016,4.20E+11,3174865.845
 Shapiro Cardiovascular Center,Yes,Hospital (General Medical & Surgical),70 Francis Street,2115,436096,418.2,1,,Hospital (General Medical & Surgical),2008,12603.5,28.9,182392589,0.4,0,0.60,73.7,,1000247010,2015 2016,360407754.9,826.4415118
-Shattuck Int’l House,Yes,Multifamily Housing,203 Park Drive,2215,60077,63,90,,Multifamily Housing,1920,243.5,4.1,3784103,0.26,0.74,,36.7,,2100005010,2016,6029589.72,100.3643611
+Shattuck Intï¿½l House,Yes,Multifamily Housing,203 Park Drive,2215,60077,63,90,,Multifamily Housing,1920,243.5,4.1,3784103,0.26,0.74,,36.7,,2100005010,2016,6029589.72,100.3643611
 SHAW PA,Municipal,K-12 School,429 Norfolk St.,2124,32706,41,100,,K-12 School,1919,80.8,2.5,1339452,0.16,0.84,,,,Not Available,2016,1854336.933,56.69714834
 SHAW RG,Municipal,K-12 School,20 Mt. Vernon St.,2132,93374,58.2,92,,K-12 School,1919,326.7,3.5,5437459,0.16,0.84,,,,Not Available,2016,7527617.686,80.61792025
 Shelburne Community Center,Municipal,Other - Recreation,2730 Washington St,2119,25292,157.4,Not Available,,Other - Recreation,2000,262.3,10.4,3981639,0.29,0.71,,,,Not Available,2016,6593992.679,260.7145611

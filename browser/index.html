@@ -23,6 +23,7 @@
     <script src="./vendor/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
     <script src="./vendor/openlayers-v3.19.1-dist/ol.js"></script>
     <script src="./vendor/chroma/chroma.min.js"></script>
+    <script src="./vendor/PapaParse/papaparse.min.js"></script>
 
 
     <script src="js/main.js"></script>
@@ -45,17 +46,17 @@
                     <h4><a class="brand" href="/">BEnMap</a></h4>
                 </div>
                 <div class="col-xs-3 tile-rect">
-                    <select id="metric" class="form-control input-sm" onchange="trackMetric(this)">
+                  <select id="metric" class="form-control input-sm" onchange="trackMetric(this)">
                     <option selected disabled>Choose Metric</option>
-                    <option value="energy">Energy Use Intensity</option>
-                    <option value="carbon">Carbon Footprint</option>
-                </select>
+                    <option value="Source EUI (kBTU/sf)">Energy Use Intensity (kBTU/sf)</option>
+                    <option value="GHG Emissions (MTCO2e)">GHG Emissions (MTCO2e)</option>
+                  </select>
                 </div>
                 <div class="col-xs-3 tile-rect">
-                    <select id="filter" class="form-control input-sm" onchange="getFilter(this)">
+                  <select id="filter" class="form-control input-sm">
                     <option selected disabled>Choose Building Type</option>
                     <option value="school">School</option>
-                </select>
+                  </select>
                 </div>
             </div>
         </div>
