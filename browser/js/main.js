@@ -33,59 +33,6 @@ var updateLayers = function() {
     vectorLayer.setStyle(setStyles);
 };
 
-<<<<<<< HEAD
-var handleData = function(values){
-
-  var localData = table;
-
-  // values is an array:
-  // [0] csv  file string
-  // [1] json file string
-  var csvRaw  = values.shift();
-  var rows = Papa.parse(csvRaw, {header: true} ).data;
-  var json = values.shift();
-  if(typeof json == "string"){
-    json = JSON.parse(json);
-  }
-
-  var typeMap = {};
-
-  for(var r in rows){
-    var row = rows[r];
-    // console.log(Object.keys(row));
-    if(row[ key ]){
-      // console.log('adding row');
-      if(row[ typeKey ]){
-        typeMap[row[typeKey]] = true;
-      }
-      localData[row[ key ]] = row;
-
-    }
-  }
-
-  types = Object.keys(typeMap);
-
-  updateSelectors();
-
-  json.features.map(function(feature){
-    setStyles(feature);
-  })
-  // console.log(style);
-  // debugger;
-
-  vectorSource = new ol.source.Vector({
-    features: (new ol.format.GeoJSON()).readFeatures(json)
-  });
-
-  vectorLayer = new ol.layer.Vector({
-    source: vectorSource,
-    style: styleFunction,
-    projection: 'EPSG:4326'
-  });
-  // debugger;
-
-  olMap.addLayer(vectorLayer);
-=======
 var handleData = function(values) {
 
     var localData = table;
@@ -139,7 +86,6 @@ var handleData = function(values) {
     // debugger;
 
     olMap.addLayer(vectorLayer);
->>>>>>> origin/master
 };
 
 var setStyles = function(feature) {
@@ -247,34 +193,6 @@ $(document).on('change', '#filter', function(e) {
 // init on page ready
 
 $(document).ready(function() {
-
-<<<<<<< HEAD
-  olMap = new ol.Map({
-    layers: [
-      new ol.layer.Tile({
-          source: new ol.source.Stamen({
-              layer: "toner-lite"
-          })
-      })
-    ],
-    // overlays: [overlay],
-    target: 'map',
-    controls: ol.control.defaults({
-      attributionOptions: {
-          collapsible: false
-      }
-    }),
-    view: new ol.View({
-      //center: ol.proj.fromLonLat([-71.087955, 42.343583]),
-      center: [-71.087955, 42.343583],
-      zoom: 13,
-      projection: 'EPSG:4326'
-    })
-  });
-
-  // handle data retrieved via ajax
-  Promise.all( ['./data.csv',"./geometry.geojson"].map($.get) ).then( handleData );
-=======
     olMap = new ol.Map({
         layers: [
             new ol.layer.Tile({
@@ -301,7 +219,6 @@ $(document).ready(function() {
 
     // handle data retrieved via ajax
     Promise.all(['./data.csv', "./geometry.geojson"].map($.get)).then(handleData);
->>>>>>> origin/master
 
   olMap.on('click', function(evt){
       console.log("map Click event fired");
