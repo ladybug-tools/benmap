@@ -1,0 +1,1160 @@
+Property Name,Property Type,Address,City,County,State,ZIP Code,Latitude,Longitude,Floor Area (ft^2),Reported Floor Area (ft^2),Year Built,Benchmarking Year,ENERGY STAR Score,Site EUI (kBtu/ft^2),Source EUI (kBtu/ft^2),Weather Normalized Site EUI (kBtu/ft^2),Weather Normalized Source EUI (kBtu/ft^2),Direct GHG Emissions (MtCO2e),Indirect GHG Emissions (MtCO2e),Total GHG Emissions (MtCO2e),Water Use Intensity (gal/ft^2),Portfolio Manager ID,Philadelphia Building ID
+Allegheny Business Center,Adult Education,2233 West Allegheny Avenue,Philadelphia,Philadelphia,PA,19132,40.003418,-75.167077,87756,,1915,2014,,28.6,62.9,,,,,244.6,0.117370892,3965468,884558100
+1622 Chestnut Street,Adult Education,1622 Chestnut Street,Philadelphia,Philadelphia,PA,19103,,,79480,,1931,2014,,147.3,462.5,,,,,1567.1,12.22571716,3999203,772509500
+Center One,Ambulatory Surgical Center,9880 Bustleton Ave,Philadelphia,Philadelphia,PA,19115,40.095704,-75.030587,79485,,1980,2014,,92.5,290.4,,,,,984,18.53557275,3875830,778025205
+Pacifico Ford,Automobile Dealership,6701 Essingtion ave,Philadelphia,Philadelphia,PA,19153,,,55000,,1970,2014,,47.3,148.5,,,,,348.3,3.576363636,3633488,882167505
+Gershman Hall,College/University,401-11 South Broad Street,Philadelphia,Philadelphia,PA,19147,,,75000,,1923,2014,,86.3,161.8,,,,,550,10.59333333,2851911,771637200
+Anderson Hall,College/University,329-35 South Broad Street,Philadelphia,Philadelphia,PA,19102,,,138123,,1916,2014,,60.9,141,,,,,858.1,5.61311295,2858208,771500000
+Merriam Theater,College/University,250 South Broad Street,Philadelphia,Philadelphia,PA,19102,,,77964,,1918,2014,,87.9,196.6,,,,,678.1,44.6911395,2858581,772505500
+Arts Bank,College/University,601 South Broad Street,Philadelphia,Philadelphia,PA,19147,,,25006,,1994,2014,,54.8,166.6,,,,,178.2,,2887841,771501000
+Terra Hall,College/University,201-11 South Broad Street,Philadelphia,Philadelphia,PA,19107,,,273901,,1911,2014,,73.8,173,,,,,2143.2,20.6757186,2917145,772505410
+Philadelphia University,College/University,4201 Henry Ave,Philadelphia,Philadelphia,PA,19144,,,635839,,1960,2014,,92.3,200.2,,,,,5843.7,41.7203097,3619585,775501010
+Peirce College,College/University,1420 Pine St.,Philadelphia,Philadelphia,PA,19102,,,94151,,1898,2014,,84.3,204.5,,,,,843.5,8.4619388,3634201,772513020
+Samuel MV Hamilton Building,College/University,128 N. Broad Street,Philadelphia,Philadelphia,PA,19102,,,240000,,1905,2014,,115.3,241.1,,,,,2583,14.86916667,3635047,772724100
+Holy Family Hall,College/University,9801 Frankford Avenue,Philadelphia,Philadelphia,PA,19114,,,440350,,1954,2014,,42.1,95.2,,,,,1852.9,,3636946,778503000
+Campus Center,College/University,9801 Frankford Avenue,Philadelphia,Philadelphia,PA,19114,,,89596,,1988,2014,,76.1,130.8,,,,,538.4,11.30407607,3637394,778503000
+Education Technology Center,College/University,9801 Frankford Avenue,Philadelphia,Philadelphia,PA,19114,,,62000,,2005,2014,,144.6,317.7,,,,,873.4,,3637411,778503000
+Stevenson Lane Residence,College/University,9801 Frankford Avenue,Philadelphia,Philadelphia,PA,19114,,,67430,,2009,2014,,40.5,92.5,,,,,275.2,30.29215483,3637470,778503000
+Philadelphia College of Osteopathic Medicine,College/University,4190 City Ave,Philadelphia,Philadelphia,PA,19131,40.005111,-75.218072,409268,,1972,2014,,231.8,378.2,,,,,7170.7,34.1504833,3675619,774010040
+CCP Main Campus-East,College/University,1600 Spring Garden St,Philadelphia,Philadelphia,PA,19130,,,503960,,1982,2014,,99.4,272.5,,,,,5436.2,23.2310104,3681793,772534600
+CCP Main Campus-West,College/University,1700 Spring Garden St,Philadelphia,Philadelphia,PA,19130,,,556554,,1982,2014,,15.8,28.3,,,,,719.4,1.946441855,3681794,772534700
+Center for Business & Industry,College/University,1751 Callowhill St,Philadelphia,Philadelphia,PA,19130,39.960353,-75.168004,177480,,2003,2014,,32,89.1,,,,,682.3,4.308654496,3681795,772535700
+Northwest Regional Center,College/University,1300 W Godfrey Ave,Philadelphia,Philadelphia,PA,19141,40.04721,-75.140685,81018,,1965,2014,,73.5,177.6,,,,,671.4,38.09030092,3681796,776554000
+Northeast Regional Center,College/University,12901 Townsend Road,Philadelphia,Philadelphia,PA,19154,40.106816,-74.978201,109110,,1995,2014,,67.4,162.5,,,,,777.3,5.806067272,3681797,772537500
+Science and Technology Center (STC),College/University,4320 Woodland Ave,Philadelphia,Philadelphia,PA,19104,,,78000,,2007,2014,,81.2,254.9,,,,,847.7,27.91153846,3696770,773502090
+Athletic Recreation Center (ARC),College/University,4310 Woodland Ave,Philadelphia,Philadelphia,PA,19104,,,78800,,2003,2014,,94.7,294.3,,,,,989.7,57.39213198,3696855,773502090
+4140 Woodland,College/University,4140 Woodland Ave,Philadelphia,Philadelphia,PA,19104,,,70000,,1920,2014,,33.8,103,,,,,308.2,4.082857143,3696900,773499500
+Griffith Hall,College/University,4247 Woodland Ave,Philadelphia,Philadelphia,PA,19104,,,113332,,1928,2014,,87.2,261.3,,,,,1268.3,16.42872269,3696901,773500500
+Lutheran Theological Seminary of Philadelphia,College/University,7301 Germantown Ave.,Philadelphia,Philadelphia,PA,19119,40.061506,-75.192045,259257,,1889,2014,,44,88.1,,,,,1025.2,5.859822493,3751369,775515000
+"7,7A-Bossone / Commonwealth",College/University,3118-38 Market Street,Philadelphia,Philadelphia,PA,19104,,,176360,,2004,2014,,193.5,373.8,,,,,3024.1,35.26876843,3762530,774526000
+8-Creese,College/University,3200-3246 Chestnut Street,Philadelphia,Philadelphia,PA,19104,,,64611,,1962,2014,,151.2,332.8,,,,,979.9,,3762531,774517051
+"9B,9A,9C-MacAlister /Mandell / Handschumacher",College/University,3250-60 Chestnut Street,Philadelphia,Philadelphia,PA,19104,,,167003,,1973,2014,,137.4,305.8,,,,,2329.8,56.83011682,3762532,774517200
+13-Nesbitt,College/University,3201-47 Market Street,Philadelphia,Philadelphia,PA,19104,,,89077,,1970,2014,,113.4,248.4,,,,,1018.1,33.95152509,3762535,774528000
+"15,16,90-Haggerty/General Service/Law",College/University,3300-3350 Market Street,Philadelphia,Philadelphia,PA,19104,,,237906,,1971,2014,,61.3,191.8,,,,,1946.4,15.8789606,3762539,774530700
+"27,27A-LeBow / CAT Engineering",College/University,3100-16 Market Street,Philadelphia,Philadelphia,PA,19104,,,128347,,1989,2014,,120,297.8,,,,,1708.5,66.55706795,3762549,774525000
+"55,55A,55B,55C-Academic/DesignAnnex/MathForum/Police Station",College/University,101 North 33rd Street,Philadelphia,Philadelphia,PA,19104,39.957914,-75.189098,117168,,1926,2014,,126.1,266.6,,,,,1440.1,50.15789294,3762572,774551000
+71-URBN Center,College/University,3501 Market Street,Philadelphia,Philadelphia,PA,19104,,,162000,,2008,2014,,84.9,239.3,,,,,1670.4,8.17345679,3762580,774688700
+81-3201 Arch Street,College/University,3201-21 Arch Street,Philadelphia,Philadelphia,PA,19104,,,72479,,1920,2014,,65.2,182.3,,,,,569.8,15.44447357,3762582,774513500
+Lenfest Hall,College/University,1616 Locust St.,Philadelphia,Philadelphia,PA,19103,,,94747,,2011,2014,,98.5,225.5,,,,,942.5,24.9116067,3772776,881030550
+"Chestnut Hill College, Sugarloaf Hill",College/University,9230 Germantown Ave,Philadelphia,Philadelphia,PA,19118,40.083568,-75.222371,50171,,1929,2014,,73.8,149,,,,,335.2,17.9884794,3778264,775519500
+Moore College of Art and Design Peter Hall,College/University,1920-1934 Race Street,Philadelphia,Philadelphia,PA,19103,,,110000,,1957,2014,,122.3,126,,,,,427.3,28.01,3820168,772521000
+Moore College of Art and Design Wilson Hall,College/University,1916 Race Street,Philadelphia,Philadelphia,PA,19103,,,63000,,1963,2014,,201.8,357.3,,,,,1095.4,25.19047619,3820182,772688010
+"5,6,12,53,58,61-Quad Buildings",College/University,3201 Chestnut Street,Philadelphia,Philadelphia,PA,19104,,,404816,,1898,2014,,132.8,313,,,,,8512.1,38.48612703,3856018,774518010
+"1,2,3,4-Main,Randell,Curtis,Alumni",College/University,3101 Chestnut Street,Philadelphia,Philadelphia,PA,19104,,,333089,,1891,2014,,119.5,296.9,,,,,4419.9,50.18148303,3862659,774516000
+Aggregate Non-Residential Excluding MV,College/University,5600 City Avenue,Philadelphia,Philadelphia,PA,19131,39.99474,-75.240285,666000,,1927,2014,,152.9,277.1,,,,,8406.6,22.97732733,3879924,774502000
+Mandeville Hall (MV),College/University,5600 City Avenue,Philadelphia,Philadelphia,PA,19131,39.99474,-75.240285,89373,,1997,2014,,99.7,230.5,,,,,907.8,8.060599957,3879942,774502000
+Chestnut Hill College/ Mount Saint Josephs Convent,College/University,9601/9701 Germantown Ave,Philadelphia,Philadelphia,PA,19118,40.084417,-75.227911,962359,,1875,2014,,71.3,124.6,,,,,5494.9,15.79254727,3884090,775518010
+DUMed-Queen Lane Campus,College/University,2900 Queen Lane,Philadelphia,Philadelphia,PA,19129,40.019795,-75.18136,262839,,1988,2014,,217.4,477.3,,,,,5563.5,35.22879025,3885006,774010200
+DUMed-1427 Vine Street Building,College/University,1427 Vine Street,Philadelphia,Philadelphia,PA,19102,,,77304,,1940,2014,,95.1,247.2,,,,,830.6,20.85920522,3885150,772028000
+DUMed-219 North Broad St,College/University,219 North Broad Street,Philadelphia,Philadelphia,PA,19102,,,88962,,1955,2014,,97.8,225.7,,,,,885,19.39704593,3885158,771004500
+West Philadelphia Regional Center,College/University,4725 Chestnut Street,Philadelphia,Philadelphia,PA,19139,,,39090,,1992,2014,,56.2,112.1,,,,,196.8,3.704272192,3893000,774571000
+La Salle #4,College/University,1924 W Olney Ave.,Philadelphia,Philadelphia,PA,19144,,,757521,,1899,2014,,116.7,220.2,,,,,7553,25.25883771,3893235,776515000
+FSU,College/University,3340 N BROAD ST,Philadelphia,Philadelphia,PA,19140,40.004476,-75.152241,139460,,2000,2014,,343.9,614.2,,,,,4158,4.923992543,3955734,777528325
+KORNBERG DENTISTRY,College/University,3201 N BROAD ST,Philadelphia,Philadelphia,PA,19140,40.001886,-75.152804,133302,,1980,2014,,169.4,363.4,,,,,2240.3,45.32265082,3955736,777526000
+DENTAL SCHOOL (ORIG),College/University,3223 N BROAD ST,Philadelphia,Philadelphia,PA,19140,,,203374,,2000,2014,,160.1,337.3,,,,,3186.7,45.34011231,3955737,777527000
+PODIATRIC - UNIVERSITY,College/University,800 RACE STREET,Philadelphia,Philadelphia,PA,19107,,,146805,,2000,2014,,99.5,227.8,,,,,1522.5,17.74735193,3955822,771524000
+BARTON,College/University,1900 N. 13TH,Philadelphia,Philadelphia,PA,19122,,,152006,,2000,2014,,210.2,287.6,,,,,2236.5,37.47549439,3956098,777512040
+IBC REC CTR,College/University,1449 C.B. MOORE,Philadelphia,Philadelphia,PA,19121,,,69093,,2000,2014,,100.7,199.8,,,,,651.3,64.12082266,3956647,777572705
+PNAH,College/University,3307 N. Broad St.,Philadelphia,Philadelphia,PA,19140,40.003462,-75.15246,169976,,2000,2014,,515.5,840.8,,,,,7124.3,52.45387584,3956649,777528500
+Liacouras Center Forum,College/University,1776 N. Broad St.,Philadelphia,Philadelphia,PA,19121,,,270316,,2000,2014,,65.9,139.5,,,,,1750.2,63.97253585,3956655,777508005
+MITTEN,College/University,1913 N. BROAD,Philadelphia,Philadelphia,PA,19122,,,112771,,2000,2014,,237.5,398.9,,,,,2192,85.47676264,3956656,777512010
+KLEIN,College/University,1719 N. BROAD,Philadelphia,Philadelphia,PA,19122,,,186123,,2000,2014,,154.2,268.2,,,,,2356.6,7.444539364,3957996,777507000
+1700 N. BROAD,College/University,1700 N. BROAD,Philadelphia,Philadelphia,PA,19121,,,84360,,2000,2014,,113.6,235.2,,,,,920.7,12.06614509,3957997,777505000
+MEDICAL RESEARCH BLDG,College/University,3400 N. Broad Street,Philadelphia,Philadelphia,PA,19140,,,117180,,2000,2014,,433.3,714.8,,,,,4161.4,35.57859703,3958443,777531000
+Pearson/Mcgonigle,College/University,1800-38 N. Broad St.,Philadelphia,Philadelphia,PA,19122,,,449750,,1969,2014,,66.1,155.6,,,,,3161.7,9.629349639,3958445,777508500
+RITTER HALL,College/University,1301 C.B. MOORE,Philadelphia,Philadelphia,PA,19122,,,111090,,2000,2014,,218.9,291.1,,,,,1669.4,12.54028265,3958446,777570000
+RITTER ANNEX,College/University,1301 C.B. MOORE,Philadelphia,Philadelphia,PA,19122,,,153050,,2000,2014,,200.9,298.4,,,,,2280.1,6.963083959,3958447,777540000
+MERB,College/University,3500 N Broad Street,Philadelphia,Philadelphia,PA,19140,40.006255,-75.151855,485000,,2000,2014,,208.1,571.8,,,,,11712.5,9.578350515,3958448,777532000
+PRESSER,College/University,2001 N. 13TH,Philadelphia,Philadelphia,PA,19122,,,54792,,2000,2014,,198.8,263.8,,,,,760.6,19.72915754,3963378,777570600
+ANNENBERG and TOMLINSON THEATER,College/University,2020 N. 13TH,Philadelphia,Philadelphia,PA,19122,,,120576,,2000,2014,,137.4,292.5,,,,,1634.2,24.4385284,3965450,777570800
+BELL BUILDING & GARAGE (Bldg 253000 Garage 84469),College/University,1121 W. MONTGOMERY AVENUE,Philadelphia,Philadelphia,PA,19122,40.013479,-75.266844,421938,,1990,2014,,345.2,702.6,,,,,10826.6,63.41216008,3965451,777634500
+ANDERSON,College/University,1114 W. POLETT WALK,Philadelphia,Philadelphia,PA,19122,,,207802,,2000,2014,,166.8,314.1,,,,,3060.8,4.460977276,3965855,777568800
+BEURY,College/University,1901 N. 13TH,Philadelphia,Philadelphia,PA,19122,,,174700,,2000,2014,,289,509,,,,,4149.9,25.3371494,3965856,777570400
+ECEC,College/University,1710-50 N. 15th Street,Philadelphia,Philadelphia,PA,19122,,,58020,,2000,2014,,155,420.1,,,,,1069.2,0.99448466,3966438,777573005
+TUTTLEMAN LEARNING CENTER,College/University,12TH STREET,Philadelphia,Philadelphia,PA,19122,,,117253,,2000,2014,,228.5,368.4,,,,,2101.7,11.20824201,3966439,777570200
+PALEY,College/University,1210 W. BERKS,Philadelphia,Philadelphia,PA,19122,39.980972,-75.151436,184644,,2000,2014,,172.5,304.8,,,,,2645.8,4.418773423,3966440,777570200
+BIOLOGY,College/University,1900 N. 12TH,Philadelphia,Philadelphia,PA,19122,,,168651,,2000,2014,,856.9,1204.1,,,,,10413.8,135.5450012,3969866,777570400
+GITTIS STUDENT CENTER,College/University,1755 N. 13TH,Philadelphia,Philadelphia,PA,19122,,,220700,,2000,2014,,105.1,169.6,,,,,1817.2,11.47439964,3979389,777569000
+STUDENT CTR II,College/University,"13th St., 1800 block",Philadelphia,Philadelphia,PA,19122,,,86182,,2000,2014,,304.5,459.6,,,,,1946.5,10.78183379,3979390,777569000
+SPEAKMAN,College/University,1801 N. 13TH,Philadelphia,Philadelphia,PA,19122,,,110605,,2000,2014,,188.1,265.2,,,,,1480.8,0.135617739,3979395,777509000
+CONWELL HALL,College/University,NE CORNER BROAD AND MONTGOMERY,Philadelphia,Philadelphia,PA,19122,,,67644,,2000,2014,,215.6,342.4,,,,,1133.1,172.7189403,3979396,777509000
+CARNELL HALL,College/University,NE CORNER BROAD AND MONTGOMERY,Philadelphia,Philadelphia,PA,19122,,,75931,,2000,2014,,181.1,301,,,,,1098.3,13.41876177,3979397,777509000
+Alter Hall,College/University,1801 Liacouras Walk,Philadelphia,Philadelphia,PA,19122,39.980175,-75.156222,217526,,2000,2014,,119,200.5,,,,,2095.2,13.71054495,3983809,777509000
+WACHMAN HALL,College/University,1819 N. BROAD ST.,Philadelphia,Philadelphia,PA,19122,,,130655,,2000,2014,,194.4,339.5,,,,,2107.5,64.52565918,3983810,777509000
+GLADFELTER,College/University,1115 W. POLETT WALK,Philadelphia,Philadelphia,PA,19122,,,181566,,2000,2014,,192.4,279.8,,,,,2585.2,18.61526938,3983811,777568800
+NEW TYLER SOA,College/University,2020 N. 12th Street,Philadelphia,Philadelphia,PA,19122,,,233240,,2000,2014,,291.5,481.5,,,,,5401.5,13.44023324,3983812,777570600
+WEISS,College/University,1701 N. 13TH,Philadelphia,Philadelphia,PA,19122,,,159000,,2000,2014,,195.9,276.8,,,,,2223.3,14.17295597,3983813,777568900
+ENGINEERING,College/University,1947 N. 12TH,Philadelphia,Philadelphia,PA,19122,,,160325,,2000,2014,,185.7,322.6,,,,,2478.8,3.104943084,3983896,777568800
+1810 LIACOURAS WALK,College/University,1810 Liacouras Walk,Philadelphia,Philadelphia,PA,19122,39.980207,-75.156218,74630,,2000,2014,,169.8,271.1,,,,,999.4,14.54508911,3983897,777509000
+KRESGE SCIENCE HALL,College/University,3440 N. Broad Street,Philadelphia,Philadelphia,PA,19140,40.005797,-75.151955,129260,,2000,2014,,287.1,549.4,,,,,3382.8,70.55160142,3995355,777531100
+OLD MED SCHOOL,College/University,3400 N. Broad Street,Philadelphia,Philadelphia,PA,19140,,,155228,,2000,2014,,137.3,295.9,,,,,2121.8,93.88254696,3998046,777530000
+PA Convention Center Annex,Convention Center,111 N. Broad Street,Philadelphia,Philadelphia,PA,19107,,,900000,,2011,2014,,37.4,108.7,,,,,4201.7,3.064666667,3788696,781020810
+Exhibit Hall && Train Shed Bldg,Convention Center,1101 Arch Street,Philadelphia,Philadelphia,PA,19107,,,1100000,,1993,2014,,109.4,223.8,,,,,11021.7,8.24,3789312,781005800
+Family Court,Courthouse,1801 Vine St,Philadelphia,Philadelphia,PA,19103,,,250000,,1939,2014,72,102.2,184.5,,,,,2195.5,24.0648,3335315,782598000
+Philadelphia Traffic Court,Courthouse,800 Spring Garden St,Philadelphia,Philadelphia,PA,19123,,,80000,,1946,2014,76,45.4,142.5,,,,,486.1,30.10375,3682893,883523020
+Criminal Justice Center (CJC),Courthouse,1301 Filbert Street,Philadelphia,Philadelphia,PA,19107,,,600000,,1994,2014,41,107.9,272.5,,,,,7149.7,30.0475,4319461,781092450
+Grata Data Center,Data Center,1000 W Tabor Rd,Philadelphia,Philadelphia,PA,19141,40.036848,-75.138478,41740,,1962,2014,,230.8,716.3,,,,,1276,25.06468615,3875829,776012000
+Westinghouse Lighting,Distribution Center,12401 McNulty Rd.,Philadelphia,Philadelphia,PA,19154,40.109637,-74.98811,229755,,1988,2014,54,37,82.3,,,,,837,5.42403865,3569995,884292544
+2045 Wheatsheef Lain,Distribution Center,2045 Wheatsheef Lain,Philadelphia,Philadelphia,PA,19134,,,187238,,1960,2014,84,20.9,48.1,,,,,397,2.418846602,3594039,884203500
+6900 Lindbergh Blvd.,Distribution Center,6900 Lindbergh Blvd.,Philadelphia,Philadelphia,PA,19142,39.912054,-75.228959,224684,,1975,2014,96,26.1,28.9,,,,,324.5,10.76534155,3597393,884161700
+CDC,Distribution Center,5501 Whitaker Ave,Philadelphia,Philadelphia,PA,19124,40.035795,-75.098734,1197220,,1964,2014,80,45.9,85.6,,,,,4647.8,9.587878585,3597850,884120510
+United Refrigeration Inc. Headquarters,Distribution Center,11401 Roosevelt Blvd.,Philadelphia,Philadelphia,PA,19154,40.098362,-75.010381,121508,,1960,2014,11,94.8,251.6,,,,,1325.5,4.649076604,3633517,884267500
+United Refrigeration Inc. Warehouse 90,Distribution Center,11451 Roosevelt Blvd.,Philadelphia,Philadelphia,PA,19154,40.099483,-75.008758,163386,,1959,2014,81,33.5,69.7,,,,,508.6,2.312927668,3633532,884268000
+Warehouse America,Distribution Center,2235 E. Castor Ave.,Philadelphia,Philadelphia,PA,19134,,,178250,,1961,2014,100,3.6,11.2,,,,,84.9,0.89368864,3635787,884193000
+Almo Corporation,Distribution Center,2709 Commerce Way,Philadelphia,Philadelphia,PA,19154,40.110958,-74.978118,159200,,2001,2014,89,32.8,63.8,,,,,458.1,4.192211055,3637826,884292580
+American Box & Recycling Co.,Distribution Center,3900 North 10th Street,Philadelphia,Philadelphia,PA,19140,,,211489,,1913,2014,,7.2,16.2,,,,,151.5,0.940001608,3642359,884822730
+Diamond Furniture,Distribution Center,3412 J Street,Philadelphia,Philadelphia,PA,19134,,,160000,,1925,2014,,18.5,44,,,,,309.3,1.47375,3664350,884110550
+Raymour and Flanigan Woodhaven CSC,Distribution Center,2001 Woodhaven Road,Philadelphia,Philadelphia,PA,19116,40.114367,-75.00314,98679,,1965,2014,70,42.8,70.6,,,,,389,14.35259782,3687630,884243500
+"Arbill Industries, Inc.",Distribution Center,10450 Drummond Road,Philadelphia,Philadelphia,PA,19154,40.08577,-74.995125,98719,,1968,2014,65,49.7,92.9,,,,,410.4,3.5960656,3687914,884284000
+Flynn & OHara Uniforms,Distribution Center,10905 Dutton Rd,Philadelphia,Philadelphia,PA,19154,40.089125,-74.989705,58000,,1970,2014,91,31.8,54.4,,,,,145,3.544827586,3690153,884282000
+Novick Brothers Corp.,Distribution Center,3660 S Lawrence St.,Philadelphia,Philadelphia,PA,19148,39.901479,-75.158872,63229,,1962,2014,35,62.5,186.8,,,,,506,3.795726644,3736468,884154000
+LT02182 - 4020 S. 26th Street,Distribution Center,4020 S. 26th Street,Philadelphia,Philadelphia,PA,19145,39.898403,-75.193078,52315,,2011,2014,79,77.7,202.6,,,,,469.8,3.471279748,3790440,788003015
+Peirce-Phelps Inc.,Distribution Center,2000 N. 59th Street,Philadelphia,Philadelphia,PA,19131,,,210039,,1952,2014,,26.6,57.1,,,,,533.4,0.926970705,3810596,884115500
+MARJAM SUPPLY,Distribution Center,6951 NEW STATE ROAD,Philadelphia,Philadelphia,PA,19135,40.021338,-75.038692,106400,,1945,2014,88,11.5,24.6,,,,,116.5,3.62593985,3813146,884182000
+Leatex Chemical Co.,Distribution Center,2722 N. Hancock St.,Philadelphia,Philadelphia,PA,19133,39.992166,-75.1336,53050,,1884,2014,99,3.2,6.2,,,,,14.8,1.362865221,3814517,884340820
+"Barsky-Fleming Marketing, Inc.",Distribution Center,2070-80 Wheatsheaf Lane,Philadelphia,Philadelphia,PA,19124,,,104000,,1920,2014,,9.6,18,,,,,84.7,1.589423077,3830422,884202100
+"Brenntag Specialties, Inc.",Distribution Center,5700 Tacony Street,Philadelphia,Philadelphia,PA,19135,,,100000,,1950,2014,73,21.8,38.8,,,,,177.4,0.965,3854031,884213400
+7746 Dungan,Distribution Center,7746 Dungan Rd,Philadelphia,Philadelphia,PA,19111,40.064814,-75.071297,68827,,1964,2014,24,62.2,131.3,,,,,402.9,3.271971755,3856201,884221900
+US Treasury Building,Distribution Center,13000 Townsend Rd,Philadelphia,Philadelphia,PA,19154,40.104186,-74.982695,123510,,1994,2014,14,100.7,285.6,,,,,1518.8,3.802930937,3857641,884292513
+UPS Oregon Ave,Distribution Center,15 E Oregon Ave,Philadelphia,Philadelphia,PA,19148,,,409119,,1967,2014,46,94.4,173.5,,,,,3226.7,5.174044716,3876347,884136200
+Holts Cigar Company,Distribution Center,12270 Townsend Rd,Philadelphia,Philadelphia,PA,19154,40.102697,-74.984921,50847,,1970,2014,29,76.7,226.6,,,,,494.1,5.667984345,3879065,884292000
+Packaging and Distribution Center,Distribution Center,3031 Red Lion Road,Philadelphia,Philadelphia,PA,19114,40.082177,-74.999803,104797,,1970,2014,,160.9,444.4,,,,,2700,7.80175005,3880216,884289001
+"Ocean Desert Sales, Inc.",Distribution Center,5400 Tulip Street,Philadelphia,Philadelphia,PA,19106,40.012519,-75.068853,377829,,1928,2014,94,6.2,19.6,,,,,315.1,0.777600449,3883823,884177600
+Freedom International,Distribution Center,6601 New State Rd,Philadelphia,Philadelphia,PA,19135,40.019724,-75.043867,54683,,1965,2014,29,83.8,133.6,,,,,339.8,3.238666496,3891054,884179500
+jal associates inc,Distribution Center,2216 e allegheny ave,Philadelphia,Philadelphia,PA,19134,39.990569,-75.108172,102000,,1920,2014,89,26.7,33.2,,,,,165,2.654901961,3951080,884094300
+Bachmann Industries,Distribution Center,1400 East Erie Avenue,Philadelphia,Philadelphia,PA,19124,40.005688,-75.100862,115105,,1950,2014,,39.7,64.4,,,,,343.5,4.309109074,3954287,884110150
+3901 G street,Distribution Center,3901 G street,Philadelphia,Philadelphia,PA,19124,,,108000,,1950,2014,,20.4,23.4,,,,,125.2,13.21296296,3955149,884114000
+ECI Building,Distribution Center,4343 Whitaker Ave.,Philadelphia,Philadelphia,PA,19124,40.016344,-75.117029,93000,,1950,2014,100,8.4,8.8,,,,,41.5,1.04516129,3956329,884184500
+BASIC INVESTMENT INC,Distribution Center,3700 KENSINGTON AV,Philadelphia,Philadelphia,PA,19124,40.003546,-75.100599,85064,,1920,2014,90,11.1,18.6,,,,,73,0.245697357,3963040,884110700
+SHARE Community Food Resource Center,Distribution Center,2901 W Hunting Park Ave,Philadelphia,Philadelphia,PA,19129,40.005597,-75.177544,133550,,1929,2014,82,25.9,55.3,,,,,328.8,4.569075253,3963980,884129000
+COFCO - 2200,Distribution Center,2200 NORTH AMERICAN STREET,Philadelphia,Philadelphia,PA,19133,39.983901,-75.137795,55720,,1986,2014,23,40.7,79.8,,,,,200.3,1.493180187,3970728,884080340
+14300 Townsend Rd,Distribution Center,14300 Townsend Road,Philadelphia,Philadelphia,PA,19154,40.112427,-74.971105,152388,,1996,2014,,45.7,100.2,,,,,677.1,2.271176208,3994266,884292604
+Advanced Sports,Distribution Center,10940 Dutton Rd,Philadelphia,Philadelphia,PA,19154,40.089919,-74.988808,70000,,1965,2014,71,40.6,68.4,,,,,220.7,1.398571429,4056969,884280500
+Main Warehouse,Distribution Center,12300 McNulty Road,Philadelphia,Philadelphia,PA,19154,40.109668,-74.983929,56947,,1985,2014,84,30.9,46.4,,,,,124.1,0.748063989,4067659,884292540
+Frankford Candy,Distribution Center,9300 Ashton Rd,Philadelphia,Philadelphia,PA,19114,40.067297,-75.017862,507587,,2004,2014,61,42.1,103.9,,,,,2305.2,1.069373329,4068971,884227005
+Select Nutrition Distributors,Distribution Center,2722 Commerce Way,Philadelphia,Philadelphia,PA,19154,,,110000,,2000,2014,32,67.5,173.3,,,,,829.9,5.18,4083183,884292596
+"American Metal && Rubber, Inc.",Distribution Center,2527-37 N Broad St,Philadelphia,Philadelphia,PA,19132,,,50000,,1900,2014,68,17.5,22.3,,,,,54.1,0.7,4092042,884766800
+500 Erie Ave,Distribution Center,500-50 E Erie Ave,Philadelphia,Philadelphia,PA,19134,,,130000,,1930,2014,87,7.8,24.4,,,,,135.1,1.374615385,4104348,884048000
+ABW Supply,Distribution Center,5601 Paschall Avw,Philadelphia,Philadelphia,PA,19143,,,115000,,1910,2014,92,15.5,32.2,,,,,165.6,2.353043478,4136009,884890600
+2135 West Moreland Part,Distribution Center,2136 Onterio Street Pump,Philadelphia,Philadelphia,PA,19134,,,100240,,1970,2014,100,,,,,,,,,4489635,884201500
+Belmont Water Treatment Plant,Drinking Water Treatment & Distribution,4300 Ford Road,Philadelphia,Philadelphia,PA,19131,,,95000,,1965,2014,,258.3,440.8,,,,,1925.8,12.48842105,3697785,783042600
+Baxter Water Treatment Plant,Drinking Water Treatment & Distribution,9001 State Road,Philadelphia,Philadelphia,PA,19136,,,232000,,1959,2014,,150,277.7,,,,,2925.9,,3698449,786071000
+Queen Lane Water Treatment Plant,Drinking Water Treatment & Distribution,3110 W Queen Lane,Philadelphia,Philadelphia,PA,19129,40.018481,-75.183277,110000,,1953,2014,,190.5,446.7,,,,,2161.4,491.2318182,3779718,884461930
+Gallery I,Enclosed Mall,907-37 Market Street,Philadelphia,Philadelphia,PA,19107,,,432762,,1977,2014,,97,304.7,,,,,5621.8,33.01699317,3430362,882506502
+Gallery II,Enclosed Mall,1025 Market Street,Philadelphia,Philadelphia,PA,19107,,,339551,,1984,2014,,128.6,392.9,,,,,5701.7,45.42646024,3498313,882508100
+The Shops at Liberty Place,Enclosed Mall,1625 Chestnut St.,Philadelphia,Philadelphia,PA,19103,,,144660,,1990,2014,,250.5,786.7,,,,,4851.5,72.34895617,3681741,882862100
+Reading Terminal Market,Enclosed Mall,12th and Arch Street,Philadelphia,Philadelphia,PA,19106,,,77452,,1892,2014,,522.3,1276.5,,,,,4078.7,217.2442287,3769081,781005760
+Franklin Mills Mall,Enclosed Mall,1455 Franklin Mills Circle,Philadelphia,Philadelphia,PA,19154,40.087059,-74.959231,1540168,,1989,2014,,97.1,304.7,,,,,20004.5,0.0157775,3957537,882693016
+03-1-Philadelphia Head Office,Financial Office,10 Independence Mall,Philadelphia,Philadelphia,PA,19106,,,862608,,1976,2014,43,95.5,257.6,,,,,8675.5,16.38148499,3254545,883009505
+Northeast Racquet Club - NERC,Fitness Center/Health Club/Gym,1520 Grant Avenue,Philadelphia,Philadelphia,PA,19115,,,117000,,1973,2014,,92.1,223.6,,,,,1146.1,0.138461538,3669125,882069300
+Bellevue Associates,Fitness Center/Health Club/Gym,220-24 S Broad St,Philadelphia,Philadelphia,PA,19102,,,93000,,1989,2014,,95.8,259.5,,,,,1044.1,76.38494624,3959844,883427500
+"Julius Silvert, Inc",Food Sales,231 E Luzerne Street,Philadelphia,Philadelphia,PA,19426,40.010408,-75.123517,102000,,1970,2014,,69.7,195.5,,,,,859.7,,3811532,884052000
+Samuels and Son Seafood,Food Sales,3400 S. Lawrence St.,Philadelphia,Philadelphia,PA,19148,39.90499,-75.158105,61054,,2009,2014,,,,,,,,,,3891122,884153505
+"Quaker Valley Foods, Inc.",Food Service,2701 Red Lion Road,Philadelphia,Philadelphia,PA,19114,40.092462,-75.012545,250000,,1974,2014,,174.5,536.3,,,,,5727.5,15.6568,4057814,884288000
+8350 Executive Drive Associates,Food Service,8350 Executive Avenue,Philadelphia,Philadelphia,PA,19153,39.884518,-75.228352,67050,,1998,2014,,113.8,280.2,,,,,821.5,8.311707681,4580141,884170400
+Philadelphia,Hospital (General Medical & Surgical),University and Woodland Avenues,Philadelphia,Philadelphia,PA,19104,,,1691520,,1966,2014,54,198.7,381.1,,,,,23574.7,30.67241298,1066282,783531800
+Mercy Philadelphia Hospital,Hospital (General Medical & Surgical),501 South 54th Street,Philadelphia,Philadelphia,PA,19143,,,613550,,1918,2014,100,108,215.6,,,,,5947,24.02966343,2492942,774005000
+Pennsylvania Hospital,Hospital (General Medical & Surgical),800 Spruce St,Philadelphia,Philadelphia,PA,19104,,,873226,,1756,2014,37,247.8,515.3,,,,,20967.2,79.25267915,2561862,771002000
+Hospital of the University of Pennsylvania,Hospital (General Medical & Surgical),3400 Spruce St,Philadelphia,Philadelphia,PA,19104,,,1788504,,1913,2014,7,314.4,646.7,,,,,54042.6,79.98617839,2848103,773009000
+Penn Presbyterian Medical Center,Hospital (General Medical & Surgical),51 North 39th St,Philadelphia,Philadelphia,PA,19104,,,959580,,1922,2014,54,200,421.8,,,,,16224.7,44.56418433,2867268,774002001
+Penn Medicine At Rittenhouse,Hospital (General Medical & Surgical),1800 Lombard St,Philadelphia,Philadelphia,PA,19146,,,272165,,1980,2014,61,154,377.4,,,,,4600.4,36.77842485,3117180,772032010
+Temple Episcopal Hospital,Hospital (General Medical & Surgical),100 E. Lehigh Avenue,Philadelphia,Philadelphia,PA,19124,39.990887,-75.13089,399596,,1928,2014,50,229.1,412.3,,,,,7515.3,48.64913563,3584304,777012000
+Thompson Building,Hospital (General Medical & Surgical),1020 Sansom Street,Philadelphia,Philadelphia,PA,19107,39.949372,-75.15826,171219,,1925,2014,97,159.8,323.9,,,,,2600.1,,3632497,771020000
+Gibbon Building,Hospital (General Medical & Surgical),111 South11th Street,Philadelphia,Philadelphia,PA,19107,,,722268,,1978,2014,12,389.4,656.1,,,,,24506.2,75.74058383,3635424,771013000
+Main Building,Hospital (General Medical & Surgical),132 S. 10th Street,Philadelphia,Philadelphia,PA,19107,,,169807,,1906,2014,,320.4,481.7,,,,,4019.7,117.9651016,3635906,771020000
+JHN Building,Hospital (General Medical & Surgical),900 WALNUT STREET,Philadelphia,Philadelphia,PA,19107,,,329142,,1980,2014,50,290.2,565.4,,,,,6232.2,27.26604323,3641686,771006900
+Foerderer Pavilion,Hospital (General Medical & Surgical),117 South 11th Street,Philadelphia,Philadelphia,PA,19107,,,233930,,1954,2014,45,322.4,513.6,,,,,5875.3,62.26691745,3641702,771013000
+Methodist Hospital,Hospital (General Medical & Surgical),2301 South Broad Street,Philadelphia,Philadelphia,PA,19148,,,312144,,1888,2014,18,294.2,562.3,,,,,7934.1,6.216361679,3656490,771010000
+Girard Medical Center,Hospital (General Medical & Surgical),801 W. Girard Avenue,Philadelphia,Philadelphia,PA,19122,,,279137,,1989,2014,100,112,224.4,,,,,3022.3,90.13208568,3668258,771032100
+St. Joseph's Hospital,Hospital (General Medical & Surgical),1600 W. Girard Avenue,Philadelphia,Philadelphia,PA,19130,39.971975,-75.163506,125500,,1989,2014,27,275.3,592,,,,,3308.7,180.7545817,3668849,772018000
+St. Christophers Hospital for Children,Hospital (General Medical & Surgical),Erie Avenue at Front St.,Philadelphia,Philadelphia,PA,19134,,,1043572,,1989,2014,88,148.8,327.5,,,,,11312,40.35485812,3760930,777010000
+Einstein Medical Center Philadelphia,Hospital (General Medical & Surgical),5501 Old York Rd,Philadelphia,Philadelphia,PA,19141,,,2207000,,1950,2014,92,157.4,314.5,,,,,24719.2,52.38577254,3762393,776009000
+Roxborough Memorial Hospital,Hospital (General Medical & Surgical),5800 Ridge Avenue,Philadelphia,Philadelphia,PA,19128,40.029609,-75.211022,368366,,1890,2014,100,71.1,203.1,,,,,3218.6,47.69386968,3782770,775003010
+HUH Main Buildings,Hospital (General Medical & Surgical),230 N Broad Street,Philadelphia,Philadelphia,PA,19102,,,1563117,,1979,2014,,249.1,505.2,,,,,37044.3,60.93920033,3788596,772025000
+Nazareth Hospital,Hospital (General Medical & Surgical),2601 Holme Ave,Philadelphia,Philadelphia,PA,19152,40.058698,-75.043505,539000,,1939,2014,77,190.4,354.8,,,,,8676.9,57.73042672,3824648,778009005
+Jeanes Hospital,Hospital (General Medical & Surgical),7600 Central Avenue,Philadelphia,Philadelphia,PA,19111,,,930111,,1926,2014,,136,368.9,,,,,8800.9,72.63541663,3890837,778024500
+BOYER PAVILION,Hospital (General Medical & Surgical),BROAD &amp;&amp; VENANGO,Philadelphia,Philadelphia,PA,19140,,,344000,,2000,2014,93,159.9,314.5,,,,,5115.8,10.69389535,3969865,777533001
+TEMPLE UNIVERSITY HOSPITAL SUPERBLOCK,Hospital (General Medical & Surgical),"Rock, Park Ave, Parkinson",Philadelphia,Philadelphia,PA,19140,,,1043288,,2000,2014,2,393.4,782.7,,,,,31550.4,37.73608055,3997483,777014000
+Chestnut Hill Hospital,Hospital (General Medical & Surgical),8835 Germantown Ave.,Philadelphia,Philadelphia,PA,19118,40.078271,-75.211419,473062,,1921,2014,52,199.9,391.7,,,,,8348.6,53.7988678,4470406,775001000
+33737-Philadelphia Airport,Hotel,One Arrivals Road,Philadelphia,Philadelphia,PA,19153,,,256162,,1995,2014,21,145.8,312.2,,,,,3558.7,58.80848838,1059528,
+Sansom Common,Hotel,3600 Walnut Street,Philadelphia,Philadelphia,PA,19104,,,259330,,1997,2014,2,343.4,550.7,,,,,6945.2,56.83569198,1782595,773566000
+RD - PLPH Warwick,Hotel,1701 Locust Street,Philadelphia,Philadelphia,PA,19103,,,426999,,1926,2014,14,103.3,228.7,,,,,4453.1,48.15233759,1837036,883703900
+Loews Philadelphia Hotel,Hotel,1200 Market Street,Philadelphia,Philadelphia,PA,19107,,,735000,,1932,2014,43,99.1,231.2,,,,,6767.7,33.1047619,1946616,883705320
+15683-HI Philadelphia Hist Dist-DJONT2,Hotel,400 Arch Street,Philadelphia,Philadelphia,PA,19106,,,333688,,1970,2014,67,88.2,195.7,,,,,2069.1,0.029069071,2384734,883711100
+Sonesta - Philadelphia,Hotel,1800 Market Street,Philadelphia,Philadelphia,PA,19103,,,414000,,1980,2014,21,184.8,286.3,,,,,3800.2,41.41932367,3161456,883700600
+Sheraton Hotel-Philadelphia Society Hill,Hotel,One Dock Street,Philadelphia,Philadelphia,PA,19106,,,317000,,1986,2014,34,94.7,215.7,,,,,3018.9,36.99463722,3240346,883710000
+311dn-Philadelphia - Airport,Hotel,8900 Bartram Avenue,Philadelphia,Philadelphia,PA,19153,39.886279,-75.249096,78490,,1991,2014,51,105.7,223.6,,,,,782.1,67.90673971,3351472,883743000
+PHI Philadelphia Airport Embassy Suites,Hotel,9000 Bartram Ave,Philadelphia,Philadelphia,PA,19153,39.884409,-75.250782,211000,,2006,2014,46,91.6,204,,,,,1905.2,65.12796209,3408943,883743500
+Sofitel Philadelphia,Hotel,120 South 17th Street,Philadelphia,Philadelphia,PA,19103,,,290966,,2000,2014,47,93.2,215.4,,,,,2835.2,38.75366881,3410522,883703600
+73R49-Philadelphia Ritz Carlton,Hotel,10 Avenue Of The Arts,Philadelphia,Philadelphia,PA,19102,,,350000,,1999,2014,16,136.4,280,,,,,4557.2,60.69285714,3505342,883702100
+omni hotel,Hotel,401 chestnut street,Philadelphia,Philadelphia,PA,19106,,,112380,,1989,2014,49,82.5,240.4,,,,,1160,89.36198612,3635927,883711500
+Club Quarters Hotel,Hotel,1628 Chestnut Street,Philadelphia,Philadelphia,PA,19103,,,255000,,1927,2014,94,30.8,96.7,,,,,1051.8,26.78039216,3637500,883704900
+The Windsor Suites,Hotel,1700 Benjamin Franklin Parkway,Philadelphia,Philadelphia,PA,19103,39.956003,-75.16813,218792,,1963,2014,82,57.2,121.6,,,,,2220,65.91328751,3638505,883720300
+Sheraton Suites Philadelphia Airport,Hotel,4101 Island ave,Philadelphia,Philadelphia,PA,19153,39.891255,-75.234511,192000,,1985,2014,52,95.4,215.3,,,,,1827.2,52.69739583,3687911,883742000
+Westin Philadelphia Hotel,Hotel,99 South 17th Street,Philadelphia,Philadelphia,PA,19103,,,240000,,1990,2014,50,87.8,198.8,,,,,2166.1,78.89708333,3687917,883704000
+Hotel Palomar Philadelphia,Hotel,117 South 17th Street,Philadelphia,Philadelphia,PA,19103,,,130294,,1929,2014,29,134.3,268.3,,,,,1887.9,59.21070809,3687923,883050000
+Philadelphia Downtown Courtyard,Hotel,21 N. Juniper Street,Philadelphia,Philadelphia,PA,19107,,,424000,,1926,2014,38,98.3,204.7,,,,,4034.7,42.63773585,3687925,883704700
+Philadelphia Ronald McDonald House,Hotel,3921-3925 Chestnut St,Philadelphia,Philadelphia,PA,19104,,,79641,,1885,2014,90,65.4,139.1,,,,,403.9,20.22953002,3688012,773080515
+33703-Philadelphia,Hotel,1201 Market Street,Philadelphia,Philadelphia,PA,19107,,,1299546,,1993,2014,33,131.9,254.6,,,,,14940.4,44.63327962,3707280,883704500
+Holiday Inn Express Midtown,Hotel,1305 Walnut Street,Philadelphia,Philadelphia,PA,19107,,,110000,,1964,2014,49,48.6,151.1,,,,,709.3,65.70545455,3727278,883700000
+Hilton Garden Inn Center City,Hotel,1100 Arch Street,Philadelphia,Philadelphia,PA,19107,,,172000,,2000,2014,58,83,199.4,,,,,1504.3,44.46802326,3751718,883705201
+097-Hampton Inn - Philadelphia,Hotel,1301 Race Street,Philadelphia,Philadelphia,PA,19107,,,202400,,2001,2014,61,74.7,174.9,,,,,1230.2,45.83992095,3762103,883704760
+171-Rittenhouse Hotel,Hotel,210 West Rittenhouse Square,Philadelphia,Philadelphia,PA,19103,39.949834,-75.172856,134484,,1989,2014,1,203.6,453.1,,,,,2698.1,0.810505339,3762129,883702700
+Homewood Suites University City,Hotel,4109 Walnut Street,Philadelphia,Philadelphia,PA,19104,39.954487,-75.20566,110000,,2012,2014,41,86.8,199.4,,,,,967.1,53.41,3773012,883733000
+Doubletree Hotel,Hotel,233 South Broad Street,Philadelphia,Philadelphia,PA,19107,,,368464,,1983,2014,68,58.6,160.6,,,,,3926.6,69.08354683,3774262,883702001
+Le Meridien Philadelphia Hotel,Hotel,1419 arch St,Philadelphia,Philadelphia,PA,19102,,,163000,,1906,2014,36,96.7,246.5,,,,,1750.1,34.51717791,3823128,883057105
+Four Points Hotel/Richfield Hosipitality,Hotel,9461 Roosevelt Blvd,Philadelphia,Philadelphia,PA,19114,40.079941,-75.029191,179000,,1973,2014,41,84.1,200.3,,,,,1573.9,36.80782123,3831435,883760000
+Holiday Inn Express Penns Landing,Hotel,100 North Columbus Blvd.,Philadelphia,Philadelphia,PA,19106,39.952439,-75.140357,87000,,1986,2014,38,86.2,191.2,,,,,736.7,56.54022989,3875677,883710500
+Sheraton University City Hotel,Hotel,3501 Chestnut Street,Philadelphia,Philadelphia,PA,19104,,,252880,,1976,2014,15,156.4,325.8,,,,,3029.1,90.76716229,3876329,883730000
+Philadelphia PA AH,Hotel,4301 Island Ave,Philadelphia,Philadelphia,PA,19153,,,64000,,1980,2014,12,91.9,215.5,,,,,710.9,58.8828125,3876478,883742800
+RAMADA,Hotel,11550-11580 ROOSEVELT BLVD,Philadelphia,Philadelphia,PA,19116,,,64796,,1964,2014,1,102.2,194.9,,,,,571,158.8060991,3877095,883763500
+Philadelphia PA FP,Hotel,4101 Island Ave,Philadelphia,Philadelphia,PA,19153,39.891255,-75.234511,88000,,1980,2014,47,108.9,242.9,,,,,956.2,70.81477273,3877200,883742500
+Hilton Home2 Hotel,Hotel,1200 Arch St,Philadelphia,Philadelphia,PA,19107,,,151000,,2013,2014,70,79.6,177.2,,,,,1187.1,30.05231788,3898799,883705215
+Holiday Inn Stadium,Hotel,900 Packer Avenue,Philadelphia,Philadelphia,PA,19148,39.910199,-75.163729,150800,,1972,2014,,127.8,282.4,,,,,1886.9,359.0941645,3952018,883740000
+Hilton Philadelphia-Homewood Suites,Hotel,4200 City Avenue,Philadelphia,Philadelphia,PA,19131,40.005012,-75.218313,258000,,2000,2014,50,99.2,204.3,,,,,2358,64.42170543,3954556,883753000
+Sheraton Philadelphia Downtown,Hotel,201 North 17th Street,Philadelphia,Philadelphia,PA,19103,,,800562,,1980,2014,96,56.4,102.2,,,,,3910,61.22623857,3954641,883720000
+Hotel Monaco Philadelphia,Hotel,433 Chestnut Street,Philadelphia,Philadelphia,PA,19106,,,194128,,1907,2014,10,148.4,298.7,,,,,2601.8,50.1885354,4054368,883009700
+Hawthorn Suites Philadelphia Airport,Hotel,4521 Island Avenue,Philadelphia,Philadelphia,PA,19153,39.888542,-75.232932,100000,,1994,2014,28,56.1,147.1,,,,,638.5,26.809,4495651,883741000
+Hilton Pennslanding Philadelphia,Hotel,201 S Columbus Blvd,Philadelphia,Philadelphia,PA,19106,39.945099,-75.141817,172800,,1999,2014,3,244.4,524.8,,,,,3501.7,74.21643519,4547873,883710700
+Cobbs Creek Rec Center & Ice Rink,Ice/Curling Rink,280 Cobbs Creek Pky,Philadelphia,Philadelphia,PA,19139,39.957264,-75.247888,66000,,1904,2014,,79.4,211.8,,,,,605.8,3.083333333,4392783,783097300
+William Penn Charter School,K-12 School,3000 West School House Lane,Philadelphia,Philadelphia,PA,19144,40.024419,-75.184944,308325,,1925,2014,62,90.2,171.3,,,,,2389.4,13.11505716,1567464,775533000
+Greenberg,K-12 School,600 SHARON LANE,Philadelphia,Philadelphia,PA,19115,,,90000,,1965,2014,90,55.5,90.1,,,,,455.7,6.324444444,3330724,786010200
+Loesche,K-12 School,595 TOMLINSON RD,Philadelphia,Philadelphia,PA,19116,,,88000,,1967,2014,73,53.6,89.1,,,,,362.1,14.99090909,3330725,786056400
+West Philadelphia (New),K-12 School,4901 Chestnut St,Philadelphia,Philadelphia,PA,19139,,,170013,,2011,2014,36,65.4,143,,,,,1078.5,6.681253786,3330726,783094900
+Dobbins CTE,K-12 School,2100-50 W LEHIGH AVE,Philadelphia,Philadelphia,PA,19132,,,312395,,1938,2014,74,96.3,126.8,,,,,1907.3,18.31783479,3330734,785314800
+Dick,K-12 School,2498 W DIAMOND ST,Philadelphia,Philadelphia,PA,19121,39.987021,-75.174392,71000,,1954,2014,29,77.4,115.7,,,,,476.5,9.101408451,3330735,784108400
+Gompers,K-12 School,5701 WYNNEFIELD AVE,Philadelphia,Philadelphia,PA,19131,39.991969,-75.237521,56000,,1949,2014,21,129,169.4,,,,,592.8,1.642857143,3330736,783766600
+Mastbaum CTE,K-12 School,3116 FRANKFORD AVE,Philadelphia,Philadelphia,PA,19134,,,221000,,1929,2014,27,116.2,170.3,,,,,1776.2,3.611312217,3330738,786145800
+Saul CTE,K-12 School,7100 HENRY AVE,Philadelphia,Philadelphia,PA,19128,,,104018,,1980,2014,67,68.5,126.8,,,,,664.9,13.70532023,3330742,784190100
+Girls High,K-12 School,1400 WEST OLNEY AVE,Philadelphia,Philadelphia,PA,19141,40.039071,-75.145508,233372,,1958,2014,55,76.8,108.6,,,,,1204.5,17.12587628,3330743,785056600
+Kinsey,K-12 School,6501 LIMEKILN PIKE,Philadelphia,Philadelphia,PA,19138,40.053045,-75.152874,89200,,1915,2014,84,31.8,44,,,,,187.3,1.961883408,3330744,784226200
+Pennell,K-12 School,1800 NEDRO AVE,Philadelphia,Philadelphia,PA,19141,40.04366,-75.150834,70498,,1927,2014,8,99.7,136.6,,,,,590.9,7.184600982,3330745,785356200
+Olney HS,K-12 School,100 W DUNCANNON AVE,Philadelphia,Philadelphia,PA,19120,40.02918,-75.122735,332185,,1931,2014,72,70,120,,,,,2149.8,10.29757515,3330746,785345400
+Finletter,K-12 School,6101 N FRONT ST,Philadelphia,Philadelphia,PA,19120,,,62760,,1930,2014,21,119.8,158.4,,,,,621.7,0.339388145,3330748,785202400
+Franklin ES,K-12 School,5735 RISING SUN AVE,Philadelphia,Philadelphia,PA,19120,40.042331,-75.105204,76930,,1916,2014,46,108.1,179.9,,,,,764.3,10.68243858,3330749,786458400
+Marshall J,K-12 School,4500 GRISCOM ST,Philadelphia,Philadelphia,PA,19124,40.014584,-75.087012,58450,,1909,2014,48,76.5,103.9,,,,,373.4,7.972626176,3330751,786487800
+Ziegler,K-12 School,5935 SAUL ST,Philadelphia,Philadelphia,PA,19149,40.030266,-75.07558,21149,,1956,2014,70,69.7,129,,,,,345.7,37.32091352,3330753,786076410
+Northeast,K-12 School,1601 COTTMAN AVE,Philadelphia,Philadelphia,PA,19111,40.054675,-75.07214,310296,,1957,2014,80,79.4,124.2,,,,,1830.1,27.32971099,3330756,786082200
+Baldi,K-12 School,8801 VERREE RD,Philadelphia,Philadelphia,PA,19115,40.093539,-75.052112,185113,,1974,2014,76,54.9,123,,,,,1091.2,8.157719879,3330758,786546800
+Disston,K-12 School,6801 COTTAGE ST,Philadelphia,Philadelphia,PA,19135,40.028623,-75.04683,67842,,1923,2014,55,77.4,106.3,,,,,439.6,10.84873677,3330760,786081400
+Forrest,K-12 School,7300 COTTAGE ST,Philadelphia,Philadelphia,PA,19136,40.033315,-75.037759,63250,,1928,2014,33,108.5,150.6,,,,,548.1,9.075098814,3330761,786039800
+Fox Chase,K-12 School,700 RHAWN ST,Philadelphia,Philadelphia,PA,19111,40.075456,-75.080171,52500,,1949,2014,34,107.3,180.7,,,,,519.2,17.55809524,3330762,786455000
+Holme,K-12 School,9120 ACADEMY RD,Philadelphia,Philadelphia,PA,19114,40.053103,-75.00856,73000,,1950,2014,16,87.9,155.9,,,,,520.2,31.85890411,3330763,786002100
+Mayfair,K-12 School,3001 PRINCETON AVE,Philadelphia,Philadelphia,PA,19149,,,72000,,1949,2014,63,86.5,130.2,,,,,440.3,21.80694444,3330764,786438600
+Solis-Cohen,K-12 School,7001 HORROCKS ST.,Philadelphia,Philadelphia,PA,19149,40.044756,-75.066506,91000,,1948,2014,15,103.8,151.5,,,,,651.1,46.45274725,3330766,786543600
+Farrell,K-12 School,8300 CASTOR AVE,Philadelphia,Philadelphia,PA,19152,40.066275,-75.051958,66382,,1958,2014,35,60.3,107.1,,,,,378.9,1.300051219,3330767,786066400
+Frank,K-12 School,2000 BOWLER ST,Philadelphia,Philadelphia,PA,19115,40.088394,-75.028069,74500,,1961,2014,80,65.4,103.1,,,,,357.9,11.63624161,3330768,786309400
+Pollock,K-12 School,2850 WELSH RD,Philadelphia,Philadelphia,PA,19152,40.059728,-75.028009,73000,,1962,2014,56,76.4,117.4,,,,,401,14.69726027,3330769,786569600
+Decatur,K-12 School,3500 ACADEMY RD,Philadelphia,Philadelphia,PA,19154,,,89247,,1965,2014,11,65.9,128.9,,,,,587.8,10.5583381,3330770,786001800
+School of the Future,K-12 School,4021 PARKSIDE AVE,Philadelphia,Philadelphia,PA,19104,,,162000,,2006,2014,12,94.5,206.2,,,,,1484.8,6.137037037,3330772,783172380
+Sayre,K-12 School,5800 WALNUT ST,Philadelphia,Philadelphia,PA,19139,,,200000,,1950,2014,50,103.7,144.6,,,,,1377.2,10.803,3330775,783568200
+Sulzberger,K-12 School,4725 FAIRMOUNT AVE,Philadelphia,Philadelphia,PA,19139,,,120000,,1924,2014,20,88.5,117.6,,,,,678.4,8.995833333,3330777,783707600
+Turner,K-12 School,5900 BALTIMORE AVE,Philadelphia,Philadelphia,PA,19143,,,190000,,1971,2014,28,50.3,98.2,,,,,840.6,11.80842105,3330779,783030800
+Barry,K-12 School,5900 RACE ST,Philadelphia,Philadelphia,PA,19139,39.964838,-75.238506,99287,,2008,2014,67,51.2,124.3,,,,,540.7,20.06103518,3330781,783431200
+Bryant,K-12 School,6001 CEDAR AVE,Philadelphia,Philadelphia,PA,19143,,,94235,,1904,2014,22,101,128.9,,,,,588.7,7.369873189,3330783,783087800
+Catherine,K-12 School,6600 CHESTER AVE,Philadelphia,Philadelphia,PA,19142,,,57500,,1937,2014,69,87.1,119.3,,,,,327.9,7.295652174,3330784,783094200
+Comegys,K-12 School,5001 GREENWAY AVE,Philadelphia,Philadelphia,PA,19143,39.940839,-75.215411,70644,,1911,2014,4,105.8,145.8,,,,,491.7,6.561066757,3330786,783183400
+Penn Alexander,K-12 School,4209 SPRUCE ST,Philadelphia,Philadelphia,PA,19104,,,84357,,2002,2014,10,90.9,209.6,,,,,779.2,10.33464917,3330789,773151500
+Hamilton,K-12 School,5640 SPRUCE ST,Philadelphia,Philadelphia,PA,19139,,,89500,,1968,2014,38,66.8,119.6,,,,,488.7,4.748603352,3330790,783499600
+Harrington,K-12 School,5300-34 BALTIMORE AVE,Philadelphia,Philadelphia,PA,19143,,,66500,,1926,2014,63,51.5,76.6,,,,,239.7,5.74887218,3330791,783029800
+Huey,K-12 School,5200 PINE ST,Philadelphia,Philadelphia,PA,19143,,,88183,,1963,2014,56,63.1,87.3,,,,,471.1,,3330793,783732400
+Longstreth,K-12 School,5700 WILLOWS AVE,Philadelphia,Philadelphia,PA,19143,39.941069,-75.232567,85350,,1970,2014,78,48.8,100.2,,,,,382.8,10.50029291,3330795,783588600
+McMichael,K-12 School,3543 FAIRMOUNT AVE,Philadelphia,Philadelphia,PA,19104,,,100000,,1916,2014,16,77.1,109.4,,,,,656.4,9.426,3330796,783631400
+Morton,K-12 School,2501 S 63rd St,Philadelphia,Philadelphia,PA,19142,,,87000,,1972,2014,39,74,122,,,,,490.7,15.26781609,3330797,783130400
+Rhoads J,K-12 School,4901 PARRISH ST,Philadelphia,Philadelphia,PA,19139,39.967278,-75.218651,70000,,1960,2014,8,95.2,128.8,,,,,554,14.08142857,3330799,783394400
+Washington Martha,K-12 School,766 N 44TH ST,Philadelphia,Philadelphia,PA,19104,39.966327,-75.211034,71300,,1930,2014,38,126.9,174.8,,,,,595.1,66.91584853,3330800,783691500
+Miller,K-12 School,4300 WESTMINISTER AVE,Philadelphia,Philadelphia,PA,19104,,,67200,,1967,2014,1,122.5,287.3,,,,,849.3,2.120535714,3330802,783364400
+Anderson,K-12 School,1034 SOUTH 6OTH ST,Philadelphia,Philadelphia,PA,19143,,,68235,,1963,2014,60,55.6,85.6,,,,,334.3,12.3734154,3330803,783782600
+Locke,K-12 School,4550 HAVERFORD AVE,Philadelphia,Philadelphia,PA,19104,39.96255,-75.213535,77000,,1965,2014,25,81.5,135.6,,,,,577,8.283116883,3330804,783206951
+South Philadelphia,K-12 School,2101 SOUTH BROAD ST,Philadelphia,Philadelphia,PA,19148,,,331440,,1956,2014,91,64,97.2,,,,,1510.8,8.587376297,3330806,781022700
+Franklin HS,K-12 School,550 NORTH BROAD ST,Philadelphia,Philadelphia,PA,19130,,,242293,,1958,2014,54,75.3,123.8,,,,,1387.7,16.60221302,3330807,782025600
+CAPA,K-12 School,901 S BROAD ST,Philadelphia,Philadelphia,PA,19147,,,166630,,1997,2014,33,72.2,167.7,,,,,1230.8,14.58920963,3330808,781021910
+Vare EH,K-12 School,2101 S 24TH ST,Philadelphia,Philadelphia,PA,19139,,,123019,,1980,2014,30,114.7,156.2,,,,,1148.9,6.104748047,3330811,782808000
+Masterman,K-12 School,1699 SPRING GARDEN ST,Philadelphia,Philadelphia,PA,19130,39.963111,-75.166269,105000,,1933,2014,46,91.6,138.1,,,,,738.5,5.855238095,3330813,782513600
+Furness HS,K-12 School,1900 S 3RD ST,Philadelphia,Philadelphia,PA,19148,,,145000,,1914,2014,44,120.8,154,,,,,1082.5,11.05448276,3330814,781458200
+Fell,K-12 School,900 W OREGON AVE,Philadelphia,Philadelphia,PA,19148,,,61000,,1924,2014,38,114.4,154.2,,,,,451,12.67540984,3330815,781609400
+Bregy,K-12 School,1700 BIGLER ST,Philadelphia,Philadelphia,PA,19145,39.914839,-75.176521,66000,,1923,2014,54,85.5,117.7,,,,,370.9,5.654545455,3330817,782008600
+Franklin Learning Center,K-12 School,616 N 15TH ST,Philadelphia,Philadelphia,PA,19130,,,150000,,1909,2014,39,97,144.4,,,,,1109,5.704,3330819,782640200
+Girard,K-12 School,1801 SNYDER AVE,Philadelphia,Philadelphia,PA,19145,,,66685,,1957,2014,52,62.2,90.8,,,,,357.7,15.50423634,3330821,782720400
+McCall,K-12 School,325 SOUTH 7TH ST,Philadelphia,Philadelphia,PA,19106,,,68076,,1909,2014,59,69,109.1,,,,,345.9,7.017157295,3330822,781518600
+Meredith,K-12 School,725 SOUTH 5TH ST,Philadelphia,Philadelphia,PA,19147,,,55437,,1930,2014,72,71.7,107.7,,,,,280.6,7.006151127,3330824,781485800
+Morris,K-12 School,2600 W THOMPSON ST,Philadelphia,Philadelphia,PA,19121,39.975709,-75.178456,80000,,1966,2014,50,56.3,94.3,,,,,347.9,13.62375,3330825,782565200
+GAMP,K-12 School,22ND &amp; RITNER ST,Philadelphia,Philadelphia,PA,19145,,,83460,,1914,2014,12,143.2,232.9,,,,,900.8,5.838725138,3330827,782462200
+Palumbo,K-12 School,1122 CATHARINE ST,Philadelphia,Philadelphia,PA,19147,39.94021,-75.16135,185206,,1980,2014,73,84.1,113,,,,,1290.4,5.862121098,3330829,781043800
+Jackson,K-12 School,1213 S. 12 ST,Philadelphia,Philadelphia,PA,19147,,,58000,,1925,2014,51,96.3,134.6,,,,,371.8,11.66034483,3330835,781092000
+Kirkbride,K-12 School,1501 S 7TH ST,Philadelphia,Philadelphia,PA,19147,,,57000,,1926,2014,24,99.5,131.3,,,,,466.6,15.47017544,3330838,781082800
+Nebinger,K-12 School,601 CARPENTER ST,Philadelphia,Philadelphia,PA,19147,,,59000,,1925,2014,18,105.6,143.3,,,,,521,8.228813559,3330839,781042400
+Sharswood,K-12 School,2300 S 2ND ST,Philadelphia,Philadelphia,PA,19148,,,73000,,1906,2014,38,87.4,113,,,,,398.9,6.34109589,3330840,781432200
+Southwark,K-12 School,1835 S 9TH ST,Philadelphia,Philadelphia,PA,19148,,,138000,,1909,2014,78,55.6,80,,,,,661.4,7.842753623,3330841,781609000
+Taggart,K-12 School,400 W PORTER ST,Philadelphia,Philadelphia,PA,19148,,,66000,,1916,2014,45,99.4,133,,,,,544.6,339.0636364,3330842,781490600
+Washington ES,K-12 School,1198 S 5TH ST,Philadelphia,Philadelphia,PA,19147,,,68000,,1937,2014,40,94.3,128.5,,,,,417.9,10.57647059,3330844,781486600
+Overbrook HS,K-12 School,5898 LANCASTER AVE,Philadelphia,Philadelphia,PA,19131,,,323316,,1926,2014,93,74.5,92.5,,,,,1929.8,4.415803734,3330846,783258200
+Strawberry Mansion & Hill,K-12 School,3133 RIDGE AVE,Philadelphia,Philadelphia,PA,19132,,,320920,,1964,2014,56,108.5,141.6,,,,,2210.8,14.85011841,3330851,784374200
+Rhodes EW,K-12 School,2900 W CLEARFIELD ST,Philadelphia,Philadelphia,PA,19132,40.003184,-75.178042,180000,,1972,2014,16,70.2,124.1,,,,,1021.7,7.045555556,3330852,784063000
+Daroff,K-12 School,5630 VINE ST,Philadelphia,Philadelphia,PA,19139,,,85080,,1972,2014,57,83.2,148.7,,,,,577.7,17.65984955,3330853,783541800
+Blaine,K-12 School,3001-29 WEST BERKS ST,Philadelphia,Philadelphia,PA,19121,,,88317,,1967,2014,19,74.6,108,,,,,451,10.48722217,3330854,784035900
+Cassidy,K-12 School,6523 LANDSDOWNE AVE,Philadelphia,Philadelphia,PA,19151,,,59123,,1924,2014,20,108.5,136.7,,,,,517.6,34.67855149,3330855,783262200
+Heston,K-12 School,1621 N 54TH ST,Philadelphia,Philadelphia,PA,19131,,,81640,,1971,2014,35,72.1,132.5,,,,,491.9,22.80499755,3330857,783257800
+Kenderton,K-12 School,1500 W ONTARIO ST,Philadelphia,Philadelphia,PA,19140,40.004945,-75.15439,91008,,1962,2014,56,63,108.4,,,,,533.4,8.772855134,3330858,785657200
+Pratt,K-12 School,2200 N 22ND ST,Philadelphia,Philadelphia,PA,19132,,,59000,,1952,2014,56,86.8,109.7,,,,,413.8,23.93389831,3330862,785727200
+Duckrey,K-12 School,1501 W DIAMOND ST,Philadelphia,Philadelphia,PA,19121,39.984951,-75.158364,101115,,1968,2014,67,58.9,118.5,,,,,537.6,2.411116056,3330865,784093000
+Wright,K-12 School,2700 W DAUPHIN ST,Philadelphia,Philadelphia,PA,19132,39.9906,-75.176968,82000,,1905,2014,46,53.5,102.5,,,,,379.7,11.1597561,3330866,784615800
+Overbrook Education Center,K-12 School,6722 LANSDOWNE AVE,Philadelphia,Philadelphia,PA,19151,,,55128,,1915,2014,79,60.5,125.5,,,,,309.1,3.872805108,3330867,783262225
+Douglas F,K-12 School,2118 W NORRIS ST,Philadelphia,Philadelphia,PA,19121,39.984797,-75.169229,109651,,1940,2014,25,95,139.6,,,,,722.2,15.30765793,3330868,784321800
+Gideon,K-12 School,2817 W GLENWOOD AVE,Philadelphia,Philadelphia,PA,19121,,,67000,,1952,2014,67,77.5,106.1,,,,,429.2,18.11641791,3330869,784168800
+Kelley William,K-12 School,1601 N. 28TH ST,Philadelphia,Philadelphia,PA,19121,,,72000,,1966,2014,18,56.2,93.8,,,,,311.6,7.363888889,3330870,784611000
+Meade,K-12 School,1600 NORTH 18TH ST,Philadelphia,Philadelphia,PA,19121,,,94000,,1937,2014,40,83.2,108.1,,,,,490.6,12.90638298,3330871,782405200
+Jones,K-12 School,2950 MEMPHIS ST,Philadelphia,Philadelphia,PA,19134,39.985798,-75.11287,118000,,1924,2014,63,96.3,131.5,,,,,950.3,3.895762712,3330873,786324800
+Penn Treaty,K-12 School,600 E THOMPSON ST,Philadelphia,Philadelphia,PA,19125,,,144000,,1928,2014,43,82.5,119.9,,,,,999.1,12.91944444,3330875,781401800
+Stetson,K-12 School,3200 B ST,Philadelphia,Philadelphia,PA,19134,,,140000,,1917,2014,13,76.1,141.4,,,,,1043.3,39.02142857,3330876,786010400
+Stoddart-Fleisher,K-12 School,540 N 13TH ST,Philadelphia,Philadelphia,PA,19123,,,108393,,1926,2014,2,140.4,173.7,,,,,1202.7,11.99892982,3330877,781646000
+deBurgos,K-12 School,401 W LEHIGH AV,Philadelphia,Philadelphia,PA,19133,39.991955,-75.138794,131500,,2002,2014,67,59.1,109.1,,,,,651.7,9.045627376,3330879,786272100
+Conwell,K-12 School,1849 E CLEARFIELD AVE,Philadelphia,Philadelphia,PA,19134,39.994293,-75.11505,55600,,1926,2014,77,98.1,126.1,,,,,442.4,6.78057554,3330880,786072800
+Dunbar,K-12 School,1720-58 N 12 TH ST,Philadelphia,Philadelphia,PA,19122,,,53200,,1932,2014,47,82.9,119.2,,,,,378.1,30.94172932,3330883,781641600
+Elverson (Military),K-12 School,2118-60 N 13TH ST,Philadelphia,Philadelphia,PA,19122,,,74557,,1930,2014,38,68.3,95.4,,,,,338.6,3.873546414,3330885,781654210
+Hackett,K-12 School,2161 E YORK ST,Philadelphia,Philadelphia,PA,19125,39.980848,-75.127083,108550,,1969,2014,57,45.4,98.1,,,,,473.4,6.530631046,3330888,786594000
+Hartranft,K-12 School,720 WEST CUMBERLAND ST,Philadelphia,Philadelphia,PA,19133,,,85000,,1968,2014,46,57.4,113.5,,,,,433.9,4.788235294,3330890,785575000
+Ludlow,K-12 School,500 W MASTER ST,Philadelphia,Philadelphia,PA,19122,39.972632,-75.144461,70230,,1927,2014,21,89.6,116.1,,,,,393.9,19.66680906,3330891,781497200
+McKinley,K-12 School,2101 ORKNEY ST,Philadelphia,Philadelphia,PA,19122,39.982781,-75.141737,74314,,1970,2014,29,74.2,142.1,,,,,477.1,35.97841591,3330892,786525600
+Potter-Thomas,K-12 School,3001 N 6TH ST,Philadelphia,Philadelphia,PA,19133,,,79933,,1969,2014,48,94.7,150.3,,,,,559,7.730224063,3330894,786687200
+Welsh,K-12 School,2331 N 4TH ST,Philadelphia,Philadelphia,PA,19133,39.986514,-75.139505,71000,,1966,2014,36,75.8,123.1,,,,,405.3,9.533802817,3330897,786646000
+Cramp,K-12 School,3449 N MASHER ST,Philadelphia,Philadelphia,PA,19140,40.002795,-75.130393,80088,,1970,2014,12,70.5,215.8,,,,,738.6,7.194585955,3330902,786211400
+Kearny,K-12 School,601 FAIRMOUNT AVE,Philadelphia,Philadelphia,PA,19123,,,49000,,1922,2014,1,146.4,214.4,,,,,495.9,9.420408163,3330903,781088800
+Marshall T,K-12 School,5118-50 N 6TH ST,Philadelphia,Philadelphia,PA,19120,,,114000,,1997,2014,86,44.9,97.7,,,,,494.7,7.690350877,3330905,786687225
+Sheridan,K-12 School,800 E ONTARIO ST,Philadelphia,Philadelphia,PA,19134,39.999837,-75.114796,64767,,1900,2014,25,90.9,121.8,,,,,378.7,51.46756836,3330906,786350400
+Webster,K-12 School,3400 FRANKFORD AVE,Philadelphia,Philadelphia,PA,19134,39.995587,-75.105289,92275,,1968,2014,37,67.8,124.1,,,,,600.1,88.75643457,3330908,786146001
+Munoz Marin,K-12 School,3300 N 3RD ST,Philadelphia,Philadelphia,PA,19140,,,119250,,1997,2014,13,84.4,174.6,,,,,930.6,6.852830189,3330910,786636550
+Hunter,K-12 School,2400-54 N FRONT ST,Philadelphia,Philadelphia,PA,19133,,,98500,,2004,2014,20,95.6,188.2,,,,,834.4,33.09949239,3330911,786154910
+Central HS,K-12 School,1700 W OLNEY AVE,Philadelphia,Philadelphia,PA,19141,40.039018,-75.150548,212097,,1939,2014,26,123.7,178.9,,,,,1795.3,16.02521488,3330912,785373600
+Roxborough HS,K-12 School,6498 RIDGE AVE,Philadelphia,Philadelphia,PA,19128,,,240000,,1924,2014,86,74.4,105.6,,,,,1203,14.17708333,3330913,784378200
+King HS,K-12 School,6100 STENTON AVE,Philadelphia,Philadelphia,PA,19138,40.057654,-75.162143,370000,,1972,2014,24,104.3,203.3,,,,,3391.2,26.46675676,3330914,784421900
+Randolph CTE,K-12 School,3101 HENRY AVE,Philadelphia,Philadelphia,PA,19129,,,121579,,1975,2014,11,121.8,215,,,,,1195.8,16.33094531,3330915,784188400
+Edmonds FS,K-12 School,8025 THOURON AVE,Philadelphia,Philadelphia,PA,19150,40.072183,-75.170228,80500,,1949,2014,15,118.5,156.1,,,,,605.3,19.73913043,3330920,784479400
+Emlen,K-12 School,6501 CHEW AVE,Philadelphia,Philadelphia,PA,19119,40.053854,-75.178437,74500,,1926,2014,2,196.4,241,,,,,877.1,34.58255034,3330921,784061400
+Fitler,K-12 School,140 WEST SEYMOUR ST,Philadelphia,Philadelphia,PA,19144,40.026317,-75.166708,38000,,1899,2014,9,118.4,162.3,,,,,378.6,18.31842105,3330922,785435800
+Henry,K-12 School,601 CARPENTER LN,Philadelphia,Philadelphia,PA,19119,40.046057,-75.196265,65400,,1908,2014,55,95,132.3,,,,,412.3,8.003058104,3330924,784048800
+Houston,K-12 School,7300 RURAL LANE,Philadelphia,Philadelphia,PA,19119,40.058476,-75.194872,72000,,1927,2014,30,103.8,141.2,,,,,486.5,88.36527778,3330925,784003600
+Levering,K-12 School,6000 RIDGE AVE,Philadelphia,Philadelphia,PA,19128,,,69475,,1929,2014,54,97.6,121.5,,,,,546.1,4.089240734,3330927,784378000
+Logan,K-12 School,1700 LINDLEY AVE,Philadelphia,Philadelphia,PA,19141,40.031317,-75.151823,65000,,1924,2014,8,108.6,133.7,,,,,564.3,13.57230769,3330928,785689600
+Shawmont,K-12 School,535 SHAWMONT AVE,Philadelphia,Philadelphia,PA,19128,40.052298,-75.238052,83510,,1929,2014,33,81.2,113.1,,,,,449.9,4.285714286,3330933,784401200
+Steel,K-12 School,4301 WAYNE AVE,Philadelphia,Philadelphia,PA,19140,40.01844,-75.157694,85350,,1973,2014,50,55.5,120.6,,,,,505.7,12.95606327,3330934,785508805
+Cook-Wissahickon,K-12 School,531 RIGHTER ST.,Philadelphia,Philadelphia,PA,19128,40.022693,-75.20749,73100,,1969,2014,64,70.9,130.2,,,,,432.8,10.32147743,3330936,784378900
+Wister,K-12 School,67 E BRINGHURST ST,Philadelphia,Philadelphia,PA,19144,40.032744,-75.166522,93715,,1958,2014,83,57.5,83.5,,,,,462.4,12.25417489,3330937,785046000
+Lingelbach,K-12 School,6340 WAYNE AVE,Philadelphia,Philadelphia,PA,19144,40.037664,-75.189089,64963,,1956,2014,63,76.5,109.5,,,,,337.2,30.04171605,3330938,784473400
+Dobson,K-12 School,4667 UMBRIA,Philadelphia,Philadelphia,PA,19143,40.030991,-75.230476,52500,,1930,2014,12,115.1,146.5,,,,,373,7.228571429,3330939,784463600
+Hill-Freedman,K-12 School,6200 CRITTENDEN ST,Philadelphia,Philadelphia,PA,19138,40.056961,-75.164954,46959,,1980,2014,30,58.3,183,,,,,366.3,6.607891991,3330940,784453800
+Kelly John,K-12 School,5116 PULASKI AVE,Philadelphia,Philadelphia,PA,19144,40.024942,-75.171046,101976,,1970,2014,73,64.7,111.8,,,,,523.2,18.36314427,3330941,785401600
+Frankford HS,K-12 School,5000 OXFORD AVE,Philadelphia,Philadelphia,PA,19124,,,313765,,1916,2014,77,85.5,125.8,,,,,1861.2,22.46171498,3330943,786407400
+Cooke,K-12 School,1300 W LOUDON ST,Philadelphia,Philadelphia,PA,19141,40.025851,-75.14535,117600,,1923,2014,36,89.5,118.3,,,,,866.6,4.929421769,3330944,785372800
+Harding,K-12 School,2000 WAKELING ST,Philadelphia,Philadelphia,PA,19124,40.013137,-75.07354,129264,,1924,2014,59,97.3,129.1,,,,,802.5,0.943804926,3330945,786550200
+Wagner,K-12 School,1701 CHELTEN AVE,Philadelphia,Philadelphia,PA,19126,40.051184,-75.147006,81589,,1929,2014,13,130.3,168.4,,,,,866.8,8.574685313,3330947,785097400
+Juniata Park,K-12 School,801 E HUNTING PARK AVE,Philadelphia,Philadelphia,PA,19124,40.011956,-75.111233,102300,,2007,2014,9,92.6,181.6,,,,,836.7,19.62072336,3330948,884460970
+Barton,K-12 School,4600 ROSEHILL ST,Philadelphia,Philadelphia,PA,19120,40.019468,-75.119374,72200,,1925,2014,61,68.7,99.7,,,,,425.3,10.3033241,3330949,785531800
+Birney,K-12 School,900 WEST LINDLEY AVE,Philadelphia,Philadelphia,PA,19141,,,59200,,1913,2014,28,143.2,210.3,,,,,587.3,17.74155405,3330950,785317200
+Carnell,K-12 School,1100 DEVEREAUX AVE,Philadelphia,Philadelphia,PA,19111,40.039531,-75.084418,74885,,1931,2014,54,97.9,137.8,,,,,617.7,16.81912265,3330951,786106800
+Creighton,K-12 School,5401 TABOR AVE,Philadelphia,Philadelphia,PA,19120,40.034726,-75.105332,63232,,1930,2014,60,114.4,153.5,,,,,598.7,16.939208,3330952,786529200
+Ellwood,K-12 School,6701 N 13TH ST,Philadelphia,Philadelphia,PA,19126,,,55621,,1957,2014,42,84.6,119,,,,,397.3,11.34283814,3330954,785360600
+Stearne,K-12 School,1655 UNITY ST,Philadelphia,Philadelphia,PA,19124,40.011759,-75.085879,76150,,1966,2014,65,51.6,103,,,,,352.3,18.93368352,3330955,786424600
+Feltonville Intermediate,K-12 School,4901 RISING SUN AVE,Philadelphia,Philadelphia,PA,19120,40.024577,-75.123187,84000,,1936,2014,71,65.5,112.3,,,,,433.6,25.56904762,3330956,785531600
+Lawton,K-12 School,6100 JACKSON ST,Philadelphia,Philadelphia,PA,19135,,,79856,,1973,2014,35,55.3,169.6,,,,,578.6,8.495291525,3330959,786033600
+Lowell,K-12 School,450 W NEDRO AVE,Philadelphia,Philadelphia,PA,19120,40.040986,-75.128865,58200,,1914,2014,11,136.5,245.2,,,,,651,25.66838488,3330960,785548000
+Washington Grover,K-12 School,201 E OLNEY ST,Philadelphia,Philadelphia,PA,19120,,,149500,,2000,2014,70,60.3,120.4,,,,,808.6,5.839464883,3330961,785373150
+McClure,K-12 School,4134 N 6TH ST,Philadelphia,Philadelphia,PA,19140,40.014908,-75.137244,57500,,1916,2014,21,101,139.9,,,,,383.8,18.21565217,3330962,785558600
+Morrison,K-12 School,5100 N 3RD ST,Philadelphia,Philadelphia,PA,19120,,,83894,,1924,2014,9,107.7,145,,,,,583.2,7.339023053,3330963,785177400
+Sullivan,K-12 School,5300 DITMAN ST,Philadelphia,Philadelphia,PA,19124,40.015393,-75.066625,65000,,1929,2014,54,98.3,133.8,,,,,534.4,10.22,3330964,786112400
+Taylor,K-12 School,3698 NORTH RANDOLPH ST,Philadelphia,Philadelphia,PA,19140,,,56600,,1908,2014,61,82.3,123.8,,,,,408.3,12.20671378,3330965,785405400
+Prince Hall,K-12 School,6101-6167 N GRATZ,Philadelphia,Philadelphia,PA,19141,,,79000,,1973,2014,26,71.8,145.3,,,,,578.7,14.48227848,3330966,785259000
+Feltonville Arts,K-12 School,210 E Coutland St,Philadelphia,Philadelphia,PA,19120,,,78000,,1995,2014,36,84.3,171.3,,,,,598.6,3.530769231,3330967,785127900
+Bethune,K-12 School,3301 OLD YORK RD,Philadelphia,Philadelphia,PA,19140,40.00298,-75.148894,99420,,1970,2014,60,67.9,129.1,,,,,580.6,56.44638906,3330968,785367600
+Rowen,K-12 School,6841 NORTH 19TH ST,Philadelphia,Philadelphia,PA,19126,40.059717,-75.148583,56400,,1938,2014,59,87.3,118.8,,,,,409.8,58.12411348,3330969,784552600
+Swenson CTE,K-12 School,2750 RED LION RD,Philadelphia,Philadelphia,PA,19114,40.092749,-75.012892,171922,,1976,2014,5,105.2,223.2,,,,,1709.8,3.756354626,3330972,786441600
+Meehan,K-12 School,3001 RYAN AVE,Philadelphia,Philadelphia,PA,19152,40.041102,-75.043853,204093,,1973,2014,77,42.7,93.2,,,,,843.9,14.78443651,3330974,786482200
+Brown JH,K-12 School,3600 STANWOOD ST,Philadelphia,Philadelphia,PA,19136,40.043974,-75.024542,54623,,1937,2014,37,91.9,124.9,,,,,326.6,8.080845065,3330976,786152400
+LaBrum,K-12 School,10800 HAWLEY ST,Philadelphia,Philadelphia,PA,19154,,,44500,,1974,2014,29,66.3,202.5,,,,,385.2,14.56853933,3330977,786442000
+Spruance,K-12 School,6401 HORROCKS ST,Philadelphia,Philadelphia,PA,19149,40.037914,-75.072979,102143,,1950,2014,81,70.9,102.7,,,,,496,7.282926877,3330979,786304600
+Rhawnhurst,K-12 School,7809 CASTOR AVE,Philadelphia,Philadelphia,PA,19152,40.058652,-75.05899,46000,,1949,2014,10,121,169,,,,,370.2,18.27391304,3330980,786066200
+Comly,K-12 School,1001 BYBERRY RD,Philadelphia,Philadelphia,PA,19116,40.120158,-75.009583,35045,,1928,2014,6,184.2,262.6,,,,,436.6,26.62576687,3330981,786057000
+Fitzpatrick,K-12 School,11061 KNIGHTS RD,Philadelphia,Philadelphia,PA,19154,40.081287,-74.976307,94466,,1959,2014,21,72.6,130,,,,,596.5,12.05089662,3330982,786249100
+Kensington HS Health,K-12 School,2445 EMERALD ST,Philadelphia,Philadelphia,PA,19125,,,56394,,2001,2014,40,63.1,117.6,,,,,300.8,4.638791361,3330987,786121075
+Patterson,K-12 School,7001 BUIST AVE,Philadelphia,Philadelphia,PA,19142,39.915826,-75.236335,72876,,1921,2014,65,86.3,103.4,,,,,494.8,7.975190735,3333128,783072600
+Kensington HS Business-Urban,K-12 School,2075 E CUMBERLAND ST,Philadelphia,Philadelphia,PA,19125,39.984166,-75.126632,108000,,1917,2014,45,90.5,131.7,,,,,835,7.844444444,3335468,786085600
+Adaire,K-12 School,1300 E PALMER ST,Philadelphia,Philadelphia,PA,19125,,,49890,,1957,2014,50,93.4,135.7,,,,,320,9.66325917,3337456,781352000
+Blankenburg,K-12 School,4612-72 W GIRARD AVE,Philadelphia,Philadelphia,PA,19131,,,64000,,1925,2014,18,126.6,164.6,,,,,508.7,11.8890625,3337457,783175200
+Leeds,K-12 School,1100 E MT. PLEASANT AVE,Philadelphia,Philadelphia,PA,19150,40.070585,-75.176274,168259,,1955,2014,40,66.3,96.6,,,,,954.7,15.65146589,3337462,784269400
+Pastorius,K-12 School,5650 SPRAGUE ST,Philadelphia,Philadelphia,PA,19138,,,75318,,1967,2014,84,65.9,105.3,,,,,368.6,8.938102446,3337464,785099400
+Clemente,K-12 School,122 W ERIE AVE,Philadelphia,Philadelphia,PA,19140,,,232815,,1994,2014,68,43.7,96.1,,,,,992.3,6.047290767,3337468,786125000
+Beeber,K-12 School,5925 MALVERN AVE,Philadelphia,Philadelphia,PA,19131,39.985886,-75.242202,139000,,1933,2014,5,99.5,121.5,,,,,1096.4,10.86330935,3338613,783288200
+Mifflin,K-12 School,3624 CONRAD ST,Philadelphia,Philadelphia,PA,19129,40.013642,-75.191208,62100,,1937,2014,19,114.5,160.9,,,,,475.3,8.570048309,3339033,784249400
+Overbrook School for the Blind,K-12 School,6333 Malvern Avenue,Philadelphia,Philadelphia,PA,19151,,,310473,,1900,2014,59,93.2,153,,,,,2198,12.1791589,3347763,774577000
+Widener,K-12 School,1450 WEST OLNEY AVE,Philadelphia,Philadelphia,PA,19141,40.03906,-75.146058,84135,,1953,2014,1,207,340,,,,,1377.7,17.12604742,3356674,785056600
+Lincoln HS,K-12 School,3201 RYAN AVE,Philadelphia,Philadelphia,PA,19136,40.043178,-75.044881,292229,,2009,2014,11,130.8,259.8,,,,,3492.1,14.04138535,3358512,786482600
+Roosevelt MS,K-12 School,430 E WASHINGTON LANE,Philadelphia,Philadelphia,PA,19144,40.048423,-75.175562,135315,,1924,2014,14,76.1,104.2,,,,,860.4,13.94671692,3404349,784471600
+Fels HS,K-12 School,1001 DEVEREUX AVE,Philadelphia,Philadelphia,PA,19111,,,249787,,2009,2014,12,104.2,219.8,,,,,2448.1,14.22291793,3408313,786264650
+Hancock,K-12 School,3700 MORRELL AVE,Philadelphia,Philadelphia,PA,19114,,,66000,,1967,2014,73,52.4,118.8,,,,,346.3,9.384848485,3408784,786332800
+Rush,K-12 School,11901 Knights Rd,Philadelphia,Philadelphia,PA,19154,40.085034,-74.973242,173550,,1980,2014,4,106.7,211.7,,,,,1706.5,11.31028522,3490893,786249200
+Moore,K-12 School,6900 Summerdale Ave,Philadelphia,Philadelphia,PA,19111,40.049053,-75.076453,67701,,1980,2014,23,81.5,125.4,,,,,402.2,31.61991699,3490894,786543400
+Willard,K-12 School,1930 E Elkhart St,Philadelphia,Philadelphia,PA,19134,39.992714,-75.115194,97261,,1907,2014,4,106.5,210.9,,,,,922.4,35.07983673,3492406,786118700
+Allen Ethel,K-12 School,3200 WEST LEHIGH AVE,Philadelphia,Philadelphia,PA,19132,39.997707,-75.183637,83197,,1971,2014,14,86.4,167.7,,,,,629.3,17.39125209,3493360,784224400
+McDaniel,K-12 School,2100 Moore St,Philadelphia,Philadelphia,PA,19145,,,61000,,1937,2014,2,128.7,220.8,,,,,618.9,5.97704918,3498628,782791400
+Washington HS,K-12 School,10175 BUSTLETON AVE,Philadelphia,Philadelphia,PA,19116,40.107348,-75.026676,346000,,1962,2014,82,64.6,97.1,,,,,1581.5,23.05780347,3498649,786056200
+Bluford,K-12 School,5720 MEDIA ST,Philadelphia,Philadelphia,PA,19131,39.97479,-75.236137,99926,,1909,2014,5,82.6,163,,,,,650.7,5.389988592,3498651,783318200
+Jenks John,K-12 School,8301 GERMANTOWN AVE,Philadelphia,Philadelphia,PA,19118,40.074184,-75.203439,54000,,1924,2014,38,88.1,133.1,,,,,417.5,6.47037037,3498652,784167600
+Lankenau,K-12 School,201 SPRING LANE,Philadelphia,Philadelphia,PA,19124,,,74000,,1971,2014,49,52.6,123.8,,,,,435.3,4.491891892,3498653,784408400
+Kensington HS CAPA,K-12 School,1901 N Front St,Philadelphia,Philadelphia,PA,19125,39.97802,-75.133619,88915,,1917,2014,27,42.6,130.6,,,,,496.4,2.698082438,3505061,777141500
+Mitchell,K-12 School,5500 KINGSESSING AVE,Philadelphia,Philadelphia,PA,19143,39.937186,-75.223734,90000,,1915,2014,13,91.5,129.7,,,,,554.2,25.71333333,3583473,786264650
+Edison,K-12 School,151 W LUZERNE ST,Philadelphia,Philadelphia,PA,19140,40.011103,-75.128879,316000,,1985,2014,73,72.8,130.1,,,,,1876.8,16.59620253,3583474,786309550
+Greenfield,K-12 School,2200 CHESTNUT ST,Philadelphia,Philadelphia,PA,19103,,,96000,,1968,2014,65,52.8,114.2,,,,,506.1,6.583333333,3583475,782092400
+Carver,K-12 School,1600 W NORRIS ST,Philadelphia,Philadelphia,PA,19121,39.983777,-75.161195,97000,,1949,2014,97,80,155.7,,,,,1051.9,5.317525773,3583476,784516400
+Elkin,K-12 School,3199 D ST,Philadelphia,Philadelphia,PA,19134,,,53200,,1973,2014,21,114.3,220.6,,,,,607.8,18.33834586,3589770,786010800
+Pennypacker,K-12 School,1858 E WASHINGTON LANE,Philadelphia,Philadelphia,PA,19146,40.065487,-75.15973,173000,,1930,2014,88,37.2,50,,,,,428.1,3.801734104,3589772,784472600
+Lea,K-12 School,4700 LOCUST ST,Philadelphia,Philadelphia,PA,19124,,,70000,,1914,2014,22,100.7,136.3,,,,,544.3,34.43571429,3589870,783705200
+Boone,K-12 School,W Jefferson St,Philadelphia,Philadelphia,PA,19121,,,56265,,1963,2014,36,75.1,125.3,,,,,325.4,5.399449036,3599558,782813600
+Wilson W,K-12 School,1800 COTTMAN AVE,Philadelphia,Philadelphia,PA,19111,40.053284,-75.06973,139500,,1928,2014,96,31.5,56.7,,,,,412.3,3.823655914,3600823,786082400
+Franklin Towne Charter Elementary School,K-12 School,4259 Richmond Street,Philadelphia,Philadelphia,PA,19137,39.996332,-75.075429,110000,,2011,2014,57,51.6,140.6,,,,,668.6,6.336363636,3656455,882126005
+Imani Education Charter School,K-12 School,5612 Green St,Philadelphia,Philadelphia,PA,19144,,,61592,,1927,2014,,49,122.6,,,,,329.7,24.89933758,3657578,775095805
+Franklin Towne Charter High School,K-12 School,5301 Tacony St,Philadelphia,Philadelphia,PA,19137,40.008802,-75.067512,143673,,1940,2014,2,81.7,244,,,,,1501.8,,3666158,882938550
+First Philadelphia Charter School,K-12 School,4300 Tacony St.,Philadelphia,Philadelphia,PA,19124,40.006863,-75.082354,78150,,2002,2014,70,94.3,182.7,,,,,644.2,8.739603327,3687689,778531800
+Father Judge High School,K-12 School,3301 Solly Avenue,Philadelphia,Philadelphia,PA,19136,40.048471,-75.024074,153961,,1954,2014,93,55.6,93.6,,,,,750.5,8.013068245,3695833,778508000
+Pennsylvania School for the Deaf,K-12 School,100 W School House Lane,Philadelphia,Philadelphia,PA,19144,40.032717,-75.174403,83271,,1984,2014,32,89,167.1,,,,,630.6,16.45350722,3707291,775530500
+St. Raymond of Penafort,K-12 School,1350 E Vernon Road,Philadelphia,Philadelphia,PA,19150,,,61900,,1950,2014,100,7.7,24.2,,,,,64,13.79644588,3736431,775329000
+Most Blessed Sacrement Parish,K-12 School,5600 Chester Avenue,Philadelphia,Philadelphia,PA,19143,,,94000,,1905,2014,17,65.4,100.4,,,,,442,30.42021277,3751820,773071000
+Saint Francis de Sales Parish,K-12 School,4625 Springfield Avenue,Philadelphia,Philadelphia,PA,19143,39.94652,-75.055458,67884,,1890,2014,100,14.5,15.4,,,,,49.9,10.09663544,3751824,774385000
+St. Matthew Church (correct),K-12 School,3000 Cottman Ave.,Philadelphia,Philadelphia,PA,19149,40.04235,-75.050629,140800,,1937,2014,65,74.8,108.1,,,,,720.5,16.81321023,3751830,778130000
+Roman Catholic High School,K-12 School,301 N. Broad Street,Philadelphia,Philadelphia,PA,19102,,,77500,,1890,2014,81,56.4,111.3,,,,,388.2,8.936774194,3759394,771063000
+ST. ANSELM PARISH AND SCHOOL,K-12 School,12670 DUNKS FERRY RD,Philadelphia,Philadelphia,PA,19154,40.102277,-74.97116,80488,,1963,2014,,46,70.7,,,,,258.5,6.63328695,3767538,778144000
+Tacony Academy Charter School,K-12 School,1330 Rhawn Street,Philadelphia,Philadelphia,PA,19111,40.067554,-75.065377,52500,,1978,2014,100,59.5,62.6,,,,,166.3,14.39428571,3773538,778506501
+Esperanza Academy,K-12 School,301 W Hunting Park Ave,Philadelphia,Philadelphia,PA,19140,40.014674,-75.132323,71440,,1930,2014,13,97.1,251.4,,,,,780.9,6.79731243,3773891,777577905
+West Catholic,K-12 School,4501 Chestnut St.,Philadelphia,Philadelphia,PA,19139,,,156425,,1926,2014,88,57.8,87.3,,,,,641.3,4.635448298,3773979,774569000
+Little Flower Catholic High School,K-12 School,1000 W. Lycoming Avenue,Philadelphia,Philadelphia,PA,19140,40.013739,-75.143791,184000,,1939,2014,100,27.8,46.8,,,,,452.3,6.83423913,3773988,777247000
+Mast Charter School,K-12 School,1800 Byberry Rd,Philadelphia,Philadelphia,PA,19116,,,169148,,2001,2014,41,72.8,203.7,,,,,1264.9,5.019864261,3782240,778500305
+Garage - Broad St,K-12 School,2600 N. Broad St.,Philadelphia,Philadelphia,PA,19132,39.992696,-75.154828,128600,,1980,2014,67,87.5,113.4,,,,,704.8,2.216951788,3783002,785053000
+Alt. Ed. Center (Hunting Park),K-12 School,120 W HUNTING PARK AV,Philadelphia,Philadelphia,PA,19140,40.013916,-75.126558,164000,,2004,2014,81,39.6,93.3,,,,,673.1,1.235365854,3783006,786160485
+Admin - Education Center,K-12 School,440 N BROAD ST,Philadelphia,Philadelphia,PA,19130,,,835000,,2005,2014,20,42.4,133.2,,,,,4740,4.718203593,3783030,884062510
+Bartram HS,K-12 School,2401 S 67TH ST,Philadelphia,Philadelphia,PA,19142,,,451273,,1939,2014,87,90.7,119.7,,,,,2600.7,11.9371201,3783055,783130800
+Admin - Rivera Building,K-12 School,2603 N 5TH ST,Philadelphia,Philadelphia,PA,19133,,,60464,,1980,2014,73,61.3,117,,,,,319.9,4.614315957,3783056,785547740
+Barratt (New Childs),K-12 School,1599 WHARTON ST,Philadelphia,Philadelphia,PA,19146,39.934563,-75.170808,134000,,1928,2014,9,128.9,172.9,,,,,1111.6,22.27761194,3815208,782673800
+Edmunds HR,K-12 School,1197 HAWORTH ST,Philadelphia,Philadelphia,PA,19124,40.024159,-75.086022,65570,,1980,2014,1,164.4,259.3,,,,,963.6,11.77672716,3817037,786182000
+Lamberton,K-12 School,7501 WOODBINE AVE,Philadelphia,Philadelphia,PA,19151,,,110193,,1980,2014,87,66.2,88.4,,,,,599.4,14.13156916,3818671,783600400
+Shallcross,K-12 School,3901 WOODHAVEN RD,Philadelphia,Philadelphia,PA,19154,40.089417,-74.974013,67938,,1929,2014,3,150.5,227.6,,,,,739.5,47.56689923,3819916,786590000
+Hartranft Community,K-12 School,2400 N 8TH ST,Philadelphia,Philadelphia,PA,19133,,,12362,,1968,2014,6,203.4,293.1,,,,,171.5,7.959877043,3819955,785137405
+Gesu School Inc,K-12 School,1700 W. Thompson St,Philadelphia,Philadelphia,PA,19121,39.973827,-75.163893,62567,,1923,2014,61,62.3,126.8,,,,,355.5,,3852983,772541000
+Archbishop Ryan High School,K-12 School,11201 Academy Road,Philadelphia,Philadelphia,PA,19154,,,283950,,1965,2014,90,66.4,107.1,,,,,1434.5,4.995949991,3856392,778069000
+Hallahan High School,K-12 School,311 N. 19th Street,Philadelphia,Philadelphia,PA,19103,,,101640,,1911,2014,79,74.5,110.2,,,,,527.8,14.27390791,3856406,772283000
+Norwood-Fontbonne Academy,K-12 School,201 Sunset Ave,Philadelphia,Philadelphia,PA,19118,,,86394,,1920,2014,82,40.6,76,,,,,297.8,220.0233813,3858184,775537000
+Stella Maris Church and School,K-12 School,2901 S 10th Street,Philadelphia,Philadelphia,PA,19148,,,69630,,1954,2014,58,59.7,95.7,,,,,309.5,7.249748672,3859497,771251500
+The Prepartory Charter High School,K-12 School,1928 Point Breeze Ave,Philadelphia,Philadelphia,PA,19145,39.928293,-75.185412,64748,,1950,2014,100,38.8,44.8,,,,,143.4,6.395564342,3877251,773743300
+Calvary Chapel of Phila.,K-12 School,13500 Philmont Av.,Philadelphia,Philadelphia,PA,19116,40.130619,-75.016527,144000,,1956,2014,21,54,169.7,,,,,1041.6,17.96180556,3877707,778253500
+Springside,K-12 School,500 West Willow Grove Ave.,Philadelphia,Philadelphia,PA,19118,40.064712,-75.206826,197500,,1900,2014,79,76.8,126.9,,,,,1200,0.094177215,3881810,775510500
+Chestnut Hill,K-12 School,500 West Willow Grove Ave.,Philadelphia,Philadelphia,PA,19118,40.064712,-75.206826,220000,,1900,2014,98,61.7,64.8,,,,,731.9,0.318181818,3881814,775535510
+Community Academy of Philadelphia,K-12 School,1100 East Erie Avenue,Philadelphia,Philadelphia,PA,19124,,,118000,,1958,2014,76,43.1,107.7,,,,,554.9,1.143220339,3891212,777575905
+Friends Select School,K-12 School,17th and The Benjamin Franklin Parkway,Philadelphia,Philadelphia,PA,19103,,,123306,,1969,2014,39,90.1,172.3,,,,,960.2,8.418892836,3891486,772199000
+SS Neumann Goretti High School,K-12 School,1730 S 10th St,Philadelphia,Philadelphia,PA,19148,,,271320,,1955,2014,98,43.9,68.6,,,,,868.2,6.427465723,3892157,771251200
+Saint Hubert's Catholic High School for Girls,K-12 School,7300 Torresdale Avenue,Philadelphia,Philadelphia,PA,19136,40.030134,-75.035166,163350,,1924,2014,93,55.5,81.1,,,,,625.5,5.060299969,3892250,778301000
+401 East Roosevelt Blvd,K-12 School,401 East Roosevelt Blvd,Philadelphia,Philadelphia,PA,19120,,,73983,,1950,2014,,,,,,,,,,3892825,776251000
+6701 Callowhill St,K-12 School,6701 Callowhill St,Philadelphia,Philadelphia,PA,19151,39.96993,-75.254219,56321,,1950,2014,,,,,,,,,,3892833,774084000
+Philadelphia Academy High School,K-12 School,1700 Tomlinson Road,Philadelphia,Philadelphia,PA,19116,,,85000,,1950,2014,36,64.5,131.6,,,,,500.9,5.084705882,3892939,778299100
+Global Leadership Academy Charter School,K-12 School,4601 W. Girard Avenue,Philadelphia,Philadelphia,PA,19131,39.972889,-75.215346,53331,,2010,2014,63,73.5,229.9,,,,,522.9,4.912714931,3894194,774157500
+2239 West Montgomery Ave,K-12 School,2239 West Montgomery Ave,Philadelphia,Philadelphia,PA,19121,39.982071,-75.171872,57200,,1918,2014,100,18.4,49.9,,,,,123.5,22.11888112,3959812,772176000
+New Foundations Charter High School,K-12 School,4850 Rhawn Street,Philadelphia,Philadelphia,PA,19136,40.033751,-75.024163,50000,,2012,2014,19,68.2,186.8,,,,,556.9,7.192,3960550,884253450
+New Foundations Charter Elementary School,K-12 School,8001 Torresdale Avenue,Philadelphia,Philadelphia,PA,19136,40.0353,-75.025158,50000,,1999,2014,41,58.9,149.7,,,,,453,5.758,3962712,778512302
+"The Mathematics, Civics and Sciences Charter School of Philadelphia, Inc.",K-12 School,447 N. Broad St.,Philadelphia,Philadelphia,PA,19123,,,59300,,1925,2014,89,39,67,,,,,182.5,10.77740304,3975541,771635100
+Nazareth Grade School and High School,K-12 School,4001 Grand Ave,Philadelphia,Philadelphia,PA,19114,,,75000,,1932,2014,97,24.4,76.6,,,,,244.9,,3977128,778501500
+Girard College,K-12 School,2035 South College Avenue,Philadelphia,Philadelphia,PA,19121,,,950825,,1848,2014,,77.1,108.8,,,,,4925.3,8.72168906,3994744,772510000
+Our Lady of Hope,K-12 School,1248 Jackson St,Philadelphia,Philadelphia,PA,19148,,,55831,,1963,2014,100,42.7,43.5,,,,,175.3,8.171087747,4104890,771514000
+Discovery Charter School,K-12 School,4700 Parkside Ave,Philadelphia,Philadelphia,PA,19131,,,57434,,1930,2014,46,58.9,132.4,,,,,336.3,14.91799283,4115611,882966275
+Belmont,K-12 School,4030 BROWN ST,Philadelphia,Philadelphia,PA,19104,39.967237,-75.2049,87000,,1927,2014,21,78.2,124.8,,,,,504.7,62.78965517,4123939,783065600
+Bodine,K-12 School,1101 NORTH 4TH ST,Philadelphia,Philadelphia,PA,19123,,,59000,,1935,2014,39,103.9,141.7,,,,,400,10.79661017,4123946,781462800
+Brown HA,K-12 School,1900 E SERGEANT ST,Philadelphia,Philadelphia,PA,19125,39.987141,-75.127566,67795,,1959,2014,57,52.4,93.5,,,,,289.5,14.80640165,4123955,786491000
+Bridesburg,K-12 School,2824 JENKS ST,Philadelphia,Philadelphia,PA,19137,40.000301,-75.0665,71275,,1957,2014,5,83.5,170.2,,,,,543.4,8.582251841,4123961,786457800
+Audenried,K-12 School,3301 TASKER ST,Philadelphia,Philadelphia,PA,19121,39.934415,-75.198962,211515,,2008,2014,15,86.7,198.7,,,,,1854.1,2.437652176,4124432,782845201
+Amy at Martin,K-12 School,3380 RICHMOND ST,Philadelphia,Philadelphia,PA,19134,,,62251,,1899,2014,31,72.3,97.9,,,,,292,4.748518096,4124433,786456000
+Allen Ethan,K-12 School,3001 ROBBINS AVE,Philadelphia,Philadelphia,PA,19149,40.028989,-75.062016,66482,,1929,2014,29,94.3,132.8,,,,,419.7,9.534911705,4126295,786461400
+Mariana Braceti Academy Charter School,K-12 School,3900 Jasper St,Philadelphia,Philadelphia,PA,19124,40.0049,-75.094553,141785,,1928,2014,41,58.4,132.5,,,,,829.6,1.761822478,4129577,777210000
+Independence Charter School,K-12 School,1600 Lombard Street,Philadelphia,Philadelphia,PA,19146,,,56000,,1909,2014,87,41.2,127.7,,,,,274.1,0.016071429,4142231,782671300
+Mercy Vocational High School,K-12 School,2900 W Hunting Park Ave,Philadelphia,Philadelphia,PA,19129,40.00669,-75.175441,61320,,1910,2014,60,129.6,173.1,,,,,554.4,5.518590998,4193921,775069000
+Saint Josephs Prep,K-12 School,1733 West Girard Ave,Philadelphia,Philadelphia,PA,19130,,,395507,,1851,2014,75,65.6,132.6,,,,,2352.3,7.983676648,4478915,772510500
+DeMedici Corporation II,K-12 School,1600 Vine Street,Philadelphia,Philadelphia,PA,19102,,,150000,,1999,2014,14,62.9,197.6,,,,,1263.8,38.65333333,4479713,883065200
+Jefferson Alumni Hall,Laboratory,1020 Locust Street,Philadelphia,Philadelphia,PA,19107,,,455711,,1968,2014,,331.6,743.6,,,,,15502.5,63.41782402,3643201,771016500
+Bluemle Life Science Building,Laboratory,951 Locust Street,Philadelphia,Philadelphia,PA,19107,,,287286,,1991,2014,,336.8,765.6,,,,,10030.9,43.55207006,3643298,771015010
+Monell Chemical Senses Center,Laboratory,3500 Market Street,Philadelphia,Philadelphia,PA,19104,,,60000,,1970,2014,,316.7,657.6,,,,,1839.7,66.18166667,3667296,773702000
+The Wistar Institute,Laboratory,3601 Spruce Street,Philadelphia,Philadelphia,PA,19104,39.950861,-75.195902,255427,,1894,2014,,300.9,686.2,,,,,7987.3,58.2095863,3687631,773542000
+TRL 31st Street,Laboratory,125 S. 31st Street,Philadelphia,Philadelphia,PA,19104,,,125000,,2004,2014,,599.2,1294.5,,,,,7469.5,56.3752,3849558,773717100
+Central Library,Library,1901 Vine St,Philadelphia,Philadelphia,PA,19103,,,200680,,1922,2014,,143.4,369.9,,,,,3286.5,28.61869643,3237291,782598210
+NE Reg Library/ Health Center #10,Library,2230 Cottman Ave,Philadelphia,Philadelphia,PA,19149,40.048625,-75.06156,58009,,1962,2014,,162.5,319.1,,,,,833.5,23.0188419,3237331,786082700
+Scott Memorial Library,Library,1020 Walnut Street,Philadelphia,Philadelphia,PA,19107,,,111970,,1976,2014,,168.2,459,,,,,2251.5,37.38590694,3642562,771019000
+La Salle #3 (Connelly Library),Library,2101 W Clarkson St,Philadelphia,Philadelphia,PA,19144,40.038212,-75.156109,104498,,1988,2014,,68.6,161.6,,,,,742.2,3.546479358,3893238,776506000
+"fmi direct mail advertising, inc",Mailing Center/Post Office,2100 Kubach Road,Philadelphia,Philadelphia,PA,19116,40.115409,-74.998735,60000,,2000,2014,,57.4,117.4,,,,,315.4,3.876666667,3975948,884233850
+287-West Philadelphia,Manufacturing/Industrial Plant,4700 West Jefferson Street,Philadelphia,Philadelphia,PA,19131,,,57471,,2009,2014,,448,649.5,,,,,1765.2,299.5075777,3501878,884897402
+#61 Philadelphia,Manufacturing/Industrial Plant,10080 Sandmeyer Lane,Philadelphia,Philadelphia,PA,19116,40.111493,-75.033083,57471,,1984,2014,,458.1,611.9,,,,,1689,,3507914,884237607
+SPD Electrical,Manufacturing/Industrial Plant,13500 Roosevelt Blvd.,Philadelphia,Philadelphia,PA,19116,40.111307,-74.992545,165000,,1984,2014,,112.3,312.6,,,,,2225.2,7.540606061,3643255,884243200
+"Altomare Precast, Inc.",Manufacturing/Industrial Plant,4300 Wissahickon Avenue,Philadelphia,Philadelphia,PA,19129,40.013749,-75.169408,146508,,1910,2014,,9.2,28.9,,,,,180.6,4.328773855,3657531,884131500
+Orthodox Facility,Manufacturing/Industrial Plant,1100 Orthodox Street,Philadelphia,Philadelphia,PA,19124,40.018632,-75.092695,114000,,1960,2014,,469.8,949,,,,,4852,3.663157895,3667832,884091500
+Dungan Facility,Manufacturing/Industrial Plant,7722 Dungan Road,Philadelphia,Philadelphia,PA,19111,40.063962,-75.072151,185000,,1960,2014,,110.2,236.8,,,,,1948.5,12.42972973,3667834,884221500
+David Michael and Co Inc,Manufacturing/Industrial Plant,10801 Decatur Rd.,Philadelphia,Philadelphia,PA,19154,40.089999,-74.994955,106420,,1970,2014,,343.9,565.9,,,,,2786.1,50.63991731,3668376,884279500
+Active Radiator,Manufacturing/Industrial Plant,2251-71 E Tioga Street,Philadelphia,Philadelphia,PA,19134,,,62000,,1947,2014,,127.9,214.9,,,,,644,8.133870968,3680639,884839110
+Active Radiator Building 2,Manufacturing/Industrial Plant,2254 East Venango Street,Philadelphia,Philadelphia,PA,19134,39.994592,-75.098058,77000,,1921,2014,,124.1,157.8,,,,,574.2,4.54025974,3680647,884201700
+Pepsi Bottling Group,Manufacturing/Industrial Plant,11701 Roosevelt Blvd,Philadelphia,Philadelphia,PA,19154,,,228920,,1969,2014,,,1574.4,,,,,17362.2,315.5923467,3681375,884269000
+401-425 E Hunting Park Ave,Manufacturing/Industrial Plant,401-425 E Hunting Park Ave,Philadelphia,Philadelphia,PA,19124,,,112000,,1978,2014,,92.7,190.5,,,,,954.8,12.77857143,3697969,884184000
+"Charles Jacquin et Cie., Inc.",Manufacturing/Industrial Plant,2633 Trenton Ave.,Philadelphia,Philadelphia,PA,19125,39.984212,-75.121341,200000,,1970,2014,,20.4,64.1,,,,,546.1,9.747,3751437,884104340
+Select Holdings LLC,Manufacturing/Industrial Plant,1800 W. Indiana Ave.,Philadelphia,Philadelphia,PA,19132,39.999453,-75.160684,69049,,1970,2014,,13.6,29.8,,,,,91.4,0.612608437,3767050,884066000
+"National Chemical Laboratories, Inc.",Manufacturing/Industrial Plant,401 N 10th Street,Philadelphia,Philadelphia,PA,19123,,,365000,,1949,2014,,29.6,50.2,,,,,903.1,14.29123288,3783041,884031400
+Waste Management of PA - PTS,Manufacturing/Industrial Plant,3605 Grays Ferry Ave,Philadelphia,Philadelphia,PA,19146,39.940494,-75.201972,80785,,1984,2014,,46.5,121.8,,,,,427.3,6.80448103,3790242,884123105
+Ottens Flavors,Manufacturing/Industrial Plant,7800 Holstein Avenue,Philadelphia,Philadelphia,PA,19153,39.897511,-75.232803,90000,,1999,2014,,148.5,319.8,,,,,1279.9,38.25222222,3790243,884167800
+Computer Components Corp,Manufacturing/Industrial Plant,2751 Southampton Road,Philadelphia,Philadelphia,PA,19154,40.110523,-74.986839,73515,,1980,2014,,156.5,278.6,,,,,935.7,18.61660886,3790606,884291500
+F P Woll & Company,Manufacturing/Industrial Plant,10060 Sandmeyer Lane,Philadelphia,Philadelphia,PA,19116,40.110031,-75.034481,52172,,1978,2014,,24.7,45,,,,,106.9,1.094456797,3795706,884237500
+Gershel Brothers,Manufacturing/Industrial Plant,7500 State Road,Philadelphia,Philadelphia,PA,19136,,,102000,,1940,2014,,16.4,31.9,,,,,146.8,9.481372549,3839691,884255450
+Gershel Family Real Estate,Manufacturing/Industrial Plant,7400 State Road,Philadelphia,Philadelphia,PA,19136,,,65000,,1960,2014,,9.9,25.2,,,,,71.4,6.738461538,3849554,884255000
+5000 PASCHALL AVENUE ASSOCIATES,Manufacturing/Industrial Plant,5000 paschall avenue,Philadelphia,Philadelphia,PA,19143,39.938946,-75.212655,110000,,1940,2014,,41.3,71.9,,,,,362.8,14.32363636,3859685,884100500
+"KRG Enterprises, Inc.",Manufacturing/Industrial Plant,9901 Blue Grass Road,Philadelphia,Philadelphia,PA,19114,40.082774,-75.021595,216000,,1965,2014,,45.6,93.7,,,,,905.2,1.655555556,3862942,884274000
+Kingsbury - 10385 Drummond Rd,Manufacturing/Industrial Plant,10385 Drummond Road,Philadelphia,Philadelphia,PA,19154,40.083244,-74.995754,120350,,1980,2014,,109.4,265.5,,,,,1399.6,3.62110511,3875956,884285000
+Mondelez International,Manufacturing/Industrial Plant,12000 East Roosevelt Boulevard,Philadelphia,Philadelphia,PA,19116,40.105504,-75.000964,620000,,1955,2014,,302.8,515,,,,,14690.9,18.8883871,3881571,884243000
+Ardex Laboratories Inc,Manufacturing/Industrial Plant,2050 Byberry Road,Philadelphia,Philadelphia,PA,19116,40.10782,-75.000429,75440,,1968,2014,,31.2,68.3,,,,,228.7,16.1426299,3883890,884235500
+Metals USA,Manufacturing/Industrial Plant,11200 Roosevelt Blvd.,Philadelphia,Philadelphia,PA,19116,40.10176,-75.006392,85000,,1966,2014,,38.4,112.8,,,,,411.6,2.007058824,3916373,884242000
+Philadelphia Cheesesteak Company,Manufacturing/Industrial Plant,520 E. Hunting Park Avenue,Philadelphia,Philadelphia,PA,19124,40.01278,-75.117713,136000,,1955,2014,1,375.1,1014.2,,,,,3335.8,77.16544118,3929883,884052400
+Rotem USA 1,Manufacturing/Industrial Plant,2414 Weccacoe Ave,Philadelphia,Philadelphia,PA,19148,39.916114,-75.14252,290000,,2007,2014,,55.3,105.9,,,,,1387.5,4.726896552,3936840,884138714
+S. Walter Packaging,Manufacturing/Industrial Plant,2900 Grant Ave,Philadelphia,Philadelphia,PA,19114,,,135000,,1965,2014,,46,107.8,,,,,640.2,2.659259259,3954376,884224500
+Kenneth Bushnell,Manufacturing/Industrial Plant,519 E. Chelten Ave,Philadelphia,Philadelphia,PA,19144,40.042157,-75.168231,60000,,1900,2014,,8.1,25.5,,,,,65.2,2.216666667,3959332,884245510
+PaperWorks Industries Inc,Manufacturing/Industrial Plant,5000 Flat Rock Road,Philadelphia,Philadelphia,PA,19127,40.031913,-75.235456,530000,,1800,2014,,,,,,,,,,3974305,884084504
+Churchville,Manufacturing/Industrial Plant,1299 Unity Street,Philadelphia,Philadelphia,PA,19124,40.015562,-75.092715,73918,,1919,2014,,27.8,47,,,,,159.9,11.18672042,3979549,884344940
+Adams 1300 LP,Manufacturing/Industrial Plant,1300 Adams Ave.,Philadelphia,Philadelphia,PA,19124,,,60000,,1929,2014,,1.3,4.1,,,,,10.6,3.831666667,4075686,884091000
+The Kinderman Family LP,Manufacturing/Industrial Plant,2900 South 20th Street,Philadelphia,Philadelphia,PA,19145,39.91418,-75.181739,234365,,1940,2014,,26.4,76.5,,,,,770.9,7.469545367,4096807,884095070
+Hadco,Manufacturing/Industrial Plant,2811 Charter Road,Philadelphia,Philadelphia,PA,19154,40.094797,-75.003577,81000,,1968,2014,,50,157.1,,,,,544.1,4.282716049,4177138,884291000
+BARTASH PRINTING,Manufacturing/Industrial Plant,5400 GRAYS AVE,Philadelphia,Philadelphia,PA,19143,39.933664,-75.217091,87890,,1930,2014,,224.4,661.5,,,,,2493.8,150.5552395,4480392,884219000
+3535 Market,Medical Office,3535 Market Street,Philadelphia,Philadelphia,PA,19104,,,494608,,1973,2014,84,63.8,171.7,,,,,3731.3,11.0139747,1339876,883073000
+Hall Mercer at PAH,Medical Office,251 south 8th st,Philadelphia,Philadelphia,PA,19106,,,70902,,1980,2014,48,120.2,274.1,,,,,885.5,40.95088996,3107955,771004000
+Tuttleman Building,Medical Office,1844 South. St,Philadelphia,Philadelphia,PA,19146,,,74460,,1989,2014,8,183.4,435,,,,,1462.6,77.56647865,3306120,772036205
+3701 Market St.,Medical Office,3701 Market St.,Philadelphia,Philadelphia,PA,19104,,,140913,,2000,2014,1,253,794.5,,,,,4773,37.01503765,3340008,883073300
+Medical Office Building,Medical Office,1100-04 Walnut Street,Philadelphia,Philadelphia,PA,19107,,,82972,,1985,2014,14,124.3,357.2,,,,,1276,105.1860869,3641728,771020500
+925 Chestnut Street,Medical Office,925 Chestnut Street,Philadelphia,Philadelphia,PA,19107,,,262308,,1931,2014,56,130.9,301.7,,,,,3597.8,23.3675679,3641781,883313700
+Farm Journal,Medical Office,230 S. 7th St,Philadelphia,Philadelphia,PA,19107,,,102855,,1910,2014,12,174.3,403.2,,,,,1883.8,39.65388168,3673215,771005500
+Walnut Towers,Medical Office,834 Walnut St,Philadelphia,Philadelphia,PA,19106,,,401018,,1987,2014,9,169.4,471.7,,,,,4731.4,40.00867791,3856432,883400500
+centralized comprehensive human services,Medical Office,112 north Broad St,Philadelphia,Philadelphia,PA,19102,,,106218,,1896,2014,64,67.2,151.4,,,,,735,21.46717129,3876067,883023400
+9501 Pavillion,Medical Office,9501 Roosevelt Blvd,Philadelphia,Philadelphia,PA,19114,40.080784,-75.028389,68776,,1989,2014,100,23.1,57.8,,,,,173.4,28.23804816,3880929,883088901
+Torresdale Medical Building,Medical Office,10810 Knights Road,Philadelphia,Philadelphia,PA,19154,40.070984,-74.98141,60122,,1985,2014,23,94.8,297.6,,,,,762.8,,3884927,778017200
+Cancer Treatment Centers of America,Medical Office,1331 East Wyoming Ave.,Philadelphia,Philadelphia,PA,19124,40.018297,-75.098455,325000,,1983,2014,,612,943.8,,,,,14346.4,62.11969231,3892172,778037515
+Constitution Health Plaza,Medical Office,1930 South Broad Street,Philadelphia,Philadelphia,PA,19145,39.926179,-75.169312,289700,,1920,2014,,309.2,458.2,,,,,5957,59.04383845,3952478,773010000
+JONES HALL,Medical Office,1316 W ONTARIO ST,Philadelphia,Philadelphia,PA,19140,,,103361,,2000,2014,47,209.9,404.8,,,,,1988.9,18.27962191,3965683,777557000
+301 Duncan,Medical Office,301 South 8th st,Philadelphia,Philadelphia,PA,19107,,,43739,,1959,2014,18,187.8,313.7,,,,,679.1,,4051987,883102000
+Main Clubhouse,Mixed Use Property,415 W Willow Grove Ave,Philadelphia,Philadelphia,PA,19118,40.063569,-75.207979,54836,,1854,2014,,59,185.4,,,,,433.4,421.4858852,4037359,775780200
+6610 Hasbrook Partnership,Mixed Use Property,6610 Hasbrook Ave.,Philadelphia,Philadelphia,PA,19111,40.055378,-75.095277,93166,,1940,2014,75,31.3,45.1,,,,,198.8,2.357083056,4566549,884121701
+RIVERVIEW PLAZA 17,Movie Theater,1400 S DELAWARE AVE,Philadelphia,Philadelphia,PA,19147,,,77700,,1992,2014,,89.6,249.4,,,,,836.2,7.824967825,3669913,882055250
+Rittenhouse Claridge,Multifamily Housing,201 S. 18th St.,Philadelphia,Philadelphia,PA,19103,,,447813,,1951,2014,46,78.9,146.3,,,,,2848.2,36.08537492,3080640,881027000
+"135 South 18th Street, Philadelphia",Multifamily Housing,135 South 18th Street,Philadelphia,Philadelphia,PA,19103,,,99722,,1912,2014,9,68.6,166.6,,,,,727.8,25.15192234,3607693,883707000
+Colonial Village Townhomes,Multifamily Housing,8875 Ridge Avenue,Philadelphia,Philadelphia,PA,19128,40.068192,-75.24029,71040,,1980,2014,,2.1,6.5,,,,,19.5,0.054898649,3690946,881091000
+Watermark at Logan Square,Multifamily Housing,2 Franklin Town Blvd,Philadelphia,Philadelphia,PA,19103,39.959952,-75.167786,508400,,1984,2014,7,69.9,192.3,,,,,3779.5,41.19787569,3780992,881435700
+The Madison,Multifamily Housing,216 S. 48th Street,Philadelphia,Philadelphia,PA,19139,39.955159,-75.217823,66336,,1940,2014,34,117.7,133.4,,,,,439.7,75.44922817,3959806,881144025
+The Chatham,Multifamily Housing,135 S. 20th Street,Philadelphia,Philadelphia,PA,19103,,,85328,,1927,2014,95,27.2,85.3,,,,,310.4,0.052737671,3960078,881026300
+Germantown Life Enrichment Center,Multifamily Housing,5722 Greene Street,Philadelphia,Philadelphia,PA,19144,40.034592,-75.177332,190000,,1925,2014,,33.9,58,,,,,506.8,15.77210526,3960530,886810666
+"834 Chestnut Street, Philadelphia",Multifamily Housing,"834 Chestnut Street, Philadelphia, PA 19107",Philadelphia,Philadelphia,PA,19107,,,478920,,1925,2014,20,91.9,226.8,,,,,4749.2,46.68712937,4035747,888054315
+Diamond Green,Multifamily Housing,1000 Diamond St,Philadelphia,Philadelphia,PA,19122,,,129330,,2012,2014,58,59.9,153.5,,,,,864.2,56.07670301,4134811,881147275
+The Landreth,Multifamily Housing,1201 S 23rd St,Philadelphia,Philadelphia,PA,19146,,,66619,,1930,2014,94,45.7,66.4,,,,,209,29.9569192,4138565,886650200
+Historic Landmark Building,Museum,118 N. Broad Street,Philadelphia,Philadelphia,PA,19102,,,71000,,1865,2014,,120.3,266.4,,,,,838.1,19.60704225,3690846,772724000
+Please Touch Museum at Memorial Hall,Museum,4231 Avenue of the Republic,Philadelphia,Philadelphia,PA,19131,39.978649,-75.209687,156000,,1876,2014,,118.3,272.5,,,,,1874.1,16.12115385,3694560,
+National Liberty Museum,Museum,321 Chestnut Street,Philadelphia,Philadelphia,PA,19106,,,84410,,1905,2014,,23.7,51.8,,,,,194.2,1.318564151,3721208,771737000
+Academy of Natural Sciences of Drexel University,Museum,1900 Benjamin Franklin Parkway,Philadelphia,Philadelphia,PA,19103,,,250000,,1876,2014,,79,196.9,,,,,2199,0.2912,3789969,772734500
+Simeone Foundation Automotive Museum,Museum,6825 Norwitch Drive,Philadelphia,Philadelphia,PA,19153,39.91064,-75.225804,33000,,2012,2014,,30,58,,,,,86.4,2.23030303,3877972,884163400
+Franklin Institute,Museum,222 N 20th St,Philadelphia,Philadelphia,PA,19103,,,446000,,1932,2014,,114.8,291.3,,,,,4192,18.07578475,3884233,782779400
+Barnes Foundation,Museum,2025 Benjamin Franklin Parkway,Philadelphia,Philadelphia,PA,19130,39.960088,-75.172998,98388,,2012,2014,,168,400.4,,,,,1756.9,50.59356832,3927653,782425810
+College of Physicians,Museum,19 S. 22nd Street,Philadelphia,Philadelphia,PA,19103,,,68967,,1909,2014,,87.9,193.2,,,,,612.7,12.46828193,3970936,772525500
+Masonic Temple,Museum,One N.Broad Street,Philadelphia,Philadelphia,PA,19107,,,195058,,1868,2014,,81,155.7,,,,,1372,8.298044684,3980474,771032200
+Independence Seaport Museum,Museum,211 S. Columbus Blvd,Philadelphia,Philadelphia,PA,19106,,,100383,,1995,2014,,82.3,203.1,,,,,891.5,116.533676,4066664,781052550
+Philadelphia,Non-Refrigerated Warehouse,2760 Red Lion Road,Philadelphia,Philadelphia,PA,19114,40.091729,-75.011655,1300752,,2000,2014,61,54.1,133.5,,,,,5839.8,3.571395623,1048989,884288400
+4015 Walnut Street,Non-Refrigerated Warehouse,4015 Walnut Street,Philadelphia,Philadelphia,PA,19104,,,63316,,1925,2014,,67.2,125.4,,,,,360.1,13.00934993,1799464,773579000
+Elliott-Lewis Corporate HQ,Non-Refrigerated Warehouse,2900 Black Lake Place,Philadelphia,Philadelphia,PA,19154,40.107815,-74.982984,62000,,2000,2014,46,73,159.9,,,,,439.9,5.091935484,2215089,884292573
+PHPA,Non-Refrigerated Warehouse,1550 South Warfield St,Philadelphia,Philadelphia,PA,19146,39.934706,-75.200329,58887,,1962,2014,39,75,147.6,,,,,391.2,2.479324809,3229069,884124000
+900-58 N. 9TH STREET,Non-Refrigerated Warehouse,900-58 N. 9TH STREET,Philadelphia,Philadelphia,PA,19123,,,360000,,1929,2014,100,,,,,,,3.8,,3569547,884072000
+2801 RED LION ROAD,Non-Refrigerated Warehouse,2801 Red Lion Road,Philadelphia,Philadelphia,PA,19114,,,180271,,1969,2014,71,44,67.1,,,,,567.2,1.299155161,3577011,884288600
+4700 Wissahickon Ave.,Non-Refrigerated Warehouse,4700 Wissahickon Ave.,Philadelphia,Philadelphia,PA,19144,40.017152,-75.171809,676000,,1929,2014,57,78.9,131.5,,,,,4103.6,8.662426036,3608777,884132005
+DOA Warehouse,Non-Refrigerated Warehouse,8401 Executive Ave,Philadelphia,Philadelphia,PA,19153,39.884593,-75.228643,88022,,1970,2014,14,88.6,174.1,,,,,689.8,,3632147,884171000
+7th Heaven Investments,Non-Refrigerated Warehouse,4219 Van Kirk St.,Philadelphia,Philadelphia,PA,19135,40.020847,-75.065817,60000,,1989,2014,94,13.3,28.1,,,,,75.1,,3635179,884249500
+TL Tan LLC,Non-Refrigerated Warehouse,3621 B Street,Philadelphia,Philadelphia,PA,19134,,,189000,,1940,2014,,3.7,9.9,,,,,81.3,2.482010582,3637517,884043500
+ephs realty,Non-Refrigerated Warehouse,5704 musgrave st,Philadelphia,Philadelphia,PA,19144,40.0436,-75.16796,79516,,1988,2014,75,33.9,59.1,,,,,215.3,3.682277781,3637888,884246680
+American Supply Co,Non-Refrigerated Warehouse,2411 N. American Street,Philadelphia,Philadelphia,PA,19133,39.987472,-75.137028,130000,,1930,2014,100,1,3.1,,,,,17.1,0.418461538,3640515,884343790
+856-950 East Erie Avenue,Non-Refrigerated Warehouse,950 East Erie Avenue,Philadelphia,Philadelphia,PA,19134,40.005478,-75.110069,818423,,1952,2014,,2.7,8.4,,,,,292.9,0.243150547,3642778,884108500
+Building 611,Non-Refrigerated Warehouse,1120 Flagship Drive,Philadelphia,Philadelphia,PA,19112,,,215827,,1942,2014,,1,3.1,,,,,28.8,0.083400131,3644128,788044100
+Moore St Realty Inc,Non-Refrigerated Warehouse,624 Moore street,Philadelphia,Philadelphia,PA,19148,,,57542,,1924,2014,99,3.4,10.8,,,,,25.9,0.596086337,3657730,884004200
+0542-Philadelphia - Wayne Ave.,Non-Refrigerated Warehouse,4433 Wayne Ave.,Philadelphia,Philadelphia,PA,19144,40.021104,-75.159839,108210,,2009,2014,40,13.2,38.2,,,,,177.7,0.277238703,3663490,884071500
+0774-Philadelphia - Grant Avenue,Non-Refrigerated Warehouse,1553 Grant Avenue,Philadelphia,Philadelphia,PA,19115,,,72755,,2009,2014,73,9.1,28.5,,,,,88.4,0.646003711,3663623,884227301
+0981-Philadelphia - Oxford Ave.,Non-Refrigerated Warehouse,6204 Oxford Ave,Philadelphia,Philadelphia,PA,19111,40.041444,-75.088279,62835,,2009,2014,82,7.1,22.4,,,,,60,0.063658789,3663692,884220920
+1198-Philadelphia - Roosevelt BL,Non-Refrigerated Warehouse,12005 Roosevelt Blvd,Philadelphia,Philadelphia,PA,19154,,,108232,,2009,2014,83,21.4,38.6,,,,,190.5,,3663826,884269100
+Charles Schober Company,Non-Refrigerated Warehouse,2024 North 2nd Street,Philadelphia,Philadelphia,PA,19122,,,83950,,1923,2014,95,8.3,11.6,,,,,46.2,1.256700417,3673448,884080331
+Bodek and Rhodes,Non-Refrigerated Warehouse,2951 Grant Ave,Philadelphia,Philadelphia,PA,19114,40.073484,-75.015339,217000,,1960,2014,83,30.4,95.5,,,,,883.9,0.008294931,3679497,884287500
+"Betty, Inc",Non-Refrigerated Warehouse,1801 S Swanson Street,Philadelphia,Philadelphia,PA,19148,39.925235,-75.145223,400000,,1948,2014,100,5.4,7,,,,,211,0.5815,3690843,884004000
+"4250 Wissahickon Avenue, Inc.",Non-Refrigerated Warehouse,4250 Wissahickon Ave.,Philadelphia,Philadelphia,PA,19129,40.013016,-75.169163,77456,,1938,2014,48,27.9,62.1,,,,,213.1,1.928837017,3696620,884131060
+"9250 Ashton Road, Inc.",Non-Refrigerated Warehouse,9250 Ashton Rd.,Philadelphia,Philadelphia,PA,19114,40.065354,-75.01977,289713,,1966,2014,98,18.2,29.6,,,,,397.2,0.096647372,3696624,884226510
+Cambridge Hanover 3250 S. 76th,Non-Refrigerated Warehouse,3250 S. 76th St.,Philadelphia,Philadelphia,PA,19153,39.901452,-75.23143,247447,,1990,2014,,,,,,,,,0.243284421,3697846,884167500
+Good Food Lab,Non-Refrigerated Warehouse,428 E Erie Ave,Philadelphia,Philadelphia,PA,19134,40.006748,-75.119768,70483,,1934,2014,65,21.4,60.8,,,,,184.6,2.694266703,3772933,884047900
+Lesco Paper & Box Co,Non-Refrigerated Warehouse,651 E. Wyoming Ave,Philadelphia,Philadelphia,PA,19120,40.019849,-75.11072,115000,,1921,2014,82,7.7,24.2,,,,,118.9,1.710434783,3773319,884185500
+Ziff & Co.,Non-Refrigerated Warehouse,2800 Black Lake Pl.,Philadelphia,Philadelphia,PA,19154,40.109672,-74.983143,58372,,1987,2014,46,62,125.9,,,,,329.4,3.41602138,3773606,884292570
+"Muller, Inc.",Non-Refrigerated Warehouse,2800 Grant Ave.,Philadelphia,Philadelphia,PA,19114,,,214815,,1984,2014,48,31.5,89.2,,,,,825.2,2.300118707,3773860,884224004
+State 6225 LP,Non-Refrigerated Warehouse,6201 Tacony St,Philadelphia,Philadelphia,PA,19135,40.015952,-75.051527,72000,,1929,2014,,11.4,35.8,,,,,109.8,1.981944444,3774263,884178501
+Pier 84,Non-Refrigerated Warehouse,2401 south columbus boulevard,Philadelphia,Philadelphia,PA,19148,39.916813,-75.138393,540000,,1919,2014,,4.3,13.6,,,,,313.7,0.727037037,3782254,884463825
+59th street,Non-Refrigerated Warehouse,2001 north 59th street,Philadelphia,Philadelphia,PA,19131,,,750000,,1953,2014,94,6,18.8,,,,,601.4,,3782267,884220500
+Pier 80 South,Non-Refrigerated Warehouse,2101 S. Columbus Blvd,Philadelphia,Philadelphia,PA,19148,39.920681,-75.140944,581000,,1930,2014,,4.9,15.4,,,,,380.9,,3782718,884463835
+2501 Grant Ave,Non-Refrigerated Warehouse,2501 Grant Ave,Philadelphia,Philadelphia,PA,19114,,,121200,,1960,2014,99,9.2,19,,,,,102.8,0.701320132,3782942,884286000
+Bridge Industrial Center Associates,Non-Refrigerated Warehouse,2251 Fraley Street,Philadelphia,Philadelphia,PA,19137,40.010284,-75.064451,160000,,1912,2014,100,2.2,5.2,,,,,36.4,0.98625,3790288,884213000
+25765-Philadelphia/Castor Ave OC,Non-Refrigerated Warehouse,2345 Castor,Philadelphia,Philadelphia,PA,19134,,,104450,,2000,2014,91,25.7,47.4,,,,,224.9,6.433700335,3800031,884193500
+23103-Philadelphia / Byberry Road,Non-Refrigerated Warehouse,1251 Byberry Road,Philadelphia,Philadelphia,PA,19116,,,90551,,2000,2014,100,4,10.2,,,,,41.5,1.766960056,3800032,884236410
+23216-Philadelphia / Oxford AVE,Non-Refrigerated Warehouse,6225 Oxford Ave,Philadelphia,Philadelphia,PA,19111,40.042166,-75.088448,103528,,2000,2014,100,4.4,13.8,,,,,60.9,0.753419365,3800033,884220900
+21808-Philadelphia / Ridge AVE,Non-Refrigerated Warehouse,7571 Ridge Avenue,Philadelphia,Philadelphia,PA,19128,40.050736,-75.236168,70581,,2000,2014,98,8.7,27.3,,,,,82,2.18189031,3800034,884083200
+08128-Airport,Non-Refrigerated Warehouse,7000 Lindbergh,Philadelphia,Philadelphia,PA,19153,,,98825,,2000,2014,100,2.3,7.3,,,,,30.7,0.971414116,3800035,884161920
+24232-Philadelphia / Grant Avenue,Non-Refrigerated Warehouse,2700 Grant Avenue,Philadelphia,Philadelphia,PA,19114,,,111150,,2000,2014,100,1.7,5.3,,,,,25,0.287899235,3800036,884223000
+24417-Philadelphia / Tacony Street,Non-Refrigerated Warehouse,6301 Tacony Street,Philadelphia,Philadelphia,PA,19135,,,50050,,2000,2014,100,3.1,9.6,,,,,20.6,0.599400599,3800037,884178700
+29145-Philadelphia / Wheatsheaf Lane,Non-Refrigerated Warehouse,2190 Wheatsheaf Lane,Philadelphia,Philadelphia,PA,19137,39.999938,-75.091718,67600,,2000,2014,96,19.4,34.6,,,,,106.8,0.162721893,3800038,884204500
+63636-Philadelphia / Penns Landing,Non-Refrigerated Warehouse,456 N Columbus Ave used to be Deleware,Philadelphia,Philadelphia,PA,19123,,,59000,,2000,2014,100,2,6.4,,,,,16.2,1.457627119,3800039,884019025
+11600 Caroline Rd.,Non-Refrigerated Warehouse,11600 Caroline Rd.,Philadelphia,Philadelphia,PA,19154,40.096316,-75.005304,100000,,1974,2014,66,22.4,49.6,,,,,219.8,8.618,3877086,884269500
+Serous Hasani,Non-Refrigerated Warehouse,7575 Brewster Ave,Philadelphia,Philadelphia,PA,19153,39.903521,-75.231576,164173,,1980,2014,79,29.3,62.1,,,,,454.3,0.026191883,3878427,884165000
+ttfop,Non-Refrigerated Warehouse,2901 N 18th st,Philadelphia,Philadelphia,PA,19132,,,59301,,1940,2014,93,6,14.5,,,,,36.7,2.654255409,3882229,111210310
+Philadelphia-Lancaster Ave RC,Non-Refrigerated Warehouse,3205 Lancaster Avenue,Philadelphia,Philadelphia,PA,19104,,,84798,,1916,2014,48,58.7,107.5,,,,,439.6,3.398665063,3883583,774520500
+Building 22,Non-Refrigerated Warehouse,5101 South 17th Street,Philadelphia,Philadelphia,PA,19112,,,66092,,1907,2014,1,31.2,98,,,,,276.2,,3891456,788008800
+Pier 38 South/40 South,Non-Refrigerated Warehouse,801 S. Columbus Blvd,Philadelphia,Philadelphia,PA,19148,,,715000,,1930,2014,,5.3,8.6,,,,,286.4,1.722517483,3891490,884018736
+Pier 78 South,Non-Refrigerated Warehouse,1989 S. Columbus Blvd,Philadelphia,Philadelphia,PA,19148,39.922233,-75.142136,362000,,1930,2014,,7.1,22.2,,,,,342.9,2.440883978,3891494,884463820
+Pier 74 Annex,Non-Refrigerated Warehouse,1901 S. Columbus Blvd,Philadelphia,Philadelphia,PA,19148,39.923416,-75.142916,115000,,2007,2014,70,7.1,22.4,,,,,110,,3891496,771528000
+Pier 78 South Annex,Non-Refrigerated Warehouse,2001 S. Columbus Blvd,Philadelphia,Philadelphia,PA,19148,39.92214,-75.142075,208000,,1996,2014,95,4.2,13.1,,,,,116.1,0.191826923,3891499,884463830
+4309 G Street,Non-Refrigerated Warehouse,4309 G Street,Philadelphia,Philadelphia,PA,19124,40.014255,-75.111699,71509,,1950,2014,68,21.6,58.9,,,,,182.2,8.040945895,3892818,884114510
+449 East Tioga St,Non-Refrigerated Warehouse,449 East Tioga St,Philadelphia,Philadelphia,PA,19134,40.002014,-75.119491,337200,,1960,2014,100,5,13.9,,,,,201.7,0.197508897,3892821,884047000
+1196 Adams Ave,Non-Refrigerated Warehouse,1196 Adams Ave,Philadelphia,Philadelphia,PA,19124,40.015549,-75.093662,68632,,1850,2014,90,5.4,13.5,,,,,40.4,2.205968062,3892824,884641200
+215-251 West Erie Ave.,Non-Refrigerated Warehouse,215-251 West Erie Ave.,Philadelphia,Philadelphia,PA,19140,,,95928,,1950,2014,74,8.4,25.4,,,,,104.1,0.179301143,3892828,884040500
+4219 Richmond St,Non-Refrigerated Warehouse,4219 Richmond St,Philadelphia,Philadelphia,PA,19137,,,65490,,1950,2014,10,29.3,92,,,,,256.9,6.752175905,3892829,884209600
+3820 N. 2nd Ave,Non-Refrigerated Warehouse,3820 N. 2nd Ave,Philadelphia,Philadelphia,PA,19140,,,89550,,1950,2014,74,8.7,27.3,,,,,104.2,0.100502513,3892830,884038510
+Origlio Property Holding,Non-Refrigerated Warehouse,3000 Meeting House Road,Philadelphia,Philadelphia,PA,19154,,,268000,,2001,2014,100,13.6,14.5,,,,,195.7,2.890671642,3912799,884292800
+2800 Comly Rd.,Non-Refrigerated Warehouse,2800-48 Comly Rd,Philadelphia,Philadelphia,PA,19154,,,92000,,1981,2014,38,88.6,113.4,,,,,505.5,2.794565217,3958048,884290000
+10195 Northeast Ave.,Non-Refrigerated Warehouse,10195 Northeast Ave.,Philadelphia,Philadelphia,PA,19116,40.105695,-75.023006,50000,,1969,2014,67,38.4,56.5,,,,,133.2,0.666,3958050,884239600
+COFCO - 2400,Non-Refrigerated Warehouse,2400-10 NORTH AMERICAN STREET,Philadelphia,Philadelphia,PA,19133,,,59850,,1920,2014,78,11.2,15.2,,,,,43.6,0.675020886,3958052,884604601
+"9300 Ashton Rd,",Non-Refrigerated Warehouse,"9300 Ashton Rd., Units 2 and 3",Philadelphia,Philadelphia,PA,19114,40.067297,-75.017862,77576,,1970,2014,98,7.2,16.3,,,,,55.9,2.027688976,3958054,884227015
+10350 Drummond Rd.,Non-Refrigerated Warehouse,10360 Drummond Rd,Philadelphia,Philadelphia,PA,19154,40.082744,-74.996586,99000,,1973,2014,45,42.2,93.4,,,,,409.7,3.764646465,3958313,884283501
+Warehouse,Non-Refrigerated Warehouse,884219050,Philadelphia,Philadelphia,PA,19131,,,56976,,1950,2014,83,5.2,14.1,,,,,34.8,0.768744735,3958558,884219050
+Mar Vick Bren INC,Non-Refrigerated Warehouse,5101-49 unruh ave.,Philadelphia,Philadelphia,PA,19135,,,125000,,1950,2014,,5.3,15.2,,,,,81.8,0.3256,3963466,884180500
+SOMERSET WAREHOUSE,Non-Refrigerated Warehouse,2801-31 A ST,Philadelphia,Philadelphia,PA,19134,,,65000,,1945,2014,99,7.9,14.6,,,,,43,0.138461538,3963906,884340880
+13451 Damar Drive,Non-Refrigerated Warehouse,13451 Damar Drive,Philadelphia,Philadelphia,PA,19116,40.121837,-74.998688,66600,,1996,2014,91,15.9,43.7,,,,,125.7,2.433933934,3965369,884244700
+275 Geiger Rd.,Non-Refrigerated Warehouse,275 Geiger Rd.,Philadelphia,Philadelphia,PA,19006,,,77500,,1984,2014,47,49.5,84.4,,,,,300.9,15.64,3966762,884228000
+10981 Decatur Rd.,Non-Refrigerated Warehouse,10981 Decatur Rd.,Philadelphia,Philadelphia,PA,19154,40.093853,-74.989236,250000,,1975,2014,74,25.1,50,,,,,561.5,3.2592,3966792,884280000
+11620 Caroline Rd.,Non-Refrigerated Warehouse,11620 Caroline Rd.,Philadelphia,Philadelphia,PA,19154,40.097723,-75.003838,70814,,1970,2014,,40.5,73.3,,,,,236.5,1.673397916,3966799,884270000
+Eastern Electrical Liquidators,Non-Refrigerated Warehouse,1511 N 26th St,Philadelphia,Philadelphia,PA,19121,,,100000,,1800,2014,,8.6,18.3,,,,,81.7,0.911,3977234,884100600
+9815 Roosevelt Blvd.,Non-Refrigerated Warehouse,9815 Roosevelt Blvd.,Philadelphia,Philadelphia,PA,19154,40.086422,-75.022893,78500,,1971,2014,59,34.1,70.2,,,,,246.4,3.36433121,3980064,884266000
+Columbus Blvd. 2055,Non-Refrigerated Warehouse,2055 Richmond St.,Philadelphia,Philadelphia,PA,19125,39.972422,-75.120238,72000,,1970,2014,,29.5,51.7,,,,,170.4,0.426388889,3982225,884105000
+4411WHITAKERLLC,Non-Refrigerated Warehouse,4411 WHITAKER AVENUE,Philadelphia,Philadelphia,PA,19120,40.01697,-75.11658,56600,,1900,2014,97,5.1,16,,,,,38.6,,4039333,884186505
+"R.B. Hoffman, Inc.",Non-Refrigerated Warehouse,300-322 W. Hunting Park Avenue,Philadelphia,Philadelphia,PA,19140,,,125000,,1925,2014,,,1.6,,,,,8.3,,4051453,884042000
+"Richard Hoffman, LLP",Non-Refrigerated Warehouse,3515 Amber Street,Philadelphia,Philadelphia,PA,19134,39.996304,-75.102144,100000,,1922,2014,,,,,,,,,,4069477,884845600
+"Richard Hoffman, LLP",Non-Refrigerated Warehouse,2100 E. Venango Street,Philadelphia,Philadelphia,PA,19134,39.996838,-75.100054,100000,,1922,2014,,,,,,,,,,4069478,884201600
+Tin K. Luu,Non-Refrigerated Warehouse,5697 Rising Sun Ave.,Philadelphia,Philadelphia,PA,19120,40.040655,-75.107747,52782,,1960,2014,100,2.8,8.9,,,,,20,,4096196,884116452
+777 Brewster Avenue,Non-Refrigerated Warehouse,777 Brewster Avenue,Philadelphia,Philadelphia,PA,19153,,,107076,,1978,2014,,52.2,119.7,,,,,565.1,6.937128768,4096814,884165500
+2100 Byberry Road,Non-Refrigerated Warehouse,2100 Byberry Road,Philadelphia,Philadelphia,PA,19116,40.109226,-75.00203,130500,,1954,2014,88,21.4,44.9,,,,,261.5,0.848275862,4102725,884236000
+Distribution Center #9001,Non-Refrigerated Warehouse,8201 Enterprise Avenue,Philadelphia,Philadelphia,PA,19153,39.886162,-75.218212,385000,,1969,2014,55,63.1,118,,,,,2060.6,1.160779221,4123417,773102500
+Police Tactical / Warehouse,Non-Refrigerated Warehouse,660 E Erie Ave,Philadelphia,Philadelphia,PA,19134,40.006208,-75.115758,53000,,1982,2014,13,81.9,125.9,,,,,312.3,3.373584906,4393304,786124800
+57164- Residence Inn Philadelphia - Center City,,One East Penn Square,Philadelphia,Philadelphia,PA,19107,,,,,1990,2014,28,100.5,225.3,,,,,2500.5,,1406842,883704600
+University of Pennsylvania,,3101 Walnut Street,Philadelphia,Philadelphia,PA,19104,,,,,1873,2014,,192.7,379.5,,,,,233017.8,57.91964615,3634188,773003010
+Paul's Run,,9896 Bustleton ave,Philadelphia,Philadelphia,PA,19115,40.097475,-75.03048,,,1981,2014,,,,,,,,,,3762384,778038005
+"440 East 62nd St. Co., LP",,401 North Broad Street,Philadelphia,Philadelphia,PA,19108,,,1296804,,1929,2014,,427.3,1341.9,,,,,74186.5,3.881619736,3830317,883028250
+DHL/PHL,,7600 Holstein Ave,Philadelphia,Philadelphia,PA,19153,39.900657,-75.230013,,,2005,2014,75,45.1,83.4,,,,,366.1,,3858153,884167016
+Parkwood Shopping Center,,12301-75 Academy Road,Philadelphia,Philadelphia,PA,19154,,,,,1964,2014,,233.2,407.2,,,,,1366,,3954640,882078060
+Finishing Trades Institute,,2190 Hornig Rd,Philadelphia,Philadelphia,PA,19116,40.113533,-74.996548,,,1988,2014,,37.7,65.5,,,,,234.4,,3959886,778495000
+the emmanuel church,,4723-41 spruce st.,Philadelphia,Philadelphia,PA,19139,,,,,1930,2014,,,,,,,,151.8,,3980656,774024000
+3600 Grays Ferry Ave (FedEx Express),,3600 Grays Ferry Avenue,Philadelphia,Philadelphia,PA,19146,39.940247,-75.201387,,,2001,2014,,59.1,110.5,,,,,551.2,,4125760,884122536
+One Commerce Square,Office,2005 Market Street,Philadelphia,Philadelphia,PA,19103,,,1117466,,1987,2014,77,75.5,236.9,,,,,10323.5,14.88268994,,883054371
+Two Commerce Square,Office,2001 Market Street,Philadelphia,Philadelphia,PA,19102,,,1103420,,1992,2014,76,73.4,230.3,,,,,10242.6,16.56531511,,883054361
+1835 Market Street,Office,1835 Market Street,Philadelphia,Philadelphia,PA,19103,,,751503,,1986,2014,83,76.9,202.1,,,,,6124.6,27.00907382,,883104005
+12589 Ten Penn Center,Office,1801 Market Street,Philadelphia,Philadelphia,PA,19103,,,718644,,1981,2014,98,57.3,148.2,,,,,4548.1,13.05792576,,883054000
+1818 Market St,Office,1818 Market St Suite 1120,Philadelphia,Philadelphia,PA,19103,,,1375871,,1973,2014,89,66.8,157.1,,,,,7022.7,12.17061774,,883033001
+APF - 1601 Market Street,Office,1601 Market St,Philadelphia,Philadelphia,PA,19103,,,781516,,1968,2014,82,81.3,209.7,,,,,6631.5,11.96597383,1060565,883338000
+1700 Market Street,Office,1700 Market Street,Philadelphia,Philadelphia,PA,19103,,,925698,,1968,2014,79,82.8,211.7,,,,,8705.1,14.42457475,1060573,883032000
+ACE Philadelphia,Office,436 Walnut Street,Philadelphia,Philadelphia,PA,19106,,,350577,,1925,2014,84,64.9,167.9,,,,,2458,10.74286105,1211433,883300400
+Three Logan Square,Office,1717 Arch Street,Philadelphia,Philadelphia,PA,19103,,,1377698,,1990,2014,79,82.8,218.5,,,,,11743.6,12.08080436,1218039,883059004
+Three Parkway,Office,1601-45 Cherry Street,Philadelphia,Philadelphia,PA,19102,,,610065,,1970,2014,83,66.3,171.6,,,,,4637.1,12.13149419,1238832,883060510
+PECO MAIN OFFICE BUILDING,Office,2301 Market Street,Philadelphia,Philadelphia,PA,19103,,,897201,,1971,2014,,89.1,270.6,,,,,10110.6,0.01928219,1269439,883054500
+PECO Christian Street Service Center,Office,830 Schuylkill Avenue,Philadelphia,Philadelphia,PA,19146,,,70644,,1951,2014,23,84.8,266.2,,,,,801.8,0.002831097,1273629,772607000
+PA0144ZZ - PHILADELPHIA CUSTOMHOUSE,Office,200 CHESTNUT STREET,Philadelphia,Philadelphia,PA,19106,,,567710,,1934,2014,86,63.8,141.5,,,,,3518.7,9.330291874,1297698,781049800
+PA0143ZZ - RN NIX FED BLDG & USPO,Office,900 MARKET STREET,Philadelphia,Philadelphia,PA,19107,,,405240,,1937,2014,92,45.4,108.4,,,,,1934.5,6.100088836,1299442,781051010
+Arch 1650 Partners LP,Office,1650 Arch Street,Philadelphia,Philadelphia,PA,19103,,,663328,,1974,2014,75,79.7,181.6,,,,,5490.5,8.964192677,1439909,883058000
+"United Plaza Lease, L.P.",Office,30 South 17th Street,Philadelphia,Philadelphia,PA,19103,,,699896,,1975,2014,77,80,220,,,,,6910.5,15.45415319,1440658,883051500
+American College of Physicians Headquarters,Office,190 N. Independence Mall West,Philadelphia,Philadelphia,PA,19106,39.952687,-75.149957,322610,,1998,2014,88,73.7,180.4,,,,,2133.6,9.914447785,1452163,771523010
+ARAMARK Tower,Office,1101 Market Street,Philadelphia,Philadelphia,PA,19107,,,759072,,1984,2014,83,77.3,193.3,,,,,6405.8,14.76157729,1467329,883308700
+1515 Market Street,Office,Suite 1040,Philadelphia,Philadelphia,PA,19102,,,564078,,1958,2014,72,74,191.6,,,,,4786.9,13.57471839,1476210,883337500
+150-CIRA CENTRE,Office,2929 ARCH STREET,Philadelphia,Philadelphia,PA,19104,39.95698,-75.181842,778607,,2006,2014,77,90.8,285,,,,,9470.9,20.8527537,1485471,883062300
+153-ONE LOGAN SQUARE,Office,130 NORTH 18TH STREET,Philadelphia,Philadelphia,PA,19103,39.95629,-75.16935,1128787,,1983,2014,88,74,181.8,,,,,8843.5,11.27458059,1485500,883061505
+154-TWO LOGAN SQUARE,Office,100 NORTH 18TH STREET,Philadelphia,Philadelphia,PA,19103,,,808040,,1988,2014,72,96,301.4,,,,,10382.5,18.99126281,1485534,883061805
+St. Leonard's Court,Office,3819 Chestnut Street,Philadelphia,Philadelphia,PA,19104,,,52306,,1985,2014,,67.3,183.9,,,,,415.8,1.558138646,1489392,773080200
+L01973 - One Crescent Drive,Office,One Crescent Drive,Philadelphia,Philadelphia,PA,19112,,,79034,,2005,2014,86,53.3,167,,,,,562.7,14.67975808,1496733,788012000
+Public Ledger,Office,600 Chestnut St.,Philadelphia,Philadelphia,PA,19106,,,535382,,1904,2014,73,81.7,189.8,,,,,4609.9,16.41538191,1516957,883003510
+Curtis Center,Office,170 S Independence W ML,Philadelphia,Philadelphia,PA,19106,,,1141839,,1910,2014,88,57.6,139.4,,,,,6976.7,16.61863012,1516994,883002510
+The Wanamaker Building,Office,100 Penn Square East,Philadelphia,Philadelphia,PA,19107,39.953786,-75.162147,1706638,,1902,2014,80,71,182.6,,,,,11250.7,13.3150674,1619606,882497505
+One Penn Center,Office,1617 John F. Kennedy Blvd,Philadelphia,Philadelphia,PA,19103,,,670000,,1929,2014,89,58.7,164.1,,,,,4741.8,18.27432836,1637817,883339500
+Four Penn Center,Office,1600 JFK Blvd,Philadelphia,Philadelphia,PA,19103,,,543134,,1964,2014,78,83.7,197.8,,,,,9415.2,8.10444568,1650661,883056000
+Centre Square - 1500 Market Street,Office,1500 MARKET ST,Philadelphia,Philadelphia,PA,19102,,,2260778,,1974,2014,74,75.1,195.1,,,,,17262.9,10.8172054,1750694,883320000
+"1735 MARKET STREET - OFFICE, Site # 602850",Office,1735 MARKET ST OFC,Philadelphia,Philadelphia,PA,19103,,,1503469,,1990,2014,,62.7,195.7,,,,,11802.8,12.63477997,1750728,883053525
+"1525 LOCUST STREET, Site # 603090",Office,1525 LOCUST ST,Philadelphia,Philadelphia,PA,19102,,,108000,,1990,2014,50,76.3,239.7,,,,,1103.5,12.84166667,1750739,883045400
+"1600 MARKET STREET, Site #602760",Office,1600 MARKET ST,Philadelphia,Philadelphia,PA,19103,,,930550,,1983,2014,86,59.2,154.5,,,,,6181.5,9.674708506,1750750,883031500
+L61864 - 1701 JFK Blvd,Office,1701 JFK Blvd,Philadelphia,Philadelphia,PA,19103,,,1538959,,2008,2014,77,98.6,273.1,,,,,18334.3,23.63799166,1767519,883056605
+MATSSC,Office,300 Spring Garden Street,Philadelphia,Philadelphia,PA,19123,,,574075,,1975,2014,81,77.5,180.2,,,,,4554.8,11.74445848,1819058,781398200
+One Liberty Place,Office,1650 Market Street,Philadelphia,Philadelphia,PA,19103,,,1191592,,1987,2014,74,58.3,183,,,,,10420.2,8.402372624,1840857,883031676
+L02152 - Three Crescent Drive,Office,Three Crescent Drive,Philadelphia,Philadelphia,PA,19112,,,95800,,2008,2014,29,101.3,317.8,,,,,1297.9,30.93110647,1960820,788013000
+Jewish Federation,Office,2100 Arch Street,Philadelphia,Philadelphia,PA,19103,,,120943,,1913,2014,76,77.3,176,,,,,970.3,14.55727078,1973738,772636525
+SEPTA Headquarters,Office,1234 Market Street,Philadelphia,Philadelphia,PA,19107,,,759793,,1973,2014,,110.6,294.5,,,,,8717.2,17.65046532,2363717,883309000
+One Parkway Building,Office,1515-29 Arch St,Philadelphia,Philadelphia,PA,19102,,,502000,,1962,2014,63,111.6,272.5,,,,,5988.4,21.47131474,2365631,772059100
+PA0000AT - WISSAHICKON FED BLDG,Office,5000 WISSAHICKON AVE,Philadelphia,Philadelphia,PA,19144,40.01853,-75.173368,449021,,1998,2014,37,120.7,342.9,,,,,6784.1,25.24826233,2474727,784484000
+Ralston House,Office,3615 Chestnut Street,Philadelphia,Philadelphia,PA,19104,,,71686,,1887,2014,,44.6,92.2,,,,,295.4,8.728343052,2528934,773685500
+1600 Callowhill,Office,1600 Callowhill Street,Philadelphia,Philadelphia,PA,19130,39.960015,-75.165288,103483,,1920,2014,30,65.7,206.3,,,,,780.1,12.77697786,2555977,883065100
+Constitution Place,Office,325 Chestnut St.,Philadelphia,Philadelphia,PA,19106,,,232097,,1955,2014,75,76.5,174.4,,,,,1786.4,32.36750152,2902083,883302500
+801 Arch Street,Office,801 Arch Street,Philadelphia,Philadelphia,PA,19107,,,170348,,1975,2014,98,25,74.6,,,,,544.1,3.024397116,2926182,883009600
+LT02184 - Five Crescent Drive,Office,5 Crescent Drive,Philadelphia,Philadelphia,PA,19112,,,215051,,2011,2014,89,80,184.1,,,,,1745.5,16.20173819,2933141,788010012
+400 Market,Office,400 Market St.,Philadelphia,Philadelphia,PA,19106,,,201897,,1971,2014,63,79.1,199.2,,,,,1618.6,11.03433929,2990373,883012000
+IRS 30th Street Campus (165),Office,2970 Market Street,Philadelphia,Philadelphia,PA,19104,,,1481088,,2010,2014,84,76.7,210.6,,,,,8482.6,7.79062419,3061663,883063100
+GLC 16200/900 RACE ST/PHILADELPHIA/PA,Office,900 RACE ST,Philadelphia,Philadelphia,PA,19107,,,977314,,1905,2014,,,,,,,,10308,9.832049884,3120916,771618000
+833 Chestnut,Office,833 Chestnut Street,Philadelphia,Philadelphia,PA,19107,,,757706,,1926,2014,,132.8,345.4,,,,,10824.2,8.855677532,3122487,883313600
+1900 Market Street (180),Office,1900 Market Street,Philadelphia,Philadelphia,PA,19103,,,588233,,1981,2014,85,59.6,181.2,,,,,4558.4,10.71140177,3216590,883034000
+Health Administration Building,Office,500 S Broad St,Philadelphia,Philadelphia,PA,19146,,,77688,,1959,2014,19,140.5,366.5,,,,,1236.9,35.62969828,3267049,782026200
+One Washington Square,Office,510 Walnut Street,Philadelphia,Philadelphia,PA,19106,,,1108655,,1930,2014,83,70.4,161.9,,,,,7915.2,12.60951333,3279877,883006500
+3440 Market St,Office,3440 Market St,Philadelphia,Philadelphia,PA,19104,,,117848,,1981,2014,36,83.3,253.3,,,,,4801.5,11.50634716,3321455,883076510
+3401 Market St.,Office,3401 Market St.,Philadelphia,Philadelphia,PA,19104,,,90817,,1930,2014,,106.3,264.2,,,,,1069.5,14.32330951,3325211,883072000
+3600 Market St,Office,3600 Market St.,Philadelphia,Philadelphia,PA,19104,,,189262,,1930,2014,,78.5,234.5,,,,,1900.7,15.93769484,3325356,
+3624 Market St,Office,3624 Market St.,Philadelphia,Philadelphia,PA,19124,,,225688,,1975,2014,41,90.8,282.7,,,,,2722.3,6.764648541,3326513,
+Police Administration Building,Office,750 Race Street,Philadelphia,Philadelphia,PA,19106,,,126000,,1956,2014,5,191.4,492,,,,,2750.1,39.66111111,3339848,781379300
+Eastwick Center/PA/Site #F166,Office,8800 TINICUM BLVD,Philadelphia,Philadelphia,PA,19153,39.88915,-75.244644,446812,,1990,2014,55,84.9,256.7,,,,,4953.5,14.65829029,3364475,883082000
+178-3020 MARKET,Office,3020 MARKET STREET,Philadelphia,Philadelphia,PA,19104,,,254750,,1959,2014,26,147.1,388.2,,,,,3545,14.31638862,3365000,883071700
+Fire Administration,Office,276 Spring Garden St,Philadelphia,Philadelphia,PA,19123,39.960785,-75.143222,50601,,1975,2014,22,106.9,335.5,,,,,723.8,20.71302939,3408212,781398000
+2401 Walnut,Office,2401 Walnut Street,Philadelphia,Philadelphia,PA,19103,,,163836,,1925,2014,89,43.4,136.4,,,,,952.5,7.516663004,3417370,883039105
+30th St.,Office,120 S. 30th St.,Philadelphia,Philadelphia,PA,19104,,,79200,,1917,2014,75,68.3,172.3,,,,,606.4,34.19318182,3443035,773717200
+3615 Market St.,Office,3615 Market St.,Philadelphia,Philadelphia,PA,19104,,,20858,,1995,2014,,62.8,142.1,,,,,131,4.645699492,3479103,883073200
+United Way,Office,1709 Benjamin Franklin Parkway,Philadelphia,Philadelphia,PA,19103,39.956086,-75.167976,75400,,1970,2014,77,83.8,213.7,,,,,715.9,15.60212202,3479871,772687010
+3711 Market St.,Office,3711 Market St,Philadelphia,Philadelphia,PA,19104,,,155715,,2008,2014,1,256.9,739.2,,,,,4948.9,42.37356709,3479994,
+801 Market Street,Office,801 Market Street,Philadelphia,Philadelphia,PA,19107,,,616379,,1909,2014,94,65.8,155.7,,,,,4335.2,8.160888025,3498314,882506315
+Independence Blue Cross,Office,1901 Market Street,Philadelphia,Philadelphia,PA,19103,,,1011239,,1988,2014,77,95,241.6,,,,,8869.7,14.83487089,3505831,883034200
+GLC 11310/1631 ARCH ST/PHILADELPHIA/PA,Office,1631 ARCH ST,Philadelphia,Philadelphia,PA,19103,39.954987,-75.167739,160661,,1905,2014,1,272.7,799.3,,,,,5546.3,24.34318223,3512076,772614000
+GLC 12170/2000 S BROAD ST/PHILADELPHIA/PA,Office,2000 S BROAD ST,Philadelphia,Philadelphia,PA,19145,,,91810,,1905,2014,4,122.7,385.2,,,,,1507.8,14.1596776,3512078,773619000
+GLC 13030/5160 LANCASTER AVE/PHILADELPHIA/PA,Office,5160 LANCASTER AVE,Philadelphia,Philadelphia,PA,19131,39.976715,-75.225755,52021,,1905,2014,2,127.5,400.4,,,,,887.9,2.748889871,3512079,774606005
+GLC 13080/5650 CHESTNUT ST/PHILADELPHIA/PA,Office,5650 CHESTNUT ST,Philadelphia,Philadelphia,PA,19139,,,75676,,1905,2014,18,89.2,280,,,,,903.4,14.60172314,3512080,774605005
+GLC 13090/3810 CHESTNUT ST/PHILADELPHIA/PA,Office,3810 CHESTNUT ST,Philadelphia,Philadelphia,PA,19104,,,75176,,1905,2014,3,140.3,406.5,,,,,1340.1,1.84899436,3512081,773620005
+GLC 14010/8318 GERMANTOWN AVE/PHILADELPHIA/PA,Office,8318 GERMANTOWN AVE,Philadelphia,Philadelphia,PA,19118,40.074719,-75.204235,64512,,1905,2014,46,60.4,187.9,,,,,518.4,0.713045635,3512082,775619505
+GLC 14340/3429 N 17TH ST/PHILADELPHIA/PA,Office,3429 N 17TH ST,Philadelphia,Philadelphia,PA,19140,40.006178,-75.156843,60607,,1905,2014,9,99.3,305.7,,,,,795.4,1.187981586,3512104,776615005
+GLC 16600/423 S 17TH ST/PHILADELPHIA/PA,Office,423 S 17TH ST,Philadelphia,Philadelphia,PA,19146,,,59101,,1905,2014,1,221,693.9,,,,,1748.4,2.199624372,3512105,772614900
+GLC 17012/2210 LOTT ST/PHILADELPHIA/PA,Office,2210 LOTT ST,Philadelphia,Philadelphia,PA,19115,40.085068,-75.025663,52043,,1905,2014,1,170.9,536.5,,,,,1190.3,24.8832696,3512106,778653010
+GLC 17110/6468 N BROAD ST/PHILADELPHIA/PA,Office,6468 N BROAD ST,Philadelphia,Philadelphia,PA,19126,40.051608,-75.141929,57899,,1905,2014,33,71.9,225,,,,,556.1,20.98481839,3512108,776614005
+GLC 17120/7254 RISING SUN AVE/PHILADELPHIA/PA,Office,7254 RISING SUN AVE,Philadelphia,Philadelphia,PA,19111,40.061105,-75.084201,55539,,1905,2014,1,159.7,501.3,,,,,1187,2.736815571,3512109,778655005
+GLC 19008/4808 LEIPER ST/PHILADELPHIA/PA,Office,4808 LEIPER ST,Philadelphia,Philadelphia,PA,19124,40.019429,-75.08484,79883,,1905,2014,6,112.1,349.1,,,,,1192.1,3.16713193,3512110,778651005
+GLC 19040/2514 EMERALD ST/PHILADELPHIA/PA,Office,2514 EMERALD ST,Philadelphia,Philadelphia,PA,19125,39.986015,-75.127025,57568,,1905,2014,,,,,,,,916.4,3.335186215,3512111,777633005
+GLC 19070/160 W ERIE AVE/PHILADELPHIA/PA,Office,160 W ERIE AVE,Philadelphia,Philadelphia,PA,19140,,,60158,,1905,2014,89,42.6,133.9,,,,,343.4,13.08221683,3512112,777634005
+GLC 19100/1601 JEFFERSON ST/PHILADELPHIA/PA,Office,1601 JEFFERSON ST,Philadelphia,Philadelphia,PA,19121,,,54931,,1905,2014,2,122.5,384.5,,,,,900.5,2.80351714,3512113,772616000
+2.0 University Place,Office,30 N 41st Street,Philadelphia,Philadelphia,PA,19104,,,107589,,2013,2014,79,52.8,138.9,,,,,634.2,3.307029529,3522077,883073700
+Two Liberty Place,Office,50 South 16th Street,Philadelphia,Philadelphia,PA,19102,,,1283937,,1990,2014,55,73.9,231.9,,,,,12695.5,16.38686322,3526160,883031800
+230 S. Broad,Office,230 S. Broad St.,Philadelphia,Philadelphia,PA,19102,,,213276,,1908,2014,54,95.2,242,,,,,2248.9,22.98805304,3529858,883048000
+The Bellevue,Office,200 South Broad Street,Philadelphia,Philadelphia,PA,19102,,,533393,,1904,2014,8,225.1,466.4,,,,,11172.2,58.03450739,3551776,883701000
+1163-65 S. BROAD STREET,Office,1163-65 S. BROAD STREET,Philadelphia,Philadelphia,PA,19147,,,52258,,2012,2014,71,54.4,167.2,,,,,373.2,2.214015079,3569714,883359300
+1300 W. LEHIGH AVENUE,Office,1300 W. LEHIGH AVENUE,Philadelphia,Philadelphia,PA,19132,39.993659,-75.152398,60000,,1964,2014,,6.1,13.6,,,,,36,5.586666667,3569731,882962800
+123 S. Broad,Office,123 S. Broad St.,Philadelphia,Philadelphia,PA,19109,,,1094000,,1928,2014,,93.4,194.2,,,,,9489.6,21.52303473,3575688,883025600
+21 S. 12th St.,Office,21 S. 12th St.,Philadelphia,Philadelphia,PA,19107,,,105890,,1896,2014,,,,,,,,,25.53498914,3578915,883017910
+125 S. 9th St. (Sheridan Building),Office,125 S. 9th St.,Philadelphia,Philadelphia,PA,19107,,,97456,,1916,2014,77,57.8,176.8,,,,,735.3,14.58812182,3579797,883010900
+1435 Walnut St. (Drexel Building),Office,1435 Walnut St.,Philadelphia,Philadelphia,PA,19102,,,56588,,1908,2014,,87.3,244.6,,,,,596.7,26.42786456,3582095,883038000
+4023-4027 Chestnut St. (American Law Institute),Office,4025 Chestnut St.,Philadelphia,Philadelphia,PA,19104,,,66527,,1968,2014,60,122.5,262.3,,,,,665.5,19.58603274,3582170,773081005
+417 N.8th Street,Office,417 N. 8th Street,Philadelphia,Philadelphia,PA,19123,,,106124,,1925,2014,86,71.8,139.1,,,,,665.9,31.85613056,3584130,883523050
+American Red Cross - Humanitarian Services,Office,2221 Chestnut St.,Philadelphia,Philadelphia,PA,19103,,,80679,,1972,2014,68,78.6,185.3,,,,,632.6,12.27580907,3591160,883324100
+1429-1433 Walnut St.,Office,1429-1433 Walnut St.,Philadelphia,Philadelphia,PA,19102,,,76989,,1916,2014,60,62.1,168.6,,,,,574.2,7.92710647,3596562,888008704
+1500-1506 Walnut St.,Office,1500-1506 Walnut St.,Philadelphia,Philadelphia,PA,19102,,,329425,,1930,2014,56,110.4,257.3,,,,,3192.3,20.50997951,3596612,883040500
+642 N. Broad St.,Office,642 N. Broad St.,Philadelphia,Philadelphia,PA,19130,,,278741,,1903,2014,88,55.5,141.3,,,,,1715.7,6.097416598,3596849,883524700
+1211 Chestnut St.,Office,1211 Chestnut St.,Philadelphia,Philadelphia,PA,19107,,,100366,,1919,2014,77,69.1,168.9,,,,,760.9,10.13689895,3597401,883311500
+215 S. Broad,Office,215 S. Broad St.,Philadelphia,Philadelphia,PA,19107,,,50456,,1930,2014,49,83.7,231.3,,,,,509.4,28.66656096,3597476,883026005
+Girard Square (South),Office,1101-1153 Chestnut St. and 21 S. 12th St.,Philadelphia,Philadelphia,PA,19107,,,269726,,1896,2014,,90.9,191.4,,,,,2806.4,16.25019464,3619714,882495700
+Girard Square (North),Office,1100-1142 Market St. and 34 S. 11th St.,Philadelphia,Philadelphia,PA,19107,,,407605,,1916,2014,,25.7,66.1,,,,,2012.2,9.59630034,3619725,883017900
+1608 Walnut Street Associates LP,Office,1608 Walnut Street,Philadelphia,Philadelphia,PA,19103,,,161685,,1925,2014,81,64.2,170.2,,,,,1513.3,31.22429415,3619986,883332160
+Philadelphia Opportunities Industrialization Center,Office,1239 N. Broad St.,Philadelphia,Philadelphia,PA,19121,,,100000,,1920,2014,73,51.5,132,,,,,517.3,9.348,3628711,771637000
+Building 101 - CBRE,Office,4747 South Broad Street,Philadelphia,Philadelphia,PA,19112,,,75000,,1911,2014,65,71,156.2,,,,,519.3,15.10666667,3637467,788009900
+Chest Pac Associates,Office,111 South 15th Street,Philadelphia,Philadelphia,PA,19102,,,182472,,1924,2014,40,110.5,347,,,,,2699.2,14.83624885,3637785,883324600
+The Philadelphia Design Building,Office,2300 Chestnut Street,Philadelphia,Philadelphia,PA,19103,,,99556,,1910,2014,2,171.4,524.2,,,,,2209.1,3.49351119,3638043,883036500
+Star Technical Academy,Office,2361-73 Welsh Rd.,Philadelphia,Philadelphia,PA,19114,,,51300,,1950,2014,95,48.6,152.6,,,,,333.7,19.61988304,3638910,883381115
+Edison Building,Office,130 South 9th Street,Philadelphia,Philadelphia,PA,19107,,,244109,,1930,2014,57,89.2,203.7,,,,,2265.1,13.99211008,3641814,771021000
+College Building,Office,1025 Walnut Street,Philadelphia,Philadelphia,PA,19107,,,191783,,1928,2014,2,296.3,550.3,,,,,4997.1,29.54641444,3641868,771020000
+1420 Walnut,Office,1420 Walnut Street,Philadelphia,Philadelphia,PA,19102,,,108000,,1927,2014,63,81.2,219.4,,,,,1040.1,18.59166667,3642348,883039500
+Curtis Building,Office,1015 Walnut Street,Philadelphia,Philadelphia,PA,19107,,,136566,,1928,2014,37,149.5,249.4,,,,,1631.1,29.50221871,3642349,771020000
+Clear Channel Outdoor,Office,9130 State Road,Philadelphia,Philadelphia,PA,19136,40.04493,-74.996341,76145,,1961,2014,96,52.5,94.3,,,,,234.5,1.23317355,3642358,884265000
+Nevil Building,Office,919 Walnut Street,Philadelphia,Philadelphia,PA,19107,,,135825,,1906,2014,76,70.9,161.2,,,,,998.6,9.302411191,3642429,771695000
+Hamilton Building,Office,1001 Locust Street,Philadelphia,Philadelphia,PA,19107,,,232213,,2007,2014,54,129.6,290.8,,,,,1934,15.43712023,3643275,771016000
+901 Walnut Street Building,Office,901 Walnut Street,Philadelphia,Philadelphia,PA,19107,,,85000,,2010,2014,40,194.3,303.2,,,,,1264.2,8.395294118,3643346,771017500
+1401 Arch St.,Office,1401 Arch St.,Philadelphia,Philadelphia,PA,19102,,,178250,,1960,2014,42,75,235.3,,,,,1788.4,22.56269285,3644299,883056905
+Monell Center,Office,3508 Market Street,Philadelphia,Philadelphia,PA,19104,,,61589,,1970,2014,,174.1,376.3,,,,,1069.8,9.165597753,3652506,774688100
+Bourse Building,Office,111 S. Independence Mall East,Philadelphia,Philadelphia,PA,19106,39.950013,-75.149044,413228,,1895,2014,84,59.6,140.5,,,,,2566.7,14.18587317,3653104,883101010;883101510
+Penn Tower,Office,1 Convention Avenue,Philadelphia,Philadelphia,PA,19104,39.948674,-75.192904,342000,,1972,2014,,141.7,353.7,,,,,4531.8,36.36842105,3662883,773512000
+1528 Walnut,Office,1528 Walnut Street,Philadelphia,Philadelphia,PA,19102,,,206625,,1927,2014,81,82.1,190.2,,,,,1784.6,9.861826981,3663168,883041500
+30 South 15th Associates,Office,30 South 15th Street,Philadelphia,Philadelphia,PA,19102,,,241854,,1985,2014,54,106.8,264.2,,,,,2792.9,16.72992797,3663256,883048700
+Medical Tower Building,Office,255 South 17th Street,Philadelphia,Philadelphia,PA,19103,,,95000,,1930,2014,68,72.4,217.7,,,,,885.3,29.39684211,3679494,883051000
+Land Title Building,Office,100 S. Broad St.,Philadelphia,Philadelphia,PA,19110,,,365000,,1890,2014,84,53.2,167.1,,,,,2600.2,17.69972603,3679592,883336000
+1880 JFK,Office,1880 John F. Kennedy Boulevard,Philadelphia,Philadelphia,PA,19103,,,248000,,1983,2014,84,55.9,175.6,,,,,1856.9,12.55443548,3679656,883056300
+1800 JFK,Office,1800 John F. Kennedy Boulevard,Philadelphia,Philadelphia,PA,19103,,,248000,,1983,2014,100,8.7,27.3,,,,,288.4,12.41491935,3679686,883056100
+8 Penn,Office,1628 JFK Blvd,Philadelphia,Philadelphia,PA,19103,,,235000,,1981,2014,78,82.4,201.1,,,,,2120.3,51.83787234,3679860,883056500
+Med Arts,Office,1601 Walnut Street,Philadelphia,Philadelphia,PA,19120,,,110000,,1930,2014,58,77,237.2,,,,,1114.5,49.68272727,3679905,883332000
+Crane Arts LLC,Office,1400 North American St,Philadelphia,Philadelphia,PA,19122,39.973184,-75.140096,110000,,1905,2014,100,21.8,43,,,,,196.4,4.132727273,3681050,884588700
+2 Penn,Office,1500 John F. Kennedy Boulevard,Philadelphia,Philadelphia,PA,19103,39.95372,-75.16598,500000,,1956,2014,80,67.2,179.8,,,,,3953.3,25.678,3681289,883055500
+WPVI-TV,Office,4100 City Avenue,Philadelphia,Philadelphia,PA,19131,40.006586,-75.214967,72898,,2009,2014,1,306.7,937.6,,,,,2793.1,61.85492057,3681504,882367520
+4100 Chester / 4101 Woodland Avenue,Office,4116-18 Chester Avenue,Philadelphia,Philadelphia,PA,19104,,,55000,,1920,2014,,72.1,185.8,,,,,444.5,8.270909091,3682419,883080550
+Riverview Place,Office,520 N. Christopher Columbus Boulevard,Philadelphia,Philadelphia,PA,19123,,,188046,,1929,2014,89,52.3,147.2,,,,,1192.9,25.24382332,3685108,883522900
+National Board of Medical Examiners,Office,3750 Market Street,Philadelphia,Philadelphia,PA,19104,,,165000,,1980,2014,44,118.7,296.7,,,,,2136.9,21.57393939,3687885,774688600
+Cast Iron Building,Office,718 Arch Street,Philadelphia,Philadelphia,PA,19106,,,124000,,1881,2014,89,48.3,136.2,,,,,727.7,10.66370968,3689195,781004550
+Penn Treaty Park Place,Office,1334-76 Beach st,Philadelphia,Philadelphia,PA,19125,,,178680,,1911,2014,88,60.9,171.1,,,,,1067.2,6.528990374,3696768,883365200
+3930 Chestnut St.,Office,3930 Chestnut St,Philadelphia,Philadelphia,PA,19104,,,67084,,1966,2014,7,175.7,333.9,,,,,1013.4,29.47200525,3696988,773687010
+1701 Market Street,Office,1701 Market Street,Philadelphia,Philadelphia,PA,19103,,,414598,,1957,2014,44,107.1,308,,,,,4074.9,16.88213643,3715845,883053530
+The Center at 714 Market,Office,714 Market Street,Philadelphia,Philadelphia,PA,19106,,,226200,,1900,2014,81,56.4,177.1,,,,,1664.1,0.164456233,3721175,771645110
+Sewer Maintenance Headquarters,Office,Fox St and Abbottsford Ave,Philadelphia,Philadelphia,PA,19129,,,65000,,1959,2014,,118.2,216.3,,,,,639.7,27.47076923,3727349,884461920
+1207 Chestnut,Office,1207-09 Chestnut Street,Philadelphia,Philadelphia,PA,19107,,,51676,,1925,2014,47,68.7,179.6,,,,,407.6,20.05960214,3759390,883311000
+615 Chestnut Street,Office,615 Chestnut Street,Philadelphia,Philadelphia,PA,19106,,,383918,,1981,2014,89,55.9,166.5,,,,,3181.7,17.2469121,3774260,883010310
+100 N. 20th Street,Office,100 North 20th Street,Philadelphia,Philadelphia,PA,19106,,,88700,,1981,2014,86,58.8,169.3,,,,,645.5,11.13979707,3774261,883066000
+Academic Properties,Office,3025-53 Market Street,Philadelphia,Philadelphia,PA,19104,,,625368,,1956,2014,,65.9,178.9,,,,,4538.4,8.953128398,3776439,774524700
+LT02214 - 150 Rouse Blvd,Office,150 Rouse Blvd,Philadelphia,Philadelphia,PA,19112,,,58386,,2012,2014,69,58.9,184.4,,,,,459.1,9.120337067,3782888,788042700
+crown cork and seal usa inc.,Office,12345 roosevelt blvd,Philadelphia,Philadelphia,PA,19154,,,242300,,1997,2014,22,101.2,306.3,,,,,3065.4,22.13908378,3788588,883095000
+ST. ANSELM ANNEX,Office,12700 DUNKS FERRY RD.,Philadelphia,Philadelphia,PA,19154,40.102301,-74.971062,10764,,1970,2014,73,86.4,120.3,,,,,61.7,2.638424378,3788593,778144000
+List Associates,Office,3905 Ford Rd,Philadelphia,Philadelphia,PA,19131,39.999207,-75.20793,127785,,1956,2014,65,90.5,217.7,,,,,1219.7,36.66471026,3788675,774016000
+"211 N. 13th Street Associates, LP",Office,211 N. 13th Street,Philadelphia,Philadelphia,PA,19107,,,83059,,1920,2014,34,66.3,150.3,,,,,551.5,7.380295934,3790250,883016200
+Bellet,Office,1501 Race Street,Philadelphia,Philadelphia,PA,19102,,,129532,,1960,2014,73,78.4,185.7,,,,,1083.2,15.91730229,3790349,772027000
+LT02181 - 4050 S. 26th Street,Office,4050 S. 26th Street,Philadelphia,Philadelphia,PA,19145,39.898362,-75.193043,52782,,2011,2014,54,70.1,201.8,,,,,459.5,3.44056686,3790469,788003050
+One South Broad,Office,1 South Broad Street,Philadelphia,Philadelphia,PA,19107,,,526472,,1932,2014,55,86,213.7,,,,,5027.4,7.07217098,3820092,883318500
+907 Market,Office,907-937 Market Street,Philadelphia,Philadelphia,PA,19107,,,383012,,1977,2014,,68.2,214.1,,,,,3495.6,8.771526741,3823104,882506600
+The Philadelphia Building,Office,1315 Walnut Street,Philadelphia,Philadelphia,PA,19107,,,207778,,1927,2014,81,64,178.9,,,,,1920.9,19.50639625,3830246,883021000
+The Widener Building,Office,1327-39 Chestnut St,Philadelphia,Philadelphia,PA,19107,,,550707,,1914,2014,57,84.2,214.7,,,,,4524.2,11.78430636,3831243,883312000
+Amtrak PIDC,Office,2198 Hornig Rd.,Philadelphia,Philadelphia,PA,19116,40.113288,-74.992089,59600,,1987,2014,74,103.3,273.7,,,,,707.4,12.66275168,3831495,883095100
+Bailey,Office,1218 Chestnut St,Philadelphia,Philadelphia,PA,19102,,,55784,,1950,2014,88,44.7,94.5,,,,,244.8,26.0612362,3859412,883019502
+Front and Olney,Office,101 East Olney Ave,Philadelphia,Philadelphia,PA,19120,40.035147,-75.120302,70494,,1980,2014,55,64.7,203.2,,,,,610.6,24.34533435,3875831,883382000
+Left Bank,Office,3118-98 Chestnut Street,Philadelphia,Philadelphia,PA,19104,,,98707,,1923,2014,46,77.8,244.3,,,,,1028,163.7938545,3876346,774515050
+KlingStubbins,Office,2301 Chestnut Street,Philadelphia,Philadelphia,PA,19103,,,105000,,1920,2014,68,85.1,208,,,,,956.1,23.60952381,3881643,883036600
+Quartermaster,Office,2800 S. 20th St,Philadelphia,Philadelphia,PA,19145,,,196375,,1941,2014,,90.9,285.4,,,,,730.2,45.23182686,3882112,884095052
+Research Building,Office,444 North 3rd Street,Philadelphia,Philadelphia,PA,19123,,,150000,,1900,2014,77,77.5,174.1,,,,,1154.6,12.396,3884204,883008713
+Young Smyth Field Condominium Association,Office,1216 Arch Street,Philadelphia,Philadelphia,PA,19107,39.954052,-75.160289,125000,,1902,2014,83,55.5,141,,,,,783.8,9.7416,3884289,
+CAMM,Office,427-433 E Chelten Ave,Philadelphia,Philadelphia,PA,19144,,,87000,,1872,2014,99,35.8,52.7,,,,,216.2,5.071264368,3884458,775510300
+Philadelphia-Southampton Road RC,Office,2700 Southampton Road,Philadelphia,Philadelphia,PA,19154,,,135162,,1975,2014,54,73.5,143.8,,,,,875.3,9.57147719,3885144,786503420
+1520 Locust street,Office,1520 Locust Street,Philadelphia,Philadelphia,PA,19102,,,50000,,1940,2014,76,64.1,156.7,,,,,343,24.48,3885323,881030400
+1420-22 Chestnut Street,Office,1420 Chestnut St,Philadelphia,Philadelphia,PA,19103,,,122000,,1948,2014,65,124.4,203.5,,,,,1236.4,12.10163934,3890976,883035500
+1015 Chestnut Street,Office,1015 Chestnut Street,Philadelphia,Philadelphia,PA,19107,,,135000,,1940,2014,77,76.6,173.8,,,,,1070.2,18.16592593,3890983,883310000
+Miller Building,Office,441 n 5th st,Philadelphia,Philadelphia,PA,19123,,,80000,,1956,2014,71,71.8,178.7,,,,,624.5,8.59625,3891321,883009101
+913 Wallace Street,Office,913 Wallace Street,Philadelphia,Philadelphia,PA,19123,,,64000,,1950,2014,90,65.9,100.3,,,,,301,,3891695,884073505
+2801-2817 Southampton Rd,Office,2801-2817 Southampton Rd,Philadelphia,Philadelphia,PA,19151,,,63000,,1998,2014,100,34.2,56.5,,,,,164.5,9.625396825,3892834,884291400
+2825-2845 Southampton Rd,Office,2825-2845 Southampton Rd,Philadelphia,Philadelphia,PA,19154,,,66000,,1984,2014,100,10,13.6,,,,,43,6.978787879,3892835,884291510
+2191 Hornig Rd,Office,2191 Hornig Rd,Philadelphia,Philadelphia,PA,19116,40.113569,-74.996499,64638,,1950,2014,100,12,34.5,,,,,96,0.784368328,3892836,884233835
+Smylie Times Building - 2607 Rhawn St,Office,2607 Rhawn St,Philadelphia,Philadelphia,PA,19152,40.055966,-75.045423,54666,,1973,2014,,138.7,435.4,,,,,1014.8,38.15717265,3893447,883090500
+2000 Market Street,Office,2000 Market Street,Philadelphia,Philadelphia,PA,19103,,,661669,,1972,2014,48,125.5,259.3,,,,,8034.4,0.31208958,3894669,883320500
+1080 N Delaware Ave,Office,1080 N Delaware Ave,Philadelphia,Philadelphia,PA,19125,,,137500,,1960,2014,,48,125.3,,,,,748.4,6.826909091,3898953,883365000
+121 S. Broad,Office,121 S. Broad St.,Philadelphia,Philadelphia,PA,19107,,,154000,,1900,2014,40,86.8,272.4,,,,,1650.4,10.77792208,3916312,883024500
+Rodin Place,Office,2000 Hamilton Street,Philadelphia,Philadelphia,PA,19130,,,272000,,1989,2014,78,57.8,179.5,,,,,1853.7,19.00882353,3916385,883066600
+1518 Walnut Street,Office,1518 Walnut Street,Philadelphia,Philadelphia,PA,19102,,,103560,,1929,2014,80,88.1,178.7,,,,,868.2,15.8439552,3938855,883334010
+1500 Spring Garden,Office,1500 Spring Garden Street,Philadelphia,Philadelphia,PA,19130,,,1205490,,1948,2014,,177.8,557.8,,,,,27643.6,8.983649802,3944259,883026600
+Corn Exchange,Office,123 Chestnut St,Philadelphia,Philadelphia,PA,19123,,,50704,,1923,2014,21,133.3,296.5,,,,,665.6,129.0766015,3946509,883300500
+WHY Building,Office,1425 Arch Street,Philadelphia,Philadelphia,PA,19106,,,80000,,1915,2014,67,54.2,164.4,,,,,562.6,30.595,3952315,883057103
+Salus University,Office,1200 W. Godfrey Avenue,Philadelphia,Philadelphia,PA,19141,40.046907,-75.138304,70000,,1976,2014,69,67.3,207,,,,,619.1,,3956315,776553600
+PeiGenesis,Office,2180 Hornig Rd,Philadelphia,Philadelphia,PA,19116,40.112621,-74.99782,69000,,1987,2014,,81.7,192.1,,,,,582.8,7.84057971,3958192,
+800 Building,Office,800-16 W Mongomery Avenue,Philadelphia,Philadelphia,PA,19122,,,222640,,1900,2014,,31.5,89.1,,,,,739.3,92.64687388,3960818,781293900
+1800 Building,Office,1800 N 9TH Street,Philadelphia,Philadelphia,PA,19122,,,518161,,1900,2014,,45.6,143,,,,,2854.1,151.1453004,3960823,781597600
+Colonial Penn Life Insurance,Office,399 Market Street,Philadelphia,Philadelphia,PA,19106,,,154420,,1974,2014,,67.3,211.4,,,,,1139.4,16.76142987,3960828,883014000
+Archworks Philadelphia,Office,117-31 N 8th Street,Philadelphia,Philadelphia,PA,19106,,,53400,,1920,2014,76,50.7,159.3,,,,,362.6,30.99250936,3963826,883013200
+Pep Boys,Office,3111 West Allegheny Avenue,Philadelphia,Philadelphia,PA,19132,40.005172,-75.180712,509500,,1928,2014,92,58.9,129,,,,,2905,4.136997056,3966677,884130000
+AFSCME DISTRICT COUNCIL 33,Office,3001,Philadelphia,Philadelphia,PA,19104,,,208000,,1978,2014,,53.4,141.3,,,,,1103.2,14.33317308,3998864,883075500
+"Urban Outfitters, Inc. - Building #010",Office,5000 S Broad Street,Philadelphia,Philadelphia,PA,19112,,,57081,,1903,2014,3,170.9,463.7,,,,,1104.2,12.25276362,4084040,788008310
+"Urban Outfitters, Inc. - Building #007, 025, 543",Office,5000 S. 15th Street,Philadelphia,Philadelphia,PA,19103,,,212892,,1916,2014,,195.7,324.5,,,,,3191.4,5.368919452,4096299,788007700;788008001;788008100
+LT02185 - 800 Walnut Street,Office,800 Walnut Street,Philadelphia,Philadelphia,PA,19103,,,153242,,2013,2014,14,122.9,386,,,,,2521.7,19.57035278,4124122,883400600
+Gift of Life Donor Program,Office,401-35 N 03RD ST,Philadelphia,Philadelphia,PA,19123,,,112921,,2003,2014,70,84.9,212.1,,,,,924.9,12.10492291,4141032,771023700
+City Hall,Office,1400 Market St,Philadelphia,Philadelphia,PA,19102,,,659185,,1900,2014,82,90.5,157.4,,,,,4760.1,7.34391711,4319458,782273400
+Municipal Services Building (MSB),Office,1401 JFK Blvd,Philadelphia,Philadelphia,PA,19102,,,491000,,1968,2014,67,99.8,240.1,,,,,5169.4,5.737881874,4319459,782003200
+"Urban Outfitters, Inc. - Building #017, 018",Office,1620 Kitty Hawk Ave,Philadelphia,Philadelphia,PA,19112,39.889724,-75.18023,116802,,1916,2014,1,259.4,597.2,,,,,3075.2,,4471836,
+PA0000BG - BYRNE GREEN COMPLEX,Other,600 ARCH STREET,Philadelphia,Philadelphia,PA,19106,,,1834559,,1970,2014,88,62.3,131.3,,,,,10034.9,15.66839769,1134770,781208400
+1192-Nortech,Other,2000 Kubach Rd.,Philadelphia,Philadelphia,PA,19116,40.116025,-74.999199,124190,,1990,2014,,475.9,1494.2,,,,,7911.2,49.01602383,1182097,883033800
+PECO G and Luzerne Service Center,Other,4000 G Street,Philadelphia,Philadelphia,PA,19124,,,22230,,1951,2014,,113.2,226,,,,,225.7,0.008996851,1273633,775618005
+Hamilton Village,Other,220 S. 40th Street,Philadelphia,Philadelphia,PA,19104,,,82452,,1974,2014,,126.9,393.8,,,,,1385.7,77.04967739,1585726,882937900
+Center for advance medicine,Other,3400 Civic Center Blvd,Philadelphia,Philadelphia,PA,19104,39.946854,-75.195885,1386775,,2005,2014,,363.6,787.3,,,,,39480.5,53.41061095,2848414,773740100
+Wells Fargo Center,Other,3601 South Broad Street,Philadelphia,Philadelphia,PA,19148,,,825000,,1996,2014,,114.5,359.5,,,,,12645.6,50.07684848,3064021,788020600
+Hamilton/Furness,Other,320 S. Broad Street/1499 Pine Street,Philadelphia,Philadelphia,PA,19102,,,116264,,1876,2014,,124,241.1,,,,,1264.1,22.89100667,3117089,772508001
+Medical Exam Building,Other,321 University Ave,Philadelphia,Philadelphia,PA,19104,,,85000,,1970,2014,,120.5,346.4,,,,,1266.1,9.188235294,3267063,783532000
+HOC-House of Corrections Complex,Other,8001 State Rd,Philadelphia,Philadelphia,PA,19136,,,830754,,1927,2014,,123.1,185.3,,,,,7245.9,45.68006895,3281349,881449900
+GLC 14130/100 E ARMAT ST/PHILADELPHIA/PA,Other,100 E ARMAT ST,Philadelphia,Philadelphia,PA,19144,40.036964,-75.171727,64668,,1905,2014,86,38.8,121.8,,,,,341.2,2.103049422,3512103,883377060
+301 E. CHELTEN AVENUE,Other,301 E. CHELTEN AVENUE,Philadelphia,Philadelphia,PA,19144,40.039314,-75.171143,85000,,1930,2014,,57.1,163,,,,,596.2,1.176470588,3569461,883550200
+700 PACKER AVENUE,Other,700 PACKER AVENUE,Philadelphia,Philadelphia,PA,19148,39.909601,-75.161858,120000,,1964,2014,,45.3,135.9,,,,,734.7,5.661666667,3569510,884142500
+2701 N. BROAD STREET,Other,2701 N. BROAD STREET,Philadelphia,Philadelphia,PA,19132,39.994162,-75.15454,200000,,1923,2014,100,12.2,38.3,,,,,833.9,4.3365,3569946,883361500
+2709 N. BROAD STREET,Other,2709 N. BROAD STREET,Philadelphia,Philadelphia,PA,19132,,,60000,,1923,2014,,1.6,5.1,,,,,13,4.79,3569992,882286600
+5627-33 GERMANTOWN AVENUE,Other,5627-33 GERMANTOWN AVENUE,Philadelphia,Philadelphia,PA,19144,,,60000,,1930,2014,,3.1,6.2,,,,,16.7,,3570171,882072200
+3240 S. 78TH STREET,Other,3240 S. 78TH STREET,Philadelphia,Philadelphia,PA,19153,,,21512,,1980,2014,,294.3,412.5,,,,,422.3,6.935663816,3577830,884166000
+2901 Grant Ave.,Other,2901 Grant Ave.,Philadelphia,Philadelphia,PA,19114,,,99083,,1965,2014,,55.1,81.7,,,,,381.2,9.410292381,3597360,884287005
+2828 Charter Rd.,Other,2828 Charter Rd.,Philadelphia,Philadelphia,PA,19154,40.096316,-75.005304,276000,,1957,2014,,60.1,104.3,,,,,1319.9,1.960869565,3620094,884290500
+United Cerebral Palsy Association,Other,102 E. Mermaid Lane,Philadelphia,Philadelphia,PA,19118,,,180000,,1945,2014,,42.2,77.2,,,,,632.3,3.583333333,3637376,775527010
+The Arc of Philadelphia,Other,2350 W Westmoreland Street,Philadelphia,Philadelphia,PA,19140,40.005073,-75.167037,70000,,1940,2014,,56.1,59.1,,,,,209.2,11.64142857,3639777,776545000
+The Racquet Club of Philadelphia,Other,215 South 16th STreet,Philadelphia,Philadelphia,PA,19102,,,81960,,1907,2014,,169.4,325.8,,,,,1263,97.44753538,3642385,882887800
+"Penn Beer Distributors, Inc.",Other,401 Domino Lane,Philadelphia,Philadelphia,PA,19128,40.042708,-75.237549,135420,,1972,2014,,30.1,94.5,,,,,545.3,,3666305,884630430
+SugarHouse Casino,Other,1001 North Delaware Ave,Philadelphia,Philadelphia,PA,19125,,,108420,,2010,2014,,479.6,1390.4,,,,,6476.9,52.44419849,3679279,882028200
+Wolf Investments Corp. #3,Other,8301 Torresdale Ave.,Philadelphia,Philadelphia,PA,19136,40.039182,-75.01764,143000,,1963,2014,,27.7,58.6,,,,,373.3,11.56643357,3682801,884259500
+3010 Market Street,Other,3000-18 Market Street,Philadelphia,Philadelphia,PA,19104,,,80000,,1895,2014,,108.4,238.8,,,,,651.5,28.8875,3683056,883074000
+Wolf Investment Corp. #7,Other,8701 TORRESDALE AVE,Philadelphia,Philadelphia,PA,19136,40.044556,-75.008647,170000,,1956,2014,,22.4,44.1,,,,,337.6,10.13941176,3683713,884260000
+ROOSEVELT BOULEVARD ASSOC.,Other,11500 E. ROOSEVELT BLVD.,Philadelphia,Philadelphia,PA,19116,40.102212,-75.005742,298627,,1956,2014,,23.1,41.8,,,,,569.1,11.08205219,3685555,884242700
+ROOSEVELT BOULEVARD ASSOC.,Other,1771 TOMLINSON ROAD,Philadelphia,Philadelphia,PA,19116,40.104594,-75.015637,207000,,1970,2014,,24.1,44.4,,,,,417.7,5.361352657,3685736,884232400
+NATIONAL GREYHOUND ADOPTION PROGRAM,Other,6801 NEW STATE ROAD,Philadelphia,Philadelphia,PA,19135,40.021064,-75.039309,66786,,1956,2014,,14.9,15.6,,,,,52.9,4.280837301,3686050,884351865
+TORRESDALE PLAZA LP,Other,8803-35 TORRESDALE AVE,Philadelphia,Philadelphia,PA,19136,,,182000,,1969,2014,,26,59.9,,,,,480.7,6.379120879,3686205,882369810
+DUTTON ROAD ASSOC.,Other,10901 DUTTON ROAD,Philadelphia,Philadelphia,PA,19154,40.089078,-74.990098,96000,,1975,2014,,32.1,58.2,,,,,254.6,8.347916667,3707270,884282500
+St. Peter the Apostle Parish,Other,1019 North 5th Street,Philadelphia,Philadelphia,PA,19123,,,85426,,1843,2014,,3.3,3.7,,,,,15.7,4.028047667,3751822,771211200
+Jomar Textiles. Inc.,Other,5300 Whitaker Ave,Philadelphia,Philadelphia,PA,19124,40.032685,-75.101816,93650,,1960,2014,,15.7,49.3,,,,,197,1.792845702,3776479,882885808
+Logan Plaza,Other,5201 Old York Rd,Philadelphia,Philadelphia,PA,19141,40.032401,-75.145619,270000,,1974,2014,,62.5,180.1,,,,,2108.2,52.59333333,3776480,
+RICHMOND WATERFRONT INDUSTRIAL PARK,Other,2950 KIRKBRIDE STREET,Philadelphia,Philadelphia,PA,19137,39.999777,-75.064901,256000,,1963,2014,,26.1,55.1,,,,,628.8,1.908203125,3776486,884209570
+1600 Broad Associates,Other,1600-36 North Broad St,Philadelphia,Philadelphia,PA,19121,,,95045,,2006,2014,,124.9,304.8,,,,,1268.1,20.83749803,3788171,882938305
+"Measy Clyde & Etal, Paul Shcaly",Other,9119 Frankford Ave,Philadelphia,Philadelphia,PA,19114,,,139425,,1951,2014,,85.3,113,,,,,987.4,0.956786803,3789968,884259100
+Philadelphia Business & Technology Center,Other,"5070 Parkside Avenue, Suite 2400",Philadelphia,Philadelphia,PA,19131,39.980626,-75.221136,280276,,1930,2014,96,34,93.6,,,,,1137.9,8.173015171,3799206,883371900
+Burgess Center,Other,200 W. Chelten Ave,Philadelphia,Philadelphia,PA,19141,40.03141,-75.179258,86321,,1990,2014,,,,,,,,,20.8512413,3810865,882938075
+Kirkbride Center,Other,111 N. 49th St.,Philadelphia,Philadelphia,PA,19139,,,390125,,1889,2014,,56.9,154.3,,,,,2603.7,28.70644024,3813588,883081705
+Schmidts Retail,Other,180 W. Girard Ave.,Philadelphia,Philadelphia,PA,19123,39.969361,-75.138877,127470,,2011,2014,,118.4,349,,,,,1597.9,120.7429199,3820151,882932475
+Salvation Army Kroc Center,Other,4200 Wissahickon Ave,Philadelphia,Philadelphia,PA,19129,40.011489,-75.168097,130620,,2010,2014,,223.3,433.6,,,,,2553.9,24.15633134,3830390,776293510
+Christ the King,Other,3252 Chesterfield Rd.,Philadelphia,Philadelphia,PA,19114,40.075564,-74.99594,64693,,1963,2014,100,37,49.2,,,,,191.7,19.00978468,3858410,778113000
+Globe Dye Works,Other,4520 Worth St,Philadelphia,Philadelphia,PA,19124,40.008852,-75.080622,129025,,1900,2014,,19.8,33.3,,,,,198,0.684363495,3876056,884090500
+Waste Management of PA - Phila MRF & Forge,Other,5245 Bleigh Ave,Philadelphia,Philadelphia,PA,19136,40.02453,-75.026327,206027,,1920,2014,,80,251.3,,,,,2742.5,0.602348236,3876647,884253000
+One Franklin Town - Parking Garage,Other,1701 Callowhill Street,Philadelphia,Philadelphia,PA,19103,39.960249,-75.167178,122667,,1988,2014,,8.3,26.1,,,,,136.3,0.012228228,3878558,881146355
+Fox Chase Cancer Center,Other,333 Cottman Ave,Philadelphia,Philadelphia,PA,19111,40.078306,-75.112656,1086260,,1947,2014,,271,629.2,,,,,16875.8,42.90280412,3879811,778022500
+Salvation Army Divisional Headquarters,Other,701 North Broad Street,Philadelphia,Philadelphia,PA,19123,,,97500,,1970,2014,,86.4,229.1,,,,,968.5,12.8974359,3881229,771065001
+Headhouse Retail,Other,1131 Market Street,Philadelphia,Philadelphia,PA,19107,,,107000,,1990,2014,,111.7,261.3,,,,,3210.3,1.078504673,3884965,883705100
+4301 Delaware Ave Unit A,Other,4301 Delaware Ave Unit A,Philadelphia,Philadelphia,PA,19137,,,52000,,1955,2014,,165.2,518.9,,,,,1150.3,10.19230769,3892826,884211510
+3000 Orthodox St,Other,3000 Orthodox St,Philadelphia,Philadelphia,PA,19137,39.992593,-75.069349,67326,,1950,2014,,23.7,69.1,,,,,199.9,4.059352999,3892827,884206500
+La Salle #6,Other,625-635 E Wister St,Philadelphia,Philadelphia,PA,19144,,,284736,,1904,2014,,239.3,451.8,,,,,5825.3,8.751264329,3893226,776008010
+New Covenant Church of Philadelphia,Other,7500 Germantown Ave,Philadelphia,Philadelphia,PA,19119,40.063758,-75.193714,331000,,1893,2014,,963.9,1052.7,,,,,17465.1,4.579758308,3912172,775165500
+Richmond Mills LP,Other,2095 E Willard St,Philadelphia,Philadelphia,PA,19134,39.992947,-75.10799,77930,,1905,2014,,126.6,133,,,,,524.2,36.00795586,3950672,884843600
+Richmond Mills LP,Other,2100 E Willard St,Philadelphia,Philadelphia,PA,19134,,,111570,,1905,2014,,105.9,164.4,,,,,856.9,,3950682,884843500
+Gimme Shelter LLC,Other,2127 Gillingham St,Philadelphia,Philadelphia,PA,19124,40.009442,-75.08019,51829,,1920,2014,,30.7,44.2,,,,,108.5,18.59576685,3950687,884639700
+PEI-Genesis,Other,2180 Hornig Road,Philadelphia,Philadelphia,PA,19116,40.112621,-74.99782,20000,,1987,2014,,21.6,22.9,,,,,23.2,5.415,3958205,883095110
+Sacred Heart Home,Other,1315 W. Hunting Park Avenue,Philadelphia,Philadelphia,PA,19140,40.016675,-75.147628,57600,,1953,2014,,61.8,119.3,,,,,310.1,30.15277778,3958716,881448300
+Penn Dion,Other,915 Spring Garden Street,Philadelphia,Philadelphia,PA,19123,39.961666,-75.153561,90000,,1900,2014,,8.4,26.3,,,,,100.9,9.566666667,3960850,884027115
+Chapel Manor,Other,1104 Welsh Road,Philadelphia,Philadelphia,PA,19115,40.090282,-75.046507,54819,,1973,2014,,100.6,315.9,,,,,738.4,186.4298874,3964499,881435400
+7400 Holstein Ave.,Other,7400 Holstein Ave.,Philadelphia,Philadelphia,PA,19153,39.902518,-75.228337,52800,,2003,2014,,85.1,208.6,,,,,481.8,3.903409091,3989162,884167024
+Methodist Home for Children,Other,4300 Monument Rd,Philadelphia,Philadelphia,PA,19131,,,114073,,1900,2014,,71.9,125.3,,,,,655.2,214.0576648,3989764,881445900
+Dickinson Square,Other,1500 South Christopher Columbus Blvd,Philadelphia,Philadelphia,PA,19147,,,69064,,1950,2014,,61,135.9,,,,,282.7,5.956793699,3993123,883504600
+MARKETPLACE DESIGN CENTER,Other,2400 MARKET STREET,Philadelphia,Philadelphia,PA,19103,,,356000,,1921,2014,,122.7,377.1,,,,,5734.4,6.99494382,4014168,884054000
+"Driscoll Construction Co., Inc.",Other,3901 D Street,Philadelphia,Philadelphia,PA,19124,,,61034,,1949,2014,,4.5,14.2,,,,,36.9,0.190058,4077977,884044800
+1200 E. Erie Avenue,Other,1200 E. Erie Avenue,Philadelphia,Philadelphia,PA,19124,40.005545,-75.105041,193124,,1925,2014,,31.2,59.1,,,,,516.5,11.45119198,4082877,884110000
+Facilities 4100ches,Other,4100 Chestnut St.,Philadelphia,Philadelphia,PA,19104,,,67779,,1940,2014,,1.5,4.8,,,,,13.9,,4140104,884099200
+Historical Society of Pennsylvania,Other - Education,1300 Locust Street,Philadelphia,Philadelphia,PA,19107,,,71316,,1910,2014,,149.2,297.5,,,,,993.7,25.05468619,3657737,771739000
+HMS SCHOOL,Other - Education,4400 Baltimore ave,Philadelphia,Philadelphia,PA,19104,,,80000,,1885,2014,,86.4,153.7,,,,,561.7,37.80625,3788376,773594600
+OUR LADY OF VICTORY HALL,Other - Education,12645 DUNKS FERRY RD,Philadelphia,Philadelphia,PA,19154,40.101774,-74.972662,11869,,1996,2014,,56.2,95.1,,,,,52,6.285280984,3788380,778144000
+St. Monica Sr. School,Other - Education,2500 S 16th st,Philadelphia,Philadelphia,PA,19145,,,53616,,1971,2014,,66.4,112.3,,,,,277.4,17.51902417,3877243,773200000
+Esperanza,Other - Education,4231-4261 N 5th Street,Philadelphia,Philadelphia,PA,19140,,,181098,,1930,2014,,56.5,127.5,,,,,1380.2,2.603010525,3884096,883003900
+LA Liberty,Other - Education,105 S 7th Street,Philadelphia,Philadelphia,PA,19106,,,50000,,2003,2014,,7.5,23.2,,,,,1077.1,53.33,3962102,883010510
+Art Museum Main Bldg & Perelman Bldg,Other - Entertainment/Public Assembly,2600 Ben Franklin Pkwy,Philadelphia,Philadelphia,PA,19130,,,804000,,1929,2014,,186.9,365,,,,,13895.3,31.01355721,3281341,782513700
+Great Northeast Plaza,Other - Mall,2101-41 Cottman Avenue,Philadelphia,Philadelphia,PA,19152,,,278814,,1960,2014,,72.8,192.6,,,,,2329,8.563773699,3783072,882065120
+"3265 S 61ST ST ""Jerry's Corner""",Other - Mall,3265 S 61ST ST,Philadelphia,Philadelphia,PA,19153,39.9187,-75.209618,55200,,1955,2014,,74.9,189.6,,,,,456.2,15.10869565,3957443,882089000
+6000 Woodland Partners LP,Other - Mall,6000 Woodland Avenue,Philadelphia,Philadelphia,PA,19142,,,97029,,1972,2014,,4.5,14.2,,,,,58.9,60.88489008,3971641,882052200
+Southern Depot,Other - Public Services,1900 Johnston Street,Philadelphia,Philadelphia,PA,19145,,,217000,,1924,2014,,223.2,333.8,,,,,3406.7,39.07788018,2704868,773628000
+Comly Depot,Other - Public Services,6000 Penn Street,Philadelphia,Philadelphia,PA,19149,40.030335,-75.073881,105000,,1921,2014,,201,315.9,,,,,1546.5,78.92285714,2705460,884353910
+Callowhill Depot,Other - Public Services,5900 Callowhill Street,Philadelphia,Philadelphia,PA,19151,,,213000,,1913,2014,,169.7,270.2,,,,,2676.9,23.52676056,2705476,884340559
+HBG-Holmesburg Prison Complex,Other - Public Services,8201 Torresdale Ave,Philadelphia,Philadelphia,PA,19136,40.037839,-75.020253,716651,,1896,2014,,17.8,32.9,,,,,1075.7,3.930225451,3289919,786537201
+Allegheny Depot,Other - Public Services,2600 W. Allegheny Avenue,Philadelphia,Philadelphia,PA,19132,40.004094,-75.17228,208000,,1986,2014,,138.8,239.4,,,,,2286.3,25.37980769,3690996,884352645
+Midvale Depot,Other - Public Services,4301 Wissahickon Avenue,Philadelphia,Philadelphia,PA,19129,40.01178,-75.168306,443000,,1996,2014,,145.5,269.1,,,,,5414.1,27.7724605,3694563,884069525
+Woodland Shop,Other - Public Services,4901 Woodland Avenue,Philadelphia,Philadelphia,PA,19143,,,262000,,1985,2014,,78.3,131.2,,,,,1585.7,5.947328244,3694564,773629501
+Berridge Shop,Other - Public Services,200 West Wyoming Avenue,Philadelphia,Philadelphia,PA,19140,,,475000,,1955,2014,,110.4,234.7,,,,,4965.5,13.53894737,3694569,884353345
+Courtland Shop,Other - Public Services,4529 North 3rd Street,Philadelphia,Philadelphia,PA,19140,,,53000,,1952,2014,,199,217.2,,,,,577.1,11.00943396,3694570,884351660
+Overbrook Shop,Other - Public Services,5320 West Jefferson Street,Philadelphia,Philadelphia,PA,19131,,,200000,,1994,2014,,77.5,149.9,,,,,1352.6,1.8325,3694574,521034500
+Frankford Depot,Other - Public Services,Bridge Street &amp;&amp; Frankford Avenue,Philadelphia,Philadelphia,PA,19124,,,102000,,1957,2014,,213,379,,,,,1814.7,25.74215686,3694576,884353875
+NARA,Other - Public Services,14700 Townsend Road,Philadelphia,Philadelphia,PA,19154,,,300000,,1994,2014,,48.9,109.9,,,,,1457.8,0.356,3790331,884292516
+Boulevard/Unity District,Other - Public Services,4109 - 4111 Frankford Avenue,Philadelphia,Philadelphia,PA,19124,,,52642,,1950,2014,,105,265.8,,,,,610,14.38205235,3884224,883087200
+Legacy Youth Tennis and Education Center,Other - Recreation,4600 Ridge Avenue,Philadelphia,Philadelphia,PA,19129,,,77000,,2006,2014,,30.8,75.5,,,,,254.4,1.797402597,3698115,784377500
+"14,14A-Daskalakis Athletic Center / Recreation Center",Other - Recreation,3301 Market Street,Philadelphia,Philadelphia,PA,19104,,,265093,,1976,2014,,104.9,236.7,,,,,2847.1,10.47783231,3762536,774530510
+The Lenfest Center,Other - Recreation,3890 N. 10th St.,Philadelphia,Philadelphia,PA,19140,40.011536,-75.143606,54280,,2007,2014,,58.3,119.9,,,,,291.2,1.464627856,3877081,777253420
+Fleet Shop 134,Other - Services,100 E Hunting Park Ave,Philadelphia,Philadelphia,PA,19125,40.01384,-75.12598,59962,,1968,2014,,192.6,301.3,,,,,843,3.430505987,3369313,884460965
+10814 NE AVENUE,Other - Services,10814 NE AVENUE,Philadelphia,Philadelphia,PA,19116,,,217560,,1979,2014,,21.4,35.6,,,,,715.1,1.128424343,3952012,884240500
+The Children's Hospital fo Philadelphia,Other - Specialty Hospital,34th Street and Civic Center Blvd.,Philadelphia,Philadelphia,PA,19104,,,4135887,,1974,2014,,243.8,475.3,,,,,88648.1,155.0852574,1328441,773000800
+Friends Hospital,Other - Specialty Hospital,4641 Roosevelt Boulevard,Philadelphia,Philadelphia,PA,19124,40.028459,-75.100768,326010,,1950,2014,,180.1,279.7,,,,,3880.4,33.30449986,3685966,778031022
+Fairmont Hospital,Other - Specialty Hospital,561 Fairthorne Avenue,Philadelphia,Philadelphia,PA,19128,40.043148,-75.222659,89344,,1997,2014,,84.3,197.4,,,,,775.9,104.1368195,3774255,881436400
+Belmont Center for Comprehensive Treatment,Other - Specialty Hospital,4200 Monument Road,Philadelphia,Philadelphia,PA,19131,39.999597,-75.215921,175462,,1979,2014,,182.8,332.1,,,,,1961.3,51.33020255,3877421,774012010
+Shriners Hospital for Children,Other - Specialty Hospital,3551 North Broad St.,Philadelphia,Philadelphia,PA,19140,,,172340,,1997,2014,,216.2,453,,,,,3627.4,46.18370663,3959476,777533101
+Magee Rehabilitation Hospital,Other - Specialty Hospital,1513 Race St,Philadelphia,Philadelphia,PA,19102,,,146912,,1981,2014,,117.5,287.6,,,,,1849.3,48.2690318,3971353,772046000
+WTXF TV,Other - Technology/Science,330 Market Street,Philadelphia,Philadelphia,PA,19106,,,84596,,1971,2014,,242.8,654.3,,,,,2189.1,8.88576292,3773931,883011500
+PECO Oregon Shops,Other - Utility,2610 S DELAWARE AVE,Philadelphia,Philadelphia,PA,19148,,,155863,,1955,2014,,40.2,126.1,,,,,837.8,0.004491124,3707307,771601000
+Powerback Rehabilitation,Outpatient Rehabilitation/Physical Therapy,1526 Lombard Street,Philadelphia,Philadelphia,PA,19146,,,103240,,1818,2014,,100,231.3,,,,,1052.1,94.29290972,3958035,881436700
+West Philadelphia Community,Outpatient Rehabilitation/Physical Therapy,137 S. 58th Street,Philadelphia,Philadelphia,PA,19139,39.958631,-75.237403,54240,,1919,2014,,16.5,33.8,,,,,82.1,5.54019174,4567894,774713050
+146-MARINE CENTER - PIER #19,Parking,MARINE CENTER - PIER #19,Philadelphia,Philadelphia,PA,19106,,,285000,,2000,2014,,187,399.2,,,,,2947.8,20.04701754,3520886,884018819
+164-JUNIPER STREET PARKING GARAGE,Parking,101-103 JUNIPER STREET,Philadelphia,Philadelphia,PA,19103,,,56997,,2007,2014,,14.2,44.7,,,,,108.7,0.275453094,3579262,883404500
+Avenue of the Arts,Parking,1501 Spruce Street,Philadelphia,Philadelphia,PA,19102,,,243057,,2002,2014,,512.5,1162.2,,,,,886.6,11.16075653,3637445,883423600
+Parkway Building,Parking,150 N. Broad Street,Philadelphia,Philadelphia,PA,19102,,,173512,,1987,2014,,212.5,620.2,,,,,539.4,4.139194984,3682858,883413000
+Liberty Place,Parking,20 South 16th Street,Philadelphia,Philadelphia,PA,19109,,,434000,,1986,2014,,8,25.2,,,,,466.4,,3682894,883422300
+12th and Filbert,Parking,1201 Filbert Street,Philadelphia,Philadelphia,PA,19107,,,316013,,2002,2014,,405.7,1159.5,,,,,1460.1,22.60888001,3683011,883430700
+700 Duncan Building,Parking,700 Duncan Building,Philadelphia,Philadelphia,PA,19106,,,184383,,1979,2014,,110.3,346.4,,,,,1220.9,26.14449271,3689468,883102000
+12th and Walnut,Parking,1201 Walnut Street,Philadelphia,Philadelphia,PA,19102,,,233571,,1979,2014,,188,590.4,,,,,412.5,17.60278459,3736473,883408500
+MidTown Garage,Parking,1416 Chestnut St.,Philadelphia,Philadelphia,PA,19102,,,97778,,1984,2014,,11.8,33.1,,,,,139.6,0.110454294,3773802,883421500
+Wood Street Garage,Parking,306-20 N Broad Street,Philadelphia,Philadelphia,PA,19102,,,282322,,1994,2014,,15.4,48.4,,,,,582.2,,3790435,772025500
+PreFlight Airport Parking PHL,Parking,4700 Island Ave,Philadelphia,Philadelphia,PA,19153,39.8883,-75.232796,221000,,1959,2014,,11.2,35.2,,,,,331.4,0.743438914,3820208,884171500
+Bourse Garage,Parking,400 Ranstead St.,Philadelphia,Philadelphia,PA,19106,39.94942,-75.147464,192322,,1989,2014,,92,289,,,,,246.4,3.074011294,3857948,883409600
+Sloane Honda,Parking,9903 Bustleton Avenue,Philadelphia,Philadelphia,PA,19115,40.096851,-75.030519,190638,,1957,2014,,158.9,381.9,,,,,1064.4,3.011466759,3859682,882174600
+Tuttleman Parking Garage,Parking,1700 South St,Philadelphia,Philadelphia,PA,19146,,,156232,,1985,2014,,6.6,20.6,,,,,137.1,0.353320703,3862680,772035000
+8th & filbert,Parking,800-08 Arch Street,Philadelphia,Philadelphia,PA,19107,,,158600,,1962,2014,,21.6,67.8,,,,,458.4,0.617276166,3882220,781005000
+Stephen Pang,Parking,1030-38 Race Street,Philadelphia,Philadelphia,PA,19107,,,108108,,1985,2014,,52.8,113.1,,,,,543.9,23.21659822,3883003,883430000
+Hawk's Landing Parking Facility and Retail,Parking,2461 N. 54th Street,Philadelphia,Philadelphia,PA,19131,,,168365,,2008,2014,,323.3,621.4,,,,,525.5,9.79716687,3884838,774510100
+Walnut Bridge Parking & Storage,Parking,200 South 24th St,Philadelphia,Philadelphia,PA,19103,,,138176,,1913,2014,,151.2,474,,,,,1301.9,9.678960167,3885307,884055850
+10th & Ludlow,Parking,1025-29 Chesnut Street,Philadelphia,Philadelphia,PA,19107,,,147208,,1954,2014,,14.7,46.1,,,,,289.1,1.804249769,3891006,781051065
+Market Street East,Parking,901-13 Filbert Street,Philadelphia,Philadelphia,PA,19107,,,266700,,1977,2014,,20.2,63.4,,,,,720.7,2.260592426,3891105,781092200
+Gateway Garage,Parking,1529 Spring Street,Philadelphia,Philadelphia,PA,19103,,,423184,,1991,2014,,5.9,18.6,,,,,335,0.097357178,3895425,782597700
+Urban Growth Property,Parking,107 South 10th Street,Philadelphia,Philadelphia,PA,19107,,,209962,,2005,2014,,237.5,745.6,,,,,273.8,0.823006068,3955030,883401700
+Rittenhouse Parking Garage,Parking,2000-04 Walnut Street,Philadelphia,Philadelphia,PA,19103,,,80105,,1989,2014,,10,31.5,,,,,107.5,8.905811123,3959060,883427700
+"Philadelphia Chancellor, LP",Parking,1602-34 Chancellor St.,Philadelphia,Philadelphia,PA,19103,,,117340,,1952,2014,,181.4,569.6,,,,,93.5,2.308675643,3976339,883426100
+PKG GAR_ LIACOURAS CTR,Parking,1700 N. 15TH STREET,Philadelphia,Philadelphia,PA,19121,,,409339,,1970,2014,,7.5,23.5,,,,,410,1.342408126,3979429,777573005
+BOYER PKG GAR on Tioga Street,Parking,3501 N BROAD ST,Philadelphia,Philadelphia,PA,19140,,,188099,,1970,2014,,21.1,64.9,,,,,524.7,0.035619541,3980267,777532901
+ONTARIO WEST PKG GAR,Parking,1450 W. Ontario St,Philadelphia,Philadelphia,PA,19140,,,482000,,1996,2014,,6.8,18.2,,,,,380.3,0.014315353,3998715,777574550
+12 SOUTH 23RD STREET,Parking,12 S. 23RD STREET,Philadelphia,Philadelphia,PA,19103,,,138576,,1981,2014,,92,288.7,,,,,768.3,4.93086826,4020021,883426600
+Parking Deck 1,Parking,317 south 8th st,Philadelphia,Philadelphia,PA,19107,,,220890,,1963,2014,,4.6,14.5,,,,,136.8,,4052093,771005200
+12th && Sansom,Parking,123 s 12th st,Philadelphia,Philadelphia,PA,19107,,,78000,,1960,2014,,533.7,1675.9,,,,,142.9,3.135897436,4056370,883403000
+Amtrak Parking Garage,Parking,2931L Arch Street,Philadelphia,Philadelphia,PA,19104,39.957039,-75.182234,475200,,2004,2014,,6.8,21.2,,,,,429.7,,4104223,883410400
+3600 Civic Center Garage,Parking,3600 Civic Center Blvd.,Philadelphia,Philadelphia,PA,19104,39.94767,-75.194098,400000,,2014,2014,,,,,,,,,,4428360,773740401
+Kimmel Center for the Performing Arts,Performing Arts,300 South Broad Street,Philadelphia,Philadelphia,PA,19102,,,468307,,2001,2014,,148.6,280.8,,,,,5330.6,18.18507945,3773257,772727205
+Academy of Music,Performing Arts,240 South Broad Street,Philadelphia,Philadelphia,PA,19102,,,144080,,1857,2014,,82.6,206.7,,,,,1328.7,24.40241532,3892261,772727000
+laundry mall,"Personal Services (Health/Beauty, Dry Cleaning, etc)",413 E. Allegheny Ave.,Philadelphia,Philadelphia,PA,19134,39.997676,-75.12253,47000,,1905,2014,,,,,,,,160.1,,3824714,884526200
+4000 N American St,Police Station,4000 N American St,Philadelphia,Philadelphia,PA,19140,40.01229,-75.131629,117105,,1945,2014,,72.6,129.3,,,,,691.6,2.342342342,3892839,884039000
+Curran Fromhold Correctional Facility,Prison/Incarceration,7901 State Rd,Philadelphia,Philadelphia,PA,19136,,,436250,,1995,2014,,275.5,551.4,,,,,10802.1,199.9044126,3281343,786504751
+Detention Center,Prison/Incarceration,8201 State Rd,Philadelphia,Philadelphia,PA,19136,,,108960,,1963,2014,,362.3,623.1,,,,,3163.6,,3281345,786504751
+Philadelphia Industrial Correction Center,Prison/Incarceration,8203 State Rd,Philadelphia,Philadelphia,PA,19136,,,200000,,1979,2014,,238.9,463,,,,,4177.5,409.6485,3281373,786504751
+Riverside Correctional Facility,Prison/Incarceration,8001 State Rd,Philadelphia,Philadelphia,PA,19136,,,220000,,2004,2014,,124.5,257.6,,,,,2533.4,14.91090909,3281377,786504751
+Hoffman Hall,Prison/Incarceration,3950 D ST - REAR,Philadelphia,Philadelphia,PA,19124,,,60160,,1919,2014,,157.5,303.1,,,,,823.4,182.4684176,3981473,881439700
+Juvenile Justice Center - N 48th St (YSC),Prison/Incarceration,91 N 48th St,Philadelphia,Philadelphia,PA,19139,39.961441,-75.21644,160000,,2013,2014,,183.3,350,,,,,2531.4,,4066717,783707500
+"M. Levin and Company, Inc.",Refrigerated Warehouse,326 Pattison Avenue,Philadelphia,Philadelphia,PA,19148,39.903103,-75.155733,83150,,1959,2014,52,65.8,189.8,,,,,678.3,1.702946482,3668236,884143500
+Sysco Philadelphia Food Service Warehouse,Refrigerated Warehouse,600 packer avenue,Philadelphia,Philadelphia,PA,19148,,,534870,,1964,2014,85,43.1,130.3,,,,,3227.1,16.2798437,3689997,884142260
+Pier 82 South,Refrigerated Warehouse,2201 S. Columbus Blvd,Philadelphia,Philadelphia,PA,19148,39.920191,-75.140623,125000,,1980,2014,21,106.4,304.7,,,,,1638.5,11.3808,3782623,781053600
+2100 Hornig Rd,Refrigerated Warehouse,2100 Hornig Rd,Philadelphia,Philadelphia,PA,19114,40.112269,-74.998584,89190,,2001,2014,40,80.5,242.1,,,,,924.3,6.028702769,3783053,884233810
+Procacci Brothers Sales Corp.,Refrigerated Warehouse,3333 S. Front Street,Philadelphia,Philadelphia,PA,19148,39.904546,-75.151806,315000,,1958,2014,48,92.3,244.1,,,,,3335.5,12.59809524,3790320,884149000
+Procacci Brothers Sales Corp. B5,Refrigerated Warehouse,3501 S. Third Street,Philadelphia,Philadelphia,PA,19148,,,99545,,1968,2014,37,84.9,266.7,,,,,1132,17.38309307,3815287,884151000
+Honor Foods,Refrigerated Warehouse,1801 North 5th Street,Philadelphia,Philadelphia,PA,19122,,,94500,,1983,2014,11,123.8,383.1,,,,,1545.5,15.42751323,3851366,884080210
+Philadelphia Warehousing and Cold Storage,Refrigerated Warehouse,500 n Christopher Columbus Blvd,Philadelphia,Philadelphia,PA,19123,,,335538,,1891,2014,75,41.9,129.6,,,,,1856.4,9.193891601,3858135,884019029
+Preferred Freezer Services-Phila,Refrigerated Warehouse,3101 South Third St,Philadelphia,Philadelphia,PA,19148,,,168000,,2007,2014,98,17.4,52.8,,,,,379.5,24.15535714,3951344,884150410
+3031 Red Lion Rd.,Refrigerated Warehouse,3031 Red Lion Rd.,Philadelphia,Philadelphia,PA,19114,40.082177,-74.999803,91828,,1971,2014,82,67.1,115.1,,,,,485.7,0.294027965,3966784,884289001
+Produce Garden,Refrigerated Warehouse,2041 - 2055 Coral Street,Philadelphia,Philadelphia,PA,19125,,,58740,,1950,2014,92,23.7,74.5,,,,,186.5,1.108273749,3967891,884346250
+Eastern Surplus,"Repair Services (Vehicle, Shoe, Locksmith, etc)",5825 Tacony St,Philadelphia,Philadelphia,PA,19135,40.012849,-75.057717,80140,,1950,2014,,13.1,26.7,,,,,95.8,0.837284752,3696167,884177825
+JM Auto Spot,"Repair Services (Vehicle, Shoe, Locksmith, etc)",3711 Sepviva Street,Philadelphia,Philadelphia,PA,19137,39.997694,-75.096706,48000,,1910,2014,,1.2,3.7,,,,,7.7,,3951369,884201375
+1801 Building,"Repair Services (Vehicle, Shoe, Locksmith, etc)",1801 North 9th Street,Philadelphia,Philadelphia,PA,19122,,,168718,,1900,2014,,10,12.8,,,,,104.7,76.05946016,4128418,777630000
+Fleet Shop 258 / WHS,"Repair Services (Vehicle, Shoe, Locksmith, etc)",1481 N 26th St,Philadelphia,Philadelphia,PA,19121,,,59962,,1970,2014,,92,150.2,,,,,417.1,2.469897602,4361950,782326200
+Bartram Transfer Station- Fleet Shop 290,"Repair Services (Vehicle, Shoe, Locksmith, etc)",5014 Grays Avenue,Philadelphia,Philadelphia,PA,19143,39.937742,-75.211295,159958,,1959,2014,,19.7,31.7,,,,,286.7,0.991510271,4393307,783181200
+Spruce Residence Hall,Residence Hall/Dormitory,1224-34 Spruce Street,Philadelphia,Philadelphia,PA,19107,,,79412,,1922,2014,,66.6,174.8,,,,,602.8,52.5172518,2849421,772508050
+Juniper Residence Hall,Residence Hall/Dormitory,311 South Juniper Street,Philadelphia,Philadelphia,PA,19107,,,79233,,1923,2014,30,109.8,216.2,,,,,771.1,71.52322896,2851085,772508070
+Pine Residence Hall,Residence Hall/Dormitory,1500-02 Pine Street,Philadelphia,Philadelphia,PA,19102,,,53577,,1920,2014,,70.4,187,,,,,434.4,62.03781473,2858164,772516000
+Connelly House,Residence Hall/Dormitory,1212 Ludlow St,Philadelphia,Philadelphia,PA,19107,,,60000,,2010,2014,60,65.1,158.1,,,,,362,67.92166667,3137016,886717500
+Kate's Place,Residence Hall/Dormitory,1929 Sansom St,Philadelphia,Philadelphia,PA,19103,39.951221,-75.17305,60000,,1900,2014,26,116.6,253.5,,,,,675.4,82.435,3155346,886617500
+1007-15 W. LEHIGH AVENUE,Residence Hall/Dormitory,1007-15 W. LEHIGH AVENUE,Philadelphia,Philadelphia,PA,19133,,,60000,,1940,2014,56,75.4,170.6,,,,,452.1,73.825,3569581,881134805
+2815 N. 17TH STREET,Residence Hall/Dormitory,2815 N. 17TH STREET,Philadelphia,Philadelphia,PA,19132,39.996634,-75.158912,60000,,1945,2014,24,121.7,245.8,,,,,661.5,103.41,3570108,881427010
+2900-12 N. 17TH STREET,Residence Hall/Dormitory,2900-12 N. 17TH STREET,Philadelphia,Philadelphia,PA,19132,,,60000,,1926,2014,98,27.3,62.3,,,,,164.9,,3571438,881427020
+Martin Building,Residence Hall/Dormitory,201 South 11th Street,Philadelphia,Philadelphia,PA,19107,,,81525,,1959,2014,35,139.4,222,,,,,878.3,31.61974854,3641704,771019000
+La Salle #2 (Katherine's and B&G),Residence Hall/Dormitory,2006-50 W Olney Ave,Philadelphia,Philadelphia,PA,19141,,,80106,,1983,2014,,160.5,377.1,,,,,1328.3,52.27074127,3893215,776516000
+La Salle #1 (Resid Halls),Residence Hall/Dormitory,2006-2050 W. Olney Ave,Philadelphia,Philadelphia,PA,19144,,,117005,,1953,2014,,112.8,160.7,,,,,916.1,60.86833896,3893260,776516000
+JBJ Soul Homes,Residence Hall/Dormitory,1415 Fairmount Avenue,Philadelphia,Philadelphia,PA,19130,,,75000,,2014,2014,,,,,,,,,,3968965,886806600
+420 s. Second Street,Restaurant,420 South 2nd Street,Philadelphia,Philadelphia,PA,19147,,,195154,,1950,2014,,,,,,,,2.2,6.173585989,3954691,883406500
+PHILADELPHIA SE (1443),Retail Store,1 MIFFLIN ST,Philadelphia,Philadelphia,PA,19148,,,135033,,2002,2014,79,72.6,189,,,,,1108.9,9.593951108,1547807,882055480
+PHILADELPHIA NE (1809),Retail Store,11000 ROOSEVELT BLVD STE 3,Philadelphia,Philadelphia,PA,19116,,,146378,,2003,2014,87,64.4,164.8,,,,,1050.1,8.863353783,1548013,882070800
+PHILA-BRIDESBURG (2075),Retail Store,2701 CASTOR AVE,Philadelphia,Philadelphia,PA,19134,39.990326,-75.090725,136940,,2005,2014,80,75.9,199.1,,,,,1183.7,32.76544472,1548255,882070900
+PHILADELPHIA WEST (2124),Retail Store,4000 MONUMENT RD,Philadelphia,Philadelphia,PA,19131,,,160219,,2007,2014,77,78.9,212.1,,,,,1471.5,20.3234323,1548288,882150610
+9382,Retail Store,8800 Frankford Avenue,Philadelphia,Philadelphia,PA,19136,40.0492,-75.011886,79854,,1999,2014,63,49.4,154.4,,,,,525.9,2.880256468,2343414,882069010
+3454,Retail Store,900 Orthodox St,Philadelphia,Philadelphia,PA,19124,40.01962,-75.095879,85221,,1980,2014,95,24.5,76.8,,,,,279.1,3.449853909,2343876,882082000
+7198,Retail Store,3301 Aramingo Avenue,Philadelphia,Philadelphia,PA,19134,39.990405,-75.102742,65264,,1978,2014,73,47.1,148,,,,,411.7,4.305589605,2344443,882125300
+3527,Retail Store,7101 Roosevelt Blvd,Philadelphia,Philadelphia,PA,19149,40.042012,-75.056525,70110,,1980,2014,77,52.5,143.4,,,,,434.7,11.78148624,2344541,882074000
+PHILA-COTTMAN (2418),Retail Store,7400 BUSTLETON AVE,Philadelphia,Philadelphia,PA,19152,40.049656,-75.058231,137054,,2009,2014,86,60.7,165.1,,,,,978.6,9.22337181,3114250,882131101
+#4166 Phil/Oregon Ave,Retail Store,2200 Oregon Avenue,Philadelphia,Philadelphia,PA,19145,,,114840,,2004,2014,65,72.3,181.3,,,,,908.4,7.430337861,3594195,882245100
+#4101 S Philadelphia,Retail Store,1651 Christopher Columbus Blvd,Philadelphia,Philadelphia,PA,19148,,,126922,,1994,2014,74,72.7,156.8,,,,,884.6,7.804793495,3685746,882055160
+#4112 Roosevelt,Retail Store,4640 SE Roosevelt Boulevard,Philadelphia,Philadelphia,PA,19124,,,133240,,1995,2014,41,99.2,258.9,,,,,1498.7,13.98078655,3685747,882181570
+#4150 Port Richmond,Retail Store,2539 Castor Avenue,Philadelphia,Philadelphia,PA,19134,39.992446,-75.092603,114660,,2001,2014,51,87.2,224.2,,,,,1118.6,10.1953602,3685748,882059510
+#6866 Bustleton Ave,Retail Store,815-25 Hendrix Street,Philadelphia,Philadelphia,PA,19116,,,104424,,2007,2014,52,108.8,223.1,,,,,1042.5,6.358691489,3727405,882095030
+Walmart Store #01-5103,Retail Store,"4600 Roosevelt Blvd., Bldg G",Philadelphia,Philadelphia,PA,19124,,,109554,,2003,2014,74,76.4,208.1,,,,,985.7,6.950910053,3769239,882181540
+FORMAN MILLS 106,Retail Store,4806 Market Steet,Philadelphia,Philadelphia,PA,19139,,,52656,,1920,2014,63,46.8,147,,,,,330,3.09366454,3773373,884247008
+FORMAN MILLS 113,Retail Store,3500 ARAMINGO AVE,Philadelphia,Philadelphia,PA,19134,39.992191,-75.099301,53668,,1988,2014,42,61.5,193,,,,,441.7,6.098606246,3788641,882125501
+jerusalem,Retail Store,5691 rising sun ave,Philadelphia,Philadelphia,PA,19120,40.040408,-75.108118,5440,,1950,2014,,490.4,1004.6,,,,,244.6,15.03676471,3790434,884116400
+crbuilding,Retail Store,1600 Washington Avenue,Philadelphia,Philadelphia,PA,19146,,,50525,,2008,2014,98,23.3,66.6,,,,,144.8,,3798065,884006130
+Northeast Shopping Center-Burlington Coat Factory,Retail Store,9173-75 E Roosevelt Boulevard,Philadelphia,Philadelphia,PA,19114,,,69842,,1961,2014,59,41,128.1,,,,,381.6,3.716961141,3815264,882093500
+Andorra Shopping Center-Kohl's,Retail Store,701 E Cathedral Rd &quot;Henry Avenue &amp;&amp; Cathedral Road&quot;,Philadelphia,Philadelphia,PA,19128,,,80200,,1953,2014,68,50.9,149.5,,,,,514.5,3.756857855,3824196,882116500
+Cotswold Group - Hunting Park Plaza,Retail Store,700 East Hunting Park Avenue,Philadelphia,Philadelphia,PA,19124,40.012531,-75.115699,82617,,1990,2014,86,45,141.4,,,,,498.2,1.917280947,3892502,882050755
+Roosevelt Mall-Macy's Building,Retail Store,2327-83 Cottman Ave,Philadelphia,Philadelphia,PA,19149,,,313000,,1960,2014,96,30.7,81.2,,,,,1102.9,4.183067093,3954726,882065510
+FORMAN MILLS 103,Retail Store,401 ADAMS AVE,Philadelphia,Philadelphia,PA,19120,,,60000,,1985,2014,6,106.4,334.1,,,,,854.7,4.245,3956428,882181620
+City Avenue Shopping Center,Retail Store,7720 City Line Avenue,Philadelphia,Philadelphia,PA,19151,39.978481,-75.273151,110843,,2000,2014,1,113.6,236.7,,,,,1628.8,38.80263075,3957286,882085000
+Overbrook Plaza,Retail Store,5610 Lancaster Ave,Philadelphia,Philadelphia,PA,19125,39.980537,-75.234565,70000,,2002,2014,,,,,,,,,51.02,3958749,882540000
+"Sunny Spring, LLC",Retail Store,1424 Chestnut St,Philadelphia,Philadelphia,PA,19102,,,93000,,1920,2014,,87.2,274,,,,,645.3,9.672043011,3958808,883324400
+castor,Retail Store,1509 e erie ave,Philadelphia,Philadelphia,PA,19124,40.005798,-75.098072,60000,,1945,2014,,34.1,68,,,,,183.3,0.935,3962326,882120009
+Blue Grass Road,Retail Store,9490 Blue Grass Road,Philadelphia,Philadelphia,PA,19114,40.076308,-75.025385,300000,,1964,2014,,5.2,16.2,,,,,207.5,,3980104,884225002
+Abbotts Square,Retail Store,530 S 2nd St,Philadelphia,Philadelphia,PA,19147,,,36662,,1986,2014,,,,,,,,,,4104003,883407500
+"IKEA US EAST,LLC 215",Retail Store,2206 South Columbus Blvd.,Philadelphia,Philadelphia,PA,19148,39.917175,-75.139043,315000,,2004,2014,94,56.1,118.8,,,,,1458.2,9.19015873,4124173,882241000
+VENANGO 101 ASSOCIATES LLC,Retail Store,101 EAST VENANGO STREET,Philadelphia,Philadelphia,PA,19134,40.004223,-75.127256,86000,,1930,2014,,5.2,16.3,,,,,59.7,0.36744186,4479069,884047200
+ez storage,Self-Storage Facility,7245 state road,Philadelphia,Philadelphia,PA,19136,,,85350,,2006,2014,,52.3,161.8,,,,,589.5,4.359695372,3673605,884256025
+Manayunk Self Storage,Self-Storage Facility,116 Fountain Street,Philadelphia,Philadelphia,PA,19127,,,106000,,1903,2014,,6.4,20.2,,,,,91.3,0.208490566,3760060,884083300
+Devon Self Storage Allegheny,Self-Storage Facility,1831 West Allegheny Ave,Philadelphia,Philadelphia,PA,19132,40.002522,-75.160121,210000,,1920,2014,,30.5,81.7,,,,,743.6,0.109047619,3760835,884067430
+Devon Self Storage Oregon,Self-Storage Facility,12 East Oregon Ave,Philadelphia,Philadelphia,PA,19148,,,160000,,1920,2014,,5.7,16.4,,,,,113.1,0.619375,3760838,884140610
+All City Self Storage,Self-Storage Facility,5500 Sansom Street,Philadelphia,Philadelphia,PA,19137,39.958483,-75.231628,70506,,1935,2014,,1.2,3.4,,,,,10.3,0.001418319,3772904,884247200
+Metro Storage East LLC-IS,Self-Storage Facility,2240 Island Ave.,Philadelphia,Philadelphia,PA,19142,39.915861,-75.245262,109580,,1927,2014,,14.7,30,,,,,147.2,0.490965505,3774014,884791940
+"CRAMCO, INC. WEIKEL STREET BUILDING",Self-Storage Facility,2916 Weikel Street,Philadelphia,Philadelphia,PA,19134,39.986834,-75.113813,67550,,1930,2014,,3.6,11.2,,,,,32.3,,3783067,884671900
+U-Haul Moving and Storage of Philadelphia,Self-Storage Facility,314-22 N 13th ST,Philadelphia,Philadelphia,PA,19107,,,97540,,1910,2014,,46.9,82.6,,,,,368.9,0.60693049,3830539,884033000
+CubeSmart - Callowhill Street,Self-Storage Facility,501 Callowhill Street,Philadelphia,Philadelphia,PA,19123,,,97639,,1999,2014,,22.8,52.6,,,,,331.2,0.506969551,3892150,884028510
+SoHo South,Self-Storage Facility,3500 Scotts Lane,Philadelphia,Philadelphia,PA,19129,40.008648,-75.18547,172000,,1962,2014,,18,56.6,,,,,415.2,5.423837209,3916422,884130500
+Locker Room Self Storage,Self-Storage Facility,2001 W Erie Ave,Philadelphia,Philadelphia,PA,19140,,,95459,,2007,2014,,8.8,25.4,,,,,104.1,0.338365162,3949158,884069000
+Riverside Mr. Storage,Self-Storage Facility,5026 Ridge Ave,Philadelphia,Philadelphia,PA,19128,,,18000,,2000,2014,,9.4,26.2,,,,,20.4,,3959542,884083010
+Fox Chase,Self-Storage Facility,1333 Rhawn St.,Philadelphia,Philadelphia,PA,19111,40.068384,-75.066774,71945,,2005,2014,,12.3,26.3,,,,,84.3,5.433317117,3989904,884222525
+Tacony,Self-Storage Facility,6371 Keystone St.,Philadelphia,Philadelphia,PA,19135,40.018524,-75.050254,58500,,2005,2014,,14.5,30.7,,,,,80.1,0.001709402,3989965,884177795
+Juniata,Self-Storage Facility,4123 &quot;G&quot; St.,Philadelphia,Philadelphia,PA,19124,,,59850,,2005,2014,,13.6,34.1,,,,,88.9,0.329156224,3989966,884114205
+Germantown,Self-Storage Facility,6224 Germantown Ave.,Philadelphia,Philadelphia,PA,19144,40.042656,-75.180429,67500,,2005,2014,,14.9,33,,,,,98.8,0.133333333,3989967,884926200
+Temple,Self-Storage Facility,1221 N. Broad Street,Philadelphia,Philadelphia,PA,19122,,,56873,,2007,2014,,16.1,41.3,,,,,102.2,0.947725634,3989968,884571850
+Oak Lane,Self-Storage Facility,1499 66th Ave.,Philadelphia,Philadelphia,PA,19126,,,67500,,2006,2014,,13.5,31,,,,,92.2,4.025185185,3989969,884332560
+Frankford,Self-Storage Facility,3300 Frankford Ave,Philadelphia,Philadelphia,PA,19134,39.994387,-75.107465,63000,,2007,2014,,18.3,38.7,,,,,108.7,0.192063492,3989970,884202501
+Devon/Belmont LLC,Self-Storage Facility,1300 Belmont Ave.,Philadelphia,Philadelphia,PA,19104,,,150000,,1950,2014,,33.4,73.6,,,,,489.2,0.130666667,4096072,884220000
+Pride Capital LLC,Self-Storage Facility,5400 eadom st.,Philadelphia,Philadelphia,PA,19137,40.010473,-75.066585,150988,,1920,2014,,8.1,16.3,,,,,116.8,2.104803031,4096234,884212501
+U-Haul Moving and Storage of South Philadelphia (1135),Self-Storage Facility,1135 Washington Ave,Philadelphia,Philadelphia,PA,19147,,,70200,,1907,2014,,40,80.3,,,,,252.9,1.424501425,4139950,884005160
+U-Haul Moving and Storage of South Philadelphia (1201-21),Self-Storage Facility,1201-21 Washington Ave,Philadelphia,Philadelphia,PA,19147,,,99140,,1907,2014,,16.9,35.3,,,,,156.1,,4142072,884005170
+U-Haul Moving and Storage at Roosevelt Blvd,Self-Storage Facility,7700-7750 Roosevelt Blvd,Philadelphia,Philadelphia,PA,19152,,,72000,,1955,2014,,16.8,52.8,,,,,161.9,0.5625,4591757,884265300
+Philadelphia Nursing Home,Senior Care Community,2100 W Girard Ave,Philadelphia,Philadelphia,PA,19130,,,347543,,1950,2014,1,106.6,204.6,,,,,3211.7,37.11828464,3389438,881444600
+rivers edge,Senior Care Community,9501 state road,Philadelphia,Philadelphia,PA,19114,,,53009,,1986,2014,18,105,263.6,,,,,609.7,82.26904865,3672870,881435201
+Caring Heart Rehabilition and Nursing Center,Senior Care Community,6445 Germantown Ave,Philadelphia,Philadelphia,PA,19119,40.047906,-75.183229,140000,,1955,2014,35,116.2,236,,,,,1480.7,60.53642857,3790272,881447300
+Simpson House Inc.,Senior Care Community,2101 Belmont Ave.,Philadelphia,Philadelphia,PA,19131,,,275276,,1899,2014,53,87.3,165.8,,,,,2064.9,62.83330185,3795640,881446000
+GT Penn & LTSR,Senior Care Community,625 East Wisteria St,Philadelphia,Philadelphia,PA,19144,,,182687,,1980,2014,7,141.8,273.1,,,,,2372.2,65.50493467,3857967,776008020;776008030
+York Nursing And Rehabilitation Center,Senior Care Community,7107 Old York Road,Philadelphia,Philadelphia,PA,19126,40.061156,-75.137138,60330,,1982,2014,,213.5,385.8,,,,,1060.9,187.6313608,3862600,881447800
+Fairview Care Center,Senior Care Community,184 bethlehem pike,Philadelphia,Philadelphia,PA,19118,,,69888,,1930,2014,,136.3,282.2,,,,,881.6,145.1193338,3874380,881435900
+Care Pavilion Nursing,Senior Care Community,6212 Walnut Street,Philadelphia,Philadelphia,PA,19139,,,98723,,1972,2014,,160.2,380.9,,,,,1651.3,136.2813124,3882111,881446200
+Bala Nursing & Rehabilitation Center,Senior Care Community,4001 Ford Rd.,Philadelphia,Philadelphia,PA,19131,39.999651,-75.209658,44101,,1988,2014,,90.1,280.6,,,,,528,1.544182672,3884250,881446500
+Delaware Valley Veterans Home,Senior Care Community,2701 Southampton Road,Philadelphia,Philadelphia,PA,19154,,,124236,,1975,2014,1,161.8,325.1,,,,,1812.6,33.89516726,3891004,881449800
+Maplewood Nursing,Senior Care Community,125 West Schoolhouse Lane,Philadelphia,Philadelphia,PA,19144,40.032298,-75.17482,50797,,1975,2014,5,184.2,423,,,,,947.6,192.359785,3892802,881447201
+Ciliveden Nursing,Senior Care Community,6400 Greene Street,Philadelphia,Philadelphia,PA,19119,,,58899,,1984,2014,22,165.3,327.9,,,,,868.3,110.9237848,3892949,881436651
+Holy Redeemer Health System - Verree Rd,Senior Care Community,8580 Verree Rd,Philadelphia,Philadelphia,PA,19046,40.083255,-75.064034,366000,,1981,2014,96,45,141.2,,,,,2203.2,60.79918033,3893019,881448900
+Tucker House Nursing,Senior Care Community,1001 Wallace Street,Philadelphia,Philadelphia,PA,19123,,,64752,,1978,2014,5,182.6,405.6,,,,,1163.2,131.9835681,3894558,881444100
+Somerton Center Nursing Home,Senior Care Community,650 Edison ave.,Philadelphia,Philadelphia,PA,19116,40.129588,-75.009653,250000,,1935,2014,90,31.3,73.6,,,,,809,29.0544,3959249,881436010
+Oakwood Healthcare,Senior Care Community,2109 Red Lion Road,Philadelphia,Philadelphia,PA,19115,,,75080,,1967,2014,43,122.6,253.2,,,,,850.1,70.64464571,3963240,881435100
+CSE Centennial Village,Senior Care Community,4400 West Girard Ave,Philadelphia,Philadelphia,PA,19104,39.973051,-75.213919,75972,,1978,2014,24,98.4,261.6,,,,,861.7,77.25477808,4096892,881437000
+Union League of Philadelphia,Social/Meeting Hall,140 S Broad St.,Philadelphia,Philadelphia,PA,19102,,,221044,,1865,2014,,164.1,323.5,,,,,3217.6,57.54781853,3773617,883701500
+La Salle #5 (Hayman/Gola),Stadium (Closed),2140 Cottage Lane,Philadelphia,Philadelphia,PA,19144,,,94000,,1972,2014,,192.9,385.2,,,,,1626.5,32.38510638,3893230,776512000
+Lincoln Financial Field,Stadium (Open),One Lincoln Financial Field Way,Philadelphia,Philadelphia,PA,19148,,,1403194,,2003,2014,,271.7,853.3,,,,,6060.9,7.909668941,3638081,788023020
+Citizens Bank Park,Stadium (Open),1 Citizens Bank Way,Philadelphia,Philadelphia,PA,19148,39.907335,-75.167995,1250000,,2004,2014,,121.4,253.9,,,,,14166.7,29.49824,3819941,788020010
+Kawin LLC,Strip Mall,3501 Cedar Street,Philadelphia,Philadelphia,PA,19134,39.992057,-75.09825,52261,,1983,2014,,3.4,10.7,,,,,23.9,0.05549071,3635022,882059600
+Rising Sun Plaza,Strip Mall,5675 Rising Sun Avenue,Philadelphia,Philadelphia,PA,19120,40.039166,-75.11001,243470,,1979,2014,,59.5,187,,,,,1940.7,12.5280322,3772884,882086000
+Hope Plaza,Strip Mall,2101-49 West Lehigh Ave,Philadelphia,Philadelphia,PA,19132,,,115000,,1986,2014,,81,254.3,,,,,1246.7,14.68521739,3966490,882042235
+"Market Square Plaza I , LLC",Strip Mall,7700-7782 Crittenden Street,Philadelphia,Philadelphia,PA,19118,,,113316,,1972,2014,,124.4,390.7,,,,,1887.6,41.09393201,4056192,882040300
+Red Lion Shopping Center,Strip Mall,9898 Roosevelt Blvd.,Philadelphia,Philadelphia,PA,19115,40.089113,-75.02109,229206,,1962,2014,,1.7,5.3,,,,,51.6,6.31702486,4066290,882070230
+07725-Pennypack Circle,Supermarket/Grocery Store,8200 Roosevelt Blvd,Philadelphia,Philadelphia,PA,19152,,,50256,,2002,2014,73,227.9,570.5,,,,,1251.5,32.73241006,1260373,882067000
+07747-Red Lion,Supermarket/Grocery Store,920 Red Lion Road,Philadelphia,Philadelphia,PA,19115,40.101155,-75.02559,72048,,1997,2014,74,208.6,515.9,,,,,1624.6,9.812902509,1260382,882875620
+07704-Harbison,Supermarket/Grocery Store,6601 Roosevelt Blvd.,Philadelphia,Philadelphia,PA,19149,40.036461,-75.063256,52380,,1980,2014,70,228.8,580.7,,,,,1325.7,15.29209622,1260705,882129500
+07715-Oregon & 19th,Supermarket/Grocery Store,1901 Johnston Street,Philadelphia,Philadelphia,PA,19145,,,49514,,2003,2014,58,229.9,565.5,,,,,1224.7,23.40752111,1260775,882351850
+Shop Rite of Island Avenue,Supermarket/Grocery Store,2946 Island Avenue,Philadelphia,Philadelphia,PA,19153,,,59502,,1995,2014,57,306.9,720.1,,,,,1884.6,29.88470976,1973980,882090000
+Shop Rite of Roxborough,Supermarket/Grocery Store,6901 Ridge Avenue,Philadelphia,Philadelphia,PA,19128,,,54844,,1990,2014,86,269.1,625,,,,,1509.5,18.38122675,1973983,882117000
+Shop Rite of Parkside Plaza,Supermarket/Grocery Store,5200 Jefferson Street,Philadelphia,Philadelphia,PA,19131,,,68325,,2008,2014,94,255.8,552.5,,,,,1677.8,42.77350896,1973985,882920300
+Fresh Grocer,Supermarket/Grocery Store,5301 Chew Avenue,Philadelphia,Philadelphia,PA,19138,40.041702,-75.158706,50000,,2009,2014,28,299.1,675.5,,,,,1492.5,44.064,3619999,122226915
+07742-Academy,Supermarket/Grocery Store,3200 Red Lion Rd,Philadelphia,Philadelphia,PA,19114,40.080229,-74.992647,50918,,1981,2014,59,225.8,571.6,,,,,1268.9,9.988609136,3669806,882097600
+ShopRite of Aramingo Avenue,Supermarket/Grocery Store,3745 Aramingo Avenue,Philadelphia,Philadelphia,PA,19137,39.995345,-75.093261,74888,,1995,2014,31,287.4,715.8,,,,,2341,34.5783036,3782900,882059425
+Shop Rite of Oregon Avenue,Supermarket/Grocery Store,Oregon Avenue,Philadelphia,Philadelphia,PA,19145,,,54388,,1990,2014,65,306.5,736.9,,,,,1793.8,22.34684122,3875946,882046400
+Giant Supermarket Grant Ave,Supermarket/Grocery Store,2550 Grant Ave,Philadelphia,Philadelphia,PA,19114,,,74100,,2011,2014,100,114.9,213.7,,,,,718.6,85.61673414,3878985,882069750
+Shop Rite Oxford Ave.,Supermarket/Grocery Store,6301 Oxford Ave,Philadelphia,Philadelphia,PA,19111,40.044781,-75.088696,63342,,1996,2014,22,276.1,678.6,,,,,1880.1,25.2344416,3893742,882842425
+ShopRite of Fox Street,Supermarket/Grocery Store,2800 Fox Street,Philadelphia,Philadelphia,PA,19129,,,71686,,2013,2014,80,316.1,683.3,,,,,2176.7,,3966890,882066190
+Pathmark Store 6556,Supermarket/Grocery Store,4160 Monument Road,Philadelphia,Philadelphia,PA,19131,40.003602,-75.214537,67133,,1980,2014,,,,,,,,,59.48043436,4055796,882092500
+Pathmark Store 2710,Supermarket/Grocery Store,2101-41 Cottman Avenue,Philadelphia,Philadelphia,PA,19149,,,67305,,1996,2014,46,281.3,706.6,,,,,2075,19.60626997,4092244,882064600
+Superfresh Store 2726,Supermarket/Grocery Store,1601 South Christopher Columbus B,Philadelphia,Philadelphia,PA,19148,,,61506,,1999,2014,72,240.1,585.6,,,,,1577,9.864078301,4092245,882055190
+Pathmark Store 6532,Supermarket/Grocery Store,3001 Grays Ferry Avenue,Philadelphia,Philadelphia,PA,19146,39.939165,-75.193272,56549,,1988,2014,65,233.1,614.9,,,,,1508.8,37.54266212,4092246,882051606
+Pathmark Store 6557,Supermarket/Grocery Store,1405 Glenwood Ave.,Philadelphia,Philadelphia,PA,19132,,,50388,,1998,2014,27,334.6,781.5,,,,,1733,67.01397158,4092247,882736105
+Pathmark Store 6564,Supermarket/Grocery Store,840 Cottman Ave,Philadelphia,Philadelphia,PA,19111,40.062336,-75.085261,57644,,1996,2014,52,280.1,671.2,,,,,1697.5,8.422385678,4092248,882523400
+Pathmark Store 6522,Supermarket/Grocery Store,3399 Aramingo Avenue,Philadelphia,Philadelphia,PA,19134,39.990994,-75.101616,55268,,1977,2014,42,265.6,712.3,,,,,1705.1,14.17094883,4092250,882125300
+Pathmark Store 2723,Supermarket/Grocery Store,85 FRANKLIN MILLS BLVD,Philadelphia,Philadelphia,PA,19154,40.087764,-74.96583,56508,,1999,2014,72,228.8,566.3,,,,,1398.7,13.6617824,4092251,882691015
+Main Airport Terminal Complex,Transportation Terminal/Station,8000 Essington Ave,Philadelphia,Philadelphia,PA,19153,39.87734,-75.24087,,,1953,2014,,286.9,666.8,,,,,92013.7,15.63286938,3632137,773300001
+Orleans Technical Institute,Vocational School,2770 Red Lion Road,Philadelphia,Philadelphia,PA,19114,40.091211,-75.011021,85378,,2007,2014,,85.5,217.8,,,,,810.2,3.730469208,3634931,786462480
+Local 420,Vocational School,14420 Townsend Rd.,Philadelphia,Philadelphia,PA,19154,40.112906,-74.970527,83000,,2000,2014,,85.1,160.7,,,,,603.9,11.87951807,3761815,884292608
+Southeast Water Pollution Control Plant,Wastewater Treatment Plant,25 E. Pattison Ave at Greiner Rd,Philadelphia,Philadelphia,PA,19148,,,80064,,1900,2014,99,846.8,2430.4,,,,,8310.6,,3697307,781358000
+Southwest Water Pollution Control Plant,Wastewater Treatment Plant,8200 Enterprise Ave,Philadelphia,Philadelphia,PA,19153,39.886162,-75.218212,220000,,1975,2014,94,944.9,2967,,,,,27827.6,,3697956,783131000
+Northeast Water Pollution Control Plant,Wastewater Treatment Plant,3899 Richmond St,Philadelphia,Philadelphia,PA,19137,39.991432,-75.084998,240000,,1944,2014,100,671.4,1054.8,,,,,11855.3,212.3095833,3698001,884463045
+Walmart Supercenter #01-5891,Wholesale Club/Supercenter,2200 WHEATSHEAF LN,Philadelphia,Philadelphia,PA,19137,39.999903,-75.091738,92185,,2012,2014,66,140.7,327.9,,,,,1330.6,11.51054944,3673577,882125404
+Walmart Supercenter #01-2141,Wholesale Club/Supercenter,1675 S. Christopher Columbus Blvd.,Philadelphia,Philadelphia,PA,19148,39.926421,-75.14473,149398,,1995,2014,77,104.8,269.7,,,,,1753.1,13.41851966,3673727,882055181
+BJ's Wholesale Club,Wholesale Club/Supercenter,2054 Red Lion Road,Philadelphia,Philadelphia,PA,19115,40.099782,-75.021426,104710,,1987,2014,19,146.5,352.2,,,,,1617.1,5.268837742,3772838,882070140
+Sam's Club #18-6332,Wholesale Club/Supercenter,1000 Franklin Mills Circle,Philadelphia,Philadelphia,PA,19154,40.094738,-74.95879,133000,,2000,2014,25,148.5,350.9,,,,,2051,9.253383459,3782624,882693100
+Walmart Store #01-5130,Wholesale Club/Supercenter,9745 Roosevelt Blvd.,Philadelphia,Philadelphia,PA,19114,40.084039,-75.025201,141985,,2004,2014,61,85.7,223.7,,,,,1379.9,8.295946755,3893948,882242000
+BJ's Wholesale Club 162,Wholesale Club/Supercenter,2200 W. Oregon Ave.,Philadelphia,Philadelphia,PA,19145,39.918432,-75.1844,117867,,2004,2014,14,179.2,403.4,,,,,2101.8,5.902415434,4059761,882245000
+Walmart Supercenter #2650,Wholesale Club/Supercenter,4301 Byberry Road,Philadelphia,Philadelphia,PA,19154,40.082453,-74.964777,176191,,2014,2014,,,,,,,,2433.9,,4457702,882693050
+Everett Richardson,Worship Facility,2800 West Cheltenham Avenue,Philadelphia,Philadelphia,PA,19150,40.077378,-75.164158,125000,,2006,2014,,70.6,158.8,,,,,877.8,4.7256,3637455,775107300
+St. Bridget Church,Worship Facility,3669 Midvale Ave,Philadelphia,Philadelphia,PA,19129,,,55380,,1943,2014,95,20,23.3,,,,,63.8,10.74214518,3668169,775243000
+St. Martin of Tours Church,Worship Facility,5450 Roosevelt Blvd.,Philadelphia,Philadelphia,PA,19124,,,87262,,1954,2014,,85.9,118.1,,,,,508.6,21.30939011,3751823,778271000
+St. Patrick's Church,Worship Facility,250 S. 20th Street,Philadelphia,Philadelphia,PA,19103,,,50400,,1893,2014,100,4.3,13.4,,,,,28.8,0.015873016,3751825,772304000
+St. Edmond Church,Worship Facility,2130 So. 21st St.,Philadelphia,Philadelphia,PA,19145,,,85086,,1936,2014,95,18.8,22.8,,,,,127,5.648402792,3751826,773235000
+St. Francis Xavier Church,Worship Facility,2319-2331 Green Street,Philadelphia,Philadelphia,PA,19130,,,57540,,1906,2014,,39.8,54.6,,,,,150.1,15.07473062,3751922,772147500
+Church of God Non Sectarian,Worship Facility,5101 Haverford Ave,Philadelphia,Philadelphia,PA,19139,,,86052,,1910,2014,100,2.8,4.1,,,,,16.5,1.473527634,3766953,774182000
+Calvary Temple Church,Worship Facility,3301 S. 20th. St.,Philadelphia,Philadelphia,PA,19145,39.910242,-75.182552,53259,,1965,2014,,40.9,71.5,,,,,174.5,6.265607691,3776449,773224000
+St. Gabriel Church,Worship Facility,1432 S. 29th St.,Philadelphia,Philadelphia,PA,19146,,,54839,,1895,2014,,72,93.1,,,,,246.7,7.75725305,3788556,773259000
+cathedral ss. peter and paul,Worship Facility,222 n.th st.,Philadelphia,Philadelphia,PA,19103,,,50000,,1865,2014,96,27.3,29.3,,,,,73.7,,3829105,772274000
+Deliverance Evangelistic Church,Worship Facility,2001-49 West Lehigh Ave.,Philadelphia,Philadelphia,PA,19132,,,160000,,1992,2014,,36.1,97.6,,,,,676.1,10.089375,3849600,776185400
+Immaculate Heart of Mary,Worship Facility,819 E Cathedral Road,Philadelphia,Philadelphia,PA,19128,40.065122,-75.233502,58982,,1950,2014,,69.9,108.8,,,,,350.9,17.65962497,3858202,775094000
+St. Monica Church,Worship Facility,1700 Ritners st.,Philadelphia,Philadelphia,PA,19145,,,76863,,1971,2014,,67.1,111.5,,,,,395.9,0.888593992,3876022,773143500
+Esperanza Center,Worship Facility,191-201 W Hunting Park Ave,Philadelphia,Philadelphia,PA,19140,,,29000,,1970,2014,56,57.3,82,,,,,112.8,21.27931034,3892303,884042149
+Saint Pauls Church,Worship Facility,22 East Chestnuthill Avenue,Philadelphia,Philadelphia,PA,19118,40.079259,-75.209383,59600,,1928,2014,74,55.9,73,,,,,209.9,3.724832215,3894029,775110000
+Rodeph Shalom,Worship Facility,615 North Broad St,Philadelphia,Philadelphia,PA,19123,,,72000,,1927,2014,90,20,59.9,,,,,184.7,10.36805556,4094880,771064000
