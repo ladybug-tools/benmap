@@ -9,7 +9,6 @@ var state = {
 
 //
 // objects/variables that need to be accessed within functions
-
 var style = {};
 var table = {};
 var statTable = {};
@@ -21,13 +20,15 @@ var types = [];
 var typeKey = 'Property Type';
 var domain = [];
 
-//
+
+
+
 // other variables
 var coordsBoston = [42.3568138, -71.0524385];
 
 //
 // color scale for reuse
-var scale = chroma.scale(['rgba(253,216,53 ,1)', 'rgba(183,28,28 ,1)']).domain(domain);
+scale = chroma.scale(['rgba(0,128,0,1)', 'rgba(245,239,103,1)', 'rgba(234,123,0,1)', 'rgba(234,38,0,1)']).domain(domain);
 
 //
 // we put the FUN in functions
@@ -83,12 +84,22 @@ var updateLegend = function() {
     //Set the color for the start (0%)
     linearGradient.append("stop")
         .attr("offset", "0%")
-        .attr("stop-color", "rgba(253,216,53 ,1)");
+        .attr("stop-color", "rgba(0,128,0,1)");
+
+    //Set the color for 33%
+    linearGradient.append("stop")
+        .attr("offset", "33%")
+        .attr("stop-color", "rgba(245,239,103,1)");
+
+    //Set the color for 66%
+    linearGradient.append("stop")
+        .attr("offset", "66%")
+        .attr("stop-color", "rgba(234,123,0,1)");
 
     //Set the color for the end (100%)
     linearGradient.append("stop")
         .attr("offset", "100%")
-        .attr("stop-color", "rgba(183,28,28 ,1)"); //dark blue
+        .attr("stop-color", "rgba(183,28,28 ,1)");
 
     //Create the bar
     svg.append("rect")
@@ -266,13 +277,10 @@ var setStyles = function(feature) {
     var value = row[state.metric];
 
     // build color
-    // console.log(value, scale(value).rgb());
-    // debugger;
-    scale = chroma.scale(['rgba(253,216,53 ,1)', 'rgba(183,28,28 ,1)']).domain(domain);
+    // scale = chroma.scale(['rgba(253,216,53 ,1)', 'rgba(183,28,28 ,1)']).domain(domain);
+    scale = chroma.scale(['rgba(0,128,0,1)', 'rgba(245,239,103,1)', 'rgba(234,123,0,1)', 'rgba(234,38,0,1)']).domain(domain);
 
     var color = scale(value).rgb();
-    // console.log(value, color);
-    // var alpha = scale(value).alpha();
 
     var rgba = "rgba(" + color[0].toFixed(0) + "," + color[1].toFixed(0) + "," + color[2].toFixed(0);
     var rgbaStroke = rgba + "," + alphaStroke + ")";
