@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chriswmackey/BEnMap.git"
+    "url": "git+https://github.com/ladybug-tools/benmap.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/chriswmackey/BEnMap/issues"
+    "url": "https://github.com/ladybug-tools/benmap"
   },
-  "homepage": "https://github.com/chriswmackey/BEnMap#readme",
+  "homepage": "https://github.com/ladybug-tools/benmap#readme",
   "dependencies": {
     "fast-csv": "^2.3.0"
   }
