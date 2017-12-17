@@ -24,7 +24,24 @@ var coordsBoston = [42.3568138, -71.0524385];
 
 //
 // color scale for reuse
-scale = chroma.scale(['rgba(0,128,0,1)', 'rgba(245,239,103,1)', 'rgba(234,123,0,1)', 'rgba(234,38,0,1)']).domain(domain);
+var colorScaleList = ['rgba(0,128,0,1)', 'rgba(245,239,103,1)', 'rgba(234,123,0,1)', 'rgba(234,38,0,1)']
+var reversedColorList = colorScaleList.slice().reverse()
+
+// Building Type List.
+var typeList = [
+  "All",
+  "Office",
+  "Residential",
+  "Healthcare",
+  "Education",
+  "Laboratory",
+  "Mercantile",
+  "Grocery",
+  "Public Assembly",
+  "Public Safety and Utilities",
+  "Warehouse and Storage",
+  "Industrial Plant",
+]
 
 // Dictionary of default legend boundaries.
 var legBound = {
@@ -75,9 +92,15 @@ var validIdsFromString = function(unverified) {
 
 var updateSelectors = function() {
     types.sort();
+    for (i = 1; i < typeList.length; i++) {
+      $('#filter').append('<option value="' + typeList[i] + '">' + typeList[i] + '</option>');
+    }
     types.map(function(type) {
-        $('#filter').append('<option value="' + type + '">' + type + '</option>');
+      if (typeList.indexOf(type) < 0 && type != "Other") {
+          $('#filter').append('<option value="' + type + '">' + type + '</option>');
+        }
     });
+    $('#filter').append('<option value="' + "Other" + '">' + "Other" + '</option>');
 };
 
 var updateLayers = function() {
@@ -106,30 +129,35 @@ var updateLegend = function() {
         .attr("y1", "0%")
         .attr("x2", "100%")
         .attr("y2", "0%");
+
+    if (state.metric == "Energy Star Score"){
+      var colorList = reversedColorList
+    } else{
+      var colorList = colorScaleList
+    }
     //Set the color for the start (0%)
     linearGradient.append("stop")
         .attr("offset", "0%")
-        .attr("stop-color", "rgba(0,128,0,1)");
+        .attr("stop-color", colorList[0]);
 
     //Set the color for 33%
     linearGradient.append("stop")
         .attr("offset", "33%")
-        .attr("stop-color", "rgba(245,239,103,1)");
+        .attr("stop-color", colorList[1]);
 
     //Set the color for 66%
     linearGradient.append("stop")
         .attr("offset", "66%")
-        .attr("stop-color", "rgba(234,123,0,1)");
+        .attr("stop-color", colorList[2]);
 
     //Set the color for the end (100%)
     linearGradient.append("stop")
         .attr("offset", "100%")
-        .attr("stop-color", "rgba(183,28,28 ,1)");
+        .attr("stop-color", colorList[3]);
 
     //Create the bar
     svg.append("rect")
         .attr("width", maxWidth)
-        // .attr("max-width", maxWidth)
         .attr("height", height)
         .attr("y", 5)
         .style("fill", "url(#linear-gradient)");
@@ -295,8 +323,7 @@ var setStyles = function(feature) {
     var value = row[state.metric];
 
     // build color
-    // scale = chroma.scale(['rgba(253,216,53 ,1)', 'rgba(183,28,28 ,1)']).domain(domain);
-    scale = chroma.scale(['rgba(0,128,0,1)', 'rgba(245,239,103,1)', 'rgba(234,123,0,1)', 'rgba(234,38,0,1)']).domain(domain);
+    scale = chroma.scale(colorScaleList).domain(domain);
 
     var color = scale(value).rgb();
 
@@ -405,14 +432,14 @@ function add2DInteraction (){
                         document.getElementById("name").innerHTML = row["Property Name"];
                         document.getElementById("address").innerHTML = row["Address"];
                         document.getElementById("siteEUI").innerHTML = row["Site EUI (kBTU/sf)"];
-                        document.getElementById("sourceEUI").innerHTML = row["Source EUI (kBTU/sf)"];
+                        document.getElementById("sourceEUI").innerHTML = Math.round(row["Source EUI (kBTU/sf)"]* 10 ) / 10;
                         document.getElementById("GHGIntensity").innerHTML = row["GHG Intensity (kgCO2/sf)"];
                         document.getElementById("EnergyStar").innerHTML = row["Energy Star Score"];
                         document.getElementById("waterIntensity").innerHTML = row["Water Intensity (gal/sf)"];
-                        document.getElementById("distanceTo2030").innerHTML = row["Distance to 2030 Target %"];
-                        document.getElementById("totalSite").innerHTML = row[" Total Site Energy (kBTU) "];
-                        document.getElementById("totalSource").innerHTML = row["Total Source Energy (kBTU)"];
-                        document.getElementById("GHGEmissions").innerHTML = row["GHG Emissions (MTCO2e)"];
+                        document.getElementById("floorArea").innerHTML = row["Gross Area (sq ft)"].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+                        document.getElementById("yearBuilt").innerHTML = row["Year Built"];
+                        document.getElementById("propertyType").innerHTML = row["Specific Property Type"];
+                        document.getElementById("propertyUses").innerHTML = row["Property Uses"];
                     }
 
                 }
@@ -445,6 +472,9 @@ $(document).on('change', '#metric', function(e) {
         domain = [statTable[state.metric].byType[state.filter].min, statTable[state.metric].byType[state.filter].max];
       }
     }
+    if (state.metric == "Energy Star Score"){
+      domain = [domain[1],domain[0]]
+    }
     updateLayers();
 });
 $(document).on('change', '#filter', function(e) {
@@ -457,6 +487,9 @@ $(document).on('change', '#filter', function(e) {
       }else{
           domain = [statTable[state.metric].byType[state.filter].min, statTable[state.metric].byType[state.filter].max];
       }
+    }
+    if (state.metric == "Energy Star Score"){
+      domain = [domain[1],domain[0]]
     }
     updateLayers();
 });
