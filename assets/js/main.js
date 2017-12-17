@@ -4,7 +4,6 @@
 var state = {
     filter: "All",
     metric: "Site EUI (kBTU/sf)",
-    view: "2D"
 };
 
 //
@@ -20,15 +19,42 @@ var types = [];
 var typeKey = 'Property Type';
 var domain = [];
 
-
-
-
 // other variables
 var coordsBoston = [42.3568138, -71.0524385];
 
 //
 // color scale for reuse
 scale = chroma.scale(['rgba(0,128,0,1)', 'rgba(245,239,103,1)', 'rgba(234,123,0,1)', 'rgba(234,38,0,1)']).domain(domain);
+
+// Dictionary of default legend boundaries.
+var legBound = {
+    "Site EUI (kBTU/sf)": {
+      "All": [0,200],
+      "Other": [0,200],
+      "Education": [0,200],
+      "Healthcare": [100,450],
+      "Grocery": [0,300],
+      "Mercantile": [0,140],
+      "Office": [0,200],
+      "Residential": [0,120],
+      "Warehouse and Storage": [0,200],
+      "Industrial Plant": [0,500],
+      "Laboratory": [0,600],
+    },
+    "Source EUI (kBTU/sf)": {
+      "All": [0,400],
+      "Other": [0,400],
+      "Education": [0,350],
+      "Healthcare": [200,800],
+      "Grocery": [0,600],
+      "Mercantile": [0,280],
+      "Office": [0,400],
+      "Residential": [0,240],
+      "Warehouse and Storage": [0,400],
+      "Industrial Plant": [0,800],
+      "Laboratory": [0,1000],
+    },
+};
 
 //
 // we put the FUN in functions
@@ -60,7 +86,6 @@ var updateLayers = function() {
 };
 
 var updateLegend = function() {
-    console.log("In update legend", domain);
     var maxWidth = 250;
     var height = 20;
 
@@ -109,13 +134,6 @@ var updateLegend = function() {
         .attr("y", 5)
         .style("fill", "url(#linear-gradient)");
 
-
-    //Create the legend title
-    // svg.append("text")
-    //     .attr("class", "legendTitle")
-    //     .attr("transform", "translate(" + (width / 2) + ", 40)")
-    //     .style("text-anchor", "middle")
-    //     .text(state.metric);
 
     //Set scale for x-axis
     var xScale = d3.scale.linear()
@@ -166,6 +184,7 @@ var handleData = function(values) {
             type = row[typeKey];
             typeMap[type] = true;
         }
+
         var ids = validIdsFromString(row[key]);
 
         ids.map(function(id) {
@@ -185,6 +204,7 @@ var handleData = function(values) {
                     };
                 }
                 var stat = statTable[col];
+
                 if (val > stat.all.max) {
                     stat.all.max = val;
                 }
@@ -211,16 +231,17 @@ var handleData = function(values) {
 
     updateSelectors();
 
-    console.log(statTable, state.metric, statTable[state.metric]);
-    domain = [statTable[state.metric].all.min, statTable[state.metric].all.max];
+    try {
+      domain = [legBound[state.metric][state.filter][0], legBound[state.metric][state.filter][1]];
+    } catch(err) {
+      domain = [statTable[state.metric].all.min, statTable[state.metric].all.max];
+    }
 
     updateLegend();
 
     json.features.map(function(feature) {
             setStyles(feature);
         })
-        // console.log(style);
-        // debugger;
 
     vectorSource = new ol.source.Vector({
         features: (new ol.format.GeoJSON()).readFeatures(json)
@@ -251,7 +272,6 @@ var setStyles = function(feature) {
     if (table[id]) {
         row = table[id];
     } else {
-        // console.log('row does not exist');
         row[state.metric] = 0;
     }
 
@@ -261,11 +281,9 @@ var setStyles = function(feature) {
     } else {
         // logic here for filter (set alpha to 0 if not pass filter?)
         var featureFilter = row[typeKey];
-        // console.log(featureFilter);
         var alphaStroke = 0;
         var alphaFill = 0;
         if (featureFilter == state.filter) {
-            // console.log('we got a ' + state.filter);
             alphaStroke = 1;
             alphaFill = 0.8;
         }
@@ -299,8 +317,6 @@ var setStyles = function(feature) {
 };
 
 var styleFunction = function(feature) {
-    //console.log("in function prop", feature.getProperties());
-    // debugger;
     return style[feature.getProperties()["PARCEL_ID"]];
 }
 
@@ -322,7 +338,6 @@ function create2DMap () {
             }
         }),
         view: new ol.View({
-            //center: ol.proj.fromLonLat([-71.087955, 42.343583]),
             center: [coordsBoston[1], coordsBoston[0]],
             zoom: 13,
             projection: 'EPSG:4326'
@@ -376,22 +391,17 @@ function add2DInteraction (){
                 else {
                     document.getElementById("details").style.display = "block";
                     var properties = e.selected[0].getProperties();
-                    //console.log("selectedfeature", feature);
-                    //get feature ID
                     var id;
                     if (properties) {
                         id = properties[key];
                     } else if (e.selected[0].T) {
                         id = e.selected[0].T[key];
                     }
-                    console.log("id", id);
                     // get row from table table by ID
                     var row = {};
                     if (table[id]) {
                         row = table[id];
                         //find the way to bind the front end?
-                        console.log("rows", row);
-
                         document.getElementById("name").innerHTML = row["Property Name"];
                         document.getElementById("address").innerHTML = row["Address"];
                         document.getElementById("siteEUI").innerHTML = row["Site EUI (kBTU/sf)"];
@@ -417,24 +427,36 @@ function add2DInteraction (){
     changeInteraction();
 }
 
+
+
+
+
 //
 // jQuery page listeners
 
 $(document).on('change', '#metric', function(e) {
     state.metric = $(e.target).val();
-    if(state.filter=='All'){
-      domain = [statTable[state.metric].all.min, statTable[state.metric].all.max];
-    }else{
-      domain = [statTable[state.metric].byType[state.filter].min, statTable[state.metric].byType[state.filter].max];
+    try {
+      domain = [legBound[state.metric][state.filter][0], legBound[state.metric][state.filter][1]];
+    } catch(err) {
+      if(state.filter=='All'){
+        domain = [statTable[state.metric].all.min, statTable[state.metric].all.max];
+      }else{
+        domain = [statTable[state.metric].byType[state.filter].min, statTable[state.metric].byType[state.filter].max];
+      }
     }
     updateLayers();
 });
 $(document).on('change', '#filter', function(e) {
     state.filter = $(e.target).val();
-    if(state.filter=='All'){
-      domain = [statTable[state.metric].all.min, statTable[state.metric].all.max];
-    }else{
-      domain = [statTable[state.metric].byType[state.filter].min, statTable[state.metric].byType[state.filter].max];
+    try {
+      domain = [legBound[state.metric][state.filter][0], legBound[state.metric][state.filter][1]];
+    } catch(err) {
+      if(state.filter=='All'){
+          domain = [statTable[state.metric].all.min, statTable[state.metric].all.max];
+      }else{
+          domain = [statTable[state.metric].byType[state.filter].min, statTable[state.metric].byType[state.filter].max];
+      }
     }
     updateLayers();
 });
