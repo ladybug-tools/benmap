@@ -71,6 +71,21 @@ var legBound = {
       "Industrial Plant": [0,800],
       "Laboratory": [0,1000],
     },
+    "Water Intensity (gal/sf)": {
+      "All": [0,100],
+      "Other": [0,100],
+      "Education": [0,50],
+      "Healthcare": [0,50],
+      "Grocery": [0,50],
+      "Mercantile": [0,100],
+      "Office": [0,50],
+      "Residential": [0,100],
+      "Public Assembly": [0,100],
+      "Public Safety and Utilities": [0,50],
+      "Warehouse and Storage": [0,100],
+      "Industrial Plant": [0,50],
+      "Laboratory": [0,100],
+    },
 };
 
 //
